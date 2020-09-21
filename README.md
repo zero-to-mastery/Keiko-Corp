@@ -44,6 +44,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
 7. Commit and push the code to your fork
 8. Create a pull request to have the changes merged into the origin
     - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of you issue will automatically close the issue when the pull request is merged.
+9. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/6TNVS)
 
 > Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat steps 4-8 until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!
 
