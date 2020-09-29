@@ -2,7 +2,7 @@
 
 # Keikocorp.com - Hackoberfest 2020
 
-Welcome to this years HTML challenge for Hacktoberfest ([What is Hacktoberfest?]()) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
+Welcome to this years HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
 
 Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:
 
@@ -61,6 +61,6 @@ To ensure everyone has the best chance at participating in this project. Please 
 
 ## Disclaimer
 
-Keiko Corp is a fictitious company, initially fabricated back in 2018 to enrich the learning process for the students of the Junior to Senior course. Keiko Corp, Bruno & his impeccable hair have since featured in several [Zero To Mastery]() courses becoming a favourite topic of conversation amongst students.
+Keiko Corp is a fictitious company, initially fabricated back in 2018 to enrich the learning process for the students of the Junior to Senior course. Keiko Corp, Bruno & his impeccable hair have since featured in several [Zero To Mastery](https://academy.zerotomastery.io/p/academy?utm_source=github&utm_campaign=keiko-corp-hf20) courses becoming a favourite topic of conversation amongst students.
 
 Zero To Mastery receive no commission or incentives for your participating in either building this website or entering the Hacktoberfest event.
