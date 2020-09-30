@@ -1,0 +1,25 @@
+name: Check Code Formatting
+on: pull_request
+
+jobs:
+  format:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Pull Repo
+        uses: actions/checkout@v2
+      - name: Install Prettier
+        env:
+          PRETTIER_VERSION: 2
+        run: |
+          sudo npm i -g prettier@$PRETTIER_VERSION
+      - name: Check Formatting
+        run: |
+          # don't format if there's no .prettierrc file
+          if [ ! -f .prettierrc ]; then
+            echo ".prettierrc not found"
+            echo "terminating workflow..."
+            exit 1;
+          fi
+
+          prettier --check . --ignore-unknown
