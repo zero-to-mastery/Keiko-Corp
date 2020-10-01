@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
-	margin: 0;
-	
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+  margin: 0;
+
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
 }
 
 .container {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 header {
-  background: #FE6655;
+  background: #fe6655;
 }
 
 header::after {
@@ -24,7 +24,6 @@ header::after {
 .logo {
   float: left;
   padding: 10px 0;
-
 }
 
 nav {
