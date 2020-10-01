@@ -1,9 +1,9 @@
 const button = document.querySelector('.nav-button');
 
 function openMenu() {
-    const menu = document.querySelector('.menu');
+  const menu = document.querySelector('.menu');
 
-    menu.classList.toggle('open');
+  menu.classList.toggle('open');
 }
 
-button.addEventListener("click", openMenu);
+button.addEventListener('click', openMenu);
