@@ -54,7 +54,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
 
 To ensure everyone has the best chance at participating in this project. Please follow these simple guidelines where possible:
 
-- Simplicity is key: There is no need for React, Sass etc here. Lets stick with vanilla HTML, CSS & JavaScript.
+- Simplicity is key: There is no need for React, Sass etc here. Lets stick with vanilla HTML, CSS & JavaScript!
 - Commenting: Try to comment your code, so everyone can understand what is going on and could learn a thing or two.
 - Respect Content: Only use images/content that we are licensed to use.
 - Issues: Use Github issues, to create/find/solve ideas and bugs. Only taking a task if it hasnt been claimed already.
