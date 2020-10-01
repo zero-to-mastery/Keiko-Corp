@@ -24,7 +24,12 @@ a {
 header {
   margin-bottom: 6rem;
   padding: 1rem;
-  background-image: linear-gradient(to right,aquamarine,aqua,rgb(13, 233, 233));
+  background-image: linear-gradient(
+    to right,
+    aquamarine,
+    aqua,
+    rgb(13, 233, 233)
+  );
 }
 
 header p {
@@ -53,10 +58,12 @@ main {
 form {
   display: grid;
   grid-template-columns: 100%;
-  grid-gap:1.5rem;
+  grid-gap: 1.5rem;
 }
 
-form input, select, textarea {
+form input,
+select,
+textarea {
   padding: 0.3rem;
 }
 
