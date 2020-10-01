@@ -4,14 +4,14 @@
 
 Welcome to this years HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
 
-Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:
+Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:-
 
-- HTML elements
-- CSS styling
-- Images
-- Text/Copy
-- Documentation
-- Fix Typos, Code Bugs or Accessibility oversights
+- HTML elements.
+- CSS styling.
+- Images.
+- Text/Copy.
+- Documentation.
+- Fix Typos, Code Bugs or Accessibility oversights.
 
 ## Project Brief
 
@@ -27,7 +27,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
 > Once you've got your feet wet, you're ready to come back and dive into Hacktoberfest fun!
 
 1. First up you need to fork (make a copy) of this repo to your Github account.
-2. Clone (download) your fork to your computer
+2. Clone (download) your fork to your computer.
 3. Set your streams so you can sync your clone with the original repo (get the latest updates)
 
    - `git remote add upstream https://github.com/zero-to-mastery/Keiko-Corp.git`
@@ -38,26 +38,26 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
    - Comment on the task to claim it, ensuring no body has done so already.
    - If you created a new task or issue, ensure you specify if you are undertaking the task or if someone else is able to claim it.
    - Keep the issue updated with your progress, inactive issues will be reassigned.
-5. Create a branch for your task and complete the task
-6. Pull from the upstream again, like we did in step 3. This is to insure we still have the latest code.
+5. Create a branch for your task and complete the task.
+6. Pull from the upstream again, like we did in step 3. This is to ensure we still have the latest code.
    - `git pull upstream master`
-7. Commit and push the code to your fork
-8. Create a pull request to have the changes merged into the origin
+7. Commit and push the code to your fork.
+8. Create a pull request to have the changes merged into the origin.
    - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of you issue will automatically close the issue when the pull request is merged.
 9. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/1KI1u)
 
-> Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat steps 4-8 until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!
+> Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat steps 4-8 until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!!!
 
 ## Rules, Notes & Guidelines
 
 > **All discussions around this event can now be had in our #hacktoberfest-2020 channel on Discord!**
 
-To ensure everyone has the best chance at participating in this project. Please follow these simple guidelines where possible:
+To ensure everyone has the best chance at participating in this project. Please follow these simple guidelines where ever possible:-
 
 - Simplicity is key: There is no need for React, Sass etc here. Lets stick with vanilla HTML, CSS & JavaScript.
 - Commenting: Try to comment your code, so everyone can understand what is going on and could learn a thing or two.
 - Respect Content: Only use images/content that we are licensed to use.
-- Issues: Use Github issues, to create/find/solve ideas and bugs. Only taking a task if it hasnt been claimed already.
+- Issues: Use Github issues, to create/find/solve ideas and bugs. Only take a task if it hasn't been claimed already.
 
 ## Disclaimer
 
