@@ -206,7 +206,6 @@
   border-radius: 10px;
   border: #f94626 solid 2px;
 }
-<<<<<<< HEAD
 .feature {
   display: flex;
   padding: 2em;
@@ -236,8 +235,6 @@
   text-decoration: none;
   color: blue;
 }
-=======
->>>>>>> e65f4b6f4140c89b380f7785c962d31bfa6c1f8a
 
 @media only screen and (max-width: 768px) {
   .hero {
