@@ -36,11 +36,16 @@
   display: flex;
   justify-content: center;
   padding: 3.5em 1.5em;
+  flex-wrap: wrap;
 }
 
 .team-member {
   font-size: 1.25em;
-  padding: 0 1.5em;
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  max-width: 250px;
 }
 
 .team-member p {
@@ -50,6 +55,30 @@
 
 .team-member img {
   border-radius: 50%;
+}
+
+.banner-container {
+  background-color: #eef9fc;
+  height: 50%;
+  display: flex;
+}
+
+.banner-section {
+  margin: auto;
+  width: 55%;
+}
+
+.banner-section h2 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+.banner-sub-text {
+  color: rgb(116, 115, 115);
+  font-size: 1.3rem;
+  display: flex;
+  max-width: 65%;
+  line-height: 2rem;
 }
 
 .container footer {
