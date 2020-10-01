@@ -159,7 +159,7 @@
 .hero {
   display: flex;
   padding: 2em;
-  align-items: center;
+  justify-content: center;
 }
 
 .hero_content {
