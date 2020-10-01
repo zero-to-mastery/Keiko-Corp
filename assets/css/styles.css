@@ -57,6 +57,30 @@
   border-radius: 50%;
 }
 
+.banner-container {
+  background-color: #eef9fc;
+  height: 50%;
+  display: flex;
+}
+
+.banner-section {
+  margin: auto;
+  width: 55%;
+}
+
+.banner-section h2 {
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+
+.banner-sub-text {
+  color: rgb(116, 115, 115);
+  font-size: 1.3rem;
+  display: flex;
+  max-width: 65%;
+  line-height: 2rem;
+}
+
 .container footer {
   margin-top: auto;
   border: 1px solid black;
