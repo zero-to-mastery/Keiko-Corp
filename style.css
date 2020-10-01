@@ -142,14 +142,14 @@ body {
   background: #fff;
 }
 
-.toggle-bar{
-  margin:0 20px 0 auto;
-  display:inline-block;
-  width:70px;
-  height:35px;
-  background:#d6e0f0;
-  border-radius:50px;
-  position:relative;
+.toggle-bar {
+  margin: 0 20px 0 auto;
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+  background: #d6e0f0;
+  border-radius: 50px;
+  position: relative;
 }
 
 input {
