@@ -1,4 +1,5 @@
-*{  padding: 0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Roboto;
@@ -13,68 +14,66 @@ body {
 .container {
   height: 100vh;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width:1200px;
-  margin:0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
   background: white;
 }
-.container header{
+.container header {
   border: 1px solid black;
-  width:100%;
-  padding:25px;
+  width: 100%;
+  padding: 25px;
 }
 
-.container .meet-the-team{
+.container .meet-the-team {
   margin: 50px auto;
   border: 1px solid black;
-  padding:75px;
+  padding: 75px;
 }
 
-
-
-.container .meet-the-team h3{
-  font-size:2.5rem;
-  font-weight:600;
-  margin-bottom:75px;
-  color:#333;
+.container .meet-the-team h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 75px;
+  color: #333;
 }
 
-.container .meet-the-team  h5{
+.container .meet-the-team h5 {
   font-size: 1.5rem;
   margin: 10px;
-  color:#333;
+  color: #333;
 }
 
-.container .meet-the-team  p{
+.container .meet-the-team p {
   font-size: 1rem;
-  color:black;
-  font-weight:300;
+  color: black;
+  font-weight: 300;
 }
 
-.container .meet-the-team .team-row{
-  display:flex;
-  flex-direction:row;
+.container .meet-the-team .team-row {
+  display: flex;
+  flex-direction: row;
   margin: 25px auto;
 }
 
-.container .meet-the-team .team-row .team-member{
-  max-width:250px;
+.container .meet-the-team .team-row .team-member {
+  max-width: 250px;
   margin: 0 20px;
 }
 
-.container .meet-the-team .team-row img{
+.container .meet-the-team .team-row img {
   width: 150px;
-  border-radius:100%;
+  border-radius: 100%;
 }
 
-.container footer{
+.container footer {
   margin-top: auto;
   border: 1px solid black;
-  width:100%;
-  padding:25px;
+  width: 100%;
+  padding: 25px;
 }
 
 .container p {
@@ -83,9 +82,9 @@ body {
   font-size: 25px;
 }
 
-.coming-soon{
-  display:none;
+.coming-soon {
+  display: none;
 }
-.coming-soon img{
-  height:300px;
+.coming-soon img {
+  height: 300px;
 }
