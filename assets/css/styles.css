@@ -24,35 +24,33 @@
 
 /* Meet the Team Styles */
 
-.meet-the-team{
+.meet-the-team {
   text-align: center;
 }
 
-.meet-the-team h2{
+.meet-the-team h2 {
   font-size: 3em;
 }
 
 .team-row {
   display: flex;
   justify-content: center;
-  padding: 3.5em 1.5em; 
+  padding: 3.5em 1.5em;
 }
 
-.team-member{
+.team-member {
   font-size: 1.25em;
-  padding: 0 1.5em
+  padding: 0 1.5em;
 }
 
-.team-member p{
-  font-size: .85em;
-  color: rgb(116, 115, 115)
+.team-member p {
+  font-size: 0.85em;
+  color: rgb(116, 115, 115);
 }
 
-.team-member img{
+.team-member img {
   border-radius: 50%;
 }
-
-
 
 .container footer {
   margin-top: auto;
