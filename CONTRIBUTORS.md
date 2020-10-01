@@ -8,4 +8,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 
 - [@Mehul1011](https://github.com/mehul1011)
 - [@chetas411](https://github.com/chetas411)
-- [@leonarhv](https://github.com/leonarhv)
+- [@comebackid87](https://github.com/comebackid87)
+- [@aapetsi](https://github.com/aapetsi)
+- [@leonarhv](https://github.com/leonarhv) -[@sherinechally](https://github.com/sherinechally)
+- [@RedSquirrrel](https://github.com/RedSquirrrel)
