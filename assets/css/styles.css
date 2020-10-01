@@ -23,29 +23,35 @@
 }
 
 /* Meet the Team Styles */
-
-.meet-the-team {
+#team-section {
+  border-top: 2rem;
   text-align: center;
+  padding: 1.5rem 2rem;
 }
 
-.meet-the-team h2 {
-  font-size: 3em;
+#team-section h2 {
+  display: block;
+  margin-bottom: 2.5rem;
+  font-size: 2.5rem;
+  color: #f94626;
 }
 
-.team-row {
-  display: flex;
-  justify-content: center;
-  padding: 3.5em 1.5em;
+#team {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 6.6%;
 }
 
 .team-member {
   font-size: 1.25em;
-  padding: 0 1.5em;
+  padding: 1rem 0;
+  background-color: #f94626;
+  box-shadow: 10px 10px 8px #888888;
 }
 
 .team-member p {
   font-size: 0.85em;
-  color: rgb(116, 115, 115);
+  color: black;
 }
 
 .team-member img {
