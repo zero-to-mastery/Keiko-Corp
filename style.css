@@ -10,6 +10,46 @@
         1.414-1.414L9.414 40z' fill='%239156f0' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E");
 } */
 
+body{
+  background:#fff;
+}
+
+header{
+  display:flex;
+  width:100%;
+  padding:1em 0;
+}
+
+.toggle-bar{
+  margin:0 20px 0 auto;
+  display:inline-block;
+  width:70px;
+  height:35px;
+  background:#d6e0f0;
+  border-radius:50px;
+  position:relative;
+}
+
+input{
+  display:none;
+}
+
+.toggle-container{
+  position:absolute;
+  top:-2.5px;
+  left:0;
+  width:40px;
+  height:40px;
+  border-radius:50px;
+  background:#f4f6ff;
+  transition:transform 0.35s;
+}
+
+input:checked ~ .toggle-container{
+  /* background:#123456; */
+  transform:translateX(32px);
+}
+
 .container {
   height: 100vh;
   display: flex;
