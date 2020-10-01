@@ -82,6 +82,36 @@
   height: 3px;
 }
 
+.toggle-bar{
+  margin:0 20px 0 auto;
+  display:inline-block;
+  width:70px;
+  height:35px;
+  background:#ebecf1;
+  border-radius:50px;
+  position:relative;
+}
+
+input{
+  display:none;
+}
+
+.toggle-container{
+  position:absolute;
+  top:-2.5px;
+  left:0;
+  width:40px;
+  height:40px;
+  border-radius:50px;
+  background:#f4f6ff;
+  transition:transform 0.5s;
+}
+
+input:checked ~ .toggle-container{
+  transform:translateX(32px);
+}
+
+
 @media only screen and (max-width: 500px) {
   .navbar {
     justify-content: space-between;
