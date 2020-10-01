@@ -36,11 +36,16 @@
   display: flex;
   justify-content: center;
   padding: 3.5em 1.5em;
+  flex-wrap: wrap;
 }
 
 .team-member {
   font-size: 1.25em;
-  padding: 0 1.5em;
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  max-width: 250px;
 }
 
 .team-member p {
