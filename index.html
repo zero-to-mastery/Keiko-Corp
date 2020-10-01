@@ -124,7 +124,17 @@
 
   <body>
     <header>
-      <nav>Nav goes here!</nav>
+      <div class="row">
+        <div class="col-sm-2 col-xs-12">
+          <div id="gtco-logo"><a href="index.html">Nav goes here!</a></div>
+        </div>
+        <div class="col-xs-10 text-right menu-1 main-nav">
+          <ul>
+            <li class="active"><a href="#" data-nav-section="about">Home</a></li>
+            <li class="btn-cta"><a href="#" data-nav-section="contact"><span>feature</span></a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
@@ -142,15 +152,17 @@
       </div>
     </section>
 
+    
+
     <div class="meet-the-team">
       <h3>Meet Our Team</h3>
       <div class="team-row">
-        <div class="team-member">
+        <div class="team-member" data-animate-effect="fadeInLeft">
           <img src="assets/images/team1.jpg" />
           <h5>Sara Doe</h5>
           <p>"Wild Question Marks, but the Little Blind"</p>
         </div>
-        <div class="team-member">
+        <div class="team-member" data-animate-effect="fadeInRight">
           <img src="assets/images/team2.jpg" />
           <h5>Sara Doe</h5>
           <p>"Wild Question Marks, but the Little Blind"</p>
