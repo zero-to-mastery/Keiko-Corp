@@ -21,6 +21,27 @@
   padding: 25px;
 }
 
+.client-loves-us-banner {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.client-loves-us-container {
+  height: 200px; 
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-loves-us-container h1 {
+  font-size: 40px;
+}
+
 /* Meet the Team Styles */
 
 .meet-the-team {
