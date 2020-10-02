@@ -186,13 +186,17 @@ ul{
   display: flex;
   padding: 2em;
   align-items: center;
+  justify-content: center;
 }
-
+.hero_image {
+  animation: fadeIn 1.2s ease;
+}
 .hero_content {
   color: #474343;
   text-align: left;
   margin-left: 9rem;
   max-width: 33rem;
+  animation: fadeIn 0.8s ease;
 }
 
 .hero_content > h2 {
@@ -232,6 +236,19 @@ ul{
   color: #fe6655;
   border-radius: 4px;
   border: #fe6655 solid 2px;
+}
+
+/* Animations for the hero section  */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media only screen and (max-width: 768px) {
