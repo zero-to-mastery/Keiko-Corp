@@ -355,10 +355,10 @@ body {
 
 .wrapper {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-  padding:20px 20px;
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .wrapper .button-wrapper:nth-child(1):hover .icon {
