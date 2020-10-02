@@ -320,9 +320,9 @@ body {
   list-style-type: none;
 }
 
-.wrapper .button-wrapper {
+/**.wrapper .button-wrapper {
   width: 200px;
-}
+}**/
 
 .button-wrapper {
   pointer-events: none;
@@ -429,7 +429,7 @@ h2 {
   background-color: #343a40;
   vertical-align: auto;
   margin: auto;
-
+}
 /*  Testimonial CSS*/
 #test-list {
   display: flex;
