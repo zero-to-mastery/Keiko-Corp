@@ -28,6 +28,49 @@ body {
   padding: 25px;
 }
 
+.container nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container .header_logo{
+  width: 4em;
+  height: 4em;
+  
+}
+
+.container .nav_links{
+  word-spacing: 1em;
+}
+
+.container a{
+  text-decoration: none;
+  color: #323133;
+}
+
+.container a:hover{
+  color: #dd5568;
+  transition: .2s linear;
+}
+
+.container .nav_button{
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: 2.5px solid #dd5568;
+  border-radius: .5em;
+  
+  padding: .8em 2em;
+}
+
+.container .nav_button:hover{
+  cursor: pointer;
+  background:#dd5568;
+  transition: .5s ease-in-out;
+}
+
+ 
+
 .container .meet-the-team {
   margin: 50px auto;
   border: 1px solid black;
