@@ -6,6 +6,9 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);
+  background: linear-gradient(to right, #24FE41, #FDFC47); 
+
 }
 .container {
   height: 100vh;
@@ -57,6 +60,11 @@ body {
 
 .team-member img {
   border-radius: 50%;
+  box-shadow: 0 0 30px 15px white;
+}
+
+.team-member img:hover {
+  box-shadow: 0 0 30px 15px green;
 }
 
 .contact-container {
@@ -149,6 +157,12 @@ body {
 }
 
 /* General Styles */
+
+ul{
+  display: flex;
+  width: 100vw;
+  background: transparent;
+}
 
 .container {
   height: 100vh;
@@ -369,3 +383,9 @@ body {
 .wrapper .button:nth-child(4) span {
   color: #ff0000;
 }
+
+
+h2 {
+  color: green;
+}
+
