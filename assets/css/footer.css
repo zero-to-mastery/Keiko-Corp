@@ -10,6 +10,10 @@ footer > .footer-row {
   margin-bottom: 40px;
 }
 
+.sub-footer {
+  display: flex;
+}
+
 .footer-column {
   padding: 10px;
   box-sizing: border-box;
@@ -59,8 +63,8 @@ footer > .footer-row {
   margin-bottom: 70px;
 }
 
-@media only screen and (max-width: 600px) {
-  footer > .footer-row {
+/* @media only screen and (max-width: 600px) { */
+/* footer > .footer-row {
     display: flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
@@ -74,13 +78,13 @@ footer > .footer-row {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     justify-content: center;
-  }
+  } */
 
-  .footer-column h2 {
+/* .footer-column h2 {
     display: flex;
     justify-content: center;
     justify-content: center;
     align-content: center;
     margin-bottom: 23px;
-  }
-}
+  } */
+/* } */
