@@ -36,10 +36,60 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .client-loves-us-container h1 {
+    color :rgb(90 ,90,90);
   font-size: 40px;
+}
+
+ /* FEATURE SECTION */
+
+
+#feature {
+
+margin : auto;
+width : 80%;
+
+}
+.feature{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,600px );
+  grid-column-gap: 50px;
+  grid-row-gap:50px;
+  padding-bottom: 50px;
+}
+
+
+.feature_content h1{
+   font-size: 2rem;
+   font-style:black;
+   color : black;
+   font-weight: 900;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+.feature_content p{
+   font-size: 1.3rem;
+   letter-spacing: 0.2px;
+   font-weight: 400;
+   color: rgb(90, 90, 90);
+   line-height: 1.4;
+}
+.feature_one,.feature_two,.feature_three{
+  position: relative;
+}
+.feature_image{
+  width: 500px;
+  position: relative;
+  top : -1.5rem;
+}
+
+.feature-link  {
+  margin-top: 20px;
+  text-decoration: none;
+  color: blue;
 }
 
 /* Meet the Team Styles */
