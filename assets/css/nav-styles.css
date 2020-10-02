@@ -331,3 +331,24 @@ input:checked ~ .toggle-container {
     width: 330px;
   }
 }
+
+.column {
+  float: left;
+  width: 25%;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.c1 {
+  float: left;
+  width: 33.33%;
+  font-weight: 400;
+}
+
