@@ -39,12 +39,12 @@
   background-color: #fff;
 }
 
-.navbar ul.menu li  {
+.navbar ul.menu li {
   cursor: pointer;
   line-height: 80px;
   font-size: 1em;
   color: #423f3f;
-  transition: all ease-in .1s;
+  transition: all ease-in 0.1s;
 }
 
 .navbar ul.menu li:hover {
@@ -161,16 +161,16 @@ input:checked ~ .toggle-container {
     padding: 0 40px;
   }
 
-.navbar ul.menu li {
-  line-height: normal;
-}
+  .navbar ul.menu li {
+    line-height: normal;
+  }
 
-.navbar ul {
-  justify-content: stretch;
-}
-.navbar ul.menu li:hover {
-  transform: translateY(-3%);
-}
+  .navbar ul {
+    justify-content: stretch;
+  }
+  .navbar ul.menu li:hover {
+    transform: translateY(-3%);
+  }
 }
 
 /* End Navbar styles */
