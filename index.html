@@ -25,7 +25,6 @@
 
     <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
 
-
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
@@ -93,8 +92,6 @@
       <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
     </section>
 
-
-
     <!-- feature one -->
     <section class="feature">
       <div class="feature_one">
@@ -116,15 +113,21 @@
       <div class="neverMissUpdateContainer">
         <i class="fas fa-layer-group"></i>
         <h1>Never miss an update</h1>
-        <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</h2>
+        <h2>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        </h2>
         <form action="">
-          <input type="email">
-          <input type="submit">
+          <input type="email" />
+          <input type="submit" />
         </form>
-        <h5>*Your email address is safe with us. We never share your email address.</h5>
+        <h5>
+          *Your email address is safe with us. We never share your email
+          address.
+        </h5>
       </div>
     </div>
-    
+
     <!-- Meet the Team -->
     <div class="meet-the-team">
       <h2>Meet Our Team</h2>
@@ -153,72 +156,91 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="contact-container">
-      <div class="contact-banner-container">
-        <div class="banner-section">
-          <h2>Contact Us</h2>
-          <p class="banner-sub-text">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-      </div>
-      <div class="contact-section-container">
-        <div class="subsection-1">
-          <h1>Call or email</h1>
-          <p>
-            Support, Sales, and Accountant Management services are currently
-            available in English
-          </p>
-          <h2>Support</h2>
-          <p>+800 3005 4300</p>
-          <p>Contact Support</p>
-          <p>
-            Our technical support is available by phone or email from 11 am to
-            11 pm BST, Monday through Friday.
-          </p>
-          <h2>Sales</h2>
-          <p>+800 3005 4300</p>
-          <p>Contact Support</p>
-          <p>
-            Our technical support is available by phone or email from 11 am to
-            11 pm BST, Monday through Friday.
-          </p>
-          <h2>General Inquiries</h2>
-          <p>hello@website.com</p>
-        </div>
-        <div class="subsection-2">
-          <h1>Drop us a line</h1>
-          <div class="name-input-container">
-            <input placeholder="First name" type="text" class="first-name" />
-            <input placeholder="Last name" class="last-name" />
+    <div id="contact-container">
+      <!--Header Starts here -->
+      <header class="contact-header">
+        <h1 class="contact-h1">Contact Us</h1>
+        <p class="contact-p">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and consonantia, there live the blind texts.
+        </p>
+      </header>
+      <!-- Header End's -->
+      <main class="contact-main">
+        <!-- Call To Action Cards -->
+        <div class="contact-cards">
+          <div>
+            <h2 class="contact-h2">Call or email</h2>
+            <p class="contact-p">
+              Support,Sales and Account Management services are currently
+              available in English.
+            </p>
           </div>
           <div>
-            <input
-              type="text"
-              class="company-name"
-              placeholder="Company Name"
-            />
+            <h3 class="contact-h3">Support</h3>
+            <span>+800 3005 4300</span>
+            <a class="contact-a" href="#">Contact Support</a>
+            <p class="contact-p">
+              Our technical support is available by phone or email from 11am to
+              11pm BST, Monday to Friday.
+            </p>
           </div>
           <div>
-            <input type="text" class="email" placeholder="Email" />
-          </div>
-          <div class="name-input-container">
-            <input placeholder="Phone" type="text" class="first-name" />
-            <input placeholder="Country" class="last-name" />
-          </div>
-          <div>
-            <select name="department" required>
-              <option value="" disabled selected hidden>
-                Select Department
-              </option>
-            </select>
+            <h3 class="contact-h3">Sales</h3>
+            <span>+800 3005 4300</span>
+            <a class="contact-a" href="#">Contact Sales</a>
+            <p class="contact-p">
+              Our technical support is available by phone or email from 11am to
+              11pm BST, Monday to Friday.
+            </p>
           </div>
           <div>
-            <textarea placeholder="How can we help?"></textarea>
+            <h3 class="contact-h3">General inquiries</h3>
+            <a class="contact-a" href="#">hello@website.com</a>
           </div>
         </div>
-      </div>
+        <!-- Form Starts Here-->
+        <div class="form">
+          <h2 class="contact-h2">Drop us a line</h2>
+          <form action="#">
+            <div class="form-input multiple">
+              <input type="text" name="first-name" placeholder="First name" />
+              <input type="text" name="last-name" placeholder="Last name" />
+            </div>
+            <div class="form-input">
+              <input type="text" name="company" placeholder="Company Name" />
+            </div>
+            <div class="form-input">
+              <input type="email" name="email" placeholder="Email" />
+            </div>
+            <div class="form-input multiple">
+              <input type="tel" name="phone" placeholder="Phone" />
+              <input type="text" name="country" placeholder="Country" />
+            </div>
+            <div class="form-input">
+              <select name="department">
+                <option value="default" selected>Select Department</option>
+                <option value="details">Detail</option>
+                <option value="business">Business</option>
+                <option value="support">Support</option>
+              </select>
+            </div>
+            <!--  Form Input Box here-->
+            <div class="form-input">
+              <textarea
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="How can we help?"
+              ></textarea>
+            </div>
+            <div>
+              <!-- Submit Button -->
+              <button id="button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </main>
     </div>
 
     <!-- Footer -->

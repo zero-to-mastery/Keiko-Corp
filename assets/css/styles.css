@@ -1,3 +1,8 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
 .no-user-select {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -381,4 +386,113 @@ body {
 
 h2 {
   color: green;
+}
+
+:root {
+  --primar-color: #8b8989;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#contact-container {
+  margin: 2rem 6rem;
+}
+
+.contact-h1 {
+  font-size: 3.5em;
+}
+
+.contact-p {
+  color: var(--primar-color);
+}
+
+.contact-a {
+  text-decoration: none;
+  color: rgb(13, 165, 211);
+}
+
+.contact-header {
+  margin-bottom: 6rem;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to right,
+    aquamarine,
+    aqua,
+    rgb(13, 233, 233)
+  );
+}
+
+.contact-header .contact-p {
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+.contact-main {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 6rem;
+  padding: 1rem;
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1.5rem;
+}
+
+.contact-cards .contact-a {
+  display: block;
+  margin-top: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1.5rem;
+}
+
+form input,
+select,
+textarea {
+  padding: 0.3rem;
+  border: 1px solid #aaa;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.form-input.multiple {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-column-gap: 6%;
+}
+
+#button {
+  padding: 0.5 2rem;
+  width: 25%;
+  min-width: 50px;
+  height: 2rem;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(59, 169, 233);
+  float: left;
+}
+
+#button:hover {
+  color: rgb(59, 169, 233);
+  background-color: #ffffff;
+  border: 0.5px solid #ccc;
+}
+
+.contact-h2 {
+  font-size: 2.5em;
+  color: #333;
+  font-weight: 500;
+  text-align: left;
 }
