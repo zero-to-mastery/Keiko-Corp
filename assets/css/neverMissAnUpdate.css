@@ -44,3 +44,29 @@ h5 {
   text-align: center;
   margin-top: 20px;
 }
+
+.neverMissUpdate .neverMissUpdateForm {
+  display: flex;
+  justify-content: center;
+}
+.neverMissUpdate .neverMissUpdateForm #updateEmail {
+  margin: 0px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  flex: 1;
+  min-width: 500px;
+  text-align: center;
+}
+.neverMissUpdate .neverMissUpdateForm #updateButton {
+  background-color: blue;
+  color: whitesmoke;
+  margin: 0;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: none;
+}
+.neverMissUpdate .neverMissUpdateForm #updateButton:hover {
+  color: blue;
+  background-color: whitesmoke;
+  border: 2px solid blue;
+}
