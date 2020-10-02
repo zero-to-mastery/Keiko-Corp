@@ -26,3 +26,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@mohitms007](https://github.com/mohitms007)
 - [@monddelmundo](https://github.com/monddelmundo)
 - [@SkyC0der](https://github.com/SkyC0der)
+- [@girishsontakke](https://github.com/girishsontakke)
