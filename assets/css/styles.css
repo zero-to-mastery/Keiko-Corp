@@ -6,6 +6,9 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);
+  background: linear-gradient(to right, #24FE41, #FDFC47); 
+
 }
 .no-user-select {
   -webkit-user-select: none;
@@ -63,6 +66,11 @@ body {
 
 .team-member img {
   border-radius: 50%;
+  box-shadow: 0 0 30px 15px white;
+}
+
+.team-member img:hover {
+  box-shadow: 0 0 30px 15px green;
 }
 
 .contact-container {
@@ -156,6 +164,12 @@ body {
 
 /* General Styles */
 
+ul{
+  display: flex;
+  width: 100vw;
+  background: transparent;
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -178,13 +192,17 @@ body {
   display: flex;
   padding: 2em;
   align-items: center;
+  justify-content: center;
 }
-
+.hero_image {
+  animation: fadeIn 1.2s ease;
+}
 .hero_content {
   color: #474343;
   text-align: left;
   margin-left: 9rem;
   max-width: 33rem;
+  animation: fadeIn 0.8s ease;
 }
 
 .hero_content > h2 {
@@ -224,6 +242,19 @@ body {
   color: #fe6655;
   border-radius: 4px;
   border: #fe6655 solid 2px;
+}
+
+/* Animations for the hero section  */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -358,3 +389,9 @@ body {
 .wrapper .button:nth-child(4) span {
   color: #ff0000;
 }
+
+
+h2 {
+  color: green;
+}
+
