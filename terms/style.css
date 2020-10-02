@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 135%;
+  margin: 3.5%;
+}
+
+/* view the terms of the site */
+#openModal {
+  background-color: rgba(0, 0, 0, 0.385);
+  border: none;
+  color: white;
+  display: block;
+  font-family: inherit;
+  margin: 15% auto;
+  padding: 10px 15px;
+}
+
+/* the modal buttons */
+.terms {
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  float: right;
+  font-family: inherit;
+  margin-top: -15px;
+  margin-right: 3px;
+  padding: 5px;
+}
+
+.success {
+  background-color: green;
+}
+
+.reject {
+  background-color: red;
+}
+
+/* The background of the modal */
+.modal {
+  display: none; /* to allow the modal box to be hidden initially */
+  position: fixed; /* the modal box will not change it's original position */
+  z-index: 1; /* the modal box will stay on top of other elements */
+  left: 0;
+  top: 0;
+  width: 100%; /* the modal box takes up the full width of the device */
+  height: 100%; /* the modal box takes up the full height of the device */
+  overflow: auto; /* the user can scroll through the modal box */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black with some opacity */
+}
+
+/* Modal Text Container */
+.modalText {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #777;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 25px;
+}
