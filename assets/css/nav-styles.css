@@ -14,6 +14,22 @@
   margin: auto;
 }
 
+/*Maneging navbar as per theme start*/
+[data-theme='dark'] .navbar {
+  background: #132743;
+}
+[data-theme='dark'] .navbar ul.menu li {
+  color: #ddd;
+}
+[data-theme='dark'] .navbar ul.menu li:hover {
+  color: #fff;
+}
+[data-theme='dark'] .navbar ul.menu li.active {
+  color: #fff;
+  font-weight: 500;
+}
+/*Maneging navbar as per theme ends*/
+
 .navbar {
   display: flex;
   padding: 0 10px;
@@ -36,7 +52,6 @@
   align-items: center;
   height: 100%;
   list-style: none;
-  background-color: #fff;
 }
 
 .navbar ul.menu li {
