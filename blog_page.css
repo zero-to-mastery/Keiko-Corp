@@ -50,11 +50,11 @@ main {
   text-transform: uppercase;
 }
 
-.blog__picture + .blog__picture {
+.blog__picture+.blog__picture {
   margin-top: 1.2em;
 }
 
-.blog__post + .blog__post {
+.blog__post+.blog__post {
   margin-top: 2em;
 }
 
@@ -105,7 +105,7 @@ main {
     grid-gap: 20px;
   }
 
-  .blog__picture + .blog__picture {
+  .blog__picture+.blog__picture {
     margin-top: 0;
   }
 
@@ -113,9 +113,11 @@ main {
     grid-area: post1;
     height: auto;
   }
+
   .post2 {
     grid-area: post2;
   }
+
   .post3 {
     grid-area: post3;
   }

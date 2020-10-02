@@ -1,0 +1,37 @@
+.contactus {
+    width: 100%;
+    height: 100vw;
+    /* background-color: #67727c; */
+    padding: 1rem;
+}
+
+.contacus_grid {
+    /* background-color: #aa4931; */
+    height: 58rem;
+}
+
+.banner {
+    /* background-color: #7a0da5; */
+    height: 21rem;
+}
+
+.aboutimg {
+    width: 100%;
+    height: 21rem;
+}
+
+.aboutcontent {
+    /* background-color: #1c0da5; */
+    height: 28rem;
+    padding: 2rem;
+}
+
+.title_about {
+    text-align: center;
+}
+
+.contenttext {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    font-style: italic;
+}

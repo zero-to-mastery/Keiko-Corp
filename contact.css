@@ -24,12 +24,10 @@ a {
 header {
   margin-bottom: 6rem;
   padding: 1rem;
-  background-image: linear-gradient(
-    to right,
-    aquamarine,
-    aqua,
-    rgb(13, 233, 233)
-  );
+  background-image: linear-gradient(to right,
+      aquamarine,
+      aqua,
+      rgb(13, 233, 233));
 }
 
 header p {
