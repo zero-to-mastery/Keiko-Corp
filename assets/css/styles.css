@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);
-  background: linear-gradient(to right, #24FE41, #FDFC47); 
-
-}
 .no-user-select {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -164,7 +152,7 @@ body {
 
 /* General Styles */
 
-ul{
+ul {
   display: flex;
   width: 100vw;
   background: transparent;
@@ -248,7 +236,7 @@ ul{
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateX(-50px)
+    transform: translateX(-50px);
   }
 
   to {
@@ -390,8 +378,6 @@ body {
   color: #ff0000;
 }
 
-
 h2 {
   color: green;
 }
-
