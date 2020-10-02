@@ -7,6 +7,7 @@ const toggleBar = document.querySelector('#toggle-bar');
 const contactBanner = document.querySelector('.contact-banner-container');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
+const textExcept = document.querySelector('.textExcept');
 
 //dark mode
 function changeToDarkMode() {
