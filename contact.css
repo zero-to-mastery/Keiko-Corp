@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#container
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://images.pexels.com/photos/2440079/pexels-photo-2440079.jpeg?cs=srgb&dl=pexels-ian-beckley-2440079.jpg&fm=jpg);
+    background-size: cover;
+}
+#container header
+{
+    max-width: 800px;
+    text-align: center;
+}
+#container header h1
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff; 
+}
+#container header p
+{
+    font-weight: 300;
+    color: #fff; 
+}
+main
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+main .cards
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 21px 50px;
+}
+main .cards .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    margin-top: 46px;
+}
+main .cards .text h2
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+main .cards .text h3
+{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.form
+{
+    width: 50%;
+    padding: 40px;
+    background: #fff;
+}
+.form h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.form .form-input
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+ .form .form-inputmultiple
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.form .form-input input,
+.form .form-inputmultiple input
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.form .form-input textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+select
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none; 
+}
+#button
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
