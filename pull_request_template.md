@@ -2,15 +2,26 @@
 
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
 
+
 **Sumarise what this PR fixes:** < added to toggle button cursor pointer, changing the team names, and h2 "Meet Our Team" added text shadow and font weight >
 
-**Fixes #:** < Enter Issue ID/URL >
+**Sumarise what this PR fixes:** When user switch from light to dark mode navigation was not changing accordingly. I
+have fixed that issue by adding some CSS.
+
+
+**Fixes #:** https://github.com/zero-to-mastery/Keiko-Corp/pull/162 
 
 # Checklist:
 
 (Add an `x` between the brackets to check the items)
 
+
 - [x] I have sumarised what this PR fixes above
-- [ ] I have provided the issue ID/URL above
-- [ ] This PR fixes only the issue mentioned above (create seperate PRs for seperate issues)
+- [x] I have provided the issue ID/URL above
+- [x] This PR fixes only the issue mentioned above (create seperate PRs for seperate issues)
+
+- [ x ] I have sumarised what this PR fixes above
+- [ x ] I have provided the issue ID/URL above
+- [ x ] This PR fixes only the issue mentioned above (create seperate PRs for seperate issues)
+
 - [ ] I was the first one to claim the issue or I created the issue
