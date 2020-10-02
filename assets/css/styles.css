@@ -66,6 +66,8 @@ body {
 
 .meet-the-team h2 {
   font-size: 3em;
+  color: #111;
+  font-weight: 700;
 }
 
 .team-row {
@@ -85,21 +87,21 @@ body {
 }
 
 .team-member h3 {
-  margin-top: 25px;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .team-member p {
-  font-size: 0.85em;
+  font-size: 1.1rem;
+  font-weight: 300;
   color: rgb(116, 115, 115);
 }
 
 .team-member img {
+  height: auto;
+  width: 180px;
   border-radius: 50%;
   box-shadow: 0 0 15px 7px white;
-}
-
-.team-member img:hover {
-  box-shadow: 0 0 30px 15px green;
 }
 
 .contact-container {
