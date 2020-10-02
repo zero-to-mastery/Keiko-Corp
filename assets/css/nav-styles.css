@@ -193,6 +193,7 @@ input:checked ~ .toggle-container {
   display: flex;
   justify-content: center;
   padding: 2em;
+
   align-items: center;
   margin-bottom: 2rem;
 }
