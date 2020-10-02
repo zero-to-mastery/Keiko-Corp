@@ -91,3 +91,8 @@ textarea {
   color: rgb(59, 169, 233);
   background-color: #ffffff;
 }
+
+.contact-home:hover{
+  transform: translateY(-3%);
+}
+
