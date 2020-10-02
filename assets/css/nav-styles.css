@@ -11,7 +11,7 @@
 .container-nav {
   width: 100%;
   max-width: 1000px;
-  margin: auto;
+ 
 }
 
 .navbar {
@@ -19,6 +19,8 @@
   padding: 0 10px;
   height: 80px;
   align-items: center;
+  width: 100%;
+  position: fixed;
 }
 
 .navbar #contact-btn {
@@ -37,6 +39,10 @@
   height: 100%;
   list-style: none;
   background-color: #fff;
+}
+
+.navbar .menu {
+  padding-left: 65px;
 }
 
 .navbar ul.menu li {
