@@ -93,6 +93,7 @@
 .contact-section-container {
   padding: 20px;
   display: flex;
+  padding: 20px 0px;
   justify-content: space-evenly;
 }
 
