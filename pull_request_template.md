@@ -4,9 +4,11 @@
 > Providing the issue number/url helps us identify the problem being solved and keep the issues tab clean and tidy
 
 #### **Sumarise what this PR fixes**
+
 <Detail what your PR changes/fixes>
 
 #### **What [ISSUE NUMBER]() does this fix?**
+
 Fixes #<enter number>
 
 #### Checklist:
