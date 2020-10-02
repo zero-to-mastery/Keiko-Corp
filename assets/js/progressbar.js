@@ -1,15 +1,9 @@
-// declaring variables
-const scrollLine = document.querySelector('.scroll-line');
-
 // define functions
 function fillScrollLine() {
   const windowHeight = window.innerHeight;
   const fullHeight = document.body.clientHeight;
   const scrollY = window.scrollY;
   const scrolled = (scrollY / (fullHeight - windowHeight)) * 100;
-  scrollLine.style.width = scrolled + '%';
-  console.log(windowHeight, fullHeight, scrollY, scrolled);
-  console.count('Hello!');
 }
 
 function debounce(func, wait = 15, immediate) {
