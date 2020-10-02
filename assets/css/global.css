@@ -30,3 +30,16 @@ body {
   --heading: #343a40;
   --text: #a5a8ac;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
+body {
+  color: var(--text);
+}
