@@ -18,3 +18,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@RedSquirrrel](https://github.com/RedSquirrrel)
 - [@leonarhv](https://github.com/leonarhv)
 - [@sherinechally](https://github.com/sherinechally)
+- [@pritesh11-10] (https://github.com/pritesh11-10)
