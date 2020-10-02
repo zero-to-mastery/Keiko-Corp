@@ -382,3 +382,27 @@ body {
 h2 {
   color: green;
 }
+
+/* Homepage Contact Section Styles */
+.contact-index__container {
+  background-color: #f4f7fe;
+}
+.contact-index__text {
+  height: 40vh;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-index__text h1 {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.contact-index__text p {
+  color: #767f88;
+  line-height: 30px;
+}
