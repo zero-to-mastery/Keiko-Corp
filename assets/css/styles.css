@@ -29,6 +29,27 @@
   padding: 25px;
 }
 
+.client-loves-us-banner {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.client-loves-us-container {
+  height: 200px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-loves-us-container h1 {
+  font-size: 40px;
+}
+
 /* Meet the Team Styles */
 
 .meet-the-team {
@@ -38,6 +59,8 @@
 
 .meet-the-team h2 {
   font-size: 3em;
+  color: #111;
+  font-weight: 700;
 }
 
 .team-row {
@@ -57,21 +80,21 @@
 }
 
 .team-member h3 {
-  margin-top: 25px;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .team-member p {
-  font-size: 0.85em;
+  font-size: 1.1rem;
+  font-weight: 300;
   color: rgb(116, 115, 115);
 }
 
 .team-member img {
+  height: auto;
+  width: 180px;
   border-radius: 50%;
   box-shadow: 0 0 15px 7px white;
-}
-
-.team-member img:hover {
-  box-shadow: 0 0 30px 15px green;
 }
 
 .contact-container {
