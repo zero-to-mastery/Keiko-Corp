@@ -1,0 +1,14 @@
+.companies-banner-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  vertical-align: auto;
+}
+.company-logo {
+  width: 100px;
+  margin: 0 20px;
+  color: #7d7d7d;
+  vertical-align: auto;
+}
