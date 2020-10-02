@@ -28,9 +28,14 @@
   <link rel="stylesheet" href="./assets/css/companies-banner.css" />
 
   <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -43,15 +48,14 @@
           <span></span>
           <span></span>
         </div>
-
         <ul class="menu">
           <li>
             <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
           </li>
-          <li class="active">Home</li>
-          <li>Features</li>
-          <li>Testimonial</li>
-          <li>Team</li>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#feature">Features</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <li><a href="#team">Team</a></li>
           <li>
             <a href="./contact.html"><button id="contact-btn">Contact</button></a>
           </li>
@@ -62,6 +66,26 @@
         </label>
       </nav>
     </div>
+  </header>
+
+  <ul class="menu">
+    <li>
+      <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+    </li>
+    <li class="active">Home</li>
+    <li>Features</li>
+    <li>Testimonial</li>
+    <li>Team</li>
+    <li>
+      <a href="./contact.html"><button id="contact-btn">Contact</button></a>
+    </li>
+  </ul>
+  <label class="toggle-bar" id="toggle-bar">
+    <input type="checkbox" />
+    <div class="toggle-container" id="toggle-container"></div>
+  </label>
+  </nav>
+  </div>
   </header>
 
   <!-- Hero -->
@@ -88,6 +112,22 @@
     <img class="company-logo" src="assets/images/logos/samsung.svg" />
     <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
     <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
+  </section>
+  <!-- feature one -->
+  <section class="feature" id="feature">
+    <div class="feature_one">
+      <img src="./assets/images/feature_one.svg" alt="feature_one" />
+    </div>
+    <div class="feature_content">
+      <h4>Feature One</h4>
+      <p>
+        The best Lorem Ipsum Generator in all the sea! Heave this scurvy
+        copyfiller fer yar next adventure and cajol yar clients into walking
+        the plank with ev'ry layout! Configure above, then get yer pirate
+        ipsum...own the high seas, arg!
+      </p>
+      <a href="#">Learn More ></a>
+    </div>
   </section>
 
   <!-- feature one -->
@@ -186,13 +226,12 @@
           <div class="test-details">
             <p><span>Jenny Smith</span><br />Boise, ID</p>
           </div>
-        </div>
       </section>
     </div>
   </section>
 
   <!-- Meet the Team -->
-  <div class="meet-the-team">
+  <div class="meet-the-team" id="team">
     <h2>Meet Our Team</h2>
     <div class="team-row">
       <div class="team-member">
@@ -210,95 +249,117 @@
         <h3>Sara Doe</h3>
         <p>"Wild Question Marks, but the Little Blind"</p>
       </div>
-      <div class="team-member">
-        <img src="assets/images/team4.jpg" />
-        <h3>Sara Doe</h3>
-        <p>"Wild Question Marks, but the Little Blind"</p>
-      </div>
+      </section>
     </div>
-  </div>
-
-  <!-- Contact Section -->
-  <div class="contact-index__container">
-    <div class="contact-index__text">
-      <h1>Contact Us</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <br> A ab velit blanditiis omnis?
-        Voluptatibus odio eum
-        aliquid vero eos officia.</p>
-    </div>
-  </div>
-
-  <!-- Footer -->
-
-  <footer>
-    <div class="wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <span>Facebook</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-twitter"></i></div>
-        <span>Twitter</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-instagram"></i></div>
-        <span>Instagram</span>
-      </div>
-
-      <div class="button">
-        <div class="icon"><i class="fab fa-youtube"></i></div>
-        <span>YouTube</span>
-      </div>
-    </div>
-  </footer>
-
-  <ul class="wrapper">
-    <!--Using anchor tag for these button seems to be a better idea-->
-
-    <li class="button-wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <span class="icon-text">Facebook</span>
-      </div>
-    </li>
-
-    <li class="button-wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-twitter"></i></div>
-        <span class="icon-text">Twitter</span>
-      </div>
-    </li>
-
-    <li class="button-wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-instagram"></i></div>
-        <span>Instagram</span>
-      </div>
-    </li>
-
-    <li class="button-wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-youtube"></i></div>
-        <span class="icon-text">YouTube</span>
-      </div>
-    </li>
-  </ul>
-
-  <footer>
-    <br /><br /><br /><br />
-    <section class="companies-banner-container">
-      <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
-      <img class="company-logo" src="assets/images/logos/intel.svg" />
-      <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
-      <img class="company-logo" src="assets/images/logos/samsung.svg" />
-      <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
-      <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
     </section>
-  </footer>
 
-  <script src="./assets/js/navbar.js"></script>
-  <script src="./assets/js/dark-mode.js"></script>
-</body>
+    <!-- Meet the Team -->
+    <div class="meet-the-team">
+      <h2>Meet Our Team</h2>
+      <div class="team-row">
+        <div class="team-member">
+          <img src="assets/images/team1.jpg" />
+          <h3>Sara Doe</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team2.jpg" />
+          <h3>Sara Doe</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team3.jpg" />
+          <h3>Sara Doe</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team4.jpg" />
+          <h3>Sara Doe</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-index__container">
+      <div class="contact-index__text">
+        <h1>Contact Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br> A ab velit blanditiis omnis?
+          Voluptatibus odio eum
+          aliquid vero eos officia.</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span>Facebook</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span>Twitter</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
+
+        <div class="button">
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+          <span>YouTube</span>
+        </div>
+      </div>
+    </footer>
+
+    <ul class="wrapper">
+      <!--Using anchor tag for these button seems to be a better idea-->
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span class="icon-text">Facebook</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span class="icon-text">Twitter</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+          <span class="icon-text">YouTube</span>
+        </div>
+      </li>
+    </ul>
+
+    <footer>
+      <br /><br /><br /><br />
+      <section class="companies-banner-container">
+        <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/intel.svg" />
+        <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/samsung.svg" />
+        <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
+      </section>
+      <div class="copyright">
+        <p>&copy; 2020, Keiko-Corp. All rights reserved.</p>
+      </div>
+    </footer>
 
 </html>

@@ -48,6 +48,10 @@
   max-width: 250px;
 }
 
+.team-member h3 {
+  margin-top: 25px;
+}
+
 .team-member p {
   font-size: 0.85em;
   color: rgb(116, 115, 115);
@@ -55,7 +59,7 @@
 
 .team-member img {
   border-radius: 50%;
-  box-shadow: 0 0 30px 15px white;
+  box-shadow: 0 0 15px 7px white;
 }
 
 .team-member img:hover {
@@ -415,6 +419,17 @@ h2 {
   color: green;
 }
 
+
+.copyright {
+  display: flex;
+  height: 18px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  vertical-align: auto;
+  margin: auto;
+
 /*  Testimonial CSS*/
 #test-list {
   display: flex;
@@ -481,6 +496,7 @@ h2 {
 .test-description {
   text-align: center;
   margin-bottom: 32px;
+
 }
 /* Homepage Contact Section Styles */
 .contact-index__container {
