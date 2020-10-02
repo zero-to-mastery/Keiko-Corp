@@ -4,20 +4,30 @@ const body = document.getElementsByTagName('body')[0];
 const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
-const contactBanner = document.querySelector('.contact-banner-container')
-const updateBanner = document.querySelector('.neverMissUpdate')
-const updateHeading = document.querySelector('.update-heading')
+const contactBanner = document.querySelector('.contact-banner-container');
+const updateBanner = document.querySelector('.neverMissUpdate');
+const updateHeading = document.querySelector('.update-heading');
+const header = document.querySelector('header');
+const navbar = document.querySelector('.navbar');
+const navbarMenu = document.querySelector('.menu');
+const contactButton = document.getElementById('contact-btn');
+const navLinks = document.querySelectorAll('.nav-link');
 
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
   body.style.color = '#fff';
   content.style.color = '#eaeaea';
-  contentPara.style.color = '#aeaeae';
+  contentPara.style.color = '#ffffff';
   toggleBar.style.background = '#01a9b4';
   contactBanner.style.background = '#132743';
-  updateBanner.style.backgroundColor = '#343a40'
-  updateHeading.style.color = "#fff"
+  updateBanner.style.backgroundColor = '#343a40';
+  updateHeading.style.color = "#fff";
+  header.style.backgroundColor = '#132743';
+  // navLinks.style.color = '#fff';
+  navbar.style.backgroundColor = '#132743';
+  navbarMenu.style.backgroundColor = '#132743';
+  contactButton.style.backgroundColor = '#132743';
 }
 
 //light mode
@@ -27,9 +37,13 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contactBanner.style.background = "#ebecf1"
-  updateBanner.style.backgroundColor = '#ebecf1'
-  updateHeading.style.color = "#1d1c1c"
+  contactBanner.style.background = "#ebecf1";
+  updateBanner.style.backgroundColor = '#ffffff';
+  updateHeading.style.color = "#1d1c1c";
+  header.style.backgroundColor = '#ffffff';
+  navbar.style.backgroundColor = '#ffffff';
+  navbarMenu.style.backgroundColor = '#ffffff';
+  contactButton.style.backgroundColor = '#ffffff';
 }
 
 //callback function to toggle between modes
