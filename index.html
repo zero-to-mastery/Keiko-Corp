@@ -8,6 +8,10 @@
       href="assets/images/keiko-logo.png"
       type="image/png"
     />
+
+    <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/keiko-icon.ico" />
     <title>Keiko Corp</title>
@@ -46,6 +50,7 @@
   </head>
 
   <body>
+
 
   <!-- HEADER -->
   <header class="no-user-select">
@@ -169,14 +174,15 @@
         Far far away, behind the word mountains, far from the countries
         Vokalia and Consonantia, there live the blind texts
       </h2>
-      <form action="">
-        <input type="email" />
-        <input type="submit" />
-      </form>
-      <h5>
-        *Your email address is safe with us. We never share your email
-        address.
-      </h5>
+      
+      <div class="input-group mb-3">
+        <input type="email" class="form-control col-sm-12" placeholder="Enter your email address" aria-label="Email Address" aria-describedby="button-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-success" type="submit" id="button-addon2">Submit</button>
+        </div>
+      </div>
+    
+       <h5 style="font-style: italic;font-weight: 900;">*Your email address is safe with us. We never share your email address</h5> 
     </div>
   </div>
 
