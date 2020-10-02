@@ -480,7 +480,18 @@ em{
 .card__body{
   line-height: 2;
 }
+.copyright {
+  display: flex;
+  height: 18px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  vertical-align: auto;
+  margin: auto;
+}
 /*  Testimonial CSS*/
+
 #test-list {
   display: flex;
   flex-wrap: wrap;
@@ -546,4 +557,5 @@ em{
 .test-description {
   text-align: center;
   margin-bottom: 32px;
+
 }
