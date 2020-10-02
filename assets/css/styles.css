@@ -297,7 +297,26 @@ body {
   /*place-items: center;*/
 }
 
+/* Social Media Link section */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.wrapper .button-wrapper {
+  width: 200px;
+}
+
+.button-wrapper {
+  pointer-events: none;
+}
+
 .wrapper .button {
+  pointer-events: all;
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -311,7 +330,7 @@ body {
 }
 
 .wrapper .button:hover {
-  width: 200px;
+  width: 180px;
 }
 
 .wrapper .button .icon {
@@ -329,23 +348,23 @@ body {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
-.wrapper .button:nth-child(1):hover .icon {
+.wrapper .button-wrapper:nth-child(1):hover .icon {
   background: #4267b2;
 }
 
-.wrapper .button:nth-child(2):hover .icon {
+.wrapper .button-wrapper:nth-child(2):hover .icon {
   background: #1da1f2;
 }
 
-.wrapper .button:nth-child(3):hover .icon {
+.wrapper .button-wrapper:nth-child(3):hover .icon {
   background: #e1306c;
 }
 
-.wrapper .button:nth-child(4):hover .icon {
+.wrapper .button-wrapper:nth-child(4):hover .icon {
   background: #ff0000;
 }
 
-.wrapper .button .icon i {
+.wrapper .button-wrapper .icon i {
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
