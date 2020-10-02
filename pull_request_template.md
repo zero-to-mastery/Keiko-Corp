@@ -1,12 +1,18 @@
 # Pull Request Template
 
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
+> Providing the issue number/url helps us identify the problem being solved and keep the issues tab clean and tidy
 
-**Sumarise what this PR fixes:** < enter details >
+#### **Sumarise what this PR fixes**
 
-**Fixes #:** < Enter Issue ID/URL >
+<Detail what your PR changes/fixes>
 
-# Checklist:
+#### **What [ISSUE NUMBER](https://github.com/zero-to-mastery/Keiko-Corp/issues) does this fix?**
+
+Fixes #<enter number>
+
+#### Checklist:
+
 (Add an `x` between the brackets to check the items)
 
 - [ ] I have sumarised what this PR fixes above
