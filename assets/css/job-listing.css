@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  text-align: center;
+  background-image: url(../images/for-hire.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  max-width: 100vw;
+  height: 50vh;
+  clip-path: polygon(0% 0%, 100% 1%, 100% 49%, 0 99%, 0% 100%);
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-image h2 {
+  color: #fff;
+}
