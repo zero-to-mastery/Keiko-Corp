@@ -292,7 +292,7 @@ input:checked ~ .toggle-container {
 }
 .feature_content > a {
   text-decoration: none;
-  color: blue;
+  color: #0069d9;
 }
 
 .CTA:active {

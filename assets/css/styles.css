@@ -382,3 +382,7 @@ body {
 h2 {
   color: green;
 }
+
+.feature_one a {
+  color: #0069d9;
+}
