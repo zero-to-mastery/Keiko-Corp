@@ -10,3 +10,8 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@chetas411](https://github.com/chetas411)
 - [@leonarhv](https://github.com/leonarhv)
 - [@Guitarhub786](https://github.com/guitarhub786)
+- [@comebackid87](https://github.com/comebackid87)
+- [@aapetsi](https://github.com/aapetsi)
+- [@leonarhv](https://github.com/leonarhv) 
+- [@sherinechally](https://github.com/sherinechally)
+
