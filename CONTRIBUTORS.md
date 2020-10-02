@@ -13,12 +13,15 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Guitarhub786](https://github.com/guitarhub786)
 - [@comebackid87](https://github.com/comebackid87)
 - [@aapetsi](https://github.com/aapetsi)
-- [@leonarhv](https://github.com/leonarhv) -[@sherinechally](https://github.com/sherinechally)
+- [@leonarhv](https://github.com/leonarhv)
+- [@sherinechally](https://github.com/sherinechally)
 - [@Camilo318](https://github.com/Camilo318)
 - [@RedSquirrrel](https://github.com/RedSquirrrel)
 - [@leonarhv](https://github.com/leonarhv)
 - [@sherinechally](https://github.com/sherinechally)
+- [@armedev](https://github.com/armedev)
+- [@sridarshan-webjava](https://github.com/sridarshan-webjava)
 - [@mohitms007](https://github.com/mohitms007)
 - [@AnastasiaCortes](https://github.com/AnastasiaCortes)
-- [@sridarshan-webjava](https://github.com/sridarshan-webjava)
+
 
