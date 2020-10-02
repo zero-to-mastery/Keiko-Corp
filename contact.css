@@ -83,4 +83,13 @@ textarea {
   border-radius: 5px;
   color: #ffffff;
   background-color: rgb(59, 169, 233);
+<<<<<<< HEAD
 }
+=======
+}
+
+#button:hover{
+  color: rgb(59, 169, 233);
+  background-color:  #ffffff;
+}
+>>>>>>> ff6716e6286d0d506427410b3eb6d7377c62e302
