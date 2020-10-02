@@ -4,6 +4,7 @@ const body = document.getElementsByTagName('body')[0];
 const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
+const teamMemberName =document.querySelectorAll('.team-member h3')
 
 //dark mode
 function changeToDarkMode() {
@@ -12,6 +13,7 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
+  changeTeamMemberColor('#ffffff')
 }
 
 //light mode
@@ -21,6 +23,7 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
+  changeTeamMemberColor('#343a40')
 }
 
 //callback function to toggle between modes
@@ -47,4 +50,10 @@ if (currentTheme) {
     inputCheck.checked = true;
     changeToDarkMode();
   }
+}
+
+function changeTeamMemberColor(color){
+  Array.from(teamMemberName).forEach(item=>{
+    item.style.color = color;
+  })
 }
