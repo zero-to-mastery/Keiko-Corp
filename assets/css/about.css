@@ -3,7 +3,11 @@ body {
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -41,7 +45,7 @@ h1, h2, h3, h4, h5 {
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   text-decoration: none;
 }
 
