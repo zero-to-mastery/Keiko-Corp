@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+    <link rel="stylesheet" href="./assets/css/nav-styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -15,11 +16,18 @@
     <div id="container">
       <!--Header Starts here -->
       <header>
-        <h1>Contact Us</h1>
+        <h1>
+          Contact Us
+          <label class="toggle-bar" id="toggle-bar">
+            <input type="checkbox" />
+            <div class="toggle-container" id="toggle-container"></div>
+          </label>
+        </h1>
         <p>
           Far far away, behind the word mountains, far from the countries
           Vokalia and consonantia, there live the blind texts.
         </p>
+        
       </header>
       <!-- Header End's -->
       <main>
@@ -101,5 +109,6 @@
         </div>
       </main>
     </div>
+    <script src="./assets/js/dark-mode.js"></script>
   </body>
 </html>
