@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <!-- STYLES -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets//css/global.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/nav-styles.css" />
@@ -80,8 +81,40 @@
           blind text by the name of Lorem Ipsum decided to leave for the far
           world of Grammar.
         </p>
-        <button class="CTA">Call to Action</button>
+        <button class="CTA" data-toggle="modal" data-target="#form">Call to Action</button>
       </div>
+      <div class="modal" id="form">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="display-4">Contact Form</p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name" class="font-weight-bold">Name</label>
+                            <input class="form-control" type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="font-weight-bold">Email</label>
+                            <input class="form-control" type="text" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" class="font-weight-bold">Message</label>
+                            <textarea class="form-control" name="msg" id="msg" cols="30" rows="6"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
 
     <section class="companies-banner-container">
@@ -245,5 +278,8 @@
 
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/dark-mode.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
