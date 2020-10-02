@@ -6,18 +6,17 @@
 
 
 
+
 **Sumarise what this PR fixes:** When user switch from light to dark mode navigation was not changing accordingly. I
 have fixed that issue by adding some CSS.
 
-**Fixes #:** https://github.com/zero-to-mastery/Keiko-Corp/pull/162
-        #162
-
-#### **Sumarise what this PR fixes**
-
-<Detail what your PR changes/fixes>
+**Fixes #162
 
 
-#### **What [ISSUE NUMBER](https://github.com/zero-to-mastery/Keiko-Corp/issues) does this fix?**
+<Detail your PR changes/fixes>
+
+
+#### **What [162](https://github.com/zero-to-mastery/Keiko-Corp/pull/162) does this fix?**
 
 Fixes #<enter number>
 
@@ -28,8 +27,8 @@ Fixes #<enter number>
 
 
 
+
 - [ x ] I have sumarised what this PR fixes above
 - [ x ] I have provided the issue ID/URL above
 - [ x ] This PR fixes only the issue mentioned above (create seperate PRs for seperate issues)
-
-- [ ] I was the first one to claim the issue or I created the issue
+- [ x ] I was the first one to claim the issue or I created the issue
