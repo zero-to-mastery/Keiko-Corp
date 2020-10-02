@@ -13,8 +13,8 @@ h5 {
 
 .container {
   max-width: 100%;
-  margin: 0 auto;
   padding: 0 16px;
+  margin: 0 auto;
 }
 
 .intro {
@@ -29,8 +29,8 @@ h5 {
 }
 
 .intro h2 {
-  font-size: 72px;
-  margin: 32px 0;
+  font-size: 73px;
+  margin: 33px 0;
 }
 
 .intro-image {
@@ -41,7 +41,7 @@ h5 {
   display: inline-block;
   background-color: #fe6655;
   color: white;
-  padding: 16px;
+  padding: 17px;
   border-radius: 12px;
   text-transform: uppercase;
   cursor: pointer;
@@ -74,6 +74,6 @@ h5 {
   }
 
   .intro-image {
-    margin-left: 16px;
+    margin-left: 17px;
   }
 }
