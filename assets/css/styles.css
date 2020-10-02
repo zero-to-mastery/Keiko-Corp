@@ -88,6 +88,29 @@ padding-top: 80px;
   color: blue;
 }
 
+.content_1{
+  position: absolute;
+  right: 6%;
+}
+
+.content_2{
+  position: absolute;
+  left: 10%;
+}
+
+.content_3{
+  position: absolute;
+  right: 6%;
+  /* top: 300%; */
+}
+
+.feature_two{
+  left: 120%;
+}
+/* .feature_two{
+  position: absolute;
+  right: 0%;
+} */
 /* Meet the Team Styles */
 
 .meet-the-team {
