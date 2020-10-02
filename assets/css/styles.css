@@ -382,3 +382,11 @@ body {
 h2 {
   color: green;
 }
+
+/* Footer */
+
+footer p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 20px;
+}
