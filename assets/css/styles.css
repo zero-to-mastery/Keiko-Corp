@@ -18,6 +18,20 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+
+body {
+  min-height: 3000px;
+}
+
+.scroll-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #fe4d33;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -29,10 +43,32 @@ body {
   margin: 0 auto;
   background: white;
 }
+
 .container header {
   border: 1px solid black;
   width: 100%;
   padding: 25px;
+}
+
+.client-loves-us-banner {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.client-loves-us-container {
+  height: 200px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-loves-us-container h1 {
+  font-size: 40px;
 }
 
 /* Meet the Team Styles */
@@ -62,6 +98,10 @@ body {
   max-width: 250px;
 }
 
+.team-member h3 {
+  margin-top: 25px;
+}
+
 .team-member p {
   font-size: 0.85em;
   color: rgb(116, 115, 115);
@@ -69,7 +109,7 @@ body {
 
 .team-member img {
   border-radius: 50%;
-  box-shadow: 0 0 30px 15px white;
+  box-shadow: 0 0 15px 7px white;
 }
 
 .team-member img:hover {
@@ -163,6 +203,7 @@ body {
 .coming-soon {
   display: none;
 }
+
 .coming-soon img {
   height: 300px;
 }
@@ -205,9 +246,11 @@ ul {
   justify-content: center;
   margin-bottom: 2rem;
 }
+
 .hero_image {
   animation: fadeIn 1.2s ease;
 }
+
 .hero_content {
   color: #1d1c1c;
   text-align: left;
@@ -434,7 +477,70 @@ h2 {
   color: green;
 }
 
+/* Tesimonial Section */
+#testimonial {
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+}
 
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.testimonial__heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.testimonial__heading h2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.testimonial__card__row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.testimonial__card {
+  background-color: #fff;
+  color: #444;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card__header {
+  display: flex;
+  width: 250px;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.card__header__img {
+  border-radius: 10px;
+}
+
+.card__header__img img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+.card__body {
+  line-height: 2;
+}
 .copyright {
   display: flex;
   height: 18px;
@@ -444,8 +550,9 @@ h2 {
   background-color: #343a40;
   vertical-align: auto;
   margin: auto;
-
+}
 /*  Testimonial CSS*/
+
 #test-list {
   display: flex;
   flex-wrap: wrap;
@@ -455,10 +562,12 @@ h2 {
   width: 75%;
   max-width: 1200px;
 }
+
 #test-list section {
   margin-bottom: 50px;
   width: 264px;
 }
+
 #test-list section .top-box {
   background-color: #dfdbd5;
   width: 263px;
@@ -466,6 +575,7 @@ h2 {
   position: absolute;
   z-index: 1;
 }
+
 #test-list section img {
   background-color: gray;
   border-radius: 100%;
@@ -479,37 +589,43 @@ h2 {
   top: 15px;
   z-index: 5;
 }
+
 #test-list section .bottom-box {
   box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
   width: 263px;
   height: 238px;
   transform: translateY(-50px);
 }
+
 #test-list section .bottom-box blockquote {
   margin: 0 auto;
   padding: 0;
   width: 210px;
 }
+
 #test-list section .bottom-box blockquote p {
   font-style: italic;
   font-size: 16px;
   line-height: 21px;
   padding-top: 60px;
 }
+
 #test-list section .bottom-box .test-details {
   text-align: center;
 }
+
 #test-list section .bottom-box .test-details span {
   font-size: 18px;
   font-weight: 500;
 }
+
 .test-heading {
   font-size: 48px;
   text-align: center;
   margin: 16px 0;
 }
+
 .test-description {
   text-align: center;
   margin-bottom: 32px;
-
 }
