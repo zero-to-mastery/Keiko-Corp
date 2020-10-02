@@ -249,7 +249,7 @@ input:checked ~ .toggle-container {
   border-radius: 4px;
   word-spacing: 0.2rem;
   outline: none;
-  border: none;
+  border: #f94626 solid 2px;
   border-radius: 10px;
   font-weight: 600;
   font-size: 1.2rem;
