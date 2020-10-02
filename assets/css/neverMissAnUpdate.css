@@ -30,7 +30,7 @@
 
 .neverMissUpdateContainer h2 {
   font-size: 18px;
-  color: gray;
+  color: grey;
 }
 .neverMissUpdateContainer h3 {
   color: whitesmoke;
@@ -40,12 +40,16 @@
 }
 .neverMissUpdateContainer h1,
 h2,
+form,
 h5 {
   text-align: center;
   margin-top: 20px;
 
 }
-
-.neverMissUpdateContainer form{
-  display: inline;
+.neverMissUpdateContainer input{
+  width: 40%;
+  height: 2rem;
+  margin-right: 1.5rem;
 }
+
+
