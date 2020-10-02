@@ -507,6 +507,7 @@ em {
   justify-content: center;
   margin-bottom: 2rem;
 }
+
 .testimonial__heading h2 {
   margin: 0.5rem 0;
   font-weight: bold;
@@ -548,6 +549,7 @@ em {
 .card__body {
   line-height: 2;
 }
+
 .copyright {
   display: flex;
   height: 18px;
@@ -558,6 +560,7 @@ em {
   vertical-align: auto;
   margin: auto;
 }
+
 /*  Testimonial CSS*/
 
 #test-list {
