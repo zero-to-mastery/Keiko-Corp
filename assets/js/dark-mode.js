@@ -5,6 +5,8 @@ const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
 const contactBanner = document.querySelector('.contact-banner-container')
+const updateBanner = document.querySelector('.neverMissUpdate')
+const updateHeading = document.querySelector('.update-heading')
 
 //dark mode
 function changeToDarkMode() {
@@ -13,7 +15,9 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
-   contactBanner.style.background = '#132743';
+  contactBanner.style.background = '#132743';
+  updateBanner.style.backgroundColor = '#343a40'
+  updateHeading.style.color = "#fff"
 }
 
 //light mode
@@ -24,6 +28,8 @@ function changeToLightMode() {
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
   contactBanner.style.background = "#ebecf1"
+  updateBanner.style.backgroundColor = '#ebecf1'
+  updateHeading.style.color = "#1d1c1c"
 }
 
 //callback function to toggle between modes

@@ -4,14 +4,16 @@
   outline: 0;
   box-sizing: border-box;
 }
-.neverMissUpdate {
+.neverMissUpdate  {
 	width: 100vw;
 	height: auto;
 	display: flex;
 	justify-content: center;
-	background-color: #F4F7FE;
+	background-color: whitesmoke;
 }
-
+.neverMissUpdateContainer h1{
+	font-size: 40px;
+}
 .neverMissUpdateContainer {
 	height: 500px; 
 	width: 600px;
@@ -22,10 +24,21 @@
 }
 
 .neverMissUpdateContainer i {
-	font-size: 35px;
+	font-size: 65px;
+	color: green;
 }
 
+.neverMissUpdateContainer h2{
+	font-size: 18px;
+}
+.neverMissUpdateContainer h3{
+	color: whitesmoke;
+}
+.neverMissUpdateContainer h5{
+	color: rgb(145, 145, 145);
+}
 .neverMissUpdateContainer h1, h2, form, h5{
 	text-align: center;
 	margin-top: 20px;
+	
 }
