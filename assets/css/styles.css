@@ -411,64 +411,63 @@ h2 {
   color: green;
 }
 
-
 /*  Testimonial CSS*/
 #test-list {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-margin: 1.5rem auto;
-width: 75%;
-max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 75%;
+  max-width: 1200px;
 }
 #test-list section {
-margin-bottom: 50px;
-width: 264px;
+  margin-bottom: 50px;
+  width: 264px;
 }
 #test-list section .top-box {
-background-color: #DFDBD5;
-width: 263px;
-height: 103px;
-position: absolute;
-z-index: 1;
+  background-color: #dfdbd5;
+  width: 263px;
+  height: 103px;
+  position: absolute;
+  z-index: 1;
 }
 #test-list section img {
-background-color: gray;
-border-radius: 100%;
-border: 3px soild #D4D4D4;
-width: 133px;
-height: 133px;
-object-fit: cover;
-position: relative;
-display: block;
-margin: auto;
-top: 15px;
-z-index: 5;
+  background-color: gray;
+  border-radius: 100%;
+  border: 3px soild #d4d4d4;
+  width: 133px;
+  height: 133px;
+  object-fit: cover;
+  position: relative;
+  display: block;
+  margin: auto;
+  top: 15px;
+  z-index: 5;
 }
 #test-list section .bottom-box {
-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
-width: 263px;
-height: 238px;
-transform: translateY(-50px);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 263px;
+  height: 238px;
+  transform: translateY(-50px);
 }
 #test-list section .bottom-box blockquote {
-margin: 0 auto;
-padding: 0;
-width: 210px;
+  margin: 0 auto;
+  padding: 0;
+  width: 210px;
 }
 #test-list section .bottom-box blockquote p {
-font-style: italic;
-font-size: 16px;
-line-height: 21px;
-padding-top: 60px;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+  padding-top: 60px;
 }
 #test-list section .bottom-box .test-details {
-text-align: center;
+  text-align: center;
 }
 #test-list section .bottom-box .test-details span {
-font-size: 18px;
-font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 .test-heading {
   font-size: 48px;
