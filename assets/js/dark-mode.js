@@ -1,9 +1,9 @@
-const toggleContainer = document.getElementById('toggle-container');
-const inputCheck = document.querySelector("input[type='checkbox']");
-const body = document.getElementsByTagName('body')[0];
-const content = document.getElementsByClassName('hero_content')[0];
+const toggleContainer = document.querySelector('#toggle-container');
+const inputCheck = document.querySelector('input[type="checkbox"]');
+const body = document.querySelector('body');
+const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
-const toggleBar = document.getElementById('toggle-bar');
+const toggleBar = document.querySelector('#toggle-bar');
 const contactBanner = document.querySelector('.contact-banner-container');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
