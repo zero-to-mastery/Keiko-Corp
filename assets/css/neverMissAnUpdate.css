@@ -25,22 +25,27 @@
 
 .neverMissUpdateContainer i {
   font-size: 65px;
-  color: green;
+  color: blue;
 }
 
 .neverMissUpdateContainer h2 {
   font-size: 18px;
+  color: gray;
 }
 .neverMissUpdateContainer h3 {
   color: whitesmoke;
 }
 .neverMissUpdateContainer h5 {
-  color: rgb(145, 145, 145);
+  color: black;
 }
 .neverMissUpdateContainer h1,
 h2,
-form,
 h5 {
   text-align: center;
   margin-top: 20px;
+
+}
+
+.neverMissUpdateContainer form{
+  display: inline;
 }
