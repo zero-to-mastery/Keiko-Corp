@@ -5,12 +5,15 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Assistant', sans-serif;
 }
-
+.no-user-select{
+position: fixed;
+    width: 100%;
+    margin-bottom: 50px;
+}
 .container-nav {
   width: 100%;
-  max-width: 1000px;
   margin: auto;
 }
 
@@ -59,6 +62,12 @@
   color: #000000;
 }
 
+.navbar ul.menu li a {
+  text-decoration: none;
+  color: #333333;
+  font-family: assistant;
+  font-size: 16px;
+}
 .navbar button {
   background: #fff;
   color: #2c86fc;

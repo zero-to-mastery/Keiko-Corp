@@ -28,6 +28,7 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -49,26 +50,43 @@
                 alt="Keiko Corp"
               />
             </li>
-            <li class="active">Home</li>
-            <li>Features</li>
-            <li>Testimonial</li>
-            <li>Team</li>
+            <li  class="active">
+              <a href="#home">
+                Home
+               </a>     
+            </li>
             <li>
-              <a href="./contact.html"
+              <a href="#feature">
+                feature
+               </a>     
+            </li>
+            <li>
+              <a href="#testimonial">
+                Testimonial
+               </a>     
+            </li>
+            <li id="#team">
+              <a href="#team">
+                Team
+               </a>     
+            </li>
+            <li>
+              <a href="#contact"
                 ><button id="contact-btn">Contact</button></a
               >
             </li>
+            <label class="toggle-bar dark" id="toggle-bar">
+              <input type="checkbox" />
+              <div class="toggle-container" id="toggle-container"></div>
+            </label>
+  
           </ul>
-          <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" />
-            <div class="toggle-container" id="toggle-container"></div>
-          </label>
         </nav>
       </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero">
+    <section id='home' class="hero">
       <div class="hero_image">
         <img src="./assets/images/undraw_hero.svg" class="hero_image" alt="" />
       </div>
@@ -96,7 +114,7 @@
 
 
     <!-- feature one -->
-    <section class="feature">
+    <section id='feature' class="feature">
       <div class="feature_one">
         <img src="./assets/images/feature_one.svg" alt="feature_one" />
       </div>
@@ -126,7 +144,7 @@
     </div>
     
     <!-- Meet the Team -->
-    <div class="meet-the-team">
+    <div id='team' class="meet-the-team">
       <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member">
@@ -153,7 +171,7 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="contact-container">
+    <div id='contact' class="contact-container">
       <div class="contact-banner-container">
         <div class="banner-section">
           <h2>Contact Us</h2>
