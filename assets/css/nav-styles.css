@@ -249,6 +249,35 @@ input:checked ~ .toggle-container {
   border-radius: 10px;
   border: #f94626 solid 2px;
 }
+.feature {
+  display: flex;
+  padding: 2em;
+  align-items: center;
+  margin: 0em 14em 0em 14em;
+}
+.feature_one > img {
+  height: 250px;
+}
+.feature_content {
+  margin-left: 5em;
+}
+.feature_content > h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.feature_content > p {
+  color: rgb(90, 90, 90);
+  font-size: 1em;
+  word-spacing: 0.3em;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.feature_content > a {
+  text-decoration: none;
+  color: blue;
+}
 
 .CTA:active {
   transform: translateY(4px);
