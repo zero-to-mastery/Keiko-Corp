@@ -4,6 +4,21 @@
   -ms-user-select: none;
   user-select: none;
 }
+
+body {
+  min-height: 3000px;
+}
+
+/* ------------------------------- SCROLL LINE ------------------------------ */
+.scroll-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #fe4d33;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -15,6 +30,7 @@
   margin: 0 auto;
   background: white;
 }
+
 .container header {
   border: 1px solid black;
   width: 100%;
@@ -147,6 +163,7 @@
 .coming-soon {
   display: none;
 }
+
 .coming-soon img {
   height: 300px;
 }
@@ -183,9 +200,11 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
 .hero_image {
   animation: fadeIn 1.2s ease;
 }
+
 .hero_content {
   color: #474343;
   text-align: left;
