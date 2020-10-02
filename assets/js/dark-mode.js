@@ -19,6 +19,7 @@ function changeToDarkMode() {
   contactBanner.style.background = '#132743';
   updateBanner.style.backgroundColor = '#343a40';
   updateHeading.style.color = '#fff';
+  textExcept.style.color = "#000";
 }
 
 //light mode
