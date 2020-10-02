@@ -11,6 +11,19 @@
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/keiko-icon.ico" />
     <title>Keiko Corp</title>
+    <!-- Open graph -->
+    <meta
+      property="og:image"
+      content="https://keiko-corp.netlify.app/assets/images/keiko-logo-og.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:title" content="The best tech startup" />
+    <meta
+      property="og:description"
+      content="The fastest growing tech start up in Silicon Valley."
+    />
+    <meta property="og:url" content="https://keiko-corp.netlify.app/" />
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
@@ -26,6 +39,7 @@
 
     <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
 
+    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -50,10 +64,10 @@
                 alt="Keiko Corp"
               />
             </li>
-            <li class="active">Home</li>
-            <li>Features</li>
-            <li>Testimonial</li>
-            <li>Team</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#team">Team</a></li>
             <li>
               <a href="./contact.html"
                 ><button id="contact-btn">Contact</button></a
@@ -94,10 +108,8 @@
       <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
     </section>
 
-
-
     <!-- feature one -->
-    <section class="feature">
+    <section class="feature" id="feature">
       <div class="feature_one">
         <img src="./assets/images/feature_one.svg" alt="feature_one" />
       </div>
@@ -116,18 +128,94 @@
     <div class="neverMissUpdate">
       <div class="neverMissUpdateContainer">
         <i class="fas fa-layer-group"></i>
+
+        <h1>Never miss an update</h1>
+
         <h1 class="update-heading">Never miss an update</h1>
-        <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</h2>
+
+        <h2>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        </h2>
         <form action="">
-          <input type="email">
-          <input type="submit">
+          <input type="email" />
+          <input type="submit" />
         </form>
-        <h5>*Your email address is safe with us. We never share your email address.</h5>
+        <h5>
+          *Your email address is safe with us. We never share your email
+          address.
+        </h5>
       </div>
     </div>
-    
+
+    <section>
+      <h1 class="test-heading">Testimonials</h1>
+      <p class="test-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna
+      </p>
+      <div id="test-list">
+        <section>
+          <div class="top-box"></div>
+          <img
+            src="https://images.pexels.com/photos/1056475/pexels-photo-1056475.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Picture of Vivian Williams"
+          />
+          <div class="bottom-box">
+            <blockquote>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+            </blockquote>
+            <div class="test-details">
+              <p><span>Vivian Williams</span><br />Los Angeles, CA</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="top-box"></div>
+          <img
+            src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Picture of Josie Anderson"
+          />
+          <div class="bottom-box">
+            <blockquote>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+            </blockquote>
+            <div class="test-details">
+              <p><span>Josie Anderson</span><br />Raleigh, NC</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="top-box"></div>
+          <img
+            src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="Picture of Jenny Smith"
+          />
+          <div class="bottom-box">
+            <blockquote>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna
+              </p>
+            </blockquote>
+            <div class="test-details">
+              <p><span>Jenny Smith</span><br />Boise, ID</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
     <!-- Meet the Team -->
-    <div class="meet-the-team">
+    <div class="meet-the-team" id="team">
       <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member">
@@ -223,26 +311,75 @@
     </div>
 
     <!-- Footer -->
-    <div class="wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <span>Facebook</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-twitter"></i></div>
-        <span>Twitter</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-instagram"></i></div>
-        <span>Instagram</span>
-      </div>
 
-      <div class="button">
-        <div class="icon"><i class="fab fa-youtube"></i></div>
-        <span>YouTube</span>
+    <footer>
+      <div class="wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span>Facebook</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span>Twitter</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
+
+        <div class="button">
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+          <span>YouTube</span>
+        </div>
       </div>
-    </div>
-    <footer>Footer</footer>
+    </footer>
+
+    <ul class="wrapper">
+      <!--Using anchor tag for these button seems to be a better idea-->
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span class="icon-text">Facebook</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span class="icon-text">Twitter</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
+      </li>
+
+      <li class="button-wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+          <span class="icon-text">YouTube</span>
+        </div>
+      </li>
+    </ul>
+
+    <footer>
+      <br /><br /><br /><br />
+      <section class="companies-banner-container">
+        <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/intel.svg" />
+        <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/samsung.svg" />
+        <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
+      </section>
+      <div class="copyright">
+        <p>&copy; 2020, Keiko-Corp. All rights reserved.</p>
+      </div>
+    </footer>
 
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/dark-mode.js"></script>

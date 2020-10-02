@@ -16,8 +16,8 @@ function changeToDarkMode() {
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
   contactBanner.style.background = '#132743';
-  updateBanner.style.backgroundColor = '#343a40'
-  updateHeading.style.color = "#fff"
+  updateBanner.style.backgroundColor = '#343a40';
+  updateHeading.style.color = '#fff';
 }
 
 //light mode
@@ -27,9 +27,9 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contactBanner.style.background = "#ebecf1"
-  updateBanner.style.backgroundColor = '#ebecf1'
-  updateHeading.style.color = "#1d1c1c"
+  contactBanner.style.background = '#ebecf1';
+  updateBanner.style.backgroundColor = '#ebecf1';
+  updateHeading.style.color = '#1d1c1c';
 }
 
 //callback function to toggle between modes
