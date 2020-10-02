@@ -1,0 +1,41 @@
+body{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+h1{
+  font-family: 'Secular One', sans-serif;
+  text-transform: uppercase;
+}
+
+p{
+  line-height: 2;
+  color: black;
+  font-size: 20px;
+}
+
+.feature3{
+  margin: 100px 100px;
+  text-align: left;
+  width: 80%;
+}
+
+.img{
+  margin-right: 70px;
+  width: 40%;
+  float: left;
+}
+
+.img:hover{
+  transform: scale(1.1);
+}
+
+.space{
+margin-bottom: 40px;
+}
+
+.learnmore {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
