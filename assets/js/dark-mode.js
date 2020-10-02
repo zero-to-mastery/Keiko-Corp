@@ -5,7 +5,6 @@ const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
 const navbarItems = document.querySelectorAll('.navbar ul.menu li');
-const activeNavbarLink = document.querySelector('.navbar ul.menu li.active');
 
 //dark mode
 function changeToDarkMode() {
