@@ -296,12 +296,21 @@ body {
   /*place-items: center;*/
 }
 
-.wrapper .button {
+.footer {
+  background: #343a40;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .button {
   display: inline-block;
   height: 60px;
   width: 60px;
   float: left;
-  margin: 0 5px;
+  margin: 0 20px;
   overflow: hidden;
   background: #fff;
   border-radius: 50px;
@@ -310,11 +319,11 @@ body {
   transition: all 0.3s ease-out;
 }
 
-.wrapper .button:hover {
+.footer .button:hover {
   width: 200px;
 }
 
-.wrapper .button .icon {
+.footer .button .icon {
   display: inline-block;
   height: 60px;
   width: 60px;
@@ -325,37 +334,36 @@ body {
   transition: all 0.3s ease-out;
 }
 
-.wrapper {
-  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-}
 
-.wrapper .button:nth-child(1):hover .icon {
+
+.footer .button:nth-child(1):hover .icon {
   background: #4267b2;
 }
 
-.wrapper .button:nth-child(2):hover .icon {
+.footer .button:nth-child(2):hover .icon {
   background: #1da1f2;
 }
 
-.wrapper .button:nth-child(3):hover .icon {
+.footer .button:nth-child(3):hover .icon {
   background: #e1306c;
 }
 
-.wrapper .button:nth-child(4):hover .icon {
+.footer .button:nth-child(4):hover .icon {
   background: #ff0000;
 }
 
-.wrapper .button .icon i {
+.footer .button .icon i {
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
+  color: #343a40;
 }
 
-.wrapper .button:hover .icon i {
+.footer .button:hover .icon i {
   color: #fff;
 }
 
-.wrapper .button span {
+.footer .button span {
   font-size: 20px;
   font-weight: 500;
   line-height: 60px;
@@ -363,22 +371,25 @@ body {
   transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1) span {
+.footer .button:nth-child(1) span {
   color: #4267b2;
 }
 
-.wrapper .button:nth-child(2) span {
+.footer .button:nth-child(2) span {
   color: #1da1f2;
 }
 
-.wrapper .button:nth-child(3) span {
+.footer .button:nth-child(3) span {
   color: #e1306c;
 }
 
-.wrapper .button:nth-child(4) span {
+.footer .button:nth-child(4) span {
   color: #ff0000;
 }
 
 h2 {
   color: green;
 }
+
+
+
