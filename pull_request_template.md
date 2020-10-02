@@ -3,7 +3,7 @@
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
 > Providing the issue number/url helps us identify the problem being solved and keep the issues tab clean and tidy
 
-#### **Sumarise what this PR fixes**
+#### **Summarise what this PR fixes**
 
 <Detail your PR changes/fixes>
 
