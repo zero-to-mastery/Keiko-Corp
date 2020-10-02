@@ -16,16 +16,37 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <!-- STYLES -->
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/nav-styles.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
-
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/companies-banner.css" />
 
     <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
-
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -94,8 +115,6 @@
       <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
     </section>
 
-
-
     <!-- feature one -->
     <section class="feature">
       <div class="feature_one">
@@ -117,15 +136,21 @@
       <div class="neverMissUpdateContainer">
         <i class="fas fa-layer-group"></i>
         <h1 class="update-heading">Never miss an update</h1>
-        <h2>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</h2>
+        <h2>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts
+        </h2>
         <form action="">
-          <input type="email">
-          <input type="submit">
+          <input type="email" />
+          <input type="submit" />
         </form>
-        <h5>*Your email address is safe with us. We never share your email address.</h5>
+        <h5>
+          *Your email address is safe with us. We never share your email
+          address.
+        </h5>
       </div>
     </div>
-    
+
     <!-- Meet the Team -->
     <div class="meet-the-team">
       <h2>Meet Our Team</h2>
@@ -166,30 +191,45 @@
       </div>
       <div class="contact-section-container">
         <div class="subsection-1">
-          <h1>Call or email</h1>
-          <p>
-            Support, Sales, and Accountant Management services are currently
-            available in English
-          </p>
-          <h2>Support</h2>
-          <p>+800 3005 4300</p>
-          <p>Contact Support</p>
-          <p>
-            Our technical support is available by phone or email from 11 am to
-            11 pm BST, Monday through Friday.
-          </p>
-          <h2>Sales</h2>
-          <p>+800 3005 4300</p>
-          <p>Contact Support</p>
-          <p>
-            Our technical support is available by phone or email from 11 am to
-            11 pm BST, Monday through Friday.
-          </p>
-          <h2>General Inquiries</h2>
-          <p>hello@website.com</p>
+          <div class="contact-btn">
+            <h2 type="button" class="btn btn-success">Call or email</h2>
+            <h2 type="button" class="btn btn-success">Support</h2>
+            <h2 type="button" class="btn btn-success">Sales</h2>
+            <h2 type="button" class="btn btn-success">General Inquiries</h2>
+          </div>
+          <div class="msg">
+            <div class="visibility call">
+              <p>
+                Support, Sales, and Accountant Management services are currently
+                available in English
+              </p>
+            </div>
+
+            <div class="visibility support">
+              <p>+800 3005 4300</p>
+              <p>Contact Support</p>
+              <p>
+                Our technical support is available by phone or email from 11 am
+                to 11 pm BST, Monday through Friday.
+              </p>
+            </div>
+
+            <div class="visibility sales">
+              <p>+800 3005 4300</p>
+              <p>Sales and Support</p>
+              <p>
+                Our technical support is available by phone or email from 11 am
+                to 11 pm BST, Monday through Friday.
+              </p>
+            </div>
+
+            <div class="visibility inquiries">
+              <p>hello@website.com</p>
+            </div>
+          </div>
         </div>
         <div class="subsection-2">
-          <h1>Drop us a line</h1>
+          <h2>Drop us a line</h2>
           <div class="name-input-container">
             <input placeholder="First name" type="text" class="first-name" />
             <input placeholder="Last name" class="last-name" />
@@ -223,28 +263,31 @@
     </div>
 
     <!-- Footer -->
-    <div class="wrapper">
-      <div class="button">
-        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-        <span>Facebook</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-twitter"></i></div>
-        <span>Twitter</span>
-      </div>
-      <div class="button">
-        <div class="icon"><i class="fab fa-instagram"></i></div>
-        <span>Instagram</span>
-      </div>
+    <footer>
+      <div class="wrapper">
+        <div class="icon-btn button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span>Facebook</span>
+        </div>
+        <div class="icon-btn button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span>Twitter</span>
+        </div>
+        <div class="icon-btn button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
 
-      <div class="button">
-        <div class="icon"><i class="fab fa-youtube"></i></div>
-        <span>YouTube</span>
+        <div class="icon-btn button">
+          <div class="icon"><i class="fab fa-youtube"></i></div>
+          <span>YouTube</span>
+        </div>
       </div>
-    </div>
-    <footer>Footer</footer>
+    </footer>
 
+    <script src="./assets/js/contact-info.js"></script>
     <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/dark-mode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>

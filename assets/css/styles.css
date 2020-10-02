@@ -24,7 +24,7 @@
 /* Meet the Team Styles */
 
 .meet-the-team {
-  margin-top: 20px;
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .contact-container {
-  height: 200vh;
+  height: auto;
 }
 
 .contact-banner-container {
@@ -98,6 +98,7 @@
 
 .subsection-1 {
   width: 45%;
+  height: auto;
 }
 
 .subsection-1 h2 {
@@ -107,6 +108,10 @@
 .subsection-2 {
   display: flex;
   flex-direction: column;
+}
+
+.h2.subsection-2 {
+  line-height: 2;
 }
 
 .name-input-container {
@@ -301,7 +306,7 @@ body {
   display: inline-block;
   height: 60px;
   width: 60px;
-  margin: 0 5px;
+  margin: 0 5%;
   overflow: hidden;
   background: #fff;
   border-radius: 50px;

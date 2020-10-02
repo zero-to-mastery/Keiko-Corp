@@ -87,7 +87,26 @@ textarea {
   background-color: rgb(59, 169, 233);
 }
 
-#button:hover{
+#button:hover {
   color: rgb(59, 169, 233);
-  background-color:  #ffffff;
+  background-color: #ffffff;
 }
+
+.btn {
+  margin: 2%;
+}
+.visibility {
+  display: none;
+  /*for js animation */
+}
+
+.contact-btn {
+  text-align: center;
+}
+
+.msg {
+  text-align: center;
+  height: 10rem;
+}
+
+
