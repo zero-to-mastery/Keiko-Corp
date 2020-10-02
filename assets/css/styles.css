@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(to right, #24fe41, #fdfc47);
+  background: linear-gradient(to right, #24fe41, #fdfc47);
+}
+=======
+>>>>>>> e696ac2fa6b1180ae0c50aca0f5fc95e879caaf2
 .no-user-select {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -192,8 +206,13 @@
 /* General Styles */
 
 ul {
+<<<<<<< HEAD
+  /* display: flex;
+  width: 100vw; */
+=======
   display: flex;
   width: 100vw;
+>>>>>>> e696ac2fa6b1180ae0c50aca0f5fc95e879caaf2
   background: transparent;
 }
 
