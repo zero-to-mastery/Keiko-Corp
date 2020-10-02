@@ -77,12 +77,12 @@
 .banner-section {
   /* margin: auto; */
   width: 55%;
-  text-align: center;
 }
 
 .banner-section h2 {
   font-size: 3em;
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .banner-sub-text {
