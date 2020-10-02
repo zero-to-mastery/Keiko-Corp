@@ -4,6 +4,8 @@ const body = document.getElementsByTagName('body')[0];
 const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
+const navbarItems = document.querySelectorAll('.navbar ul.menu li');
+const activeNavbarLink = document.querySelector('.navbar ul.menu li.active');
 
 //dark mode
 function changeToDarkMode() {
@@ -12,6 +14,7 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
+  navbarItems.forEach(item => item.classList.add('dark-list-item'));
 }
 
 //light mode
@@ -21,6 +24,7 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
+  navbarItems.forEach(item => item.classList.remove('dark-list-item'));
 }
 
 //callback function to toggle between modes
