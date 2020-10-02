@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.navbar #contact-btn {
+  cursor: pointer;
+}
+
 .navbar .logo {
   width: 60px;
 }
