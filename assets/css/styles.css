@@ -415,6 +415,17 @@ h2 {
   color: green;
 }
 
+
+.copyright {
+  display: flex;
+  height: 18px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  vertical-align: auto;
+  margin: auto;
+
 /*  Testimonial CSS*/
 #test-list {
   display: flex;
@@ -481,4 +492,5 @@ h2 {
 .test-description {
   text-align: center;
   margin-bottom: 32px;
+
 }
