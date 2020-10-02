@@ -208,7 +208,7 @@ ul {
   line-height: 56px;
   margin-bottom: 2rem;
   color: #444;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 .hero_content > p {
@@ -223,7 +223,7 @@ ul {
 .CTA {
   font-family: 'Roboto', sans-serif;
   background-color: #fe6655;
-  padding: .8rem;
+  padding: 0.8rem;
   color: white;
   border-radius: 5px;
   word-spacing: 0.2rem;
@@ -235,7 +235,7 @@ ul {
   border: transparent solid 2px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .CTA:hover {

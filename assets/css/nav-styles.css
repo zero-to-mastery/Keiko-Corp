@@ -205,8 +205,6 @@ input:checked ~ .toggle-container {
   font-size: 25px;
 }
 
-
-
 .feature {
   display: flex;
   padding: 2em;
