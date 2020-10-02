@@ -43,3 +43,8 @@ h6 {
 body {
   color: var(--text);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
