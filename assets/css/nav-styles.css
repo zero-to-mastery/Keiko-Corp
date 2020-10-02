@@ -95,6 +95,7 @@
   background: #ebecf1;
   border-radius: 50px;
   position: relative;
+  cursor: pointer;
 }
 
 input {
