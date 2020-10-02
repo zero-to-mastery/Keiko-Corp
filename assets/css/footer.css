@@ -1,0 +1,36 @@
+footer > .footer-row {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.footer-column {
+  padding: 10px;
+  box-sizing: border-box;
+  flex: 1 0;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.footer-column .sub-footer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: left;
+}
+
+.footer-column .sub-footer > ul.sub-footer-link li {
+  list-style: none;
+  padding-right: 15px;
+}
+
+.sub-footer > ul.sub-footer-link li a {
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}

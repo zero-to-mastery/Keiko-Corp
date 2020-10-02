@@ -6,9 +6,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);
-  background: linear-gradient(to right, #24FE41, #FDFC47); 
-
+  background: -webkit-linear-gradient(to right, #24fe41, #fdfc47);
+  background: linear-gradient(to right, #24fe41, #fdfc47);
 }
 .no-user-select {
   -webkit-user-select: none;
@@ -164,9 +163,9 @@ body {
 
 /* General Styles */
 
-ul{
-  display: flex;
-  width: 100vw;
+ul {
+  /* display: flex;
+  width: 100vw; */
   background: transparent;
 }
 
@@ -248,7 +247,7 @@ ul{
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateX(-50px)
+    transform: translateX(-50px);
   }
 
   to {
@@ -390,8 +389,6 @@ body {
   color: #ff0000;
 }
 
-
 h2 {
   color: green;
 }
-
