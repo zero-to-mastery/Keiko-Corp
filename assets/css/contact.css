@@ -10,6 +10,13 @@ body {
 
 #container {
   margin: 2rem 6rem;
+  background-color: white;
+}
+#header-container{
+  height: 9rem;
+  margin: 1rem 6rem;
+  padding: .3rem 3rem;
+  background-color: white;
 }
 
 p {
@@ -22,6 +29,7 @@ a {
 }
 
 header {
+  height: 12rem;
   margin-bottom: 6rem;
   padding: 1rem;
   background-image: linear-gradient(
