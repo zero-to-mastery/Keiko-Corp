@@ -7,6 +7,7 @@
 **Fixes #:** < Enter Issue ID/URL >
 
 # Checklist:
+
 (Add an `x` between the brackets to check the items)
 
 - [ ] I have sumarised what this PR fixes above

@@ -2,7 +2,7 @@
 
 # Keikocorp.com - Hackoberfest 2020
 
-Welcome to this years HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
+Welcome to this years HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start-up of all time; Keiko Corp.
 
 Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:-
 
@@ -15,7 +15,7 @@ Everyone is encouraged to participate, regardless of your skill level. This is a
 
 ## Project Brief
 
-Incredibly, Bruno the CEO of Keiko Corp has built the fastest growing tech start up in Silicon Valley, without ever having launched a website. Bruno's marketing team are insisting they need a website in order to gain the confidence of the potential clients to reach this quarters sales targets.
+Incredibly, Bruno the CEO of Keiko Corp has built the fastest-growing tech start up in Silicon Valley, without ever having launched a website. Bruno's marketing team are insisting they need a website in order to gain the confidence of the potential clients to reach this quarters sales targets.
 
 Bruno has put together a quick [Froala mockup](/design-assets/design-mockup.png) to demonstrate the layout and simplistic design they are looking for. Although Bruno did request the website be as immaculate and as impressive as his hair, the design is totally open to interpretation and modification during the first iteration of development.
 
@@ -35,7 +35,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
    - The above 2 commands will synchronize your forked version of the project with the actual repository.
 
 4. Find a task [here](https://github.com/zero-to-mastery/Keiko-Corp/issues) or [create a task](https://github.com/zero-to-mastery/Keiko-Corp/issues)
-   - Comment on the task to claim it, ensuring no body has done so already.
+   - Comment on the task to claim it, ensuring no-body has done so already.
    - If you created a new task or issue, ensure you specify if you are undertaking the task or if someone else is able to claim it.
    - Keep the issue updated with your progress, inactive issues will be reassigned.
 5. Create a branch for your task and complete the task.
@@ -43,7 +43,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
    - `git pull upstream master`
 7. Commit and push the code to your fork.
 8. Create a pull request to have the changes merged into the origin.
-   - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of you issue will automatically close the issue when the pull request is merged.
+   - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of your issue will automatically close the issue when the pull request is merged.
 9. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/1KI1u)
 
 > Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat steps 4-8 until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!!!
