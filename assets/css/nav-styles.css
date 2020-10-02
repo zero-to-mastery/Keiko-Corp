@@ -18,16 +18,20 @@
 [data-theme='dark'] .navbar {
   background: #132743;
 }
+
 [data-theme='dark'] .navbar ul.menu li {
   color: #ddd;
 }
+
 [data-theme='dark'] .navbar ul.menu li:hover {
   color: #fff;
 }
+
 [data-theme='dark'] .navbar ul.menu li.active {
   color: #fff;
   font-weight: 500;
 }
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -57,6 +61,7 @@
 .navbar ul.menu li {
   cursor: pointer;
   line-height: 80px;
+
   font-size: 1em;
   color: #423f3f;
   transition: all ease-in 0.1s;
@@ -66,7 +71,7 @@
   color: #000000;
 }
 
-.navbar ul.menu li + li {
+.navbar ul.menu li+li {
   margin-left: 20px;
 }
 
@@ -78,6 +83,7 @@
   background: transparent;
   color: #2c86fc;
   font-size: 1em;
+  margin-left: 12rem;
   border: 2px solid#2c86fc;
   padding: 5px 20px;
   border-radius: 5px;
@@ -127,7 +133,7 @@ input {
   transition: transform 0.5s;
 }
 
-input:checked ~ .toggle-container {
+input:checked~.toggle-container {
   transform: translateX(32px);
 }
 
@@ -161,7 +167,7 @@ input:checked ~ .toggle-container {
     height: 400px;
   }
 
-  .navbar ul.menu li + li {
+  .navbar ul.menu li+li {
     margin-left: 0px;
   }
 }
@@ -171,6 +177,7 @@ input:checked ~ .toggle-container {
     display: none;
     visibility: hidden;
   }
+
   .navbar {
     background-color: white;
     padding: 0 40px;
@@ -183,6 +190,7 @@ input:checked ~ .toggle-container {
   .navbar ul {
     justify-content: stretch;
   }
+
   .navbar ul.menu li:hover {
     transform: translateY(-3%);
   }
@@ -239,13 +247,13 @@ input:checked ~ .toggle-container {
     margin-left: 0;
   }
 
-  .hero_content > h2 {
+  .hero_content>h2 {
     font-weight: 700;
     font-size: 2.2rem;
     text-transform: uppercase;
   }
 
-  .hero_content > p {
+  .hero_content>p {
     color: rgb(90, 90, 90);
     font-size: 1.1em;
     line-height: 1.3;
