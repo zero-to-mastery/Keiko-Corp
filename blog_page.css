@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+
 }
 
 .container {
@@ -12,7 +14,7 @@
 
 body {
   font-family: 'Roboto';
-}
+}  
 
 main {
   margin: 2em 0;
