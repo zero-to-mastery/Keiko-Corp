@@ -37,7 +37,8 @@ main {
 }
 
 .job-posts h2, h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .job-posts span img {
@@ -51,24 +52,15 @@ main {
 table {
   border-collapse: collapse;
   color: #000;
-  width: auto;
+  width: 100%;
+  margin-top: 15px;
 }
 
 th {
   background-color: rgba(255, 111, 97, 0.7);
   font-size: 1.5rem;
 }
-table, th, td {
-  border: 1px solid black;
-  padding: 8px;
-}
 
-td, th {
-  width: 10%;
-}
 
-td ul li{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
+
