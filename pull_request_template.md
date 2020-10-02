@@ -3,13 +3,13 @@
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
 > Providing the issue number/url helps us identify the problem being solved and keep the issues tab clean and tidy
 
-## **Sumarise what this PR fixes**
+#### **Sumarise what this PR fixes**
 <Detail what your PR changes/fixes>
 
-## **What [ISSUE NUMBER]() does this fix?**
+#### **What [ISSUE NUMBER]() does this fix?**
 Fixes #<enter number>
 
-## Checklist:
+#### Checklist:
 
 (Add an `x` between the brackets to check the items)
 
