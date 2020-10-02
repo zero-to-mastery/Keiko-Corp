@@ -101,7 +101,7 @@
 }
 .feature {
   display: flex;
-  padding: 2em;
+  padding: 6.5em;
   align-items: center;
   margin: 0em 14em 0em 14em;
 }
@@ -115,6 +115,7 @@
   font-weight: 700;
   font-size: 2rem;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .feature_content > p {
@@ -123,6 +124,7 @@
   word-spacing: 0.3em;
   line-height: 1.4;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 .feature_content > a {
   text-decoration: none;
