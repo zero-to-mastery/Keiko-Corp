@@ -8,6 +8,10 @@
       href="assets/images/keiko-logo.png"
       type="image/png"
     />
+
+    <!---Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <!-- Favicon -->
     <link rel="icon" href="./assets/images/keiko-icon.ico" />
     <title>Keiko Corp</title>
@@ -47,6 +51,7 @@
 
   <body>
 
+
   <!-- HEADER -->
   <header class="no-user-select">
     <div class="container-nav">
@@ -83,7 +88,7 @@
       <img src="./assets/images/undraw_hero.svg" class="hero_image" alt="" />
     </div>
     <div class="hero_content">
-      <h2 class="update-heading">The Best Tech StartUp</h2>
+      <h2>The Best Tech StartUp</h2>
       <p>
         Even the all-powerful Pointing has no control about the blind texts.It
         is an almost unorthographic life.One day however, a small line of
@@ -94,6 +99,9 @@
     </div>
   </section>
 
+
+
+
   <section class="companies-banner-container">
     <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
     <img class="company-logo" src="assets/images/logos/intel.svg" />
@@ -103,26 +111,62 @@
     <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
   </section>
 
+
   <!-- feature one -->
-  <section class="feature">
-    <div class="feature_one">
-      <img src="./assets/images/feature_one.svg" alt="feature_one" />
+  <section  id="feature">
+    <div class="features-heading">
+         <h1 >OUR CLIENT LOVE US BECAUSE</h1>
     </div>
-    <div class="feature_content">
-      <h4 class="update-heading">Feature One</h4>
-      <p>
-        The best Lorem Ipsum Generator in all the sea! Heave this scurvy
-        copyfiller fer yar next adventure and cajol yar clients into walking
-        the plank with ev'ry layout! Configure above, then get yer pirate
-        ipsum...own the high seas, arg!
-      </p>
-      <a href="#">Learn More ></a>
-    </div>
+
+
+        <div class="feature">
+          <div class="feature_one">
+            <img src="assets/images/feature_one.svg" class="feature_image" alt="feature_one_image">
+          </div>
+
+            <div class="feature_content">
+                <h1>FEATURE ONE</h1>
+                <p>The best Lorem Ipsum Generator in all the sea!
+                  Heave this scurvy copyfiller fer yar next adventure
+                  and cajol yar clients into walking the plank with
+                   ev'ry layout! Configure above, then get yer pirate
+                   ipsum...own the high seas, arg!</p>
+                   <a href="#"class="feature-link">Learn More ></a>
+            </div>
+
+            <div class="feature_content">
+                <h1>FEATURE TWO</h1>
+                <p>The best Lorem Ipsum Generator in all the sea!
+                  Heave this scurvy copyfiller fer yar next adventure
+                  and cajol yar clients into walking the plank with
+                   ev'ry layout! Configure above, then get yer pirate
+                   ipsum...own the high seas, arg!</p>
+                   <a href="#" class="feature-link">Learn More ></a>
+            </div>
+            <div class="feature_two">
+              <img src="assets/images/feature-two.png" class="feature_image" alt="feature_two_image">
+            </div>
+            <div class="feature_three">
+                    <img src="assets/images/project-three.svg"  class="feature_image" alt="feature_three_image">
+            </div>
+
+            <div class="feature_content">
+                <h1>FEATURE THREE</h1>
+                <p>The best Lorem Ipsum Generator in all the sea!
+                  Heave this scurvy copyfiller fer yar next adventure
+                  and cajol yar clients into walking the plank with
+                   ev'ry layout! Configure above, then get yer pirate
+                   ipsum...own the high seas, arg!</p>
+                   <a href="#" class="feature-link">Learn More ></a>
+            </div>
+        </div>
   </section>
 
   <div class="neverMissUpdate">
     <div class="neverMissUpdateContainer">
       <i class="fas fa-layer-group"></i>
+
+      <h1>Never miss an update</h1>
 
       <h1 class="update-heading">Never miss an update</h1>
 
@@ -130,14 +174,15 @@
         Far far away, behind the word mountains, far from the countries
         Vokalia and Consonantia, there live the blind texts
       </h2>
-      <form action="">
-        <input type="email" />
-        <input type="submit" />
-      </form>
-      <h5>
-        *Your email address is safe with us. We never share your email
-        address.
-      </h5>
+      
+      <div class="input-group mb-3">
+        <input type="email" class="form-control col-sm-12" placeholder="Enter your email address" aria-label="Email Address" aria-describedby="button-addon2">
+        <div class="input-group-append">
+            <button class="btn btn-success" type="submit" id="button-addon2">Submit</button>
+        </div>
+      </div>
+    
+       <h5 style="font-style: italic;font-weight: 900;">*Your email address is safe with us. We never share your email address</h5> 
     </div>
   </div>
 
@@ -346,7 +391,7 @@
         <h2>Follow Us</h2>
 
         <div class="sub-footer">
-          <ul class='sub-footer-link socials textExcept'>
+          <ul class='sub-footer-link socials'>
             <li>
               <a href="/"><i class="fab fa-twitter"></i></a>
             </li>
@@ -366,9 +411,9 @@
         </div>
         </div>
       </section>
-      
+
       <section id='sub-footer'>
-        <p>&copy; 
+        <p>&copy;
         <script>document.write(new Date().getFullYear());</script> Froala. All Rights Reserved</p>
       </section>
     </footer>
