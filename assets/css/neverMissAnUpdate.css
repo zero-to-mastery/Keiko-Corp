@@ -46,10 +46,7 @@ h5 {
   margin-top: 20px;
 
 }
-.neverMissUpdateContainer input{
-  width: 40%;
-  height: 2rem;
-  margin-right: 1.5rem;
+
+.form-control{
+  display: block;
 }
-
-
