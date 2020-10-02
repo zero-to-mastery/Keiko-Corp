@@ -69,11 +69,14 @@
   background-color: #eef9fc;
   height: 25%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-section {
-  margin: auto;
+  /* margin: auto; */
   width: 55%;
+  text-align: center;
 }
 
 .banner-section h2 {
@@ -84,27 +87,25 @@
 .banner-sub-text {
   color: rgb(116, 115, 115);
   font-size: 1.3rem;
-  display: flex;
-  max-width: 65%;
-  line-height: 2rem;
 }
 
 .contact-section-container {
-  width: 55%;
-  margin: auto;
+  padding: 20px;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .subsection-1 {
-  display: flex;
-  flex-direction: column;
   width: 45%;
+}
+
+.subsection-1 h2 {
+  text-align: left;
 }
 
 .subsection-2 {
   display: flex;
   flex-direction: column;
-  width: 45%;
 }
 
 .name-input-container {
@@ -299,7 +300,6 @@ body {
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: left;
   margin: 0 5px;
   overflow: hidden;
   background: #fff;

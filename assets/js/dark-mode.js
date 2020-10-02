@@ -4,8 +4,10 @@ const body = document.getElementsByTagName('body')[0];
 const content = document.getElementsByClassName('hero_content')[0];
 const contentPara = document.querySelector('.hero_content > p');
 const toggleBar = document.getElementById('toggle-bar');
-const teamMemberName =document.querySelectorAll('.team-member h3')
-
+const contactBanner = document.querySelector('.contact-banner-container')
+const updateBanner = document.querySelector('.neverMissUpdate')
+const updateHeading = document.querySelector('.update-heading')
+const teamMemberName = document.querySelectorAll('.team-member h3')
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
@@ -13,6 +15,9 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
+  contactBanner.style.background = '#132743';
+  updateBanner.style.backgroundColor = '#343a40'
+  updateHeading.style.color = "#fff"
   changeTeamMemberColor('#ffffff')
 }
 
@@ -23,6 +28,9 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
+  contactBanner.style.background = "#ebecf1"
+  updateBanner.style.backgroundColor = '#ebecf1'
+  updateHeading.style.color = "#1d1c1c"
   changeTeamMemberColor('#343a40')
 }
 
