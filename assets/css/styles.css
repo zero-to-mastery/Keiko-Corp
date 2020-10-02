@@ -70,11 +70,14 @@
   background-color: #eef9fc;
   height: 25%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-section {
-  margin: auto;
+  /* margin: auto; */
   width: 55%;
+  text-align: center;
 }
 
 .banner-section h2 {
@@ -85,27 +88,25 @@
 .banner-sub-text {
   color: rgb(116, 115, 115);
   font-size: 1.3rem;
-  display: flex;
-  max-width: 65%;
-  line-height: 2rem;
 }
 
 .contact-section-container {
-  width: 55%;
-  margin: auto;
+  padding: 20px;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .subsection-1 {
-  display: flex;
-  flex-direction: column;
   width: 45%;
+}
+
+.subsection-1 h2 {
+  text-align: left;
 }
 
 .subsection-2 {
   display: flex;
   flex-direction: column;
-  width: 45%;
 }
 
 .name-input-container {
@@ -296,11 +297,29 @@ body {
   /*place-items: center;*/
 }
 
+/* Social Media Link section */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.wrapper .button-wrapper {
+  width: 200px;
+}
+
+.button-wrapper {
+  pointer-events: none;
+}
+
 .wrapper .button {
+  pointer-events: all;
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: left;
   margin: 0 5px;
   overflow: hidden;
   background: #fff;
@@ -311,7 +330,7 @@ body {
 }
 
 .wrapper .button:hover {
-  width: 200px;
+  width: 180px;
 }
 
 .wrapper .button .icon {
@@ -329,23 +348,23 @@ body {
   background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
 }
 
-.wrapper .button:nth-child(1):hover .icon {
+.wrapper .button-wrapper:nth-child(1):hover .icon {
   background: #4267b2;
 }
 
-.wrapper .button:nth-child(2):hover .icon {
+.wrapper .button-wrapper:nth-child(2):hover .icon {
   background: #1da1f2;
 }
 
-.wrapper .button:nth-child(3):hover .icon {
+.wrapper .button-wrapper:nth-child(3):hover .icon {
   background: #e1306c;
 }
 
-.wrapper .button:nth-child(4):hover .icon {
+.wrapper .button-wrapper:nth-child(4):hover .icon {
   background: #ff0000;
 }
 
-.wrapper .button .icon i {
+.wrapper .button-wrapper .icon i {
   font-size: 25px;
   line-height: 60px;
   transition: all 0.3s ease-out;
