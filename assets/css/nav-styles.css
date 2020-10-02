@@ -21,6 +21,10 @@
   align-items: center;
 }
 
+.navbar #contact-btn {
+  cursor: pointer;
+}
+
 .navbar .logo {
   width: 60px;
 }
@@ -56,15 +60,15 @@
 
 .navbar button {
   background: #fff;
-  color: #6e0909;
+  color: #2c86fc;
   font-size: 1em;
-  border: 1.5px solid #6e0909;
+  border: 2px solid#2c86fc;
   padding: 5px 20px;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .nav-button {
@@ -80,6 +84,35 @@
   width: 100%;
   background-color: black;
   height: 3px;
+}
+
+.toggle-bar {
+  margin: 0 20px 0 auto;
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+  background: #ebecf1;
+  border-radius: 50px;
+  position: relative;
+}
+
+input {
+  display: none;
+}
+
+.toggle-container {
+  position: absolute;
+  top: -2.5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #f4f6ff;
+  transition: transform 0.5s;
+}
+
+input:checked ~ .toggle-container {
+  transform: translateX(32px);
 }
 
 @media only screen and (max-width: 500px) {
@@ -158,15 +191,19 @@
 
 .hero {
   display: flex;
+  justify-content: center;
   padding: 2em;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .hero_content {
   color: #1d1c1c;
   text-align: left;
   margin-left: 6rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: 33rem;
 }
 
@@ -174,6 +211,9 @@
   font-weight: 700;
   font-size: 3rem;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.5);
 }
 
 .hero_content > p {
@@ -182,6 +222,7 @@
   word-spacing: 0.3em;
   line-height: 1.4;
   font-weight: 500;
+  margin-bottom: 1.5rem;
 }
 
 .CTA {
@@ -194,7 +235,11 @@
   border: none;
   border-radius: 10px;
   font-weight: 600;
+  font-size: 1.2rem;
   transition: all 200ms ease-in-out;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .CTA:hover {
@@ -202,6 +247,10 @@
   color: #f94626;
   border-radius: 10px;
   border: #f94626 solid 2px;
+}
+
+.CTA:active {
+  transform: translateY(4px);
 }
 
 @media only screen and (max-width: 768px) {

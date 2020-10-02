@@ -67,9 +67,13 @@ body {
   box-shadow: 0 0 30px 15px green;
 }
 
-.banner-container {
+.contact-container {
+  height: 200vh;
+}
+
+.contact-banner-container {
   background-color: #eef9fc;
-  height: 50%;
+  height: 25%;
   display: flex;
 }
 
@@ -89,6 +93,47 @@ body {
   display: flex;
   max-width: 65%;
   line-height: 2rem;
+}
+
+.contact-section-container {
+  width: 55%;
+  margin: auto;
+  display: flex;
+}
+
+.subsection-1 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.subsection-2 {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.name-input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-name {
+  width: 40%;
+  height: 2rem;
+  margin-right: 1.5rem;
+}
+
+.last-name {
+  width: 40%;
+}
+
+.company-name {
+  width: 100%;
+}
+
+.email {
+  width: 100%;
 }
 
 .container footer {

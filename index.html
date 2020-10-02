@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/keiko-logo.png"
+      type="image/png"
+    />
     <title>Keiko Corp</title>
+
     <link rel="shortcut icon" type="image/png"
     href=”assets/images/keiko-logo.png”/>
+    <link rel="icon" href="assets/images/keiko-logo.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -15,6 +22,7 @@
     <link rel="stylesheet" href="./assets/css/nav-styles.css" />
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
+
   <body>
     <header>
       <div class="container-nav">
@@ -37,7 +45,14 @@
             <li>Team</li>
             <li><button>Contact</button></li>
           </ul>
-          
+
+          <a href="./contact.html"><button id="contact-btn">Contact</button></a>
+          <button>Contact</button>
+          <label class="toggle-bar" id="toggle-bar">
+            <input type="checkbox" />
+            <div class="toggle-container" id="toggle-container"></div>
+          </label>
+
         </nav>
       </div>
     </header>
@@ -84,13 +99,71 @@
       </div>
     </div>
 
-    <div class="banner-container">
-      <div class="banner-section">
-        <h2>Contact Us</h2>
-        <p class="banner-sub-text">
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and Consonantia, there live the blind texts.
-        </p>
+    <div class="contact-container">
+      <div class="contact-banner-container">
+        <div class="banner-section">
+          <h2>Contact Us</h2>
+          <p class="banner-sub-text">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+      <div class="contact-section-container">
+        <div class="subsection-1">
+          <h1>Call or email</h1>
+          <p>
+            Support, Sales, and Accountant Management services are currently
+            available in English
+          </p>
+          <h2>Support</h2>
+          <p>+800 3005 4300</p>
+          <p>Contact Support</p>
+          <p>
+            Our technical support is available by phone or email from 11 am to
+            11 pm BST, Monday through Friday.
+          </p>
+          <h2>Sales</h2>
+          <p>+800 3005 4300</p>
+          <p>Contact Support</p>
+          <p>
+            Our technical support is available by phone or email from 11 am to
+            11 pm BST, Monday through Friday.
+          </p>
+          <h2>General Inquiries</h2>
+          <p>hello@website.com</p>
+        </div>
+        <div class="subsection-2">
+          <h1>Drop us a line</h1>
+          <div class="name-input-container">
+            <input placeholder="First name" type="text" class="first-name" />
+            <input placeholder="Last name" class="last-name" />
+          </div>
+          <div>
+            <input
+              type="text"
+              class="company-name"
+              placeholder="Company Name"
+            />
+          </div>
+          <div>
+            <input type="text" class="email" placeholder="Email" />
+          </div>
+          <div class="name-input-container">
+            <input placeholder="Phone" type="text" class="first-name" />
+            <input placeholder="Country" class="last-name" />
+          </div>
+          <div>
+            <select name="department" required>
+              <option value="" disabled selected hidden>
+                Select Department
+              </option>
+            </select>
+          </div>
+          <div>
+            <textarea placeholder="How can we help?"></textarea>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -116,5 +189,6 @@
     <footer>Footer</footer>
 
     <script src="./assets/js/navbar.js"></script>
+    <script src="dark-mode.js"></script>
   </body>
 </html>
