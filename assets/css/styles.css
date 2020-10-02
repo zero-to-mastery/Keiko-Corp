@@ -36,6 +36,27 @@ body {
   padding: 25px;
 }
 
+.client-loves-us-banner {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.client-loves-us-container {
+  height: 200px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-loves-us-container h1 {
+  font-size: 40px;
+}
+
 /* Meet the Team Styles */
 
 .meet-the-team {
@@ -63,6 +84,10 @@ body {
   max-width: 250px;
 }
 
+.team-member h3 {
+  margin-top: 25px;
+}
+
 .team-member p {
   font-size: 0.85em;
   color: rgb(116, 115, 115);
@@ -70,7 +95,7 @@ body {
 
 .team-member img {
   border-radius: 50%;
-  box-shadow: 0 0 30px 15px white;
+  box-shadow: 0 0 15px 7px white;
 }
 
 .team-member img:hover {
@@ -433,7 +458,82 @@ h2 {
   color: green;
 }
 
+/* Tesimonial Section */
+#testimonial {
+  display: grid;
+  place-items: center;
+  margin: 2rem 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+.testimonial__heading {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.testimonial__heading h2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.testimonial__card__row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.testimonial__card {
+  background-color: #fff;
+  color: #444;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card__header {
+  display: flex;
+  width: 250px;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.card__header__img {
+  border-radius: 10px;
+}
+
+.card__header__img img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+.card__body {
+  line-height: 2;
+}
+.copyright {
+  display: flex;
+  height: 18px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #343a40;
+  vertical-align: auto;
+  margin: auto;
+}
 /*  Testimonial CSS*/
+
 #test-list {
   display: flex;
   flex-wrap: wrap;
