@@ -265,11 +265,19 @@ input:checked ~ .toggle-container {
   border-radius: 10px;
   border: #f94626 solid 2px;
 }
-.feature {
+.feature_one {
   display: flex;
   padding: 2em;
   align-items: center;
   margin: 0em 14em 0em 14em;
+}
+.feature h2 {
+  text-transform: uppercase;
+  display: block;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #374444;
+  padding: 50px 0;
 }
 .feature_one > img {
   height: 250px;
