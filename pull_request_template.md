@@ -3,7 +3,7 @@
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
 
 **Sumarise what this PR fixes:** When user switch from light to dark mode navigation was not changing accordingly. I
- have fixed that issue by adding some CSS.
+have fixed that issue by adding some CSS.
 
 **Fixes #:** https://github.com/zero-to-mastery/Keiko-Corp/issues/123
 
