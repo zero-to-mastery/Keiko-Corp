@@ -1,0 +1,33 @@
+/*custom - header style */
+li>a {
+    text-decoration: none;
+    color:#008000 !important;
+    font-weight: 600;
+  }
+  .navbar .logo {
+    width: 60px;
+    padding-top: 30px;
+}
+li>a:hover{
+      color: #ff0000 !important ;    
+}
+label#toggle-bar {
+  
+    margin-left: 10px;
+}
+.nv-active{
+    color: #ff0000 !important ;    
+}
+.navbar ul.menu li + li {
+    margin-left: 40px;
+}
+.menu-bg-b{
+   
+        background: #132743 !important;
+    
+}
+.menu-bg-w{
+   
+    background: #ffff !important;
+
+}

@@ -115,6 +115,7 @@ input:checked ~ .toggle-container {
   transform: translateX(32px);
 }
 
+
 @media only screen and (max-width: 500px) {
   .navbar {
     justify-content: space-between;
