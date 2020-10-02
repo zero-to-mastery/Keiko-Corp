@@ -192,13 +192,8 @@
 /* General Styles */
 
 ul {
-<<<<<<< HEAD
-  /* display: flex;
-  width: 100vw; */
-=======
   display: flex;
   width: 100vw;
->>>>>>> e696ac2fa6b1180ae0c50aca0f5fc95e879caaf2
   background: transparent;
 }
 
