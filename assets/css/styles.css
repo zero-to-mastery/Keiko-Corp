@@ -700,3 +700,48 @@ em {
   text-align: center;
   margin-bottom: 32px;
 }
+
+.main {
+  position: relative;
+}
+
+.scroll-to-top-wrapper {
+  position: absolute;
+  top: 100vh;
+  right: 2.5rem;
+  bottom: -3em;
+  width: 3em;
+  pointer-events: none;
+}
+
+.scroll-to-top {
+  position: fixed;
+  position: sticky;
+  pointer-events: all;
+  top: calc(100vh - 8rem);
+  display: inline-block;
+  text-decoration: none;
+  line-height: 2rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: transform 80ms ease-in;
+}
+
+.arrow-up {
+  border: solid blanchedalmond;
+  border-width: 0 0.25rem 0.25rem 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+}
