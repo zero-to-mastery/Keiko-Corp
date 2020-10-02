@@ -70,12 +70,12 @@
                 alt="Keiko Corp"
               />
             </li>
-            <li class="active">Home</li>
-            <li>Features</li>
-            <li>Testimonial</li>
-            <li>Team</li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#team">Team</a></li>
             <li>
-              <a href="./contact.html"
+              <a href="#contact"
                 ><button id="contact-btn">Contact</button></a
               >
             </li>
@@ -115,7 +115,7 @@
     </section>
 
     <!-- feature one -->
-    <section class="feature">
+    <section class="feature" id="features">
       <div class="feature_one">
         <img src="./assets/images/feature_one.svg" alt="feature_one" />
       </div>
@@ -162,19 +162,25 @@
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts
         </h2>
-        <form>
+     
+        <form  class="form-control">
           
-          <input class="email" type="email" name="email" placeholder="Enter your email address" />
-          <input class="submit" type="submit" value="submit" />
+          <input  type="email" name="email" placeholder="Enter your email address" />
+          <input  type="submit" value="submit" />
         </form>
+ 
         <h5>
           *Your email address is safe with us. We never share your email
           address.
         </h5>
       </div>
     </div>
-
-    <section>
+    <form  class="form-control">
+          
+      <input  type="email" name="email" placeholder="Enter your email address" />
+      <input  type="submit" value="submit" />
+    </form>
+    <section id="testimonial">
       <h1 class="test-heading">Testimonials</h1>
       <p class="test-description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -241,7 +247,7 @@
     </section>
 
     <!-- Meet the Team -->
-    <div class="meet-the-team">
+    <div class="meet-the-team" id="team">
       <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member">
@@ -268,7 +274,7 @@
     </div>
 
     <!-- Contact Section -->
-    <div class="contact-container">
+    <div class="contact-container" id="contact">
       <div class="contact-banner-container">
         <div class="banner-section">
           <h2>Contact Us</h2>
