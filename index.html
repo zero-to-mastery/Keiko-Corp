@@ -313,16 +313,26 @@
               <input placeholder="Phone" type="text" class="first-name" />
               <input placeholder="Country" class="last-name" />
             </div>
-            <div>
-              <select name="department" required>
-                <option value="" disabled selected hidden>
-                  Select Department
-                </option>
-              </select>
-            </div>
-            <div>
-              <textarea placeholder="How can we help?"></textarea>
-            </div>
+           <!--fixing the drop us a line section-->
+            <form action="">
+              <div class="form-group">
+                <label for="exampleFormControlSelect1" style="text-align: left;"><b>
+                  Select your departement
+                </b></label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>add your option here</option>
+                  <option>add your option here</option>
+                  <option>add your option here</option>
+                  <option>add your option here</option>
+                  <option>add your option here</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"><b>Leave us a message here</b></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="How can we help you"></textarea>
+              </div>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
           </div>
         </div>
       </div>
