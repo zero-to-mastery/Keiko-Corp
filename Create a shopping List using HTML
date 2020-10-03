@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Product Listing">
+        <title>Product listing from amzon</title>
+    </head>
+    <body>
+        <h1>Product Listing:</h1>
+        <h2>Electronic Gadgets</h2>
+        <table border= "1" cellpadding ="40px" width ="50%">
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Buy Now</th>
+            
+            </tr>
+        <tr>
+            <td>B073Q5R6VR</td>
+            <td>Apple MacBook Air </td>
+            <td>Apple MacBook Air (13-inch, 8GB RAM, 128GB Storage, 1.8GHz Intel Core i5) - Silver</td>
+            <td><a href = "https://www.amazon.in/Apple-MacBook-13-inch-Storage-1-8GHz/dp/B073Q5R6VR/ref=redir_mobile_desktop?ie=UTF8&aaxitk=28AbDQEGFocTOY3-B.sCaA&hsa_cr_id=4496612830102&ref_=sbx_be_s_sparkle_mcd_asin_0"
+                   target = "blank"> Buy Now</a</td>
+            
+            
+            </tr>
+                <tr>
+                
+                <td>B07XVLW7YK</td>
+                <td>Apple iPhone 11</td>
+                <td>Apple iPhone 11 (128GB) - Black</td>
+                <td><a href ="https://www.amazon.in/Apple-iPhone-11-128GB-Black/dp/B07XVLW7YK/ref=sr_1_2?dchild=1&keywords=apple+iphone&qid=1601665563&sr=8-2"
+                       target= " blank"> Buy Now</a></td>    
+                
+                
+                </tr>
+        <tr>
+                <td>B07XVLKHFT</td>
+                <td>Apple iPhone 11 Pro Max</td>
+                <td>Apple iPhone 11 Pro Max (64GB) - Silver</td>
+                <td><a href ="https://www.amazon.in/dp/B07XVLMZHH"
+                       target ="blank">Buy Now</a     </td>
+                
+                </tr>
+                    
+                    <tr>
+                    <td colspan ="4">Products from <a href = "https://Amazon.in"
+                                         target = "blank">Amazon.in</a></td>
+                    
+                    </tr>
+        
+        </table>
+    </body>
+</html>
