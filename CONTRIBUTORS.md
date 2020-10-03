@@ -28,6 +28,8 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@monddelmundo](https://github.com/monddelmundo)
 - [@wroblewskim95](https://github.com/wroblewskim95)
 - [@SkyC0der](https://github.com/SkyC0der)
+- [@girishsontakke](https://github.com/girishsontakke)
+- [@Agilulfe](https://github.com/Agilulfe)
 - [@Agilulfe](https://github.com/Agilulfe)
 - [@shray0027](https://githun.com/shray0027)
 - [@AnastasiaCortes](https://github.com/AnastasiaCortes)
