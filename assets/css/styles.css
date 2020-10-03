@@ -99,8 +99,13 @@ padding-top: 80px;
 
 .meet-the-team h2 {
   font-size: 3em;
+
+  font-weight: 700;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.5);
+
   color: #111;
   font-weight: 700;
+
 }
 
 .team-row {
