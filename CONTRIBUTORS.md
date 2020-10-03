@@ -30,3 +30,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@SkyC0der](https://github.com/SkyC0der)
 - [@girishsontakke](https://github.com/girishsontakke)
 - [@Agilulfe](https://github.com/Agilulfe)
+- [@Agilulfe](https://github.com/Agilulfe)
+- [@shray0027](https://githun.com/shray0027)
+- [@AnastasiaCortes](https://github.com/AnastasiaCortes)
+- [@jomefavourite](https://github.com/jomefavourite)
