@@ -36,8 +36,9 @@
   width: 80%;
   padding-top: 80px;
 }
-.features-heading {
-  height: 300px;
+
+.features-heading{
+  height: 140px;
   margin: auto;
 }
 .features-heading h1 {
@@ -51,6 +52,7 @@
   grid-template-columns: repeat(auto-fill, 600px);
   grid-column-gap: 50px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .feature_content h1 {
@@ -61,12 +63,13 @@
   margin-bottom: 20px;
   margin-top: 30px;
 }
-.feature_content p {
-  font-size: 1.3rem;
-  letter-spacing: 0.2px;
-  font-weight: 400;
-  color: rgb(90, 90, 90);
-  line-height: 1.4;
+.feature_content p{
+   font-size: 1.3rem;
+   letter-spacing: 0.2px;
+   font-weight: 400;
+   color: rgb(90, 90, 90);
+   line-height: 1.4;
+   width:452px;
 }
 .feature_one,
 .feature_two,
@@ -94,8 +97,13 @@
 
 .meet-the-team h2 {
   font-size: 3em;
+
+  font-weight: 700;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.5);
+
   color: #111;
   font-weight: 700;
+
 }
 
 .team-row {
@@ -132,75 +140,84 @@
   box-shadow: 0 0 15px 7px white;
 }
 
-.contact-container {
-  height: 200vh;
+
+.contact-container{
+  background-color :white;
 }
 
-.contact-banner-container {
-  background-color: #eef9fc;
-  height: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner-section {
-  /* margin: auto; */
-  width: 55%;
-  text-align: center;
-}
-
-.banner-section h2 {
-  font-size: 3em;
-  margin-bottom: 1rem;
-}
-
-.banner-sub-text {
-  color: rgb(116, 115, 115);
-  font-size: 1.3rem;
-}
-
-.contact-section-container {
-  padding: 20px;
-  display: flex;
-  padding: 20px 0px;
-  justify-content: space-evenly;
-}
-
-.subsection-1 {
-  width: 45%;
-}
-
-.subsection-1 h2 {
+.banner{
+background-color:#f4f7fd;
+  width: 100%;
+  margin: auto;
   text-align: left;
+  height: 400px;
+display: flex;
+
+}
+.banner-content{
+  width: 700px;
+
+  margin: auto;
+
+  left : 30px;
 }
 
-.subsection-2 {
-  display: flex;
-  flex-direction: column;
+.banner h1 {
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: 700;
+  font-family: "Poppins" sans-serif;
+  font-style: black;
+
+}
+.banner p {
+  color : #c4c4c4;
+  font-size: 1.5rem;
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2;
 }
 
-.name-input-container {
-  display: flex;
-  flex-direction: row;
+.contactus{
+  padding: 40px;
 }
 
-.first-name {
-  width: 40%;
-  height: 2rem;
-  margin-right: 1.5rem;
+
+.subsection-1-content {
+  width: 90%;
+margin: auto;
+
+}
+.subsection-1-content h2 , h1, p{
+  text-align: left;
+
+}
+.subsection-1-content .subsection-2 h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: black;
+}
+.subsection-1-content h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: black;
+}
+.subsection-1-content p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color :#c4c4c4;
 }
 
-.last-name {
-  width: 40%;
+.form-contact-us input, textarea ,select{
+  margin: 20px;
 }
-
-.company-name {
-  width: 100%;
-}
-
-.email {
-  width: 100%;
+.contactus-btn{
+  width : 100px;
+  height: 40px;
+  border :none;
+  color : white;
+  border-radius: 8px;
+  background-color: rgb(59, 169, 233);
 }
 
 .paper {
@@ -309,10 +326,30 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .hero_image {
-  animation: fadeIn 1.2s ease;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .hero_content {
@@ -327,23 +364,25 @@ ul {
   max-width: 33rem;
 }
 
-.hero_content > h2 {
-  font-weight: 700;
-  font-size: 3rem;
+.hero_content>h2 {
+  font-weight: 800;
+  font-size: 2rem;
   text-transform: uppercase;
   line-height: 56px;
   margin-bottom: 2rem;
   color: #444;
   letter-spacing: 0.2rem;
+  text-align: left;
 }
 
 .hero_content > p {
   color: rgb(128, 128, 128);
-  font-size: 1.5em;
+  font-size: 1.1em;
   word-spacing: 0.2em;
   line-height: 1.4;
   font-weight: 400;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .CTA {
@@ -500,7 +539,7 @@ body {
 .wrapper .button {
   pointer-events: all;
   display: inline-block;
-  height: 60px;
+  height: 50px;
   width: 60px;
   margin: 0 5px;
   overflow: hidden;
@@ -561,10 +600,10 @@ body {
 }
 
 .wrapper .button span {
-  font-size: 20px;
+  font-size: 25px;
+  font-style: italic;
   font-weight: 500;
-  line-height: 60px;
-  margin-left: 10px;
+  margin-left: -20px;
   transition: all 0.3s ease-out;
 }
 
@@ -742,4 +781,51 @@ em {
 .test-description {
   text-align: center;
   margin-bottom: 32px;
+}
+
+.main {
+  position: relative;
+}
+
+.scroll-to-top-wrapper {
+  position: fixed;
+  top: 90vh;
+  right: 2.5rem;
+  bottom: -3em;
+  width: 3em;
+  pointer-events: none;
+}
+
+.scroll-to-top-wrapper--hide {
+ display: none;
+}
+
+.scroll-to-top {
+  pointer-events: all;
+  top: calc(100vh - 8rem);
+  display: inline-block;
+  text-decoration: none;
+  line-height: 2rem;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: transform 80ms ease-in;
+}
+
+.arrow-up {
+  border: solid blanchedalmond;
+  border-width: 0 0.25rem 0.25rem 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
 }
