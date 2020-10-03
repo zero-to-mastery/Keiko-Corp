@@ -135,75 +135,84 @@ padding-top: 80px;
   box-shadow: 0 0 15px 7px white;
 }
 
-.contact-container {
-  height: 200vh;
+
+.contact-container{
+  background-color :white;
 }
 
-.contact-banner-container {
-  background-color: #eef9fc;
-  height: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner-section {
-  /* margin: auto; */
-  width: 55%;
-  text-align: center;
-}
-
-.banner-section h2 {
-  font-size: 3em;
-  margin-bottom: 1rem;
-}
-
-.banner-sub-text {
-  color: rgb(116, 115, 115);
-  font-size: 1.3rem;
-}
-
-.contact-section-container {
-  padding: 20px;
-  display: flex;
-  padding: 20px 0px;
-  justify-content: space-evenly;
-}
-
-.subsection-1 {
-  width: 45%;
-}
-
-.subsection-1 h2 {
+.banner{
+background-color:#f4f7fd;
+  width: 100%;
+  margin: auto;
   text-align: left;
+  height: 400px;
+display: flex;
+
+}
+.banner-content{
+  width: 700px;
+
+  margin: auto;
+
+  left : 30px;
 }
 
-.subsection-2 {
-  display: flex;
-  flex-direction: column;
+.banner h1 {
+  text-align: left;
+  font-size: 3.5em;
+  font-weight: 700;
+  font-family: "Poppins" sans-serif;
+  font-style: black;
+
+}
+.banner p {
+  color : #c4c4c4;
+  font-size: 1.5rem;
+  font-family: "Poppins" sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.2;
 }
 
-.name-input-container {
-  display: flex;
-  flex-direction: row;
+.contactus{
+  padding: 40px;
 }
 
-.first-name {
-  width: 40%;
-  height: 2rem;
-  margin-right: 1.5rem;
+
+.subsection-1-content {
+  width: 90%;
+margin: auto;
+
+}
+.subsection-1-content h2 , h1, p{
+  text-align: left;
+
+}
+.subsection-1-content .subsection-2 h1 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: black;
+}
+.subsection-1-content h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: black;
+}
+.subsection-1-content p{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color :#c4c4c4;
 }
 
-.last-name {
-  width: 40%;
+.form-contact-us input, textarea ,select{
+  margin: 20px;
 }
-
-.company-name {
-  width: 100%;
-}
-
-.email {
-  width: 100%;
+.contactus-btn{
+  width : 100px;
+  height: 40px;
+  border :none;
+  color : white;
+  border-radius: 8px;
+  background-color: rgb(59, 169, 233);
 }
 
 .container footer {
@@ -259,6 +268,8 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .hero_image {
@@ -278,22 +289,24 @@ ul {
 }
 
 .hero_content>h2 {
-  font-weight: 700;
-  font-size: 3rem;
+  font-weight: 800;
+  font-size: 2rem;
   text-transform: uppercase;
   line-height: 56px;
   margin-bottom: 2rem;
   color: #444;
   letter-spacing: 0.2rem;
+  text-align: left;
 }
 
 .hero_content>p {
   color: rgb(128, 128, 128);
-  font-size: 1.5em;
+  font-size: 1.1em;
   word-spacing: 0.2em;
   line-height: 1.4;
   font-weight: 400;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .CTA {
