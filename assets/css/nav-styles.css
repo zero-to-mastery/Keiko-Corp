@@ -10,8 +10,16 @@
 
 .container-nav {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1320px;
   margin: auto;
+}
+
+/* stikcy navbar */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: center;
 }
 
 /*Maneging navbar as per theme start*/
