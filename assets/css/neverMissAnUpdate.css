@@ -5,34 +5,34 @@
   box-sizing: border-box;
 }
 .neverMissUpdate {
-       width: 100vw;
-       height: auto;
-       display: flex;
-       justify-content: center;
-       background-color: whitesmoke;
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: whitesmoke;
 }
 .neverMissUpdateContainer h1 {
-  font-size: 40px;
+      font-size: 40px;
 }
 .neverMissUpdateContainer {
-  height: 500px;
-  width: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+      height: 500px;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 .neverMissUpdateContainer i {
-  font-size: 65px;
-  color: green;
+     font-size: 65px;
+     color: green;
 }
 
 .neverMissUpdateContainer h2 {
-  font-size: 18px;
+     font-size: 18px;
 }
 .neverMissUpdateContainer h3 {
-  color: whitesmoke;
+     color: whitesmoke;
 }
 .neverMissUpdateContainer h5 {
   color: rgb(145, 145, 145);
