@@ -264,6 +264,8 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .hero_image {
@@ -285,20 +287,27 @@ ul {
 .hero_content > h2 {
   font-weight: 700;
   font-size: 3rem;
+}
+
+.hero_content > h2 {
+  font-weight: 800;
+  font-size: 2rem;
   text-transform: uppercase;
   line-height: 56px;
   margin-bottom: 2rem;
   color: #444;
   letter-spacing: 0.2rem;
+  text-align: left;
 }
 
 .hero_content > p {
   color: rgb(128, 128, 128);
-  font-size: 1.5em;
+  font-size: 1.1em;
   word-spacing: 0.2em;
   line-height: 1.4;
   font-weight: 400;
   margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .CTA {
