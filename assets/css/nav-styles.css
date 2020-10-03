@@ -64,6 +64,7 @@
 
 .navbar ul.menu li:hover {
   color: #000000;
+
 }
 
 .navbar ul.menu li + li {
@@ -85,6 +86,11 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.navbar button:hover{
+  background: linear-gradient( to right, aquamarine, aqua, rgb(13, 233, 233) );
+  color: white;
+border: 2px solid white;
 }
 
 .nav-button {
