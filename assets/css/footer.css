@@ -73,7 +73,7 @@ footer > .footer-row {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-
+  margin-bottom: 2%;
 }
 
 /* @media only screen and (max-width: 600px) { */
