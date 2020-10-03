@@ -12,6 +12,8 @@ footer > .footer-row {
 
 .sub-footer {
   display: flex;
+  width: 90%;
+  margin-left: 70px;
 }
 
 .footer-column {
@@ -24,6 +26,7 @@ footer > .footer-row {
 
 .footer-column h2 {
   margin-bottom: 23px;
+  color: black;
   margin-right: 50px;
 }
 
