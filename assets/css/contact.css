@@ -81,6 +81,7 @@ textarea {
 
 #button {
   padding: 0.5 2rem;
+  cursor: pointer;
   width: 20%;
   height: 2rem;
   border-radius: 5px;
