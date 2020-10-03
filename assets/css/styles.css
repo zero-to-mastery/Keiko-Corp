@@ -40,7 +40,7 @@ width : 80%;
 padding-top: 80px;
 }
 .features-heading{
-  height: 300px;
+  height: 140px;
   margin: auto;
 }
 .features-heading h1{
@@ -55,6 +55,7 @@ padding-top: 80px;
   grid-column-gap: 50px;
   grid-row-gap:50px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 
@@ -72,6 +73,7 @@ padding-top: 80px;
    font-weight: 400;
    color: rgb(90, 90, 90);
    line-height: 1.4;
+   width:452px;
 }
 .feature_one,.feature_two,.feature_three{
   position: relative;
