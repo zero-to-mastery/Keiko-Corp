@@ -706,17 +706,19 @@ em {
 }
 
 .scroll-to-top-wrapper {
-  position: absolute;
-  top: 100vh;
+  position: fixed;
+  top: 90vh;
   right: 2.5rem;
   bottom: -3em;
   width: 3em;
   pointer-events: none;
 }
 
+.scroll-to-top-wrapper--hide {
+ display: none;
+}
+
 .scroll-to-top {
-  position: fixed;
-  position: sticky;
   pointer-events: all;
   top: calc(100vh - 8rem);
   display: inline-block;
