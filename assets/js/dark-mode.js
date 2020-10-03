@@ -59,3 +59,9 @@ if (currentTheme) {
     changeToDarkMode();
   }
 }
+
+function changeTeamMemberColor(color){
+  Array.from(teamMemberName).forEach(item=>{
+    item.style.color = color;
+  })
+}
