@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link
-      rel="shortcut icon"
-      href="assets/images/keiko-logo.png"
-      type="image/png"
-    />
 
-    <!---Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="assets/images/keiko-logo.png" type="image/png" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="./assets/images/keiko-icon.ico" />
-    <title>Keiko Corp</title>
-    <!-- Open graph -->
-    <meta
-      property="og:image"
-      content="https://keiko-corp.netlify.app/assets/images/keiko-logo-og.png"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:title" content="The best tech startup" />
-    <meta
-      property="og:description"
-      content="The fastest growing tech start up in Silicon Valley."
-    />
-    <meta property="og:url" content="https://keiko-corp.netlify.app/" />
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- STYLES -->
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/nav-styles.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/companies-banner.css" />
-    <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
-    <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
-    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
-    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <!---Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/keiko-icon.ico" />
+  <title>Keiko Corp</title>
+  <!-- Open graph -->
+  <meta property="og:image" content="https://keiko-corp.netlify.app/assets/images/keiko-logo-og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:title" content="The best tech startup" />
+  <meta property="og:description" content="The fastest growing tech start up in Silicon Valley." />
+  <meta property="og:url" content="https://keiko-corp.netlify.app/" />
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/css/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/companies-banner.css" />
+  <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
+  <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
 
-  <body>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
 
 
   <!-- HEADER -->
@@ -67,11 +58,20 @@
             <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
           </li>
           <li class="active">Home</li>
-          <li>Features</li>
-          <li>Testimonial</li>
-          <li>Team</li>
           <li>
-            <a href="./contact.html"><button id="contact-btn">Contact</button></a>
+            <a href="#feature"><button id="contact-btn">Features</button></a>
+          </li>
+          <li>
+            <a href="#testimonials"><button id="contact-btn">Testimonials</button></a>
+          </li>
+          <li>
+            <a href="#team"><button id="contact-btn">Team</button></a>
+          </li>
+          <li class="active">
+            <a href="./index.html"><button id="link-btn">Home</button></a>
+          </li>
+          <li>
+            <a href="./contact.html"><button id="link-btn">Contact</button></a>
           </li>
         </ul>
         <label class="toggle-bar" id="toggle-bar">
@@ -113,53 +113,53 @@
 
 
   <!-- feature one -->
-  <section  id="feature">
+  <section id="feature">
     <div class="features-heading">
-         <h1 >OUR CLIENT LOVE US BECAUSE</h1>
+      <h1>OUR CLIENT LOVE US BECAUSE</h1>
     </div>
 
 
-        <div class="feature">
-          <div class="feature_one">
-            <img src="assets/images/feature_one.svg" class="feature_image" alt="feature_one_image">
-          </div>
+    <div class="feature">
+      <div class="feature_one">
+        <img src="assets/images/feature_one.svg" class="feature_image" alt="feature_one_image">
+      </div>
 
-            <div class="feature_content">
-                <h1>FEATURE ONE</h1>
-                <p>The best Lorem Ipsum Generator in all the sea!
-                  Heave this scurvy copyfiller fer yar next adventure
-                  and cajol yar clients into walking the plank with
-                   ev'ry layout! Configure above, then get yer pirate
-                   ipsum...own the high seas, arg!</p>
-                   <a href="#"class="feature-link">Learn More ></a>
-            </div>
+      <div class="feature_content">
+        <h1>FEATURE ONE</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
 
-            <div class="feature_content">
-                <h1>FEATURE TWO</h1>
-                <p>The best Lorem Ipsum Generator in all the sea!
-                  Heave this scurvy copyfiller fer yar next adventure
-                  and cajol yar clients into walking the plank with
-                   ev'ry layout! Configure above, then get yer pirate
-                   ipsum...own the high seas, arg!</p>
-                   <a href="#" class="feature-link">Learn More ></a>
-            </div>
-            <div class="feature_two">
-              <img src="assets/images/feature-two.png" class="feature_image" alt="feature_two_image">
-            </div>
-            <div class="feature_three">
-                    <img src="assets/images/project-three.svg"  class="feature_image" alt="feature_three_image">
-            </div>
+      <div class="feature_content">
+        <h1>FEATURE TWO</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
+      <div class="feature_two">
+        <img src="assets/images/feature-two.png" class="feature_image" alt="feature_two_image">
+      </div>
+      <div class="feature_three">
+        <img src="assets/images/project-three.svg" class="feature_image" alt="feature_three_image">
+      </div>
 
-            <div class="feature_content">
-                <h1>FEATURE THREE</h1>
-                <p>The best Lorem Ipsum Generator in all the sea!
-                  Heave this scurvy copyfiller fer yar next adventure
-                  and cajol yar clients into walking the plank with
-                   ev'ry layout! Configure above, then get yer pirate
-                   ipsum...own the high seas, arg!</p>
-                   <a href="#" class="feature-link">Learn More ></a>
-            </div>
-        </div>
+      <div class="feature_content">
+        <h1>FEATURE THREE</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
+    </div>
   </section>
 
   <div class="neverMissUpdate">
@@ -174,21 +174,23 @@
         Far far away, behind the word mountains, far from the countries
         Vokalia and Consonantia, there live the blind texts
       </h2>
-      
+
       <div class="input-group mb-3">
-        <input type="email" class="form-control col-sm-12" placeholder="Enter your email address" aria-label="Email Address" aria-describedby="button-addon2">
+        <input type="email" class="form-control col-sm-12" placeholder="Enter your email address"
+          aria-label="Email Address" aria-describedby="button-addon2">
         <div class="input-group-append">
-            <button class="btn btn-success" type="submit" id="button-addon2">Submit</button>
+          <button class="btn btn-success" type="submit" id="button-addon2">Submit</button>
         </div>
       </div>
-    
-       <h5 style="font-style: italic;font-weight: 900;">*Your email address is safe with us. We never share your email address</h5> 
+
+      <h5 style="font-style: italic;font-weight: 900;">*Your email address is safe with us. We never share your email
+        address</h5>
     </div>
   </div>
 
   <section class="testimonial-section container-fluid ">
     <section class="testimonial-section container-fluid ">
-      <div class="header">
+      <div class="header" id="testimonials">
         <h1>Testimonials</h1>
         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they
           live in Bookmarksgrove right at the coast of Semantics.</p>
@@ -231,7 +233,7 @@
 
 
     <!-- Meet the Team -->
-    <div class="meet-the-team">
+    <div class="meet-the-team" id="team">
       <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member">
@@ -346,80 +348,81 @@
         </div>
       </footer>
 
-    <!-- Footer -->
-    <footer>
-      <div class="footer-row">
-      <section class="footer-column">
-        <h2>Group 1</h2>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-row">
+          <section class="footer-column">
+            <h2>Group 1</h2>
 
-        <div class="sub-footer">
-          <ul class='sub-footer-link'>
-            <li><a href="home">Home</a></li>
-            <li><a href="features">Features</a></li>
-            <li><a href="pricing">Pricing</a></li>
-            <li><a href="team">Team</a></li>
-            <li><a href="contact Us">Contact Us</a></li>
-          </ul>
+            <div class="sub-footer">
+              <ul class='sub-footer-link'>
+                <li><a href="home">Home</a></li>
+                <li><a href="features">Features</a></li>
+                <li><a href="pricing">Pricing</a></li>
+                <li><a href="team">Team</a></li>
+                <li><a href="contact Us">Contact Us</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="footer-column">
+            <h2>Group 2</h2>
+
+            <div class="sub-footer">
+              <ul class='sub-footer-link'>
+                <li><a href="privacy">Privacy</a></li>
+                <li><a href="terms">Terms</a></li>
+                <li><a href="FAQ">FAQ</a></li>
+                <li><a href="support">Support</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="footer-column">
+            <h2>About Us</h2>
+
+            <div class="sub-footer">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+              aliquam natus facilis ipsa quos, doloremque non tempore totam
+              necessitatibus ab velit mollitia eaque neque voluptatum distinctio
+              recusandae consequuntur vel optio?
+            </div>
+          </section>
+
+          <section class="footer-column">
+            <h2>Follow Us</h2>
+
+            <div class="sub-footer">
+              <ul class='sub-footer-link socials'>
+                <li>
+                  <a href="/"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="fab fa-google"></i></a>
+                </li>
+              </ul>
+            </div>
         </div>
-      </section>
+  </section>
 
-      <section class="footer-column">
-        <h2>Group 2</h2>
+  <section id='sub-footer'>
+    <p>&copy;
+      <script>document.write(new Date().getFullYear());</script> Froala. All Rights Reserved</p>
+  </section>
+  </footer>
 
-        <div class="sub-footer">
-          <ul class='sub-footer-link'>
-            <li><a href="privacy">Privacy</a></li>
-            <li><a href="terms">Terms</a></li>
-            <li><a href="FAQ">FAQ</a></li>
-            <li><a href="support">Support</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="footer-column">
-        <h2>About Us</h2>
-
-        <div class="sub-footer">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
-          aliquam natus facilis ipsa quos, doloremque non tempore totam
-          necessitatibus ab velit mollitia eaque neque voluptatum distinctio
-          recusandae consequuntur vel optio?
-        </div>
-      </section>
-
-      <section class="footer-column">
-        <h2>Follow Us</h2>
-
-        <div class="sub-footer">
-          <ul class='sub-footer-link socials'>
-            <li>
-              <a href="/"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="/"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li>
-              <a href="/"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="/"><i class="fab fa-youtube"></i></a>
-            </li>
-            <li>
-              <a href="/"><i class="fab fa-google"></i></a>
-            </li>
-          </ul>
-        </div>
-        </div>
-      </section>
-
-      <section id='sub-footer'>
-        <p>&copy;
-        <script>document.write(new Date().getFullYear());</script> Froala. All Rights Reserved</p>
-      </section>
-    </footer>
-
-    <script src="./assets/js/navbar.js"></script>
-    <script src="./assets/js/dark-mode.js"></script>
-    <script src="./assets/js/progressbar.js"></script>
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/dark-mode.js"></script>
+  <script src="./assets/js/progressbar.js"></script>
 </body>
+
 </html>
