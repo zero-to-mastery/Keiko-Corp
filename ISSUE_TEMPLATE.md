@@ -1,27 +1,31 @@
-# New Task:
+# NO NEW ISSUES FOR NOW
 
-[//]: # 'Please use this template when creating new tasks, issues not using this template will be closed'
+Clean up time! Please no new issues for now, working on a new mockup and creating new issues to start tomorrow.
 
-#### What is the task
+<!-- # New Task: -->
 
-<Detail the problem/task>
+<!-- [//]: # 'Please use this template when creating new tasks, issues not using this template will be closed' -->
 
-### Who is the task for?
+<!-- #### What is the task -->
 
-[//]: # 'Place and x in between the brackets to check'
+<!-- <Detail the problem/task> -->
+
+<!-- ### Who is the task for? -->
+
+<!-- [//]: # 'Place and x in between the brackets to check'
 
 - [ ] I created this task for me to complete, I will create a PR soon.
 - [ ] I created this task for someone else to claim.
-- [ ] I think this is a task that multiple people can do
+- [ ] I think this is a task that multiple people can do -->
 
-#### Confirm all of the following:
+<!-- #### Confirm all of the following: -->
 
-[//]: # 'Place and x in between the brackets to check'
+<!-- [//]: # 'Place and x in between the brackets to check'
 
 - [ ] I have looked at all the issues currently available and this does not exist or overlap with another ticket
 
 ---
 
-[//]: # 'Leave this section in tack, this is to ensure the task is not completed by some one else'
+[//]: # 'Leave this section in tack, this is to ensure the task is not completed by some one else' -->
 
-#### ⚠️ PLEASE ONLY SUBMIT A PR FOR THIS TASK IF THIS TASK WAS AVAILABLE FOR YOU TO CLAIM
+<!-- #### ⚠️ PLEASE ONLY SUBMIT A PR FOR THIS TASK IF THIS TASK WAS AVAILABLE FOR YOU TO CLAIM -->
