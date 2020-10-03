@@ -256,16 +256,6 @@
   z-index: 1;
 }
 
-footer {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
-}
-footer a {
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .container footer {
   margin-top: auto;
   border: 1px solid black;
