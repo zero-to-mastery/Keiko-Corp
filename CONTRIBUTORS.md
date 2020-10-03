@@ -29,3 +29,5 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@wroblewskim95](https://github.com/wroblewskim95)
 - [@SkyC0der](https://github.com/SkyC0der)
 - [@AnastasiaCortes](https://github.com/AnastasiaCortes)
+- [@Agilulfe](https://github.com/Agilulfe)
+
