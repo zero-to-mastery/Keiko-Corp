@@ -34,13 +34,10 @@
 .neverMissUpdateContainer h3{
       color: whitesmoke;
 }
-.neverMissUpdateContainer h5 {
+.neverMissUpdateContainer h5{
       color: rgb(145, 145, 145);
 }
-.neverMissUpdateContainer h1,
-h2,
-form,
-h5 {
+.neverMissUpdateContainer h1,h2,form,h5 {
   text-align: center;
   margin-top: 20px;
 }
