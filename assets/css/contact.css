@@ -20,7 +20,7 @@ a {
   text-decoration: none;
   color: rgb(13, 165, 211);
 }
-
+/* changed height */
 header {
   margin-bottom: 6rem;
   padding: 1rem;
@@ -30,6 +30,7 @@ header {
     aqua,
     rgb(13, 233, 233)
   );
+  height:88px;
 }
 
 header p {
@@ -80,6 +81,7 @@ textarea {
 
 #button {
   padding: 0.5 2rem;
+  cursor: pointer;
   width: 20%;
   height: 2rem;
   border-radius: 5px;

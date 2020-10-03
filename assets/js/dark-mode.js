@@ -8,6 +8,9 @@ const contactBanner = document.querySelector('.contact-banner-container');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
 const textExcept = document.querySelector('.textExcept');
+const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
+const footericons=document.querySelectorAll('.icon')
+
 
 //dark mode
 function changeToDarkMode() {
@@ -20,6 +23,10 @@ function changeToDarkMode() {
   updateBanner.style.backgroundColor = '#343a40';
   updateHeading.style.color = '#fff';
   textExcept.style.color = "#000";
+
+  for (i = 0; i < footerLink.length; i++) footerLink[i].style.color = 'white';
+  footericons.forEach(e=>e.style.color="#000")
+
 }
 
 //light mode
@@ -58,4 +65,10 @@ if (currentTheme) {
     inputCheck.checked = true;
     changeToDarkMode();
   }
+}
+
+function changeTeamMemberColor(color){
+  Array.from(teamMemberName).forEach(item=>{
+    item.style.color = color;
+  })
 }
