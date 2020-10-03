@@ -1,6 +1,6 @@
 <img src="assets/images/keiko-logo.png" align="right" width="150px"/>
 
-# Keikocorp.com - Hackoberfest 2020
+# Keikocorp.com - Hacktoberfest 2020
 
 Welcome to this year's HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
 
