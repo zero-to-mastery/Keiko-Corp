@@ -1,13 +1,13 @@
-const toggleContainer = document.getElementById('toggle-container');
-const inputCheck = document.querySelector("input[type='checkbox']");
-const body = document.getElementsByTagName('body')[0];
-const content = document.getElementsByClassName('hero_content')[0];
+const toggleContainer = document.querySelector('#toggle-container');
+const inputCheck = document.querySelector('input[type="checkbox"]');
+const body = document.querySelector('body');
+const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
-const toggleBar = document.getElementById('toggle-bar');
-const contactBanner = document.querySelector('.contact-banner-container')
-const updateBanner = document.querySelector('.neverMissUpdate')
-const updateHeading = document.querySelector('.update-heading')
-const teamMemberName = document.querySelectorAll('.team-member h3')
+const toggleBar = document.querySelector('#toggle-bar');
+const contactBanner = document.querySelector('.contact-banner-container');
+const updateBanner = document.querySelector('.neverMissUpdate');
+const updateHeading = document.querySelector('.update-heading');
+
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
@@ -16,9 +16,8 @@ function changeToDarkMode() {
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
   contactBanner.style.background = '#132743';
-  updateBanner.style.backgroundColor = '#343a40'
-  updateHeading.style.color = "#fff"
-  changeTeamMemberColor('#ffffff')
+  updateBanner.style.backgroundColor = '#343a40';
+  updateHeading.style.color = '#fff';
 }
 
 //light mode
@@ -28,10 +27,9 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contactBanner.style.background = "#ebecf1"
-  updateBanner.style.backgroundColor = '#ebecf1'
-  updateHeading.style.color = "#1d1c1c"
-  changeTeamMemberColor('#343a40')
+  contactBanner.style.background = '#ebecf1';
+  updateBanner.style.backgroundColor = '#ebecf1';
+  updateHeading.style.color = '#1d1c1c';
 }
 
 //callback function to toggle between modes
