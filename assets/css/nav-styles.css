@@ -220,8 +220,6 @@ input:checked ~ .toggle-container {
   font-size: 25px;
 }
 
-
-
 .CTA:active {
   transform: translateY(4px);
 }
