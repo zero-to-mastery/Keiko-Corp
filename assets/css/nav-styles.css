@@ -64,6 +64,9 @@
 
 .navbar ul.menu li:hover {
   color: #000000;
+  background-color: linear-gradient( to right, aquamarine, aqua, rgb(13, 233, 233) );
+  color: white;
+  border: solid white;
 }
 
 .navbar ul.menu li + li {
