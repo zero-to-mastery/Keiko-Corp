@@ -16,7 +16,7 @@
 }
 .neverMissUpdateContainer {
   height: 500px;
-  width: 600px;
+  width: 440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@
 
 .neverMissUpdateContainer i {
   font-size: 65px;
-  color: green;
+  color: #2C86FC;
 }
 
 .neverMissUpdateContainer h2 {
@@ -34,13 +34,38 @@
 .neverMissUpdateContainer h3 {
   color: whitesmoke;
 }
-.neverMissUpdateContainer h5 {
-  color: rgb(145, 145, 145);
-}
+
 .neverMissUpdateContainer h1,
 h2,
 form,
 h5 {
   text-align: center;
   margin-top: 20px;
+}
+
+.update-heading{
+  font-weight: 600;
+}
+
+#neverMissUpdateemail{
+  font-style: italic;
+  font-weight: 900; 
+  color: black; 
+  font-size: 15px;
+  width: 550px;
+}
+
+#button-addon2{
+  border: none;
+  padding-left: 20px;
+  background-color: #2C86FC;
+}
+
+h2{
+  color: black;
+  opacity: 0.5;
+}
+
+.update-heading{
+  opacity: 0.9;
 }
