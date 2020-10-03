@@ -24,13 +24,14 @@ footer > .footer-row {
 
 .footer-column h2 {
   margin-bottom: 23px;
+  margin-right: 50px;
 }
 
 .footer-column .sub-footer-link {
   display: inline-flex;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
 }
 
 .footer-column .sub-footer-link li {
@@ -53,6 +54,7 @@ footer > .footer-row {
 .sub-footer-link.socials li a i {
   font-size: 23px;
   padding-right: 28px;
+  justify-content: center;
 }
 
 #sub-footer {

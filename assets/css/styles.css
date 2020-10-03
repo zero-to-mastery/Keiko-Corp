@@ -470,7 +470,7 @@ body {
 .wrapper .button {
   pointer-events: all;
   display: inline-block;
-  height: 60px;
+  height: 50px;
   width: 60px;
   margin: 0 5px;
   overflow: hidden;
@@ -531,10 +531,10 @@ body {
 }
 
 .wrapper .button span {
-  font-size: 20px;
+  font-size: 25px;
+  font-style: italic;
   font-weight: 500;
-  line-height: 60px;
-  margin-left: 10px;
+  margin-left: -20px;
   transition: all 0.3s ease-out;
 }
 
