@@ -382,9 +382,18 @@ ul {
   padding: 7% 15% 0;
 }
 
-.header p {
+.header p:nth-child(1) {
+  color: #383838;
+  letter-spacing: normal;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header p:nth-child(2) {
   color: grey;
   padding: 0 25%;
+  letter-spacing: 0px;
 }
 
 .carousel-inner {
@@ -871,3 +880,4 @@ p {
 .header h2,p{
   text-align: center;
 }
+
