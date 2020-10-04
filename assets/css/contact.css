@@ -2,12 +2,6 @@
   --primar-color: #8b8989;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 #container {
   margin: 2rem 6rem;
 }
@@ -20,16 +14,11 @@ a {
   text-decoration: none;
   color: rgb(13, 165, 211);
 }
-
+/* changed height */
 header {
   margin-bottom: 6rem;
   padding: 1rem;
-  background-image: linear-gradient(
-    to right,
-    aquamarine,
-    aqua,
-    rgb(13, 233, 233)
-  );
+  height: 88px;
 }
 
 header p {
@@ -80,6 +69,7 @@ textarea {
 
 #button {
   padding: 0.5 2rem;
+  cursor: pointer;
   width: 20%;
   height: 2rem;
   border-radius: 5px;

@@ -1,3 +1,11 @@
+# New Mockup
+
+Please check `assets/css/global.css`, design-assets folder images, and [figma files](https://www.figma.com/file/NY0Do1PFf4xl0ZuSTA1X9U/Keiko-Corp-Hacktoberfest-Project?node-id=2%3A10) for updated style guides. Any new pull request should use the updated color, spacing, and sizing variables.
+
+## No Bootstrap or jQuery
+
+Please refrain from adding Bootstrap or jQuery to the site. These pr's will be closed. They overwrite global styles. Vanilla CSS and JS is way better now anyways 😊
+
 # New Task:
 
 [//]: # 'Please use this template when creating new tasks, issues not using this template will be closed'
