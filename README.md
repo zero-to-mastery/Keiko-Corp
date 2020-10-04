@@ -2,7 +2,7 @@
 
 # Keikocorp.com - Hacktoberfest 2020
 
-Welcome to this year's HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
+Welcome to this year's HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time Keiko Corp.
 
 Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:-
 
