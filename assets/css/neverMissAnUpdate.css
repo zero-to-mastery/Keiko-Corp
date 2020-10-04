@@ -48,8 +48,8 @@ h5 {
   font-size: 15px;
   width: 550px;
 }
-
 #button-addon2 {
+<<<<<<< HEAD
   font-weight: 500;
   border: none;
   text-align: center;
@@ -58,6 +58,13 @@ h5 {
   background-color: #fe6655;
   border-radius: 2px;
   cursor: pointer;
+=======
+  border:solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2c86fc;
+  border-radius: 3px;
+>>>>>>> 66021874b2cba94c819200849f0c7e7dd3cfcd85
 }
 
 h2 {
