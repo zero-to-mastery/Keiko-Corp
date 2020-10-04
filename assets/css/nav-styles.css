@@ -74,7 +74,7 @@
 }
 
 .navbar button {
-  background: transparent;
+  background:transparent;
   color: #2c86fc;
   font-size: 1em;
   border: 2px solid#2c86fc;
@@ -86,8 +86,8 @@
   -o-border-radius: 5px;
 }
 .navbar button:hover {
-  color: white;
-  border: 2px solid white;
+  color:  #2c86fc;
+  border: 2px solid #2c86fc ;
 }
 
 .nav-button {
@@ -188,6 +188,6 @@ input:checked ~ .toggle-container {
     justify-content: stretch;
   }
   .navbar ul.menu li:hover {
-    transform: translateY(-3%);
+    transform: translateY(3%);
   }
 }
