@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-/*Maneging navbar as per theme start*/
+/*Managing navbar as per theme start*/
 [data-theme='dark'] .navbar {
   background: #132743;
 }
@@ -72,7 +72,6 @@
 
 .navbar ul.menu li:hover {
   color: #000000;
-
 }
 
 .navbar ul.menu li + li {
@@ -95,10 +94,10 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.navbar button:hover{
-  background: linear-gradient( to right, aquamarine, aqua, rgb(13, 233, 233) );
+.navbar button:hover {
+  background: linear-gradient(to right, aquamarine, aqua, rgb(13, 233, 233));
   color: white;
-border: 2px solid white;
+  border: 2px solid white;
 }
 
 .nav-button {
@@ -235,7 +234,6 @@ input:checked ~ .toggle-container {
   font-size: 25px;
 }
 
-
 .hero_content > p {
   color: rgb(90, 90, 90);
   font-size: 1.5em;
@@ -334,7 +332,3 @@ input:checked ~ .toggle-container {
     width: 330px;
   }
 }
-
-
-
-
