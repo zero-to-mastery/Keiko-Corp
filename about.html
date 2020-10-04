@@ -7,10 +7,56 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/css/about.css" />
   <link rel="icon" href="./assets/images/keiko-icon.ico" />
-  <title>About</title>
+
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <title>About Us</title>
 </head>
 
 <body class="container">
+  <!-- HEADER -->
+  <header class="no-user-select">
+    <!-- sticky header -->
+    <div class="container-nav sticky">
+      <nav class="navbar">
+        <div class="nav-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- LINKS -->
+        <ul class="menu">
+          <li>
+            <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+          </li>
+          <li class="active">
+            <a href="./index.html"><button id="link-btn">Home</button></a>
+          </li>
+          <li>
+            <a href="./index.html#feature"><button id="link-btn">Features</button></a>
+          </li>
+          <li>
+            <a href="./index.html#testimonials"><button id="link-btn">Testimonials</button></a>
+          </li>
+          <li>
+            <a href="./index.html#team"><button id="link-btn">Team</button></a>
+          </li>
+          <li>
+            <a href="./contact.html"><button id="link-btn">Contact</button></a>
+          </li>
+        </ul>
+
+        <!-- Dark mode toggle -->
+        <label class="toggle-bar" id="toggle-bar">
+          <input type="checkbox" />
+          <div class="toggle-container" id="toggle-container"></div>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <!-- End HEADER -->
   <main>
     <section class="intro" id="intro-section">
       <header>
