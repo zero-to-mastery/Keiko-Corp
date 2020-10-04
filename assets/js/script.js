@@ -12,5 +12,6 @@ function onScroll() {
 window.onload = function() {
     main = document.getElementById('main');
     scrollButton = document.getElementById('scroll-to-top-wrapper');
-    document.addEventListener('scroll', onScroll, false)
+    document.addEventListener('scroll', onScroll, false);
+    console.log(window.pageYOffset);
   }

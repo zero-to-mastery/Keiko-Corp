@@ -831,6 +831,7 @@ p {
 
 .main {
   position: relative;
+  overflow-x: hidden;
 }
 
 .scroll-to-top-wrapper {
