@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.admin-panel {
+    background-color: #ccc;
+    height: 70%;
+    margin: 70px auto;
+    width: 40%;
+}
+
+#logo {
+    display: block;
+    margin: 5px auto;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 65%;
+}
+
