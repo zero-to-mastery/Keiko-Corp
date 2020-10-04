@@ -13,14 +13,14 @@ const teamMemberName = document.querySelectorAll('.team-member h3')
 
 //dark mode
 function changeToDarkMode() {
-  body.style.background = '#132743';
-  body.style.color = '#fff';
-  content.style.color = '#eaeaea';
-  contentPara.style.color = '#aeaeae';
-  toggleBar.style.background = '#01a9b4';
-  contactBanner.style.background = '#132743';
-  updateBanner.style.backgroundColor = '#343a40';
-  updateHeading.style.color = '#fff';
+  body.style.background = '#20014d';
+  body.style.color = '#f4f7fe';
+  content.style.color = '#757575';
+  contentPara.style.color = '#757575';
+  toggleBar.style.background = '#20014d';
+  contactBanner.style.background = '#20014d';
+  updateBanner.style.backgroundColor = '#757575';
+  updateHeading.style.color = '#f4f7fe';
   for (i = 0; i < footerLink.length; i++) footerLink[i].style.color = 'white';
   footericons.forEach(e=>e.style.color="#000")
   this.changeTeamMemberColor('#fff')
