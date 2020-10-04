@@ -88,8 +88,8 @@
   -o-border-radius: 5px;
 }
 .navbar button:hover {
-  color: white;
-  border: 2px solid white;
+  color: #2c86fc;
+  border: 2px solid #2c86fc;
 }
 
 .nav-button {
