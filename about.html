@@ -8,10 +8,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/about.css" />
-    <link rel="icon" href="./assets/images/keiko-icon.ico" />
+     <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="icon" href="./assets/global.css" />
     <title>About</title>
+    .dark-mode {
+  background-color: darkGrey;
+  color: white;
+}
   </head>
   <body class="container">
+    <button class="btn" onclick="myFunction()">Toggle dark mode</button>
     <main>
       <section class="intro" id="intro-section">
         <header>
@@ -52,6 +58,10 @@
         if (e.target != introBtn) return;
         introTitle.innerHTML = introCopy.toUpperCase();
       });
+      function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
     </script>
   </body>
 </html>
