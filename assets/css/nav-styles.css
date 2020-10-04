@@ -38,6 +38,7 @@
 
 .navbar #link-btn {
   cursor: pointer;
+  color: black;
 }
 
 .navbar .logo {
