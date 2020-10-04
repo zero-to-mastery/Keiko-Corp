@@ -11,57 +11,48 @@ footer > .footer-row {
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    justify-content: center;
-}
-
-.sub-footer {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 90%;
-    margin-left: 70px;
+    justify-content: space-around;
 }
 
 .footer-column {
-    padding: 10px;
+    padding: 50px;
     box-sizing: border-box;
     flex: 1 0;
-    max-width: 300px;
-    min-width: 200px;
+    width: 25%;
 }
 
 .footer-column h2 {
+    font-size: large;
     margin-bottom: 23px;
     color: black;
     margin-right: 50px;
+    opacity: 1;
+    font-weight: bolder;
+    text-align: left;
 }
 
 .footer-column .sub-footer-link {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.footer-column .sub-footer-link li {
-
-    list-style: none;
+    flex-wrap: wrap;
     padding-right: 15px;
     margin-bottom: 23px;
 }
 
-.sub-footer-link li a {
-    color: whitesmoke;
-
+.sub-footer-link a {
+    font-size: medium;
+    color: #606060;
     text-decoration: none;
     cursor: pointer;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
-.sub-footer-link li a:hover {
+.sub-footer-link a:hover {
     opacity: 0.6;
     transition: 0.3s;
 }
 
-.sub-footer-link.socials li a i {
+.sub-footer-link.socials a i {
     font-size: 23px;
     padding-right: 28px;
     justify-content: center;
@@ -70,10 +61,9 @@ footer > .footer-row {
 #sub-footer {
     background-color: black;
     height: auto;
-    padding-top: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    margin-bottom: 2%;
 }
