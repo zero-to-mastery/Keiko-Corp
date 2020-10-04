@@ -876,8 +876,19 @@ p {
   }
 }
 
-
-.header h2,p{
+.header p{
   text-align: center;
+  color:#111;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.header h6{
+  font-weight: normal;
+  color: #757575;
+  margin-top: -2px;
+  font-size: 24px;
 }
 
