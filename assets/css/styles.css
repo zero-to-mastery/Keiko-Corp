@@ -867,3 +867,8 @@ p {
     scroll-behavior: smooth;
   }
 }
+
+
+.header h2,p{
+  text-align: center;
+}
