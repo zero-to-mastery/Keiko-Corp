@@ -40,7 +40,7 @@ Ok, so you have read the brief and checked out the [designs](/design-assets/desi
    - Keep the issue updated with your progress, inactive issues will be reassigned.
 5. Create a branch for your task and complete the task.
 6. Pull from the upstream again, like we did in step 3. This is to ensure we still have the latest code.
-   - `git pull upstream master`
+   - `git pull origin master`
 7. Commit and push the code to your fork.
 8. Create a pull request to have the changes merged into the origin.
    - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of your issue will automatically close the issue when the pull request is merged.
