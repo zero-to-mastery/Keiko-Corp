@@ -23,6 +23,20 @@
   padding: 25px;
 }
 
+.input-group-email {
+  margin-top: 15px;
+}
+
+#email-updates-input {
+  padding: 7px 15px;
+  padding-right: 90px;
+  margin-right: 10px;
+}
+
+::placeholder {
+  text-align: left;
+}
+
 /* FEATURE SECTION */
 
 #feature {

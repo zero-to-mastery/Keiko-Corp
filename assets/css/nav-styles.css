@@ -116,10 +116,6 @@
   cursor: pointer;
 }
 
-input {
-  display: none;
-}
-
 .toggle-container {
   position: absolute;
   top: -2.5px;
