@@ -37,6 +37,8 @@ body {
   --green: #2CB629;
   --heading: #020100;
   --text: #757575;
+  --darkGrey: #121212;
+  --blueGrey: #243B53
 
   /* text sizes */
   --smText: 0.64rem;
