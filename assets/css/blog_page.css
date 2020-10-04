@@ -5,6 +5,10 @@
   
 
 }
+.heading{
+  text-align: center;
+  padding: 2rem;
+}
 
 .container {
   width: 90%;
