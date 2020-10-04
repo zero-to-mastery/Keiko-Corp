@@ -171,7 +171,7 @@
     object-fit: contain;
     width: 330px;
   }
-}
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
@@ -194,7 +194,7 @@ body {
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: left;
+  float: none;
   margin: 0 5px;
   overflow: hidden;
   background: #fff;
@@ -271,4 +271,5 @@ body {
 
 .wrapper .button:nth-child(4) span {
   color: #ff0000;
+}
 }

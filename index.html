@@ -12,19 +12,12 @@
       rel="stylesheet"
     />
     <style>
-      body {
-        /* background-color: rgb(19, 19, 19);
-        background-color: #323133;
-        background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64'
-        xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8
-        8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636
-        32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582
-        8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414
-        40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95
-        1.414-1.414L9.414 40z' fill='%239156f0' fill-opacity='0.09' fill-rule='evenodd'/%3E%3C/svg%3E"); */
-      }
+    
       .body1{
         background-color: #323133;
+        padding: 6em;
+      }
+      .padding{
         padding: 6em;
       }
 
@@ -126,6 +119,17 @@
           width: 330px;
           
         }
+        .hero_image1 {
+          object-fit: contain;
+          height: 200px;
+          width: 230px;
+          
+        }
+        .responsive {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+        }
       }
     </style>
 
@@ -160,10 +164,10 @@
             <span></span>
           </div>
           <ul class="menu">
-            <li class="active">Item 1</li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
+            <li class="active">Home</li>
+            <li>Features</li>
+            <li>Testimonial</li>
+            <li>Team</li>
           </ul>
           <button>Contact</button>
         </nav>
@@ -173,61 +177,80 @@
 
     <section class="hero">
       <div class="hero_image">
-        <img src="./assets/images/undraw_hero.svg" class="hero_image" alt="" />
+        <img src="./assets/images/undraw_hero.svg" class="hero_image" alt="" class="responsive" />
       </div>
       <div class="hero_content">
-        <h2>The Best Tech StartUp</h2>
+        <h2>The Best Tech StartUp</h2><br>
         <p>
           Even the all-powerful Pointing has no control about the blind texts it
           is an almost unorthographic life One day however a small line of blind
           text by the name of Lorem Ipsum decided to leave for the far world of
           Grammar.
-        </p>
+        </p><br>
         <button class="CTA">Call to Action</button>
       </div>
     </section>
 
     <section class="body1">
-
       <div class="hero_image">
-
         <center><img src="./assets/images/samsung.png" class="hero_image" alt="center" />
           <img src="./assets/images/samsung.png" class="hero_image" alt="center" />
           <img src="./assets/images/samsung.png" class="hero_image" alt="center" /></center>
-
-        
-      </div>
-      
+        </div>
     </section>
 
-    
+<div class="meet-the-team" >
+  <div class="padding">
+  <h2>OUR CLIENTS LOVE US BECOUSE</h2>
+  <div class="hero">
+    <!-- Feature 1 -->
+      <div class="hero_image1" >
+        <img src="./assets/images/undraw_hero.svg" class="hero_image1" alt="" />
+      </div>
+      <div class="hero_content">
+          
+        <h2> <b>Feature One</b> </h2><br>
+        <p>
+          Even the all-powerful Pointing has no control about the blind texts it
+          is an almost unorthographic life One day however a small line of blind
+          text by the name of Lorem Ipsum decided to leave for the far world of
+          Grammar.
+        </p><br>
+        <p><a href="#">Read more. </a></p>
+      </div>
 
+    </div>
+  </div>
+  </div>
     <div class="meet-the-team">
-      <h2>Meet Our Team</h2>
+      <div class="padding">
+        <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member" data-animate-effect="fadeInLeft">
           <img src="assets/images/team1.jpg" />
           <h3>Sara Doe</h3>
-          <p>"Wild Question Marks, but the Little Blind"</p>
+          <p>"Wild Question Marks,<br> but the Little Blind"</p>
         </div>
         <div class="team-member" data-animate-effect="fadeInRight">
           <img src="assets/images/team2.jpg" />
           <h3>Sara Doe</h3>
-          <p>"Wild Question Marks, but the Little Blind"</p>
+          <p>"Wild Question Marks,<br> but the Little Blind"</p>
         </div>
         <div class="team-member" data-animate-effect="fadeInLeft">
           <img src="assets/images/team3.jpg" />
           <h3>Sara Doe</h3>
-          <p>"Wild Question Marks, but the Little Blind"</p>
+          <p>"Wild Question Marks,<br> but the Little Blind"</p>
         </div>
         <div class="team-member" data-animate-effect="fadeInRight">
           <img src="assets/images/team4.jpg" />
           <h3>Sara Doe</h3>
-          <p>"Wild Question Marks, but the Little Blind"</p>
+          <p>"Wild Question Marks,<br> but the Little Blind"</p>
         </div>
       </div>
+      </div>
+      
     </div>
-    <div class="wrapper">
+    <div class="wrapper" class="team-row">
       <div class="button">
         <div class="icon"><i class="fab fa-facebook-f"></i></div>
         <span>Facebook</span>
