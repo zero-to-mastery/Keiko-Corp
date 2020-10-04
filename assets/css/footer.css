@@ -17,9 +17,9 @@ footer > .footer-row {
 .sub-footer {
   display: flex;
   flex-direction: row;
-  text-align: center;
+ /* text-align: center;*/
   width: 90%;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 
 .footer-column {
@@ -32,7 +32,7 @@ footer > .footer-row {
 
 .footer-column h2 {
   margin-bottom: 23px;
-  color: black;
+  color: #8e8e93; 
   margin-right: 50px;
 }
 
@@ -50,7 +50,7 @@ footer > .footer-row {
 }
 
 .sub-footer-link li a {
-  color: whitesmoke;
+  /*color: whitesmoke;*/
 
   text-decoration: none;
   cursor: pointer;
