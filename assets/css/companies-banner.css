@@ -1,10 +1,41 @@
 .companies-banner-container {
   display: flex;
-  height: 300px;
+  /*height: 300px;*/
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #343a40;
+  background-color: var(--purple);
   vertical-align: auto;
+  font-family: 'Roboto', sans-serif;
+ }
+.companies-logo-container
+{
+  padding: 6vh;
+  display: flex;
+  flex-direction: row;
+}
+#company-title-tagline
+{
+  font-size: 32px;
+  line-height: 36px;
+}
+#company-title-description
+{
+  font-size: 0.9rem;
+}
+#company-title-tagline
+{
+  padding-top: 5vh;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+#company-title-description
+{
+  padding-top: 1vh;
+  font-weight: 400;
+  text-align: center;
+  color: #F4F7FE;
 }
 .company-logo {
   width: 100px;
