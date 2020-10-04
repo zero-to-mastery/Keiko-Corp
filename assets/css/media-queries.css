@@ -1,0 +1,23 @@
+/* width range - [640px,767px] */
+@media (min-width: 640px)
+{
+
+}
+
+/* width range - [768px,1023px] */
+@media (min-width: 768px) 
+{
+
+}
+
+/* width range - [1024,1279px] */
+@media (min-width: 1024px)
+{
+
+}
+
+/* width range - [1280,-] */
+@media (min-width: 1280px) 
+{
+
+}
