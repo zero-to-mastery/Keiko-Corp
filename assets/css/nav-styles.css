@@ -27,6 +27,11 @@
   color: #fff;
   font-weight: 500;
 }
+
+[data-theme='dark'] .navbar ul.menu li a button:hover {
+  color: #fff;
+  cursor: pointer;
+}
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -63,6 +68,11 @@
 
 .navbar ul.menu li:hover {
   color: #000000;
+}
+
+.navbar ul.menu li a button:hover {
+  color: #000000;
+  cursor: pointer;
 }
 
 .navbar ul.menu li + li {
