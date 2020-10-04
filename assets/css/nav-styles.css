@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-/*Maneging navbar as per theme start*/
+/*Managing navbar as per theme start*/
 [data-theme='dark'] .navbar {
   background: #132743;
 }
