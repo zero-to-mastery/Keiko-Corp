@@ -425,7 +425,7 @@ ul {
 .testimonial-image {
   width: 10%;
   border-radius: 50%;
-  margin: 20px;
+  margin: 10px auto 10px auto;
 }
 
 /* ----------------------- END OF TESTIMONIALS SECTION ---------------------- */
