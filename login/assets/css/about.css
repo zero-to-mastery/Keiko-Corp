@@ -1,0 +1,66 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro header {
+  max-width: 100vw;
+}
+
+.intro h2 {
+  font-size: 72px;
+  margin: 32px 0;
+}
+
+.intro-image {
+  width: 100%;
+}
+
+.intro-btn {
+  display: inline-block;
+  background-color: #fe6655;
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.intro-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Styles for tablet and bigger screen */
+@media only screen and (min-width: 768px) {
+  section {
+    min-height: 100vh;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .intro header {
+    max-width: 40vw;
+  }
+
+  .intro-image {
+    margin-left: 16px;
+  }
+}
