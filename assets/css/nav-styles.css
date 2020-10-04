@@ -11,6 +11,7 @@
   top: 0;
   width: 100%;
   justify-content: center;
+  z-index: 99999;
 }
 
 /*Managing navbar as per theme start*/
@@ -38,6 +39,7 @@
 
 .navbar #link-btn {
   cursor: pointer;
+  color: black;
 }
 
 .navbar .logo {
