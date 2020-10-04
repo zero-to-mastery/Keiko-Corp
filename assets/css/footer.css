@@ -4,21 +4,21 @@ footer {
 
 footer > .footer-row {
     display: flex;
-    display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
     display: -moz-flex;
-    display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .footer-column {
-    padding: 50px;
+    padding: 30px;
     box-sizing: border-box;
     flex: 1 0;
-    width: 25%;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .footer-column h2 {
@@ -34,8 +34,6 @@ footer > .footer-row {
 .footer-column .sub-footer-link {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 15px;
-    margin-bottom: 23px;
 }
 
 .sub-footer-link a {
