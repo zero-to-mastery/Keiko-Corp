@@ -97,10 +97,7 @@
 
 .meet-the-team h2 {
   font-size: 3em;
-
   font-weight: 700;
-  text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.5);
-
   color: #111;
   font-weight: 700;
 
@@ -131,13 +128,13 @@
   font-size: 1.1rem;
   font-weight: 300;
   color: rgb(116, 115, 115);
+  text-align: center;
 }
 
 .team-member img {
   height: auto;
   width: 180px;
   border-radius: 50%;
-  box-shadow: 0 0 15px 7px white;
 }
 
 
