@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="icon" href="./assets/images/keiko-icon.ico" />
+    <title>About</title>
+  </head>
+  <body class="container">
+    <main>
+      <section class="intro" id="intro-section">
+        <header>
+          <h2 id="intro-title">ABOUT US</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla illo
+            sequi ea beatae eaque sit. Animi porro magni, neque ratione incidunt
+            esse deserunt? Perspiciatis error minima, tenetur ad pariatur
+            dignissimos sequi iste molestiae maxime enim veritatis fugit
+            laboriosam itaque commodi, vitae officiis, soluta adipisci est
+            consequatur accusamus rerum cumque aut at excepturi?
+          </p>
+          <button href="" class="intro-btn" id="intro-btn">Know More</button>
+        </header>
+        <figure>
+          <img
+            src="./assets/images/undraw_hero.svg"
+            alt=""
+            class="intro-image"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <script>
+      const introSection = document.querySelector('#intro-section');
+      const introTitle = introSection.querySelector('#intro-title');
+      const introBtn = introSection.querySelector('#intro-btn');
+      const introCopy = 'About Us';
+      const introCopyHover = 'About Us 🎉';
+
+      introSection.addEventListener('mouseover', (e) => {
+        if (e.target != introBtn) return;
+        introTitle.innerHTML = introCopyHover.toUpperCase();
+      });
+
+      introSection.addEventListener('mouseout', (e) => {
+        if (e.target != introBtn) return;
+        introTitle.innerHTML = introCopy.toUpperCase();
+      });
+    </script>
+  </body>
+</html>
