@@ -24,7 +24,7 @@ footer > .footer-row {
 .footer-column h2 {
     font-size: large;
     margin-bottom: 23px;
-    color: black;
+    color: var(--heading);
     margin-right: 50px;
     opacity: 1;
     font-weight: bolder;
@@ -38,7 +38,7 @@ footer > .footer-row {
 
 .sub-footer-link a {
     font-size: medium;
-    color: #606060;
+    color: var(--text);
     text-decoration: none;
     cursor: pointer;
     padding-right: 20px;
