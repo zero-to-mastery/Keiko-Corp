@@ -2,12 +2,6 @@
   --primar-color: #8b8989;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
 #container {
   margin: 2rem 6rem;
 }
@@ -24,13 +18,7 @@ a {
 header {
   margin-bottom: 6rem;
   padding: 1rem;
-  background-image: linear-gradient(
-    to right,
-    aquamarine,
-    aqua,
-    rgb(13, 233, 233)
-  );
-  height:88px;
+  height: 88px;
 }
 
 header p {
