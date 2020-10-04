@@ -39,7 +39,11 @@ function changeToLightMode() {
   contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
-  this.changeTeamMemberColor('#808080')
+  this.changeTeamMemberColor('#808080');
+  footerrow.forEach((item,index)=>{
+
+    footerrow[index].style.color='#343A40';
+  })
 }
 
 //callback function to toggle between modes

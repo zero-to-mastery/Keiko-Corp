@@ -9,16 +9,14 @@ footer > .footer-row {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .footer-column {
     padding: 30px;
     box-sizing: border-box;
     flex: 1 0;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 134px;
+    max-width: 134px;
 }
 
 .footer-column h2 {
@@ -39,6 +37,10 @@ footer > .footer-row {
 .sub-footer-link a {
     font-size: medium;
     color: var(--text);
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
     text-decoration: none;
     cursor: pointer;
     padding-right: 20px;
@@ -51,9 +53,19 @@ footer > .footer-row {
 }
 
 .sub-footer-link.socials a i {
-    font-size: 23px;
-    padding-right: 28px;
+    font-size: 20px;
+    padding-right: 15px;
     justify-content: center;
+}
+
+#sub-footer-description {
+    font-size: medium;
+    color: var(--text);
+    font-style: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration: none;
 }
 
 #sub-footer {
