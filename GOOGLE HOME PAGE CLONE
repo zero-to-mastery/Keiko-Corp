@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <meta name="description" content="google-home-page">
+    <link rel="icon" type="image/jpeg" href="h1.jpg">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<title>GOOGLE Home Page</title>
+    <link rel="stylesheet" href="google-style.css" media="screen" type="text/css"/>
+    </head>
+<body>
+    <header>
+        <nav id="nav_bar">
+        <ul>
+            <li class="nav" ><a href="#" >Gmail</a></li>
+            <li class="nav" ><a href="#" >Images</a></li>
+            <li class="nav" ><a href="#" id="sign_inn">SIGN INN</a></li>
+        </ul>
+        </nav>
+    </header>
+    <!-- PAGE-logo-->
+    <div>
+    <a href="#"><img src="h1.jpg"/></a>
+    </div>
+    <!-- GOOGLE SEARCH-->
+    <div>
+        <form>
+            <label for="form-search"></label>
+            <input type="text" id="search" placeholder="Search Google or type URL">
+        </form>
+    </div>
+    <!-- GOOGLE BUTTONS-->
+    <div>
+        <form>
+          <input type="submit" value="Google Search" id="google_search">
+      <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+        </form>
+    </div>
+    
+    <footer>
+        <!-- left footer-->
+        <ul>
+            <li class="footer-left"><a href="#">Advertising</a></li>
+            <li class="footer-left"><a href="#">Business</a></li>
+            <li class="footer-left"><a href="#">About</a></li>
+        </ul>
+        <!-- right footer-->
+         <ul>
+            <li  class="footer-right"><a href="#">Privacy</a></li>
+            <li class="footer-right"><a href="#">Terms</a></li>
+            <li class="footer-right"><a href="#">Settings</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
