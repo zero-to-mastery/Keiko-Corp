@@ -473,9 +473,9 @@ ul {
   list-style-type: none;
 }
 
-.wrapper .button-wrapper {
+/**.wrapper .button-wrapper {
   width: 200px;
-}
+}**/
 
 .button-wrapper {
   pointer-events: none;
@@ -540,7 +540,7 @@ ul {
 }
 
 .wrapper .button:hover .icon i {
-  color: #fff;
+  color: #757575;
 }
 
 .wrapper .button span {
@@ -647,7 +647,6 @@ em {
   vertical-align: auto;
   margin: auto;
 }
-
 /*  Testimonial CSS*/
 
 #test-list {
@@ -868,4 +867,9 @@ p {
   body {
     scroll-behavior: smooth;
   }
+}
+
+
+.header h2,p{
+  text-align: center;
 }
