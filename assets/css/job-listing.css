@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body{
-  font-family: 'Open Sans', sans-serif;
-}
 main {
   max-width: 100%;
   height: 100%;
@@ -35,7 +24,8 @@ main {
   margin-top: 10px;
 }
 
-.job-posts h2, h1 {
+.job-posts h2,
+h1 {
   display: flex;
   justify-content: center;
 }
