@@ -36,6 +36,10 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
+  footerrow.forEach((item,index)=>{
+
+    footerrow[index].style.color='#020100';
+  })
   contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
