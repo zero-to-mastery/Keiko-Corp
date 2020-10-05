@@ -32,7 +32,6 @@
 
 .navbar {
   display: flex;
-  padding: 0 10px;
   height: 80px;
   align-items: center;
 }
@@ -182,8 +181,8 @@ input:checked ~ .toggle-container {
     visibility: hidden;
   }
   .navbar {
+    padding: 2em;
     background-color: white;
-    padding: 0 40px;
   }
 
   .navbar ul.menu li {
@@ -195,5 +194,8 @@ input:checked ~ .toggle-container {
   }
   .navbar ul.menu li:hover {
     transform: translateY(-3%);
+  }
+  .navbar span {
+    padding: 3px;
   }
 }
