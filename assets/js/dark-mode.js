@@ -36,10 +36,9 @@ function changeToLightMode() {
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
-  this.changeTeamMemberColor('#808080')
+  this.changeTeamMemberColor('#808080');
 }
 
 //callback function to toggle between modes
@@ -69,9 +68,7 @@ if (currentTheme) {
 }
 
 function changeTeamMemberColor(color) {
-  console.log("called")
-  document.querySelector('#team>h2').style.color = color
-  Array.from(teamMemberName).forEach(item => {
+  Array.from(teamMemberName).forEach((item) => {
     item.style.color = color;
-  })
+  });
 }
