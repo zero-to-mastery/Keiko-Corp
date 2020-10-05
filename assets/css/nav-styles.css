@@ -32,7 +32,6 @@
 
 .navbar {
   display: flex;
-  padding: 0 10px;
   height: 80px;
   align-items: center;
 }
@@ -88,8 +87,8 @@
   -o-border-radius: 5px;
 }
 .navbar button:hover {
-  color: white;
-  border: 2px solid white;
+  color: #2c86fc;
+  border: 2px solid #2c86fc;
 }
 
 .nav-button {
@@ -178,8 +177,8 @@ input:checked ~ .toggle-container {
     visibility: hidden;
   }
   .navbar {
+    padding: 2em;
     background-color: white;
-    padding: 0 40px;
   }
 
   .navbar ul.menu li {
@@ -191,5 +190,8 @@ input:checked ~ .toggle-container {
   }
   .navbar ul.menu li:hover {
     transform: translateY(-3%);
+  }
+  .navbar span {
+    padding: 3px;
   }
 }
