@@ -12,5 +12,49 @@ function onScroll() {
 window.onload = function() {
     main = document.getElementById('main');
     scrollButton = document.getElementById('scroll-to-top-wrapper');
+<<<<<<< HEAD
+    document.addEventListener('scroll', onScroll, false)
+}
+
+// modals
+
+// document.getElementById('loginModal1').addEventListener('click', function() {
+//     document.getElementById('loginModal1').style.display = 'block'
+// }
+
+let loginModal = document.getElementById("loginModal1");
+let registerModal = document.getElementById("registerModal1");
+let loginBtn = document.getElementById("login");
+let registerBtn = document.getElementById("register");
+let span = document.getElementsByClassName("close")[0];
+
+loginBtn.onclick = function() {
+    loginModal.style.display = "block";
+}
+
+registerBtn.onclick = function() {
+    registerModal.style.display = "block"
+}
+
+span.onclick = function() {
+    if (loginModal.style.display = "block") {
+        loginModal.style.display = "none";
+    } else if (registerModal.style.display = "block") {
+        registerModal.style.display = "none";
+    }
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    if (event.target == loginModal) {
+        loginModal.style.display = "none";
+    } else if (event.target == registerModal) {
+        registerModal.style.display = "none";
+    }
+}
+=======
     document.addEventListener('scroll', onScroll, false);
   }
+>>>>>>> 42549787f7656d51134e948f24792ec989358db5
