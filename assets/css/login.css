@@ -5,6 +5,7 @@
   --style-1-color: #009688;
   --style-2-color: #009688;
   --style-3-color: #009688;
+  --style-4-color: #FD6854;
 }
 
 .button-card img {
@@ -15,17 +16,30 @@
   position: relative;
 }
 
-.modal-style-1 .modal-login {
-  width: 750px;
-  font-size: 13px;
+#loginModal1, #registerModal1 {
+  display: none;
 }
+
+.modal-style-1 .modal-login {
+  width: 100%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-header {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .modal-style-1 .modal-login .modal-header {
   border-bottom: none;
   position: relative;
   justify-content: center;
 }
 .modal-style-1 .modal-login h4 {
-  color: var(--style-1-color);
+  color: var(--style-4-color);
   text-align: center;
   font-size: 18px;
   margin-top: 20px;
@@ -47,6 +61,7 @@
 }
 .modal-style-1 .modal-login a {
   text-decoration: none;
+  color: var(--style-4-color);
 }
 
 .modal-style-1 .modal-login form {
@@ -58,11 +73,11 @@
   width: 60px;
   text-align: center;
   border-radius: 25px 0 0 25px;
-  border: 1px solid var(--style-1-color);
+  border: 1px solid var(--style-4-color);
   padding: 8px;
   margin-right: 5px;
-  background: var(--style-1-color);
   color: #fff;
+  background-color: var(--style-4-color);
 }
 .modal-style-1 .modal-login span.input-group-addon i {
   font-size: 16px;
@@ -78,8 +93,12 @@
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background-color: var(--style-1-color);
-  border: 1px solid var(--style-1-color);
+  background-color: var(--style-4-color);
+  border: 1px solid var(--style-4-color);
+}
+
+.hint-text {
+  margin-top: 1rem;
 }
 
 .modal-style-1 p.hint-text {
@@ -87,7 +106,7 @@
 }
 
 .modal-style-1 .register {
-  color: var(--style-1-color);
+  color: var(--style-4-color);
   font-weight: 600px;
 }
 
@@ -113,6 +132,45 @@
 .modal-style-1 .btn-twitter {
   background-color: var(--color-twitter);
 }
+
+.social-login {
+  text-align: center;
+}
+
+.social-login a {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-login a i {
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+}
+
+.modal-content div {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.close {
+  background-color: #0b0b1f;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--style-4-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .dark.modal-style-1 .modal-content {
   background: #0b0b1f;
   color: #fff;
@@ -130,7 +188,8 @@
     width: 100%;
     margin: 5px;
   }
-  .modal-style-1 .modal-login form {
+
+  .modal-style-1 .modal-login form  {
     width: 100%;
   }
 }
@@ -139,6 +198,12 @@
   width: 1140px;
   margin: 0 auto;
 }
+
+.main-container h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 .text-12 {
   font-size: 12px;
 }
@@ -152,7 +217,8 @@
 .button-card img {
   border: 1px solid #f1f1f1;
   border-radius: 5px;
-  max-height: 350px;
+  height: 100%;
+  width: 100%;
   position: relative;
 }
 
@@ -161,6 +227,29 @@
   height: 35px;
   padding: 3px;
   border-radius: 26px;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28A745;
+}
+
+.btn-primary {
+  background-color: #007BFF;
+}
+
+.action-buttons {
+  margin-bottom: 1rem; /* mb-3 */
+  margin-top: 0.6rem; /* mb-2 */
+}
+
+.col {
+  width: 100%;
+}
+
+.row {
+  text-align: center;
+  margin-top: 1rem;
 }
 
 @media only screen and (max-width: 1140px) {

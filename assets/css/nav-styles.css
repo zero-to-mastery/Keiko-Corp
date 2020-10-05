@@ -1,7 +1,7 @@
 /* Start navbar styles */
 .container-nav {
   width: 100%;
-  max-width: 1320px;
+  /*   max-width: 1320px; */
   margin: auto;
 }
 
@@ -117,8 +117,8 @@
   cursor: pointer;
 }
 
-input {
-  display: none;
+#toggle-checkbox {
+  opacity: 0;
 }
 
 .toggle-container {
@@ -130,6 +130,10 @@ input {
   border-radius: 50px;
   background: #f4f6ff;
   transition: transform 0.5s;
+}
+
+input:focus + .toggle-container {
+  box-shadow: var(--focusShadow);
 }
 
 input:checked ~ .toggle-container {

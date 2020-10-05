@@ -46,7 +46,6 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@shray0027](https://githun.com/shray0027)
 - [@AnastasiaCortes](https://github.com/AnastasiaCortes)
 - [@jomefavourite](https://github.com/jomefavourite)
-- [@matthewdbrock1968](https://github.com/matthewdbrock1968)
 - [@bbtora](https://github.com/bbtora)
 - [@carmeniancu](https://github.com/CarmenIancu)
-
+- [@matthewdbrock1968](https://github.com/matthewdbrock1968)
