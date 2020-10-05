@@ -2,14 +2,14 @@ const toggleContainer = document.querySelector('#toggle-container');
 const inputCheck = document.querySelector('input[type="checkbox"]');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
-const contenttitle = document.querySelector('.hero_content > h2');
+const contenttitle = document.querySelector('#hero-heading');
 const toggleBar = document.querySelector('#toggle-bar');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
 const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
 const footericons = document.querySelectorAll('.icon')
 const teamMemberName = document.querySelectorAll('.team-member h3')
-const footerrow= document.querySelectorAll('.footer-column>h2:nth-child(1)');
+const footerrow = document.querySelectorAll('.footer-column>h2:nth-child(1)');
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
@@ -18,9 +18,9 @@ function changeToDarkMode() {
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
   contenttitle.style.color = '#FFFFFF';
-  footerrow.forEach((item,index)=>{
+  footerrow.forEach((item, index) => {
 
-    footerrow[index].style.color='#00FFFF';
+    footerrow[index].style.color = '#00FFFF';
   })
   updateBanner.style.backgroundColor = '#343a40';
   updateHeading.style.color = '#fff';
@@ -31,6 +31,7 @@ function changeToDarkMode() {
 
 //light mode
 function changeToLightMode() {
+  contenttitle.style.color = '#000';
   body.style.background = '#fff';
   body.style.color = '#000';
   content.style.color = '#1d1c1c';
