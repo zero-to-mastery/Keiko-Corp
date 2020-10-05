@@ -30,11 +30,12 @@
 }
 /*Maneging navbar as per theme ends*/
 
-.navbar {
+.navbar{
   display: flex;
   padding: 0 10px;
   height: 80px;
   align-items: center;
+  overflow: hidden;
 }
 
 .navbar #link-btn {
@@ -75,7 +76,7 @@
   color: #000000;
 }
 
-.navbar button {
+.navbar button, .navbar .dropdown button{
   background: transparent;
   color: #2c86fc;
   font-size: 1em;
@@ -87,12 +88,13 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.navbar button:hover {
+
+.navbar button:hover, .dropdown:hover .dropbtn{ 
   color: #2c86fc;
   border: 2px solid #2c86fc;
 }
 
-.nav-button {
+.nav-button{
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -101,10 +103,52 @@
   justify-content: space-around;
 }
 
-.nav-button span {
+.nav-button span{
   width: 100%;
   background-color: black;
   height: 3px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  margin-left: 1em;
+}
+
+.navbar .dropdown .dropbtn {
+  background: transparent;
+  color: #2c86fc;
+  font-size: 1em;
+  border: 2px solid#2c86fc;
+  padding: 5px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 0;
+}
+
+.navbar .dropdown .pages-link{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.navbar .dropdown .pages-link a{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .pages-link {
+  display: block;
 }
 
 .toggle-bar {
