@@ -1,13 +1,17 @@
-.testimonial-section h1 {
+.testimonial-section {
+    margin-top: 20px;
+}
+
+#testimonials h1 {
     font-size: 3rem;
     text-align: center;
-    color: rgb(90, 90, 90);
+    color: black;
     font-weight: 600;
 }
 
-.testimonial-section p {
+#testimonials p {
     margin: 10px auto 0;
-    padding: 0 17%;
+    padding: 0 26%;
     text-align: center;
 }
 
@@ -36,13 +40,13 @@
     display: inline-block;
 }
 
-#testimonial-carousel .carousel-item em {
+em.testimonial-text {
     width: 70%;
     display: inline-block;
     text-align: left;
 }
 
-#testimonial-carousel .carousel-item h3 {
+h3.testimonial-text {
     margin-top: 10px;
     text-align: left;
 
