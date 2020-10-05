@@ -109,13 +109,20 @@
 
 .toggle-bar {
   margin: 0 20px 0 auto;
-  display: inline-block;
   width: 70px;
-  height: 35px;
+  height: 29px;
   background: #ebecf1;
   border-radius: 50px;
   position: relative;
   cursor: pointer;
+}
+
+.toggle-bar {
+  background-color: #f4f7fe;
+}
+
+.toggle-bar::after {
+  background-color: #f4f7fe;
 }
 
 input {
@@ -124,10 +131,10 @@ input {
 
 .toggle-container {
   position: absolute;
-  top: -2.5px;
-  left: 0;
-  width: 40px;
-  height: 40px;
+  top: 4px;
+  left: -6px;
+  width: 22px;
+  height: 21px;
   border-radius: 50px;
   background: #f4f6ff;
   transition: transform 0.5s;
@@ -138,7 +145,8 @@ input:focus + .toggle-container {
 }
 
 input:checked ~ .toggle-container {
-  transform: translateX(32px);
+  transform: translateX(10px);
+  background-color: #f1c40f;
 }
 
 @media only screen and (max-width: 500px) {

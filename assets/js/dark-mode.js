@@ -16,7 +16,7 @@ function changeToDarkMode() {
   body.style.color = '#fff';
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
-  toggleBar.style.background = '#01a9b4';
+  toggleBar.style.background = '#f4f7fe';
   contenttitle.style.color = '#FFFFFF';
   footerrow.forEach((item,index)=>{
 
