@@ -69,7 +69,6 @@ if (currentTheme) {
 
 function changeTeamMemberColor(color) {
   console.log("called")
-  console.log(document.querySelector('#team>h2'))
   document.querySelector('#team>h2').style.color = color
   Array.from(teamMemberName).forEach(item => {
     item.style.color = color;
