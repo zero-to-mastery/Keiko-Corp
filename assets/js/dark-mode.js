@@ -43,7 +43,6 @@ function changeToLightMode() {
 
 //callback function to toggle between modes
 function changeBackground() {
-  console.log(inputCheck.checked)
   if (inputCheck.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     changeToDarkMode();
