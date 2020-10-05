@@ -2,7 +2,7 @@ const toggleContainer = document.querySelector('#toggle-container');
 const inputCheck = document.querySelector('input[type="checkbox"]');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
-const contentTitle = document.querySelector('.hero_content > h2');
+const contenttitle = document.querySelector('#hero-heading');
 const toggleBar = document.querySelector('#toggle-bar');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
@@ -19,9 +19,8 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
-  contentTitle.style.color = '#FFFFFF';
+  contenttitle.style.color = '#FFFFFF';
   footerrow.forEach((item, index) => {
-
     footerrow[index].style.color = '#00FFFF';
   })
   updateBanner.style.backgroundColor = '#0B1728';
@@ -35,6 +34,7 @@ function changeToDarkMode() {
 
 //light mode
 function changeToLightMode() {
+  contenttitle.style.color = '#000';
   body.style.background = '#fff';
   body.style.color = '#000';
   content.style.color = '#1d1c1c';
