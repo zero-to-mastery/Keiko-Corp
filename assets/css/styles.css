@@ -111,6 +111,10 @@
 }
 
 @media only screen and (min-width: 731px){
+    #feature{
+      width: 960px;
+      margin: auto; 
+    }
     .feature_two{
       order: 1;
     } 
