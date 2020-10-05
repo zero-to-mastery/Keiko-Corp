@@ -58,29 +58,30 @@
             <li class="active" id=home>Home</li>
             <li>
               <a href="#feature">
-                Features
+                <button id="contact-btn">Features</button>
               </a>
             </li>
             <li>
               <a href="#testimonials">
-                Testimonials
+                <button id="contact-btn">Testimonials</button>
               </a>
             </li>
             <li>
-              <a href="#pricing">
-                Pricing
+              <a href="#team">
+                <button id="contact-btn">Team</button>
               </a>
             </li>
+            <label class="toggle-bar" id="toggle-bar">
+              <input type="checkbox" id="toggle-checkbox" />
+              <div class="toggle-container" id="toggle-container"></div>
+            </label>
             <li>
               <a href="./contact.html">
-                Contact
+                <button class="red-btn" id="contact-btn">Contact</button>
               </a>
             </li>
           </ul>
-          <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" />
-            <div class="toggle-container" id="toggle-container"></div>
-          </label>
+
         </nav>
       </div>
     </header>
@@ -91,7 +92,7 @@
         <img src="./assets/images/hero.svg" class="hero_image" alt="" />
       </div>
       <div class="hero_content">
-        <h2 id="hero-heading">The Best Tech StartUp</h2>
+        <h2>The Best Tech StartUp</h2>
         <p>
           Even the all-powerful Pointing has no control about the blind texts.It
           is an almost unorthographic life.One day however, a small line of
@@ -109,9 +110,7 @@
         <img alt="image" height="40" src="./assets/images/subscribe-icon.svg">
         <h1 class="update-heading">Never miss an update</h1>
 
-
-        <h2 class="update-heading2">
-
+        <h2>
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts.
         </h2>
@@ -124,14 +123,12 @@
           </div>
         </div>
 
-        <h5 class="updateHeading5" id="neverMissUpdateemail">*Your email address is safe with us. We never share your
-          email
+        <h5 id="neverMissUpdateemail">*Your email address is safe with us. We never share your email
           address</h5>
       </div>
     </div>
 
     <!-- ****** FEATURES ****** -->
-
 
     <!-- feature one -->
     <section id="feature">
@@ -143,7 +140,6 @@
         <div class="feature_one">
           <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
         </div>
-
 
         <div class="feature_content">
           <h1>FEATURE ONE</h1>
@@ -173,7 +169,6 @@
         </div>
 
         <div class="feature_content" id="feature_three_content">
-
           <h1>FEATURE THREE</h1>
           <p>The best Lorem Ipsum Generator in all the sea!
             Heave this scurvy copyfiller fer yar next adventure
@@ -186,22 +181,19 @@
     </section>
 
     <!-- ******** COMPANIES ******** -->
+
     <section class="companies-banner-container">
-      <div class="conpany-container">
-        <div class="companies-title-section">
-          <h3 class="company-title">You are in good company</h3>
-          <p class="company-title-description">
-            We are funded with the world's trusted brands
-          </p>
-        </div>
-        <div class="company-logo-section">
-          <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
-          <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
-          <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
-          <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
-          <img class="company-logo" src="assets/images/logos/intel.svg" />
-          <img class="company-logo" src="assets/images/logos/samsung.svg" />
-        </div>
+      <div class="companies-title-section">
+        <p class="company-title">You are in good company</p>
+        <p class="company-title-description">We are funded with the world's trusted brands</p>
+      </div>
+      <div class="company-logo-section">
+        <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo" src="assets/images/logos/intel.svg" />
+        <img class="company-logo" src="assets/images/logos/samsung.svg" />
       </div>
     </section>
 
@@ -246,15 +238,45 @@
       </div>
     </section>
 
-
     <!-- ******* Meet the Team ******** -->
-    <div class="meet-the-team" id="team">
+    <!-- <div class="meet-the-team" id="team">
       <h2>Meet Our Team</h2>
       <div class="team-row">
         <div class="team-member">
           <img src="assets/images/team1.jpg" />
           <h3>Jenifer Ray</h3>
           <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team2.jpg" />
+          <h3>Nick Smith</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team3.jpg" />
+          <h3>Daniel Frost</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team4.jpg" />
+          <h3>Mary Thomas</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- ******** PRICING SECTION ******** -->
+    <section class="pricing" id=pricing>
+      <h2>Pricing</h2>
+      <p>Honest pricing, no surprises</p>
+      <div class="price-cards">
+        <div class="price-card">
+          <h3>Personal</h3>
+          <div class="price"><span>$</span><span>10</span><span> /MO</span></div>
+        </div>
+        <div class="price-card">
+          <h3>Agency</h3>
+          <div class="price"><span>$</span><span>20</span><span> /MO</span></div>
         </div>
         <div class="team-member">
           <img src="assets/images/team2.jpg" />
@@ -293,100 +315,111 @@
         </div>
       </section>
 
-      <!-- ******* Footer ******* -->
-      <section>
-        <div class="wrapper">
-          <div class="button">
-            <div class="icon"><i class="fab fa-facebook-f"></i></div>
-            <span>Facebook</span>
-          </div>
-          <div class="button">
-            <div class="icon"><i class="fab fa-twitter"></i></div>
-            <span>Twitter</span>
-          </div>
-          <div class="button">
-            <div class="icon"><i class="fab fa-instagram"></i></div>
-            <span>Instagram</span>
-          </div>
-          <div class="button">
-            <div class="icon"><i class="fab fa-youtube"></i></div>
-            <span>YouTube</span>
-          </div>
-        </div>
-      </section>
-
       <!-- Footer -->
       <footer>
         <div class="footer-row pl-5 pr-5">
           <section class="footer-column">
             <h2>Group 1</h2>
             <div class='sub-footer-link'>
-              <a href="#main">Home</a>
-              <a href="#feature">Features</a>
-              <a href="#pricing">Pricing</a>
-              <a href="#team">Team</a>
-              <a href="contact.html">Contact Us</a>
+              <a href="home">Home</a>
+              <a href="features">Features</a>
+              <a href="pricing">Pricing</a>
+              <a href="team">Team</a>
+              <a href="contact Us">Contact Us</a>
             </div>
           </section>
 
           <section class="footer-column">
             <h2>Group 2</h2>
             <div class='sub-footer-link'>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms</a>
-              <a href="#">FAQ</a>
-              <a href="#">Support</a>
+              <a href="privacy">Privacy Policy</a>
+              <a href="terms">Terms</a>
+              <a href="FAQ">FAQ</a>
+              <a href="support">Support</a>
             </div>
-          </section>
-
-          <section class="footer-column">
-            <h2>About Us</h2>
-            <div>
-              Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
-              tech
-              start up in Silicon Valley,
-              Far far away, behind the word
-              mountains, far from the countries
-              Vokalia and Consonantia, there live
-              the blind texts
+            <div class="button">
+              <div class="icon"><i class="fab fa-instagram"></i></div>
+              <span>Instagram</span>
             </div>
-          </section>
-
-          <section class="footer-column">
-            <h2>Follow Us</h2>
-            <div class="sub-footer">
-              <div class='sub-footer-link socials'>
-                <a href="/"><i class="fab fa-twitter"></i></a>
-                <a href="/"><i class="fab fa-facebook-f"></i></a>
-                <a href="/"><i class="fab fa-instagram"></i></a>
-                <a href="/"><i class="fab fa-youtube"></i></a>
-                <a href="/"><i class="fab fa-google"></i></a>
-              </div>
+            <div class="button">
+              <div class="icon"><i class="fab fa-youtube"></i></div>
+              <span>YouTube</span>
             </div>
-          </section>
+        </div>
+    </section>
 
-          <!-- Scroller -->
-          <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
-            <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-row pl-5 pr-5">
+        <section class="footer-column">
+          <h2>Group 1</h2>
+          <div class='sub-footer-link'>
+            <a href="#main">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#team">Team</a>
+            <a href="contact.html">Contact Us</a>
           </div>
+        </section>
 
+        <section class="footer-column">
+          <h2>Group 2</h2>
+          <div class='sub-footer-link'>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>About Us</h2>
+          <div>
+            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
+            tech
+            start up in Silicon Valley,
+            Far far away, behind the word
+            mountains, far from the countries
+            Vokalia and Consonantia, there live
+            the blind texts
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>Follow Us</h2>
+          <div class="sub-footer">
+            <div class='sub-footer-link socials'>
+              <a href="/"><i class="fab fa-twitter"></i></a>
+              <a href="/"><i class="fab fa-facebook-f"></i></a>
+              <a href="/"><i class="fab fa-instagram"></i></a>
+              <a href="/"><i class="fab fa-youtube"></i></a>
+              <a href="/"><i class="fab fa-google"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroller -->
+        <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
+          <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
         </div>
 
-        <section id='sub-footer'>
-          <p>&copy;
-            <script>document.write(new Date().getFullYear())</script>
-            Keiko Corp . All Rights Reserved
-          </p>
-        </section>
-      </footer>
+      </div>
+
+      <section id='sub-footer'>
+        <p>&copy;
+          <script>document.write(new Date().getFullYear())</script>
+          Keiko Corp . All Rights Reserved
+        </p>
+      </section>
+    </footer>
 
 
-      <!-- JAVASCRIPT FILES -->
-      <!--NO BOOTSTRAP OR JQUERY -->
-      <script src="./assets/js/navbar.js"></script>
-      <script src="./assets/js/dark-mode.js"></script>
-      <script src="./assets/js/progressbar.js"></script>
-      <script src="./assets/js/script.js"></script>
+    <!-- JAVASCRIPT FILES -->
+    <!--NO BOOTSTRAP OR JQUERY -->
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/dark-mode.js"></script>
+    <script src="./assets/js/progressbar.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
