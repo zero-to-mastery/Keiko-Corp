@@ -84,6 +84,49 @@
   color: blue;
 }
 
+
+@media only screen and (max-width: 768px) and (min-width: 730px){
+  .feature_image {
+    width: 400px;
+  }
+
+  .feature_content p {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 730px){
+  .feature{
+    grid-template-columns: 1fr;
+  }
+
+  .feature_image, .feature_content p {
+    width: 100%;
+  }
+
+  .features-heading h1{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 730px){
+    .feature_two{
+      order: 1;
+    } 
+    #feature_two_content{
+      order: 0;
+    }
+    #feature_three_content{
+      order: 1;
+    }
+    .feature_three{
+      order: 1;
+    } 
+}
+
+
+
 /* Meet the Team Styles */
 
 .meet-the-team {
