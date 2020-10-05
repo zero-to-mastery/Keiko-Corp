@@ -10,7 +10,7 @@
 
 .companies-title-section p{
   text-align: center;
-  color: white;
+  color: var(--lightBlue);
 }
 
 .company-title{

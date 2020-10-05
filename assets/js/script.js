@@ -12,6 +12,7 @@ function onScroll() {
 window.onload = function() {
     main = document.getElementById('main');
     scrollButton = document.getElementById('scroll-to-top-wrapper');
+<<<<<<< HEAD
     document.addEventListener('scroll', onScroll, false)
 }
 
@@ -53,3 +54,7 @@ window.onclick = function(event) {
         registerModal.style.display = "none";
     }
 }
+=======
+    document.addEventListener('scroll', onScroll, false);
+  }
+>>>>>>> 42549787f7656d51134e948f24792ec989358db5
