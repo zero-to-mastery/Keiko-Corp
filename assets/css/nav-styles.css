@@ -74,7 +74,7 @@
   color: #000000;
 }
 
-.navbar button {
+.navbar a {
   background: transparent;
   color: #2c86fc;
   font-size: 1em;
@@ -86,7 +86,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-.navbar button:hover {
+.navbar a:hover {
   color: #2c86fc;
   border: 2px solid #2c86fc;
 }
