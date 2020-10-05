@@ -7,9 +7,7 @@
 
 Summarize what this PR fixes:-
 
-#### This feature will include links in the navbar and will open the login and signup pages that iwill create using HTML and CSS.
-
-Fixes #<enter number>
+Fixes #
 
 #### **Checklist**
 
@@ -17,6 +15,6 @@ Fixes #<enter number>
 
 - [ ] I have summarize what this PR fixes above
 - [ ] I have provided the issue ID/URL above
-- [X] I have not added Bootstrap or jQuery and used correct styling guide.
+- [ ] I have not added Bootstrap or jQuery and used correct styling guide.
 - [ ] This PR fixes only the issue mentioned above (create separate PRs for separate issues)
-- [X] I was the first one to claim the issue or I created the issue - I created the issue
+- [ ] I was the first one to claim the issue or I created the issue - I created the issue
