@@ -2,14 +2,16 @@ const toggleContainer = document.querySelector('#toggle-container');
 const inputCheck = document.querySelector('input[type="checkbox"]');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
-const contenttitle = document.querySelector('.hero_content > h2');
+const contenttitle = document.querySelector('#hero-heading');
 const toggleBar = document.querySelector('#toggle-bar');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
+const updateHeading2 = document.querySelector('.update-heading2');
+const updateHeading5 = document.querySelector('.updateHeading5');
 const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
-const footericons = document.querySelectorAll('.icon')
+const footerIcons = document.querySelectorAll('.icon')
 const teamMemberName = document.querySelectorAll('.team-member h3')
-const footerrow= document.querySelectorAll('.footer-column>h2:nth-child(1)');
+const footerrow = document.querySelectorAll('.footer-column>h2:nth-child(1)');
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
@@ -18,28 +20,33 @@ function changeToDarkMode() {
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
   contenttitle.style.color = '#FFFFFF';
-  footerrow.forEach((item,index)=>{
-
-    footerrow[index].style.color='#00FFFF';
+  footerrow.forEach((item, index) => {
+    footerrow[index].style.color = '#00FFFF';
   })
-  updateBanner.style.backgroundColor = '#343a40';
+  updateBanner.style.backgroundColor = '#0B1728';
   updateHeading.style.color = '#fff';
+  updateHeading2.style.color = '#fff';
+  updateHeading5.style.color = '#fff';
   for (i = 0; i < footerLink.length; i++) footerLink[i].style.color = 'white';
-  footericons.forEach(e => e.style.color = "#000")
-  this.changeTeamMemberColor('#fff')
+  footerIcons.forEach(e => e.style.color = "#000")
+  this.changeTeamMemberColor('#fff');
 }
 
 //light mode
 function changeToLightMode() {
+  contenttitle.style.color = '#000';
   body.style.background = '#fff';
   body.style.color = '#000';
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contactBanner.style.background = '#ebecf1';
+  contentTitle.style.color = 'black';
+  //contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
-  this.changeTeamMemberColor('#808080')
+  updateHeading2.style.color = '#1d1c1c';
+  updateHeading5.style.color = '#1d1c1c';
+  this.changeTeamMemberColor('#808080');
 }
 
 //callback function to toggle between modes
@@ -55,7 +62,7 @@ function changeBackground() {
   }
 }
 
-//event listener to toggle betwen light and dark modes
+//event listener to toggle between light and dark modes
 inputCheck.addEventListener('change', changeBackground);
 
 //to retain the mode with the help of local storage

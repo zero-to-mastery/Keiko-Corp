@@ -25,7 +25,6 @@
 
 .navbar {
   display: flex;
-  padding: 0 10px;
   height: 80px;
   align-items: center;
   width: 100%;
@@ -69,7 +68,7 @@
   color: #000000;
 }
 
-.navbar button {
+.navbar a {
   background: transparent;
   color: #000000;
   font-size: 1em;
@@ -195,8 +194,8 @@ input:checked ~ .toggle-container {
     visibility: hidden;
   }
   .navbar {
+    padding: 2em;
     background-color: white;
-    padding: 0 40px;
   }
 
   .navbar ul.menu li {
@@ -206,6 +205,9 @@ input:checked ~ .toggle-container {
  
   .navbar ul.menu li:hover {
     transform: translateY(-3%);
+  }
+  .navbar span {
+    padding: 3px;
   }
 }
 
