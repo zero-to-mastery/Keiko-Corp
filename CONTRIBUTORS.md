@@ -33,7 +33,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@afrazz](https://github.com/afrazz)
 - [@f0rSaaa](https://github.com/f0rSaaa)
 - [@f0rSaaa](https://github.com/f0rSaaa)
-- [@SkyC0der](https://github.com/SkyC0der
+- [@SkyC0der](https://github.com/SkyC0der)
 - [@Agilulfe](https://github.com/Agilulfe)
 - [@leonyangela](https://github.com/leonyangela)
 - [@shray0027](https://githun.com/shray0027)
@@ -47,3 +47,6 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@AnastasiaCortes](https://github.com/AnastasiaCortes)
 - [@jomefavourite](https://github.com/jomefavourite)
 - [@matthewdbrock1968](https://github.com/matthewdbrock1968)
+- [@bbtora](https://github.com/bbtora)
+- [@carmeniancu](https://github.com/CarmenIancu)
+
