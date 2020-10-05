@@ -50,6 +50,7 @@ h5 {
 }
 #button-addon2 {
   display: inline-block;
+  width: 100%;
   font-weight: 400;
   color: #ffffff;
   text-align: center;
@@ -66,7 +67,13 @@ h5 {
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: none;
+}
+#button-addon2:hover{
+  background-color: #ffffff;
+  color: #fe6655;
+  border: 1px solid #fe6655;
 }
 
 h2 {
