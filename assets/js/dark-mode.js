@@ -1,6 +1,5 @@
 const toggleContainer = document.querySelector('#toggle-container');
 const inputCheck = document.querySelector('input[type="checkbox"]');
-const body = document.querySelector('body');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
 const contenttitle = document.querySelector('.hero_content > h2');
