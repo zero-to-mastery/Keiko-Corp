@@ -597,7 +597,7 @@ ul {
 
 .wrapper .button span {
   font-size: 25px;
-  font-style: italic;
+  font-style: bold;
   font-weight: 500;
   margin-left: -20px;
   transition: all 0.3s ease-out;
