@@ -93,7 +93,7 @@
 }
 
 .toggle-bar {
-  margin: 0 20px 0 auto;
+  margin: 5px 73px;
   display: inline-block;
   width: 52px;
   height: 20px;
@@ -133,6 +133,11 @@ input:checked ~ .toggle-container {
   padding: 10px 15px!important;
 }
 
+.menu {
+  display: flex;
+    justify-content: flex-end!important;
+}
+
 *:focus {
   outline: 0!important;
 }
@@ -141,6 +146,7 @@ input:checked ~ .toggle-container {
   position: absolute;
   left: 8%;
 }
+
 
 
 .navbar ul li a button:hover {
@@ -202,3 +208,5 @@ input:checked ~ .toggle-container {
     transform: translateY(-3%);
   }
 }
+
+
