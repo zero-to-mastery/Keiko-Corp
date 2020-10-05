@@ -19,14 +19,11 @@ function changeToDarkMode() {
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
   toggleBar.style.background = '#01a9b4';
-  contenttitle.style.color = '#FFFFFF';
   footerrow.forEach((item, index) => {
     footerrow[index].style.color = '#00FFFF';
   })
   updateBanner.style.backgroundColor = '#0B1728';
   updateHeading.style.color = '#fff';
-  updateHeading2.style.color = '#fff';
-  updateHeading5.style.color = '#fff';
   for (i = 0; i < footerLink.length; i++) footerLink[i].style.color = 'white';
   footerIcons.forEach(e => e.style.color = "#000")
   this.changeTeamMemberColor('#fff');
@@ -34,23 +31,19 @@ function changeToDarkMode() {
 
 //light mode
 function changeToLightMode() {
-  contenttitle.style.color = '#000';
   body.style.background = '#fff';
   body.style.color = '#000';
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
   toggleBar.style.background = '#ebecf1';
-  contentTitle.style.color = 'black';
-  //contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
-  updateHeading2.style.color = '#1d1c1c';
-  updateHeading5.style.color = '#1d1c1c';
   this.changeTeamMemberColor('#808080');
 }
 
 //callback function to toggle between modes
 function changeBackground() {
+  console.log(inputCheck.checked)
   if (inputCheck.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     changeToDarkMode();
@@ -77,6 +70,7 @@ if (currentTheme) {
 
 function changeTeamMemberColor(color) {
   console.log("called")
+  console.log(document.querySelector('#team>h2'))
   document.querySelector('#team>h2').style.color = color
   Array.from(teamMemberName).forEach(item => {
     item.style.color = color;
