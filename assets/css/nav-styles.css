@@ -9,7 +9,7 @@
 
 /*Managing navbar as per theme start*/
 [data-theme='dark'] .navbar {
-  background: #132743;
+  background: #343a40;
 }
 [data-theme='dark'] .navbar ul.menu li {
   color: #ddd;
@@ -75,7 +75,6 @@
   padding: 5px 20px;
 }
 
-
 .nav-button {
   cursor: pointer;
   width: 30px;
@@ -96,7 +95,7 @@
   display: inline-block;
   width: 52px;
   height: 20px;
-  background: #20014d!important;
+  background: #20014d !important;
   border-radius: 50px;
   position: relative;
   cursor: pointer;
@@ -127,18 +126,18 @@ input:checked ~ .toggle-container {
 
 /* new header styling */
 .red-btn {
-  border: 2px solid #FE6655;
-  color: #FE6655!important;
-  padding: 10px 15px!important;
+  border: 2px solid #fe6655;
+  color: #fe6655 !important;
+  padding: 10px 15px !important;
 }
 
 .menu {
   display: flex;
-    justify-content: flex-end!important;
+  justify-content: flex-end !important;
 }
 
 *:focus {
-  outline: 0!important;
+  outline: 0 !important;
 }
 
 .menu li:first-child {
@@ -146,12 +145,9 @@ input:checked ~ .toggle-container {
   left: 8%;
 }
 
-
-
 .navbar ul li a button:hover {
   cursor: pointer;
 }
-
 
 @media only screen and (max-width: 500px) {
   .navbar {
@@ -202,7 +198,6 @@ input:checked ~ .toggle-container {
     line-height: normal;
   }
 
- 
   .navbar ul.menu li:hover {
     transform: translateY(-3%);
   }
@@ -210,5 +205,3 @@ input:checked ~ .toggle-container {
     padding: 3px;
   }
 }
-
-
