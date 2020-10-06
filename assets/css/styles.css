@@ -138,6 +138,7 @@
   font-weight: 400;
   color: var(--heroText);
   line-height: 1.4;
+  margin-bottom: 20px;
 }
 .feature_one,
 .feature_two,
@@ -152,7 +153,10 @@
 .feature-link {
   margin-top: 20px;
   text-decoration: none;
-  color: blue;
+  color: white;
+  background-color:  #ef5b59;
+  padding: 5px;
+  border-radius: .25rem;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 730px) {
