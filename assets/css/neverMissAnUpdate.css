@@ -24,9 +24,14 @@
 
 .neverMissUpdateContainer h2 {
   font-size: 18px;
+  max-width: 90%;
 }
 .neverMissUpdateContainer h3 {
   color: whitesmoke;
+}
+
+.neverMissUpdateContainer h5 {
+  max-width: 90%;
 }
 
 .neverMissUpdateContainer h1,
