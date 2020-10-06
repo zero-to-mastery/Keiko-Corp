@@ -231,7 +231,7 @@ header {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #FE6655; color: #fff;}
+.dropdown:hover .dropbtn {background-color: #FE6655; color: #fff;transition: 0.3s ease;}
 /* end of dropdown styling */
 
 @media only screen and (max-width: 500px) {
