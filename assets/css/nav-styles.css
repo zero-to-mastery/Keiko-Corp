@@ -28,6 +28,7 @@
   height: 80px;
   align-items: center;
   width: 100%;
+  background:white;
 }
 
 .navbar #link-btn {
@@ -35,8 +36,9 @@
   color: black;
 }
 
-.navbar .logo {
-  width: 60px;
+.logo {
+  width: auto;
+  height: 80px;
 }
 
 .navbar ul {
@@ -46,11 +48,13 @@
   align-items: center;
   height: 100%;
   list-style: none;
+  margin-bottom: 10px;
 }
 
 .navbar ul.menu li {
   cursor: pointer;
-  line-height: 80px;
+  /* margin-bottom: 60px; */
+  /* line-height: 80px; */
   font-size: 1em;
   color: #423f3f;
   transition: all ease-in 0.1s;
@@ -69,7 +73,7 @@
 }
 
 .navbar a {
-  background: transparent;
+  /* background: transparent; */
   color: #000000;
   font-size: 1em;
   padding: 5px 20px;
@@ -83,11 +87,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  position: absolute;
+  top:0;
+  right: 0;
+  transform: translate(-50%,50%);
 }
-
+.navbar button{
+  background-color: transparent;
+}
 .nav-button span {
   width: 100%;
-  background-color: black;
+  background-color:#20014D;
   height: 3px;
 }
 
@@ -130,6 +140,7 @@ input:checked ~ .toggle-container {
   border: 2px solid #FE6655;
   color: #FE6655!important;
   padding: 10px 15px!important;
+  border-radius: 5px;
 }
 
 .menu {
@@ -151,24 +162,41 @@ input:checked ~ .toggle-container {
 .navbar ul li a button:hover {
   cursor: pointer;
 }
-
+.toggle-bar-mobile{
+  margin: 5px 73px;
+  width: 52px;
+  height: 20px;
+  background: #20014d!important;
+  border-radius: 50px;
+  position: absolute;
+  cursor: pointer;
+  top:0;
+  right:0;
+  transform: translate(-50%,75%);
+}
 
 @media only screen and (max-width: 500px) {
   .navbar {
     justify-content: space-between;
     padding: 0 50px;
+    background-color: white;
+    z-index: 100;
   }
 
   .navbar button {
+    /* display: block; */
+    background-color: transparent;
+  }
+  .toggle-bar{
     display: none;
   }
-
   .navbar ul {
     display: block;
     text-align: center;
     top: 80px;
     left: 0;
     position: absolute;
+    background-color: rgb(240, 234, 234);
     height: 0;
     width: 100%;
     overflow: hidden;
@@ -180,9 +208,12 @@ input:checked ~ .toggle-container {
   }
 
   .navbar ul.open {
-    height: 400px;
+    height: 350px;
   }
-
+  .navbar ul.menu li {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
   .navbar ul.menu li + li {
     margin-left: 0px;
   }
@@ -192,6 +223,9 @@ input:checked ~ .toggle-container {
   .nav-button {
     display: none;
     visibility: hidden;
+  }
+  .toggle-bar-mobile{
+    display: none;
   }
   .navbar {
     padding: 2em;
@@ -209,6 +243,7 @@ input:checked ~ .toggle-container {
   .navbar span {
     padding: 3px;
   }
+  
 }
 
 
