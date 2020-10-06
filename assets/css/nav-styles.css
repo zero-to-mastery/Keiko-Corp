@@ -138,7 +138,8 @@ input:checked ~ .toggle-container {
 /* new header styling */
 .red-btn {
   border: 2px solid #FE6655;
-  color: #FE6655!important;
+  border-radius: 5px;
+  color: #FE6655;
   padding: 10px 15px!important;
   border-radius: 5px;
 }
@@ -158,10 +159,13 @@ input:checked ~ .toggle-container {
 }
 
 
-
+.navbar ul li a button{
+  background: transparent;
+}
 .navbar ul li a button:hover {
   cursor: pointer;
 }
+
 .toggle-bar-mobile{
   margin: 5px 73px;
   width: 52px;
@@ -173,6 +177,14 @@ input:checked ~ .toggle-container {
   top:0;
   right:0;
   transform: translate(-50%,75%);
+}
+
+
+
+.red-btn:hover{
+  color: #fff;
+  background-color: #FE6655;
+  transition: 0.3s ease;
 }
 
 @media only screen and (max-width: 500px) {
