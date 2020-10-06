@@ -128,7 +128,8 @@ input:checked ~ .toggle-container {
 /* new header styling */
 .red-btn {
   border: 2px solid #FE6655;
-  color: #FE6655!important;
+  border-radius: 5px;
+  color: #FE6655;
   padding: 10px 15px!important;
 }
 
@@ -155,8 +156,8 @@ input:checked ~ .toggle-container {
 }
 
 .red-btn:hover{
-  background-color: #FE6655;
   color: #fff;
+  background-color: #FE6655;
   transition: 0.3s ease;
 }
 @media only screen and (max-width: 500px) {
