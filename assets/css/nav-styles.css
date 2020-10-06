@@ -21,6 +21,9 @@
   color: #fff;
   font-weight: 500;
 }
+[data-theme='dark'] .navbar ul{
+  background-color: #343a40;
+}
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -222,10 +225,10 @@ input:checked ~ .toggle-container {
   }
 
   .navbar ul.open {
-    height: 350px;
+    height: 450px;
   }
   .navbar ul.menu li {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 30px;
   }
   .navbar ul.menu li + li {
