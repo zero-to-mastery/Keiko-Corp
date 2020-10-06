@@ -130,6 +130,7 @@ input:checked ~ .toggle-container {
   border: 2px solid #FE6655;
   color: #FE6655!important;
   padding: 10px 15px!important;
+  border-radius: .25rem;
 }
 
 .menu {
