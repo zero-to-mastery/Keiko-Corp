@@ -52,4 +52,6 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@navdeepsingh4298](https://github.com/navdeepsingh4298)
 - [@shafayetrajit](https://github.com/ShafayetRajit)
 - [@Krypton](https://github.com/KryptonBD)
+- [@Surya742](https://github.com/Surya742)
 - [@arnabuchiha](https://github.com/arnabuchiha)
+
