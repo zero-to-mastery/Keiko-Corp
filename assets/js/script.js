@@ -11,10 +11,10 @@ function onScroll() {
 }
 
 
-window.onload = function() {
-    main = document.getElementById('main');
-    scrollButton = document.getElementById('scroll-to-top-wrapper');
-    document.addEventListener('scroll', onScroll, false)
+window.onload = function () {
+  main = document.getElementById('main');
+  scrollButton = document.getElementById('scroll-to-top-wrapper');
+  document.addEventListener('scroll', onScroll, false)
 }
 
 
@@ -47,15 +47,15 @@ span.onclick = function () {
 };
 
 
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    if (event.target == loginModal) {
-        loginModal.style.display = "none";
-    } else if (event.target == registerModal) {
-        registerModal.style.display = "none";
-    }
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+  if (event.target == loginModal) {
+    loginModal.style.display = "none";
+  } else if (event.target == registerModal) {
+    registerModal.style.display = "none";
+  }
 }
 
 
