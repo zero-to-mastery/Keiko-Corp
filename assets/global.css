@@ -37,6 +37,8 @@ body {
   --green: #2CB629;
   --heading: #020100;
   --text: #757575;
+  --mainBackground: #fff;
+  --heroText: #343A40;
 
   /* text sizes */
   --smText: 0.64rem;
@@ -72,7 +74,7 @@ body {
   --focusShadow: 0 0 0 3px #1f014d2f;
 
   /* breakpoints */
-  --sm: 640px
+  --sm: 640px;
   /*  @media (min-width: 640px) { ... } */
   --md: 768px;
   /* @media (min-width: 768px) { ... } */
@@ -81,6 +83,14 @@ body {
   --xl: 1280px;
   /* @media (min-width: 1280px) { ... } */
 }
+
+[data-theme = 'dark'] {  
+  --lightBlue: #c54b49;  
+  --text: #fff;
+  --mainBackground: #343A40;
+  --heroText: #fff;
+}
+
 
 body {
   color: var(--text);

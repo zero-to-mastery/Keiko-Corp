@@ -49,3 +49,9 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@bbtora](https://github.com/bbtora)
 - [@carmeniancu](https://github.com/CarmenIancu)
 - [@matthewdbrock1968](https://github.com/matthewdbrock1968)
+- [@navdeepsingh4298](https://github.com/navdeepsingh4298)
+- [@shafayetrajit](https://github.com/ShafayetRajit)
+- [@Krypton](https://github.com/KryptonBD)
+- [@Surya742](https://github.com/Surya742)
+- [@arnabuchiha](https://github.com/arnabuchiha)
+
