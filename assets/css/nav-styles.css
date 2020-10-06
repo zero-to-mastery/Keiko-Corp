@@ -240,10 +240,6 @@ input:checked ~ .toggle-container {
     margin-left: 0px;
   }
 
-  .navbar .menu li:last-child {
-    margin-left: 0;
-  }
-
 }
 
 @media only screen and (min-width: 500px) {
