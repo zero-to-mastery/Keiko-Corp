@@ -147,12 +147,18 @@ input:checked ~ .toggle-container {
 }
 
 
-
+.navbar ul li a button{
+  background: transparent;
+}
 .navbar ul li a button:hover {
   cursor: pointer;
 }
 
-
+.red-btn:hover{
+  background-color: #FE6655;
+  color: #fff;
+  transition: 0.3s ease;
+}
 @media only screen and (max-width: 500px) {
   .navbar {
     justify-content: space-between;
