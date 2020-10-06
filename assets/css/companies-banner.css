@@ -12,7 +12,7 @@
 .companies-title-section h3,
 p {
   text-align: center;
-  color: white;
+  color: var(--heroText);
 }
 
 .company-container {

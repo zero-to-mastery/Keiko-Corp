@@ -50,3 +50,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@carmeniancu](https://github.com/CarmenIancu)
 - [@matthewdbrock1968](https://github.com/matthewdbrock1968)
 - [@shafayetrajit](https://github.com/ShafayetRajit)
+- [@Krypton](https://github.com/KryptonBD)
