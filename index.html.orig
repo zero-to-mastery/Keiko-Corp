@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ******* HEAD ******** -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/keiko-icon.ico" />
+  <title>Keiko Corp</title>
+  <!-- Open graph -->
+  <meta property="og:image" content="https://keiko-corp.netlify.app/assets/images/keiko-logo-og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:title" content="The best tech startup" />
+  <meta property="og:description" content="The fastest growing tech start up in Silicon Valley." />
+  <meta property="og:url" content="https://keiko-corp.netlify.app/" />
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/companies-banner.css" />
+  <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
+  <link rel="stylesheet" href="./assets/css/neverMissAnUpdate.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<!-- ******* BODY ******** -->
+<body>
+
+<div class="main" id="main">
+
+  <!-- HEADER -->
+  <header class="no-user-select">
+    <!-- sticky header -->
+    <div class="container-nav sticky">
+      <nav class="navbar">
+        <div class="nav-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="menu">
+          <li>
+            <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+          </li>
+          <li class="active">Home</li>
+          <li>
+            <a href="#feature">
+              <button id="contact-btn">Features</button>
+            </a>
+          </li>
+          <li>
+            <a href="#testimonials">
+              <button id="contact-btn">Testimonials</button>
+            </a>
+          </li>
+          <li>
+            <a href="#team">
+              <button id="contact-btn">Team</button>
+            </a>
+          </li>
+          <li>
+            <a href="./contact.html">
+              <button id="link-btn">Contact</button>
+            </a>
+          </li>
+        </ul>
+        <label class="toggle-bar" id="toggle-bar">
+          <input type="checkbox" />
+          <div class="toggle-container" id="toggle-container"></div>
+        </label>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ******** Hero ******** -->
+  <section class="hero">
+    <div class="hero_image">
+      <img src="./assets/images/undraw_hero.svg" class="hero_image" alt="" />
+    </div>
+    <div class="hero_content">
+      <h2>The Best Tech StartUp</h2>
+      <p>
+        Even the all-powerful Pointing has no control about the blind texts.It
+        is an almost unorthographic life.One day however, a small line of
+        blind text by the name of Lorem Ipsum decided to leave for the far
+        world of Grammar.
+      </p>
+      <button class="CTA">Call to Action</button>
+    </div>
+  </section>
+
+  <!-- ****** SUBSCRIBE ****** -->
+
+  <div class="neverMissUpdate">
+    <div class="neverMissUpdateContainer">
+      <img alt="image" height="40" src="./assets/images/subscribe-icon.svg">
+      <h1 class="update-heading">Never miss an update</h1>
+
+      <h2>
+        Far far away, behind the word mountains, far from the countries
+        Vokalia and Consonantia, there live the blind texts.
+      </h2>
+
+      <div class="input-group mb-3">
+        <div class="input-group-append">
+          <input type="email" class="form-control col-sm-12" placeholder="Type your email"
+          aria-label="Email Address" aria-describedby="button-addon2">
+          <button  type="submit" id="button-addon2">Submit</button>
+        </div>
+      </div>
+
+      <h5 id="neverMissUpdateemail">*Your email address is safe with us. We never share your email
+        address</h5>
+    </div>
+  </div>
+
+  <!-- ****** FEATURES ****** -->
+
+  <!-- feature one -->
+  <section id="feature">
+    <div class="features-heading">
+        <h1>OUR CLIENTS LOVE US BECAUSE</h1>
+    </div>
+
+    <div class="feature">
+      <div class="feature_one">
+        <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
+      </div>
+
+      <div class="feature_content">
+        <h1>FEATURE ONE</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
+
+      <div class="feature_content">
+        <h1>FEATURE TWO</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
+      <div class="feature_two">
+        <img src="assets/images/feature-two.svg" class="feature_image" alt="feature_two_image">
+      </div>
+      <div class="feature_three">
+        <img src="assets/images/project-three.svg" class="feature_image" alt="feature_three_image">
+      </div>
+
+      <div class="feature_content">
+        <h1>FEATURE THREE</h1>
+        <p>The best Lorem Ipsum Generator in all the sea!
+          Heave this scurvy copyfiller fer yar next adventure
+          and cajol yar clients into walking the plank with
+          ev'ry layout! Configure above, then get yer pirate
+          ipsum...own the high seas, arg!</p>
+        <a href="#" class="feature-link">Learn More ></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******** COMPANIES ******** -->
+
+  <section class="companies-banner-container">
+    <div class="companies-title-section">
+      <p class="company-title">You are in good company</p>
+      <p class="company-title-description">We are funded with the world's trusted brands</p>
+    </div>
+    <div class="company-logo-section">
+      <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
+      <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
+      <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
+      <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
+      <img class="company-logo" src="assets/images/logos/intel.svg" />
+      <img class="company-logo" src="assets/images/logos/samsung.svg" />
+    </div>
+  </section>
+
+  <!-- ******** TESTIMONIALS ******** -->
+  <section class="testimonial-section container-fluid ">
+    <section class="testimonial-section container-fluid ">
+      <div class="header" id="testimonials">
+        <h1>Testimonials</h1>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they
+          live in Bookmarksgrove right at the coast of Semantics.</p>
+      </div>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+              odit
+              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+            <img src="./assets/images/team1.jpg" alt="team-member1" class="testimonial-image">
+            <em class="testimonial-text">Person Name, Co-founder at Company</em>
+          </div>
+          <div class="carousel-item  container-fluid">
+            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+              odit
+              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+            <img src="./assets/images/team2.jpg" alt="team-member2" class="testimonial-image">
+            <em class="testimonial-text">Person Name, Co-founder at Company</em>
+          </div>
+          <div class="carousel-item  container-fluid">
+            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+              odit
+              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+            <img src="./assets/images/team3.jpg" alt="team-member3" class="testimonial-image">
+            <em class="testimonial-text">Person Name, Co-founder at Company</em>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon btn-primary"></span>
+
+          </a>
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+    <!-- ******* Meet the Team ******** -->
+    <!-- <div class="meet-the-team" id="team">
+      <h2>Meet Our Team</h2>
+      <div class="team-row">
+        <div class="team-member">
+          <img src="assets/images/team1.jpg" />
+          <h3>Jenifer Ray</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team2.jpg" />
+          <h3>Nick Smith</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team3.jpg" />
+          <h3>Daniel Frost</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+        <div class="team-member">
+          <img src="assets/images/team4.jpg" />
+          <h3>Mary Thomas</h3>
+          <p>"Wild Question Marks, but the Little Blind"</p>
+        </div>
+      </div>
+    </div> -->
+
+        <!-- ******** PRICING SECTION ******** -->
+     <section class="pricing">
+       <h2>Pricing</h2>
+       <p>Honest pricing, no surprises</p>
+       <div class="price-cards">
+       <div class="price-card">
+         <h3>Personal</h3>
+         <div class="price"><span>$</span><span>10</span><span> /MO</span></div>
+       </div>
+       <div class="price-card">
+        <h3>Agency</h3>
+        <div class="price"><span>$</span><span>20</span><span> /MO</span></div>
+       </div>
+       <div class="price-card">
+        <h3>Enterprise</h3>
+        <div class="price"><span>$</span><span>49</span><span> /MO</span></div>
+       </div>
+      </div>
+     </section>
+
+      <!-- ******* Footer ******* -->
+      <section>
+        <div class="wrapper">
+          <div class="button">
+            <div class="icon"><i class="fab fa-facebook-f"></i></div>
+            <span>Facebook</span>
+          </div>
+          <div class="button">
+            <div class="icon"><i class="fab fa-twitter"></i></div>
+            <span>Twitter</span>
+          </div>
+          <div class="button">
+            <div class="icon"><i class="fab fa-instagram"></i></div>
+            <span>Instagram</span>
+          </div>
+      <div class="button">
+        <div class="icon"><i class="fab fa-youtube"></i></div>
+        <span>YouTube</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-row pl-5 pr-5">
+      <section class="footer-column">
+        <h2>Group 1</h2>
+        <div class='sub-footer-link'>
+          <a href="home">Home</a>
+          <a href="features">Features</a>
+          <a href="pricing">Pricing</a>
+          <a href="team">Team</a>
+          <a href="contact Us">Contact Us</a>
+        </div>
+      </section>
+
+      <section class="footer-column">
+        <h2>Group 2</h2>
+        <div class='sub-footer-link'>
+          <a href="privacy">Privacy Policy</a>
+          <a href="terms">Terms</a>
+          <a href="FAQ">FAQ</a>
+          <a href="support">Support</a>
+        </div>
+      </section>
+
+      <section class="footer-column">
+        <h2>About Us</h2>
+        <div>
+          Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing tech
+          start up in Silicon Valley,
+          Far far away, behind the word
+          mountains, far from the countries
+          Vokalia and Consonantia, there live
+          the blind texts
+        </div>
+      </section>
+
+      <section class="footer-column">
+        <h2>Follow Us</h2>
+        <div class="sub-footer">
+          <div class='sub-footer-link socials'>
+            <a href="/"><i class="fab fa-twitter"></i></a>
+            <a href="/"><i class="fab fa-facebook-f"></i></a>
+            <a href="/"><i class="fab fa-instagram"></i></a>
+            <a href="/"><i class="fab fa-youtube"></i></a>
+            <a href="/"><i class="fab fa-google"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scroller -->
+      <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
+        <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
+      </div>
+
+    </div>
+
+    <section id='sub-footer'>
+      <p>&copy;
+        <script>document.write(new Date().getFullYear());</script>
+        Froala. All Rights Reserved
+      </p>
+    </section>
+  </footer>
+
+
+  <!-- JAVASCRIPT FILES -->
+  <!--NO BOOTSTRAP OR JQUERY -->
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/dark-mode.js"></script>
+  <script src="./assets/js/progressbar.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

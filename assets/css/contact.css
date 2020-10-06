@@ -14,10 +14,10 @@ a {
   text-decoration: none;
   color: rgb(13, 165, 211);
 }
+
 /* changed height */
 header {
   margin-bottom: 6rem;
-  padding: 1rem;
   height: 88px;
 }
 

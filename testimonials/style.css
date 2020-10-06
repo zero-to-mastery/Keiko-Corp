@@ -1,0 +1,52 @@
+body {
+    background: #FF416C;  
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  
+    background: linear-gradient(to right, #FF4B2B, #FF416C); 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testimonials {
+    background: #fff;
+    width: 450px; 
+    height: 250px;
+    margin: 70px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 0 1px 6px #777;
+}
+
+.testimonial-reviews {
+    display: table-row;
+    white-space: nowrap;
+    padding-left: 100%; 
+    animation: slider 80s linear infinite; 
+}
+
+.review {
+    width: 450px; 
+    padding-left: 450px; 
+    display: table-cell;
+}
+
+.review img {
+    border-radius: 50%;
+}
+
+.review em {
+    vertical-align: middle;
+}
+
+@keyframes slider {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+footer {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
