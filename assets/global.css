@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/******* RESET ********/
+
+/* allows width and height values to apply to content, padding, and border. */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+/******* STYLES *******/
+:root {
+  /* max width for site content */
+  --maxWidth: 1280px;
+
+  /* colors */
+  --red: #ef5b59;
+  --lightBlue: #f4f7fe;
+  --purple: #20014d;
+  --yellow: #f1c40f;
+  --darkRed: #de4a46;
+  --green: #2CB629;
+  --heading: #020100;
+  --text: #757575;
+  --mainBackground: #fff;
+  --heroText: #343A40;
+
+  /* text sizes */
+  --smText: 0.64rem;
+  --mdText: 0.8rem;
+  --lgText: 1rem;
+  --xlText: 1.25rem;
+  --smHeading: 1.563rem;
+  --mdHeading: 1.953rem;
+  --lgHeading: 2.441rem;
+  --xlHeading: 3.052rem;
+
+  /* spacing */
+  --smPadding: 0.5rem;
+  --mdPadding: 1rem;
+  --lgPadding: 1.5rem;
+  --smMargin: 0.5rem;
+  --mdMargin: 1rem;
+  --lgMargin: 1.5rem;
+  --xlMargin: 2rem;
+
+  /* button styles */
+  --br: 0.25rem;
+  --btnHeight: 40px;
+  --btnPadding: 12px 16px;
+  
+  /* transition */
+  --transition: 0.2s all ease-in;
+
+  /* shadows */
+  --smShadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
+  --mdShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
+  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --focusShadow: 0 0 0 3px #1f014d2f;
+
+  /* breakpoints */
+  --sm: 640px;
+  /*  @media (min-width: 640px) { ... } */
+  --md: 768px;
+  /* @media (min-width: 768px) { ... } */
+  --lg: 1024px;
+  /* @media (min-width: 1024px) { ... } */
+  --xl: 1280px;
+  /* @media (min-width: 1280px) { ... } */
+}
+
+[data-theme = 'dark'] {  
+  --lightBlue: #c54b49;  
+  --text: #fff;
+  --mainBackground: #343A40;
+  --heroText: #fff;
+}
+
+
+body {
+  color: var(--text);
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input, textarea {
+  line-height: 2;
+  padding: 0.5rem;
+  border: 1px solid var(--heading);
+  border-radius: 0.25rem;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--yellow);
+}

@@ -1,9 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-
+.heading {
+  text-align: center;
+  padding: 2rem;
 }
 
 .container {
@@ -14,7 +11,7 @@
 
 body {
   font-family: 'Roboto';
-}  
+}
 
 main {
   margin: 2em 0;
