@@ -70,6 +70,9 @@
 .navbar ul.menu li + li {
   margin-left: 20px;
 }
+.navbar .menu li:last-child {
+  margin-left: -30px;
+}
 
 .navbar ul.menu li.active {
   color: #000000;
@@ -227,13 +230,16 @@ input:checked ~ .toggle-container {
   .navbar ul.open {
     height: 450px;
   }
+
   .navbar ul.menu li {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
   .navbar ul.menu li + li {
     margin-left: 0px;
   }
+
 }
 
 @media only screen and (min-width: 500px) {
