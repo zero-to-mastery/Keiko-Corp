@@ -96,6 +96,18 @@
   transform: translateY(.3rem);
 }
 
+/* UPDATE SECTION */
+
+#button-addon2 {
+  width: 100%;
+
+}
+
+#button-addon2:hover {
+  background-color: white;
+  color: var(--red);
+  border-color: currentColor;
+}
 /* FEATURE SECTION */
 
 #feature {
