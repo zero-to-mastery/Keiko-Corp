@@ -53,10 +53,16 @@
   height: 80px;
 }
 
-.navbar ul {
-  flex: 1;
+/* menu class unnecessary if .navbar .menu*/
+/* .menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end !important;
+} */
+
+.navbar .menu {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
   align-items: center;
   height: 100%;
   list-style: none;
@@ -76,12 +82,14 @@
   color: #000000;
 }
 
-.navbar ul.menu li + li {
+
+/* margins unnecessary */
+/* .navbar ul.menu li + li {
   margin-left: 20px;
 }
 .navbar .menu li:last-child {
   margin-left: -30px;
-}
+} */
 
 .navbar ul.menu li.active {
   color: #000000;
@@ -91,7 +99,45 @@
   /* background: transparent; */
   color: #000000;
   font-size: 1em;
-  padding: 5px 20px;
+  /* padding: 5px 20px; */
+}
+
+/* Added elements ---------------------------------------------------------------------------- test */
+
+.navbar ul.menu li:hover {
+  border-bottom: 2px solid;
+  border-color: #FE6655;
+  transform: translateY(-3%);
+}
+
+.navbar .user-forms a:last-child {
+  margin-left: 20px;
+}
+
+/* manage drop-down for extra nav space */
+.navbar .dropdown .drop-price, 
+.navbar .dropdown .drop-team {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar .dropdown .drop-price {
+    display: block;
+  }
+
+  .navbar .menu-price {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar .dropdown .drop-team {
+    display: block;
+  }
+
+  .navbar .menu-team {
+    display: none;
+  }
 }
 
 .nav-button {
@@ -116,8 +162,8 @@
 }
 
 .toggle-bar {
-  margin: 5px 73px;
-  display: inline-block;
+  /* margin: 5px 73px; */
+  /* display: inline-block; */
   width: 52px;
   height: 20px;
   background: #20014d !important;
@@ -161,11 +207,6 @@ input:checked ~ .toggle-container {
 
 header {
   padding-top: 5px;
-}
-
-.menu {
-  display: flex;
-  justify-content: flex-end !important;
 }
 
 *:focus {
@@ -217,7 +258,7 @@ header {
   background-color: #FE6655;
   font-size: 16px;
   border: none;
-  padding: 10px 20px 5px 20px!important;
+  /* padding: 10px 20px 5px 20px!important; */
   border-radius: 5px;
 }
 
@@ -252,9 +293,8 @@ header {
 .dropdown:hover .dropbtn {background-color: #FE6655; color: #fff;transition: 0.3s ease;}
 /* end of dropdown styling */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   .navbar {
-    justify-content: space-between;
     padding: 0 50px;
     background-color: white;
     z-index: 100;
@@ -267,10 +307,11 @@ header {
   .toggle-bar{
     display: none;
   }
-  .navbar ul {
-    display: block;
+  .navbar .menu {
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
-    top: 80px;
+    top: 100px;
     left: 0;
     position: absolute;
     background-color: rgb(240, 234, 234);
@@ -285,12 +326,29 @@ header {
   }
 
   .navbar ul.open {
-    height: 450px;
+    height: 500px;
   }
 
-  .navbar ul.menu li {
+  /* restore menu items */
+  .navbar .menu-price,
+  .navbar .menu-team {
+    display: initial;
+  }
+
+  .navbar .dropdown .drop-price,
+  .navbar .dropdown .drop-team {
+    display: none;
+  }
+
+  /* .navbar ul.menu li {
     margin-bottom: 30px;
     margin-top: 30px;
+  } */
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar ul.menu li + li {
@@ -299,7 +357,7 @@ header {
 
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 900px) {
   .nav-button {
     display: none;
     visibility: hidden;
@@ -316,9 +374,12 @@ header {
     line-height: normal;
   }
 
-  .navbar ul.menu li:hover {
+  /* move to global */
+  /* .navbar ul.menu li:hover {
+    border-bottom: 1px solid;
+    border-color: #FE6655;
     transform: translateY(-3%);
-  }
+  } */
   .navbar span {
     padding: 3px;
   }
