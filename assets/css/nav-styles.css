@@ -70,6 +70,9 @@
 .navbar ul.menu li + li {
   margin-left: 20px;
 }
+.navbar .menu li:last-child {
+  margin-left: -30px;
+}
 
 .navbar ul.menu li.active {
   color: #000000;
@@ -147,6 +150,10 @@ input:checked ~ .toggle-container {
 
 }
 
+header {
+  padding-top: 5px;
+}
+
 .menu {
   display: flex;
   justify-content: flex-end !important;
@@ -192,6 +199,47 @@ input:checked ~ .toggle-container {
 }
 
 
+/* dropdown styling */
+.dropbtn {
+  background-color: #FE6655;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px!important;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.fas.fat-caret-down {
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #FE6655; color: #fff;transition: 0.3s ease;}
+/* end of dropdown styling */
+
 @media only screen and (max-width: 500px) {
   .navbar {
     justify-content: space-between;
@@ -227,13 +275,20 @@ input:checked ~ .toggle-container {
   .navbar ul.open {
     height: 450px;
   }
+
   .navbar ul.menu li {
     margin-bottom: 30px;
     margin-top: 30px;
   }
+
   .navbar ul.menu li + li {
     margin-left: 0px;
   }
+
+  .navbar .menu li:last-child {
+    margin-left: 0;
+  }
+
 }
 
 @media only screen and (min-width: 500px) {
