@@ -38,8 +38,11 @@ h5 {
   color: var(--text);
 }
 
-.update-heading {
+.neverMissUpdateContainer .update-heading {
+  color: black;
   font-weight: 600;
+  opacity: 0.9;
+  color: var();
 }
 
 #neverMissUpdateemail {
@@ -49,6 +52,7 @@ h5 {
   font-size: 15px;
   width: 550px;
 }
+
 #button-addon2 {
   display: inline-block;
   font-weight: 400;
@@ -73,10 +77,6 @@ h5 {
 h2 {
   color: var(--text);
   /* opacity: 0.5; */
-}
-
-.update-heading {
-  opacity: 0.9;
 }
 
 .form-control {
