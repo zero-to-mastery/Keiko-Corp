@@ -32,6 +32,9 @@
 [data-theme='dark'] .navbar .red-btn{
   color: #FE6655;
 }
+[data-theme='dark'] .navbar .red-btn:hover{
+  color: white;
+}
 
 /*Maneging navbar as per theme ends*/
 
