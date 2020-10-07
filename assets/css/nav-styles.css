@@ -24,6 +24,11 @@
 [data-theme='dark'] .navbar ul{
   background-color: #343a40;
 }
+
+[data-theme='dark'] .navbar button{
+  color: #ffff;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
