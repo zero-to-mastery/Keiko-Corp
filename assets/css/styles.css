@@ -158,11 +158,12 @@
 .feature-link {
   margin-top: 20px;
   text-decoration: none;
-  color: white;
-  background-color:  #ef5b59;
+  color: #ef5b59;
+  background-color: transparent;
   padding: 12px;
   border-radius: .25rem;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
+  border: 2px solid #FE6655;
 }
 
 .feature-link span {
@@ -177,17 +178,21 @@
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 
 .feature-link:hover span {
   padding-right: 20px;
 }
+.feature-link:hover{
+  background-color: #ef5b59;
+  color:white;
+}
 
 .feature-link:hover span:after {
   opacity: 1;
   right: 0;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 730px) {
