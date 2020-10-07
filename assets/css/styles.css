@@ -139,6 +139,7 @@
   color: var(--heroText);
   line-height: 1.4;
   margin-bottom: 20px;
+  text-align: left;
 }
 .feature_one,
 .feature_two,
