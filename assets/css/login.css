@@ -161,6 +161,19 @@
   margin-left: 0.6rem;
 }
 
+/* .visibility {
+    position: absolute;
+    right: 15px;
+    transform: translate(0, -50%);
+    top: 50%;
+    cursor: pointer;
+}
+
+#eye {
+    font-size: 20px;
+    color: #7a797e;
+} */
+
 .modal-content div {
   text-align: center;
   margin-bottom: 1rem;
