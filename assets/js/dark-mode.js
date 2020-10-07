@@ -27,9 +27,6 @@ function switchTheme(event) {
   }
 }
 
-//event listener to toggle betwen light and dark modes
-inputCheckDesktop.addEventListener('change', switchTheme);
-
 // check local storage for theme
 const currentTheme = localStorage.getItem('theme');
 console.log(currentTheme);
@@ -40,6 +37,11 @@ if (currentTheme) {
     inputCheckDesktop.checked=true;
   }
 }
+
+//event listener to toggle betwen light and dark modes
+inputCheckDesktop.addEventListener('change', switchTheme);
+
+
 
 // //dark mode
 // function changeToDarkMode() {

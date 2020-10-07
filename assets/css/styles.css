@@ -661,10 +661,6 @@ ul {
   color: #ff0000;
 }
 
-h2 {
-  color: green;
-}
-
 /* Tesimonial Section */
 #testimonial {
   display: grid;
@@ -834,7 +830,6 @@ h2 {
   font-size: 32px;
   line-height: 36px;
   margin-bottom: 16px;
-  color: #000;
   opacity: 1;
 }
 
