@@ -45,7 +45,9 @@
     <header class="no-user-select">
       <!-- sticky header -->
       <div class="container-nav sticky">
-        <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+        <a href="#" id="logo-link">
+          <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+        </a>
         <nav class="navbar">
           <label class="toggle-bar-mobile" id="toggle-bar">
             <input type="checkbox" id="toggle-checkbox" />
@@ -353,7 +355,9 @@
 
       <section id='sub-footer'>
         <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
           Keiko Corp . All Rights Reserved
         </p>
       </section>
