@@ -157,6 +157,7 @@
   background-color:  #ef5b59;
   padding: 5px;
   border-radius: .25rem;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 730px) {
