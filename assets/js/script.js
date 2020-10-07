@@ -37,12 +37,12 @@ var passwordState = false;
 eye.onclick = function toggle() {
     if (passwordState) {
         password.setAttribute("type", "password");
-        eye.style.color = '7a797e';
+        eye.style.color = '#7A797E';
         state = false;
     }
     else {
         password.setAttribute("type", "text");
-        eye.style.color = '5887ef';
+        eye.style.color = '#EF5B59';
         state = true;
     }
 }
