@@ -49,6 +49,10 @@ h5 {
   font-size: 15px;
   width: 550px;
 }
+
+.input-group-append {
+  display: flex;
+}
 #button-addon2 {
   display: inline-block;
   font-weight: 400;
@@ -64,10 +68,13 @@ h5 {
   border: 1px solid transparent;
   padding: 0.6rem 0.75rem;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.2;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    height: 57px;
+    margin: 8px 10px;
+    width: 150px;
 }
 
 h2 {
