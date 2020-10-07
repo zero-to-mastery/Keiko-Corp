@@ -161,7 +161,7 @@
   margin-left: 0.6rem;
 }
 
-/* .visibility {
+.visibility {
     position: absolute;
     right: 15px;
     transform: translate(0, -50%);
@@ -172,7 +172,7 @@
 #eye {
     font-size: 20px;
     color: #7a797e;
-} */
+}
 
 .modal-content div {
   text-align: center;
