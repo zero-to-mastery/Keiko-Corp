@@ -24,6 +24,15 @@
 [data-theme='dark'] .navbar ul{
   background-color: #343a40;
 }
+
+[data-theme='dark'] .navbar button{
+  color: #ffff;
+}
+
+[data-theme='dark'] .navbar .red-btn{
+  color: #FE6655;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -169,8 +178,12 @@ header {
 }
 
 
-.navbar ul li a button{
+.navbar ul li a button {
   background: transparent;
+}
+
+[data-theme='dark'] .navbar ul li a button {
+  color: #fff;
 }
 
 .navbar ul li a button:hover {
@@ -204,7 +217,7 @@ header {
   background-color: #FE6655;
   font-size: 16px;
   border: none;
-  padding: 10px 20px!important;
+  padding: 10px 20px 5px 20px!important;
   border-radius: 5px;
 }
 
@@ -213,10 +226,9 @@ header {
   display: inline-block;
 }
 
-.fas.fat-caret-down {
-  margin-left: 5px;
+#caret-down {
+  margin-left: 3px;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -283,10 +295,6 @@ header {
 
   .navbar ul.menu li + li {
     margin-left: 0px;
-  }
-
-  .navbar .menu li:last-child {
-    margin-left: 0;
   }
 
 }
