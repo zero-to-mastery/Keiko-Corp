@@ -52,7 +52,9 @@
 }
 .modal-style-1 .modal-header .close {
   position: absolute;
-  right: 20px;
+  right: 10px;
+  top: -23px;
+  background-color: transparent;
 }
 .modal-style-1 .close:focus,
 .modal-style-1 .close:active {
@@ -72,29 +74,40 @@
 .modal-style-1 .modal-login span.input-group-addon {
   width: 60px;
   text-align: center;
-  border-radius: 25px 0 0 25px;
+  border-radius: 7px 0 0 7px;
   border: 1px solid var(--style-4-color);
-  padding: 8px;
+  padding: 11px;
   margin-right: 5px;
-  color: #fff;
+  color: #000;
   background-color: var(--style-4-color);
 }
 .modal-style-1 .modal-login span.input-group-addon i {
   font-size: 16px;
 }
 
+#item_checkbox{
+  padding-top: 10px;
+}
+
 .modal-style-1 input.form-control {
-  border-radius: 0 25px 25px 0;
+  border-radius: 0 7px 7px 0;
   font-size: 13px;
   border: 1px solid var(--style-1-color);
+  width: 70%;
+  height: auto;
 }
+
 .modal-style-1 .btn-signin {
-  border-radius: 25px;
-  width: 100%;
+  border-radius: 10px;
+  width: 60%;
   text-transform: uppercase;
+  font-weight: 600;
   letter-spacing: 1.5px;
   background-color: var(--style-4-color);
   border: 1px solid var(--style-4-color);
+  font-size: var(--lgText);
+  height: var(--btnHeight);
+  padding: 5px 8px;
 }
 
 .hint-text {
@@ -120,6 +133,7 @@
   padding: 5px 0;
   text-align: center;
   cursor: pointer;
+  border-radius: 50%;
 }
 .modal-style-1 .btn-facebook {
   background-color: var(--color-facebook);
@@ -174,6 +188,7 @@
 .dark.modal-style-1 .modal-content {
   background: #0b0b1f;
   color: #fff;
+  width: 80vw;;
 }
 .dark.modal-style-1 .close,
 .modal-style-1.dark .modal-login h4 {
@@ -199,9 +214,10 @@
   margin: 0 auto;
 }
 
-.main-container h3 {
+.main-container h1 {
   text-align: center;
   margin-top: 1.5rem;
+  font-size: var(--mdHeading);
 }
 
 .text-12 {
@@ -213,6 +229,7 @@
   box-shadow: 1px 2px 5px 2px #d1d1d1;
   padding: 20px;
   border-radius: 5px;
+  max-width: 80vw;
 }
 .button-card img {
   border: 1px solid #f1f1f1;
@@ -225,22 +242,36 @@
 .btn-theme {
   width: 100px;
   height: 35px;
-  padding: 3px;
-  border-radius: 26px;
+  padding: 8px 16px;
+  border-radius: 7px;
   color: white;
+  text-decoration: none;
 }
 
 .btn-success {
   background-color: #28A745;
+  border: 2px solid #28a745;
 }
 
 .btn-primary {
-  background-color: #007BFF;
+  border: 2px #28A745 solid;
+  color: white;
+}
+
+.btn-primary:hover{
+  background: #28A745;
+}
+
+#login{
+  color: #28A745;
+}
+
+#login:hover{
+  color: white;
 }
 
 .action-buttons {
   margin-bottom: 1rem; /* mb-3 */
-  margin-top: 0.6rem; /* mb-2 */
 }
 
 .col {
@@ -254,14 +285,36 @@
 
 @media only screen and (max-width: 1140px) {
   .main-container {
-    width: 100%;
+    width: 97%;
     margin: 0 15px;
+  }
+  .button-card{
+    padding: 10px 0 0 0;
   }
 }
 
 @media only screen and (max-width: 480px) {
+  .button-card{
+    max-width: 90vw;
+  }
+  
   .button-card img {
     width: 100%;
     height: auto;
   }
 }
+
+@media only screen and (max-width: 240px){
+  .input-group-addon{
+    display: none;
+  }
+  .modal-style-1 input.form-control{
+    border-radius: 7px;
+    width: 80%;
+  }
+  .modal-style-1 .modal-header .close{
+    right:5px;
+    top: -25px;
+  }
+}
+
