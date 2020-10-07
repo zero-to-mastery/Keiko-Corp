@@ -1,22 +1,24 @@
-const toggleContainer = document.querySelector('#toggle-container');
 const inputCheck = document.querySelector('input[type="checkbox"]');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
 const contenttitle = document.querySelector('.hero_content > h2');
 const toggleBar = document.querySelector('#toggle-bar');
+const toggleContainer = document.querySelector('#toggle-container');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
 const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
 const footericons = document.querySelectorAll('.icon')
 const teamMemberName = document.querySelectorAll('.team-member h3')
 const footerrow= document.querySelectorAll('.footer-column>h2:nth-child(1)');
+
 //dark mode
 function changeToDarkMode() {
   body.style.background = '#132743';
   body.style.color = '#fff';
   content.style.color = '#eaeaea';
   contentPara.style.color = '#aeaeae';
-  toggleBar.style.background = '#01a9b4';
+  toggleBar.style.background = '#ebecf1';
+  toggleContainer.style.background = 'EF5B59'
   contenttitle.style.color = '#FFFFFF';
   footerrow.forEach((item,index)=>{
 
@@ -35,7 +37,8 @@ function changeToLightMode() {
   body.style.color = '#000';
   content.style.color = '#1d1c1c';
   contentPara.style.color = 'rgb(90, 90, 90)';
-  toggleBar.style.background = '#ebecf1';
+  toggleBar.style.background = '#20014D';
+  toggleContainer.style.background = 'F1C40F';
   contactBanner.style.background = '#ebecf1';
   updateBanner.style.backgroundColor = '#ebecf1';
   updateHeading.style.color = '#1d1c1c';
