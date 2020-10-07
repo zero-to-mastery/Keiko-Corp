@@ -144,7 +144,9 @@ h2 {
   }
 
   .neverMissUpdateContainer .input-group {
-    width: 386px;
+    width: 370px;
+    left: 4px;
+    position: relative;
   }
 
   .neverMissUpdateContainer .input-group-append .form-control {
@@ -163,4 +165,24 @@ h2 {
     width: 100%;
   }
 
+}
+
+@media (max-width: 320px) {
+  .neverMissUpdateContainer .update-heading {
+    font-size: 30px;
+  }
+
+  .neverMissUpdateContainer h2 {
+    width: 320px;
+  }
+
+  .neverMissUpdateContainer .input-group {
+    width: 310px;
+    left: 4px;
+    position: relative;
+  }
+
+  #neverMissUpdateemail {
+    width: 300px;
+  }
 }
