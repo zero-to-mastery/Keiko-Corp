@@ -29,6 +29,10 @@
   color: #ffff;
 }
 
+[data-theme='dark'] .navbar .red-btn{
+  color: #FE6655;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
