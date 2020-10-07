@@ -1,0 +1,30 @@
+/* scroll-bar width */
+::-webkit-scrollbar {
+  width: 15px;
+  height: 0;
+}
+
+/* scroll-bar Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+/* scroll-bar Handle */
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#d1d9ee),
+    to(#96b0ec)
+  );
+  background: linear-gradient(to bottom, #d1d9ee, #96b0ec);
+  border-radius: 10px;
+}
+
+/* for cross-browser support */
+body {
+  -ms-overflow-style: none;
+}
