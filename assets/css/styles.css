@@ -58,6 +58,10 @@
   text-align: left;
 }
 
+[data-theme='dark'] .hero_content > h1 {
+  color: #fff;
+}
+
 .hero_content > p {
   color: var(--text, #757575);
   font-size: var(--xlText);

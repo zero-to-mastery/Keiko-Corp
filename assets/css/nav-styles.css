@@ -169,8 +169,12 @@ header {
 }
 
 
-.navbar ul li a button{
+.navbar ul li a button {
   background: transparent;
+}
+
+[data-theme='dark'] .navbar ul li a button {
+  color: #fff;
 }
 
 .navbar ul li a button:hover {
@@ -283,10 +287,6 @@ header {
 
   .navbar ul.menu li + li {
     margin-left: 0px;
-  }
-
-  .navbar .menu li:last-child {
-    margin-left: 0;
   }
 
 }
