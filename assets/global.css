@@ -31,6 +31,7 @@ body {
   /* colors */
   --red: #ef5b59;
   --lightBlue: #f4f7fe;
+  --darkBlue: #fe6655;
   --purple: #20014d;
   --yellow: #f1c40f;
   --darkRed: #de4a46;
@@ -90,6 +91,7 @@ body {
   --mainBackground: #343A40;
   --heroText: #fff;
   --heading: #fff;
+  --darkBlue: #343a40;
 }
 
 

@@ -64,7 +64,7 @@ h5 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #fe6655;
+  background-color:var(--darkBlue);
   border: 1px solid transparent;
   padding: 0.6rem 0.75rem;
   font-size: 1rem;
