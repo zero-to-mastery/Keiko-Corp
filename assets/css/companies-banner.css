@@ -9,8 +9,7 @@
   padding-bottom: var(--lgPadding);
 }
 
-.companies-title-section h3,
-p {
+.companies-title-section h3,p {
   text-align: center;
   color: var(--heroText);
 }
@@ -19,15 +18,27 @@ p {
   max-width: var(--maxWidth);
 }
 
-.company-title {
-  color: var(--lightBlue);
-  font-size: clamp(var(--mdHeading), calc(5vw + 0.5em), var(--lgHeading));
+.company-heading{
   font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  color:#f4f7fe;
+  line-height: 36px;
+  text-align: center;
 }
 
+
 .company-title-description {
-  font-size: var(--mdText);
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
   margin-top: var(--lgMargin);
+  color: #f4f7fe;
+  width: 244px;
+  height: 16px;
+  left: 834px;
+  top: 2465px;
+  margin-left: 60px;
 }
 
 @media (min-width: 768px) {
