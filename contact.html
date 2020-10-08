@@ -1,158 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<!-- ************** HEAD ******************** -->
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/global.css" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="stylesheet" href="./assets/css/contact.css" />
-  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
-  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-  <link rel="icon" href="./assets/images/keiko-icon.ico" />
-  <title>Contact Us</title>
-
-</head>
- 
-<!-- ************** BODY ************** -->
-
-<body class="main">
-    <!-- HEADER -->
-    <header class="no-user-select">
-      <!-- sticky header -->
-      <div class="container-nav sticky">
-        <nav class="navbar">
-          <div class="nav-button">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-
-          <!-- LINKS -->
-          <ul class="menu">
-            <li>
-              <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+		#map{
+			width:45%;
+			display:inline-block;
+			margin-top:75px;
+			margin-right:30px;
+		}
+		#form{
+			width:50%;
+			display:inline-block;
+			background-color:lavender;
+		}
+		#contact{
+			margin-top:20px;
+		}
+		.btn{
+			display:block;
+			margin:auto;
+			margin-bottom:20px;
+		}
+		@media (max-width:1100px){
+			#map{
+				display:block;
+				width:100%;
+				margin-bottom:30px;
+			}
+			#form{
+				display:block;
+				width:100%;
+			}
+			#contact{
+				padding-top:20px;
+			}
+			.btn{
+				padding-bottom:20px;
+			}
+		}
+		
+        .dropdown-menu{
+            background-color:#343a40;
+        }
+        .dropdown-item{
+            color:#ffffff;
+        }
+		@media (min-width:1000px){
+			.footer{
+				position:absolute;
+				bottom:0px;
+			}
+		}
+        @media (max-width:450px){
+            #logo{
+                display:none;
+            }
+        }
+    </style>
+    <title>Contact Us </title>
+  </head>
+  <body>
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container" style="width:initial;">
+        <img id="logo" src="/static/logo1.png" alt="logo" style="width:72px; margin-right:15px">
+        <a class="navbar-brand mr-auto" href="/"> XYZ</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="active">
-              <a href="index.html"><button id="link-btn">Home</button></a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/history">1</a>
+              <a class="dropdown-item" href="/members">2</a>
+              <a class="dropdown-item" href="/chairman">3</a>
+              <a class="dropdown-item" href="/message">4</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/infrastructure">Infrastructure</a>
             </li>
-            <li>
-              <a href="./index.html#feature"><button id="link-btn">Features</button></a>
-            </li>
-            <li>
-              <a href="./index.html#testimonials"><button id="link-btn">Testimonials</button></a>
-            </li>
-            <li>
-              <a href="./meet-the-team.html">
-                <button id="contact-btn">Team</button>
-              </a>
-            </li>
-            <li>
-              <a href="./index.html#pricing">
-                <button id="contact-btn">Pricing</button>
-              </a>
-            </li>
-            <li>
-              <a href="./contact.html"><button id="link-btn">Contact</button></a>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact Us</a>
             </li>
           </ul>
-
-          <!-- Dark mode toggle -->
-          <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox"/>
-            <div class="toggle-container" id="toggle-container"></div>
-          </label>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
-    <div id="container">
-      <!--Header Starts here -->
-      <header>
-        <h1>Contact Us</h1>
-        <p>
-          Far far away, behind the word mountains, far from the countries
-          Vokalia and consonantia, there live the blind texts.
-        </p>
-      </header>
-      <!-- Header End's -->
-      <main>
-        <!-- Call To Action Cards -->
-        <div class="cards">
-          <div>
-            <h2>Call or email</h2>
-            <p>
-              Support,Sales and Account Management services are currently
-              available in English.
-            </p>
-          </div>
-          <div>
-            <h3>Support</h3>
-            <span>+800 3005 4300</span>
-            <a href="#">Contact Support</a>
-            <p>
-              Our technical support is available by phone or email from 11am to
-              11pm BST, Monday to Friday.
-            </p>
-          </div>
-          <div>
-            <h3>Sales</h3>
-            <span>+800 3005 4300</span>
-            <a href="#">Contact Sales</a>
-            <p>
-              Our technical support is available by phone or email from 11am to
-              11pm BST, Monday to Friday.
-            </p>
-          </div>
-          <div>
-            <h3>General inquiries</h3>
-            <a href="#">hello@website.com</a>
-          </div>
-        </div>
-
-        <!-- Form Starts Here-->
-        <div class="form">
-          <h2>Drop us a line</h2>
-          <form action="#">
-            <div class="form-input multiple">
-              <input type="text" name="first-name" placeholder="First name" />
-              <input type="text" name="last-name" placeholder="Last name" />
-            </div>
-            <div class="form-input">
-              <input type="text" name="company" placeholder="Company Name" />
-            </div>
-            <div class="form-input">
-              <input type="email" name="email" placeholder="Email" />
-            </div>
-
-            <div class="form-input multiple">
-              <input type="tel" name="phone" placeholder="Phone" />
-              <input type="text" name="country" placeholder="Country" />
-            </div>
-            <div class="form-input">
-              <select name="department">
-                <option value="default" selected>Select Department</option>
-                <option value="details">Detail</option>
-                <option value="business">Business</option>
-                <option value="support">Support</option>
-              </select>
-            </div>
-            <!--  Form Input Box here-->
-            <div class="form-input">
-              <textarea name="message" cols="30" rows="10" placeholder="How can we help?"></textarea>
-            </div>
-            <div>
-              <!-- Submit Button -->
-              <button id="button">Submit</button>
-            </div>
-          </form>
-        </div>
-      </main>
+	<div class="container-fluid">
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d471.2523974812418!2d74.7539606!3d19.1068145!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb07173ffffff%3A0x380e13280e895950!2sP.A.%20INAMDAR%20ENGLISH%20MEDIUM%20SCHOOL%20AND%20JR%20COLLEGE%2C%20IQRA%20CAMPUS!5e0!3m2!1sen!2sin!4v1601202075753!5m2!1sen!2sin" style="width:100%;" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-  <script src="./assets/js/dark-mode.js"></script>
-  <script src="./assets/js/navbar.js"></script>
-</body>
+    <div id="form" class="container">
+        <h1 id="contact" class="text-center">Contact Us</h1>
+        <form method="post" action="/contact">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+          </div>
 
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email Id">
+          </div>
+
+          <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="mobile" class="form-control" id="mobile" name="mobile" placeholder="Enter Your Contact Number">
+          </div>
+
+          <div class="form-group">
+            <label for="desc">Description</label>
+            <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+	</div>
+
+    <footer class="footer" style="margin-top:20px; width:100%; background-color:#bee4ff;">
+      <div class="container">
+        <h6 style="display: inline-block;margin: 15px;">XYZ</h6>
+        <p style="display:inline-block;">&copy 2020 IEWS —</p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>
