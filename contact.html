@@ -132,8 +132,8 @@
               <input type="text" name="country" placeholder="Country" />
             </div>
             <div class="form-input">
-              <select name="department">
-                <option value="default" selected>Select Department</option>
+              <select name="department" required>
+                <option value=""disabled selected>Select Department</option>
                 <option value="details">Detail</option>
                 <option value="business">Business</option>
                 <option value="support">Support</option>
@@ -145,7 +145,7 @@
             </div>
             <div>
               <!-- Submit Button -->
-              <button id="button">Submit</button>
+              <button type="submit" id="button">Submit</button>
             </div>
           </form>
         </div>
