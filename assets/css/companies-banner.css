@@ -9,10 +9,9 @@
   padding-bottom: var(--lgPadding);
 }
 
-.companies-title-section h3,
-p {
+.companies-title-section p {
   text-align: center;
-  color: var(--heroText);
+  color: #f4f7fe;
 }
 
 .company-container {
@@ -21,13 +20,19 @@ p {
 
 .company-title {
   color: var(--lightBlue);
-  font-size: clamp(var(--mdHeading), calc(5vw + 0.5em), var(--lgHeading));
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
   font-weight: 700;
+  
 }
 
 .company-title-description {
-  font-size: var(--mdText);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
   margin-top: var(--lgMargin);
+  color: #f4f7fe;
 }
 
 @media (min-width: 768px) {
