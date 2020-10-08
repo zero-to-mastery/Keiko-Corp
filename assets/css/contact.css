@@ -78,8 +78,8 @@ textarea {
 }
 
 #button:hover {
-  color: rgb(59, 169, 233);
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #ca4848;
 }
 
 input[type=text], select {
@@ -115,4 +115,18 @@ input[type=tel], select {
 .form h2 {
   font-size: 32px;
   font-weight: bold;
+}
+
+textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+li{
+  margin-right: 10px;
 }

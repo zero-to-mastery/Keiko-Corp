@@ -8,15 +8,19 @@
 }
 
 /*Managing navbar as per theme start*/
+
 [data-theme='dark'] .navbar {
   background: #343a40;
 }
+
 [data-theme='dark'] .navbar ul.menu li {
   color: #ddd;
 }
+
 [data-theme='dark'] .navbar ul.menu li:hover {
   color: #fff;
 }
+
 [data-theme='dark'] .navbar ul.menu li.active {
   color: #fff;
   font-weight: 500;
@@ -36,6 +40,7 @@
   color: white;
 }
 
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -48,7 +53,6 @@
 
 .navbar #link-btn {
   cursor: pointer;
-  color: black;
 }
 
 .logo {
@@ -119,7 +123,8 @@
 }
 
 .toggle-bar {
-  margin: 5px 73px;
+  padding: 0;
+  margin: 5px 30px;
   display: inline-block;
   width: 52px;
   height: 20px;
