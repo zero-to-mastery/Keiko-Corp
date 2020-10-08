@@ -1,0 +1,16 @@
+.privacy__container {
+    width: 90vh;
+    margin: 100px auto 100px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #474747;
+}
+
+.privacy__container ul li {
+    list-style: none;
+}
+
+.privacy__container a {
+    text-decoration: underline;
+    color: #161616;
+
+}
