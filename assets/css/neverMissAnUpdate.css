@@ -15,6 +15,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  position: relative;
+  width: 100%;
 }
 
 .neverMissUpdateContainer i {
@@ -23,10 +26,14 @@
 }
 
 .neverMissUpdateContainer h2 {
-  font-size: 18px;
+  font-size: min(max(14px, 4vw), 17px);
   font-weight: 300;
   width: 421px;
   line-height: 28px;
+
+  position: relative;
+  width: 100%;
+  max-width: 420px;
 }
 .neverMissUpdateContainer h3 {
   color: whitesmoke;
@@ -46,6 +53,10 @@ h5 {
   font-weight: 600;
   opacity: 0.9;
   color: var(--heading);
+
+  position: relative;
+  width: 100%;
+  font-size: min(max(18px, 10vw), 40px);
 }
 
 #neverMissUpdateemail {
@@ -99,11 +110,6 @@ h5 {
 
 h2 {
   color: var(--text);
-  /* opacity: 0.5; */
-}
-
-.update-heading {
-  opacity: 0.9;
 }
 
 .form-control {
@@ -119,6 +125,17 @@ h2 {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.neverMissUpdateContainer .input-group {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  min-width: 320px;
+}
+
+.neverMissUpdateContainer .input-group-append {
+  margin: auto 10px;
+}
+
 .neverMissUpdateContainer .input-group-append .form-control {
   flex: 4;
   font-size: 14px;
@@ -126,63 +143,14 @@ h2 {
   width: 244px;
 }
 
-
-@media (max-width: 450px) {
-  .neverMissUpdateContainer {
-    width: 350px;
-  }
-
-  .neverMissUpdateContainer .update-heading {
-    font-size: 35px;
-    color: #343A40;
-  }
-
-  .neverMissUpdateContainer h2 {
-    font-size: 15px;
-    line-height: 20px;
-    width: 353px;
-  }
-
-  .neverMissUpdateContainer .input-group {
-    width: 370px;
-    left: 4px;
-    position: relative;
-  }
-
-  .neverMissUpdateContainer .input-group-append .form-control {
-    height: 40px;
-    border-radius: 5px;
-    font-size: 13px;
-  }
-
-  #button-addon2 {
-    height: 40px;
-    border-radius: 5px;
-    flex: 2;
-  }
-
-  #neverMissUpdateemail {
-    width: 100%;
-  }
-
+#neverMissUpdateemail {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+  min-width: 290px;
+  padding: 0 10px;
 }
 
-@media (max-width: 320px) {
-  .neverMissUpdateContainer .update-heading {
-    font-size: 30px;
-  }
-
-  .neverMissUpdateContainer h2 {
-    width: 320px;
-  }
-
-  .neverMissUpdateContainer .input-group {
-    width: 310px;
-    left: 4px;
-    position: relative;
-  }
-
-  #neverMissUpdateemail {
-    width: 300px;
-  }
+svg {
+  fill: red;
 }
