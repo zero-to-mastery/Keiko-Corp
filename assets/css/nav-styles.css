@@ -21,16 +21,16 @@
   color: #fff;
   font-weight: 500;
 }
-[data-theme='dark'] .navbar ul{
+[data-theme='dark'] .navbar ul {
   background-color: #343a40;
 }
 
-[data-theme='dark'] .navbar button{
+[data-theme='dark'] .navbar button {
   color: #ffff;
 }
 
-[data-theme='dark'] .navbar .red-btn{
-  color: #FE6655;
+[data-theme='dark'] .navbar .red-btn {
+  color: #fe6655;
 }
 
 /*Maneging navbar as per theme ends*/
@@ -40,7 +40,7 @@
   height: 80px;
   align-items: center;
   width: 100%;
-  background:white;
+  background: white;
 }
 
 .navbar #link-btn {
@@ -82,7 +82,6 @@
   color: #000000;
 }
 
-
 /* margins unnecessary */
 /* .navbar ul.menu li + li {
   margin-left: 20px;
@@ -106,7 +105,7 @@
 
 .navbar ul.menu li:hover {
   border-bottom: 2px solid;
-  border-color: #FE6655;
+  border-color: #fe6655;
   transform: translateY(-3%);
 }
 
@@ -115,7 +114,7 @@
 }
 
 /* manage drop-down for extra nav space */
-.navbar .dropdown .drop-price, 
+.navbar .dropdown .drop-price,
 .navbar .dropdown .drop-team {
   display: none;
 }
@@ -148,16 +147,16 @@
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
-  transform: translate(-50%,50%);
+  transform: translate(-50%, 50%);
 }
-.navbar button{
+.navbar button {
   background-color: transparent;
 }
 .nav-button span {
   width: 100%;
-  background-color:#20014D;
+  background-color: #20014d;
   height: 3px;
 }
 
@@ -198,12 +197,11 @@ input:checked ~ .toggle-container {
 /* new header styling */
 .red-btn {
   cursor: pointer;
-  border: 2px solid #FE6655;
+  border: 2px solid #fe6655;
   border-radius: 5px;
-  color: #FE6655;
-  padding: 10px 15px!important;
+  color: #fe6655;
+  padding: 10px 15px !important;
   border-radius: 5px;
-
 }
 
 header {
@@ -219,7 +217,6 @@ header {
   left: 8%;
 }
 
-
 .navbar ul li a button {
   background: transparent;
 }
@@ -232,34 +229,34 @@ header {
   cursor: pointer;
 }
 
-.toggle-bar-mobile{
+.toggle-bar-mobile {
   margin: 5px 73px;
   width: 52px;
   height: 20px;
-  background: #20014d!important;
+  background: #20014d !important;
   border-radius: 50px;
   position: absolute;
   cursor: pointer;
-  top:0;
-  right:0;
-  transform: translate(-50%,75%);
+  top: 0;
+  right: 0;
+  transform: translate(-50%, 75%);
 }
 
-.red-btn:hover{
+.red-btn:hover {
   color: #fff;
-  background-color: #FE6655;
+  background-color: #fe6655;
   transition: 0.3s ease;
 }
 
-[data-theme='dark'] .red-btn:hover{
+[data-theme='dark'] .red-btn:hover {
   color: #fff;
-  background-color: #FE6655;
+  background-color: #fe6655;
   transition: 0.3s ease;
 }
 
 /* dropdown styling */
 .dropbtn {
-  background-color: #FE6655;
+  background-color: #fe6655;
   font-size: 16px;
   border: none;
   /* padding: 10px 20px 5px 20px!important; */
@@ -277,10 +274,11 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: var(--mainBackground);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  border-radius: var(--br);
 }
 
 .dropdown-content a {
@@ -290,11 +288,18 @@ header {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: var(--lightBlue);
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #FE6655; color: #fff;transition: 0.3s ease;}
+.dropdown:hover .dropbtn {
+  color: #ec705d;
+  transition: 0.3s ease;
+}
 /* end of dropdown styling */
 
 @media only screen and (max-width: 900px) {
@@ -308,7 +313,7 @@ header {
     /* display: block; */
     background-color: transparent;
   }
-  .toggle-bar{
+  .toggle-bar {
     display: none;
   }
   .navbar .menu {
@@ -358,7 +363,6 @@ header {
   .navbar ul.menu li + li {
     margin-left: 0px;
   }
-
 }
 
 @media only screen and (min-width: 900px) {
@@ -366,7 +370,7 @@ header {
     display: none;
     visibility: hidden;
   }
-  .toggle-bar-mobile{
+  .toggle-bar-mobile {
     display: none;
   }
   .navbar {
@@ -387,5 +391,4 @@ header {
   .navbar span {
     padding: 3px;
   }
-  
 }
