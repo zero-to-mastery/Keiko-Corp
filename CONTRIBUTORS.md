@@ -8,6 +8,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 
 - [@Mehul1011](https://github.com/mehul1011)
 - [@kelvinchan2406](https://github.com/kelvinchan2406)
+- [@Dhamodhar-DDR](https://github.com/Dhamodhar-DDR)
 - [@chetas411](https://github.com/chetas411)
 - [@leonarhv](https://github.com/leonarhv)
 - [@Guitarhub786](https://github.com/guitarhub786)
@@ -55,3 +56,8 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Krypton](https://github.com/KryptonBD)
 - [@Surya742](https://github.com/Surya742)
 - [@arnabuchiha](https://github.com/arnabuchiha)
+- [@Theo](https://github.com/theodorenguyen45)
+- [@thomashewett](https://github.com/thomashewett)
+- [@TaylorJonesTRT](https://github.com/taylorjonestrt)
+- [@initialsky0](https://github.com/initialsky0)
+
