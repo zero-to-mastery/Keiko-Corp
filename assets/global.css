@@ -35,11 +35,11 @@ body {
   --purple: #20014d;
   --yellow: #f1c40f;
   --darkRed: #de4a46;
-  --green: #2CB629;
+  --green: #2cb629;
   --heading: #020100;
   --text: #757575;
   --mainBackground: #fff;
-  --heroText: #343A40;
+  --heroText: #343a40;
 
   /* text sizes */
   --smText: 0.64rem;
@@ -64,14 +64,15 @@ body {
   --br: 0.25rem;
   --btnHeight: 40px;
   --btnPadding: 12px 16px;
-  
+
   /* transition */
   --transition: 0.2s all ease-in;
 
   /* shadows */
   --smShadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
   --mdShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
-  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --focusShadow: 0 0 0 3px #1f014d2f;
 
   /* breakpoints */
@@ -85,15 +86,14 @@ body {
   /* @media (min-width: 1280px) { ... } */
 }
 
-[data-theme = 'dark'] {  
-  --lightBlue: #c54b49;  
+[data-theme='dark'] {
+  --lightBlue: #c54b49;
   --text: #fff;
-  --mainBackground: #343A40;
+  --mainBackground: #343a40;
   --heroText: #fff;
-  --heading: #fff;
+  --heading: #020100;
   --darkBlue: #343a40;
 }
-
 
 body {
   color: var(--text);
@@ -114,14 +114,16 @@ img {
   display: block;
 }
 
-input, textarea {
+input,
+textarea {
   line-height: 2;
   padding: 0.5rem;
   border: 1px solid var(--heading);
   border-radius: 0.25rem;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--yellow);
 }
