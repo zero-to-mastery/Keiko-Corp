@@ -217,6 +217,7 @@ header {
 
 /* dropdown styling */
 .dropbtn {
+  transform: translateY(-9%);
   background-color: #FE6655;
   font-size: 16px;
   border: none;
@@ -225,12 +226,16 @@ header {
 }
 
 .dropdown {
+  margin-left: 20px;
   position: relative;
   display: inline-block;
 }
 
 #caret-down {
-  margin-left: 3px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: relative;
 }
 .dropdown-content {
   display: none;
@@ -238,6 +243,7 @@ header {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: .25rem;
   z-index: 1;
 }
 
@@ -248,7 +254,7 @@ header {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;border-radius: .25rem;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
