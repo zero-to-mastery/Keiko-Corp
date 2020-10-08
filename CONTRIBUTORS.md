@@ -56,6 +56,6 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Krypton](https://github.com/KryptonBD)
 - [@Surya742](https://github.com/Surya742)
 - [@arnabuchiha](https://github.com/arnabuchiha)
+- [@thomashewett](https://github.com/thomashewett)
 - [@TaylorJonesTRT](https://github.com/taylorjonestrt)
 - [@initialsky0](https://github.com/initialsky0)
-
