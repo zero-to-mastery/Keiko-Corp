@@ -107,7 +107,7 @@ textarea[name=message]{
   margin: 0.5rem 0rem;
 }
 
-input[type=text], select {
+input[type=text]{
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -117,7 +117,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=email], select {
+input[type=email]{
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -127,7 +127,7 @@ input[type=email], select {
   box-sizing: border-box;
 }
 
-input[type=tel], select {
+input[type=tel]{
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -135,6 +135,31 @@ input[type=tel], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select:required:invalid {
+  color: #666;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: #000;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .form h2 {
