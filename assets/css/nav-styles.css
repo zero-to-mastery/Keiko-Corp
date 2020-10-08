@@ -262,12 +262,11 @@ header {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
 #caret-down {
-  margin-left: 3px;
+  position: relative;
 }
 .dropdown-content {
   display: none;
@@ -276,6 +275,7 @@ header {
   min-width: 160px;
   border-radius: 5px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: .25rem;
   z-index: 1;
 }
 
