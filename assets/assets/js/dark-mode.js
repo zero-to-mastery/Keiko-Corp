@@ -2,9 +2,9 @@ const toggleContainer = document.querySelector('#toggle-container');
 const inputCheckDesktop = document.querySelectorAll('input[type="checkbox"]')[1];
 const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
-<<<<<<< HEAD
 const contentPara = document.querySelector('.hero_content > p');
 const contenttitle = document.querySelector('#hero-heading');
+const testimonialsText = document.querySelector('.carousel-item h3');
 const toggleBar = document.querySelector('#toggle-bar');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
@@ -33,21 +33,6 @@ function changeToDarkMode() {
   footerIcons.forEach(e => e.style.color = "#000")
   this.changeTeamMemberColor('#fff');
 }
-=======
-const inputCheckMobile=document.querySelectorAll('input[type="checkbox"]')[0];
-inputCheckMobile.addEventListener('change',switchTheme);
-// const contentPara = document.querySelector('.hero_content > p');
-// const contenttitle = document.querySelector('#hero-heading');
-// const toggleBar = document.querySelector('#toggle-bar');
-// const updateBanner = document.querySelector('.neverMissUpdate');
-// const updateHeading = document.querySelector('.update-heading');
-// const updateHeading2 = document.querySelector('.update-heading2');
-// const updateHeading5 = document.querySelector('.updateHeading5');
-// const footerLink = document.querySelectorAll('.sub-footer-link > li > a');
-// const footerIcons = document.querySelectorAll('.icon');
-// const teamMemberName = document.querySelectorAll('.team-member h3');
-// const footerrow = document.querySelectorAll('.footer-column>h2:nth-child(1)');
->>>>>>> f39ae1ed21669c97aa3c4b72774e78058f236dba
 
 function switchTheme(event) {
   console.log(event.target.checked);
