@@ -262,10 +262,12 @@ header {
 }
 
 .dropdown {
+  position: relative;
   display: inline-block;
 }
 
 #caret-down {
+  margin-left: 3px;
   position: relative;
 }
 .dropdown-content {
