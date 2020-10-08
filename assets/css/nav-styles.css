@@ -217,7 +217,6 @@ header {
 
 /* dropdown styling */
 .dropbtn {
-  transform: translateY(-9%);
   background-color: #FE6655;
   font-size: 16px;
   border: none;
@@ -232,9 +231,6 @@ header {
 }
 
 #caret-down {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
   position: relative;
 }
 .dropdown-content {
