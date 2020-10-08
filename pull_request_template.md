@@ -13,8 +13,8 @@ Fixes #
 
 (Add an `x` between the brackets to check the items)
 
-- [ ] I have summarize what this PR fixes above
-- [ ] I have provided the issue ID/URL above
-- [ ] I have not added Bootstrap or jQuery and used correct styling guide.
-- [ ] This PR fixes only the issue mentioned above (create separate PRs for separate issues)
+- [x] I have summarize what this PR fixes above
+- [x] I have provided the issue ID/URL above
+- [x] I have not added Bootstrap or jQuery and used correct styling guide.
+- [x] This PR fixes only the issue mentioned above (create separate PRs for separate issues)
 - [ ] I was the first one to claim the issue or I created the issue - I created the issue
