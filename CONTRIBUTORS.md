@@ -57,3 +57,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Surya742](https://github.com/Surya742)
 - [@arnabuchiha](https://github.com/arnabuchiha)
 - [@Theo](https://github.com/theodorenguyen45)
+- [@thomashewett](https://github.com/thomashewett)
+- [@TaylorJonesTRT](https://github.com/taylorjonestrt)
+- [@initialsky0](https://github.com/initialsky0)
+
