@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- ************** HEAD ******************** -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/global.css" />
-    <link rel="stylesheet" href="./assets/css/contact.css" />
-    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
-    <link rel="stylesheet" href="./assets/css/nav-styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./assets/images/keiko-icon.ico" />
-    <title>Contact Us</title>
-  </head>
+<!-- ************** HEAD ******************** -->
 
-  <!-- ************** BODY ************** -->
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./assets/images/keiko-icon.ico" />
+  <title>Contact Us</title>
+
+</head>
+ 
+<!-- ************** BODY ************** -->
+
+<body class="main">
     <!-- HEADER -->
     <header class="no-user-select">
       <!-- sticky header -->
@@ -32,40 +33,35 @@
           <!-- LINKS -->
           <ul class="menu">
             <li>
-              <img
-                src="./assets/images/keiko-logo.png"
-                class="logo"
-                alt="Keiko Corp"
-              />
+              <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
             </li>
             <li class="active">
-              <a href="./index.html"><button id="link-btn">Home</button></a>
+              <a href="index.html"><button id="link-btn">Home</button></a>
             </li>
             <li>
-              <a href="./index.html#feature"
-                ><button id="link-btn">Features</button></a
-              >
+              <a href="./index.html#feature"><button id="link-btn">Features</button></a>
             </li>
             <li>
-              <a href="./index.html#testimonials"
-                ><button id="link-btn">Testimonials</button></a
-              >
+              <a href="./index.html#testimonials"><button id="link-btn">Testimonials</button></a>
             </li>
             <li>
-              <a href="./index.html#team"
-                ><button id="link-btn">Team</button></a
-              >
+              <a href="./meet-the-team.html">
+                <button id="contact-btn">Team</button>
+              </a>
             </li>
             <li>
-              <a href="./contact.html"
-                ><button id="link-btn">Contact</button></a
-              >
+              <a href="./index.html#pricing">
+                <button id="contact-btn">Pricing</button>
+              </a>
+            </li>
+            <li>
+              <a href="./contact.html"><button id="link-btn">Contact</button></a>
             </li>
           </ul>
 
           <!-- Dark mode toggle -->
           <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" />
+            <input type="checkbox" id="toggle-checkbox"/>
             <div class="toggle-container" id="toggle-container"></div>
           </label>
         </nav>
@@ -75,9 +71,7 @@
     <div id="container">
       <!--Header Starts here -->
       <header>
-        <h1>
-          Contact Us
-        </h1>
+        <h1>Contact Us</h1>
         <p>
           Far far away, behind the word mountains, far from the countries
           Vokalia and consonantia, there live the blind texts.
@@ -117,6 +111,7 @@
             <a href="#">hello@website.com</a>
           </div>
         </div>
+
         <!-- Form Starts Here-->
         <div class="form">
           <h2>Drop us a line</h2>
@@ -131,6 +126,7 @@
             <div class="form-input">
               <input type="email" name="email" placeholder="Email" />
             </div>
+
             <div class="form-input multiple">
               <input type="tel" name="phone" placeholder="Phone" />
               <input type="text" name="country" placeholder="Country" />
@@ -145,12 +141,7 @@
             </div>
             <!--  Form Input Box here-->
             <div class="form-input">
-              <textarea
-                name="message"
-                cols="30"
-                rows="10"
-                placeholder="How can we help?"
-              ></textarea>
+              <textarea name="message" cols="30" rows="10" placeholder="How can we help?"></textarea>
             </div>
             <div>
               <!-- Submit Button -->
@@ -160,6 +151,8 @@
         </div>
       </main>
     </div>
-    <script src="./assets/js/dark-mode.js"></script>
-  </body>
+  <script src="./assets/js/dark-mode.js"></script>
+  <script src="./assets/js/navbar.js"></script>
+</body>
+
 </html>
