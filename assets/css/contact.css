@@ -19,6 +19,7 @@ a {
 header {
   margin-bottom: 6rem;
   height: 88px;
+  padding: 1rem;
 }
 
 header p {
@@ -54,6 +55,7 @@ form input,
 select,
 textarea {
   padding: 0.3rem;
+  margin: 0.5rem 0rem;
 }
 
 .form-input {
