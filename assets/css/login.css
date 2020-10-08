@@ -214,7 +214,7 @@
   margin: 0 auto;
 }
 
-.main-container h1 {
+.main-container  {
   text-align: center;
   margin-top: 1.5rem;
   font-size: var(--mdHeading);
