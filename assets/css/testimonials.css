@@ -21,6 +21,13 @@
   margin: 25px auto;
 }
 
+#testimonial-carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  
+}
+
 #testimonial-carousel .carousel-item {
   display: inline-block;
   width: 30%;
@@ -55,4 +62,14 @@ h3.testimonial-text {
 .testimonial-text span {
   font-weight: bold;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #testimonial-carousel .carousel-inner {
+    flex-direction: column;
+  }
+
+  #testimonial-carousel .carousel-item {
+    width: 100%;
+  }
 }
