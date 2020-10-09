@@ -90,9 +90,10 @@
 }
 
 .modal-style-1 input.form-control {
+  padding: 10px;
   border-radius: 0 7px 7px 0;
   font-size: 13px;
-  border: 1px solid var(--style-1-color);
+  border: 2px solid var(--style-1-color);
   width: 70%;
   height: auto;
 }
@@ -161,7 +162,18 @@
   margin-left: 0.6rem;
 }
 
+.container i {
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #7A797E;
+}
+
 .modal-content div {
+  width: 300px;
+  padding: 16px;
+  margin: 10px auto;
+  max-width: 400px;
   text-align: center;
   margin-bottom: 1rem;
 }

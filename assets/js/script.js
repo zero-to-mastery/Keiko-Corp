@@ -29,6 +29,23 @@ let registerModal = document.getElementById('registerModal1');
 let loginBtn = document.getElementById('login');
 let registerBtn = document.getElementById('register');
 let span = document.getElementsByClassName('close')[0];
+let password = document.getElementsByName('password');
+let password_confirm = document.getElementsByName('password_confirmation');
+let eye = document.getElementsByName('eye');
+
+// Password visiblity toggle
+var passwordState = false;
+eye.onclick = function toggle() {
+    if (passwordState) {
+        password.setAttribute('type', 'password');
+        eye.style.color = '#7A797E';
+        state = false;
+    } else {
+        password.setAttribute('type', 'text');
+        eye.style.color = '#EF5B59';
+        state = true;
+    }
+}
 
 loginBtn.onclick = function () {
   loginModal.style.display = 'block';
