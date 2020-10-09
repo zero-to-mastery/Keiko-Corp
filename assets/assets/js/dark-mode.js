@@ -4,7 +4,6 @@ const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
 const contentPara = document.querySelector('.hero_content > p');
 const contenttitle = document.querySelector('#hero-heading');
-const testimonialsText = document.querySelector('.carousel-item h3');
 const toggleBar = document.querySelector('#toggle-bar');
 const updateBanner = document.querySelector('.neverMissUpdate');
 const updateHeading = document.querySelector('.update-heading');
