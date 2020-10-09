@@ -855,17 +855,20 @@ em {
 .pricing {
   display: flex;
   flex-direction: column;
+  height: 400px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  background-color: #f4f7fe;
+  padding-bottom: 40px;
 }
 
-h2 {
+.pricing-header h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
+  color:#000;
 }
 
 p {
