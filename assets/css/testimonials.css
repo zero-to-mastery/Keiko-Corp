@@ -16,6 +16,10 @@
   text-align: center;
 }
 
+[data-theme='dark'] #testimonial > p {
+  color: #fff;
+}
+
 #testimonial-carousel {
   width: 80%;
   margin: 25px auto;
