@@ -855,11 +855,10 @@ em {
 .pricing {
   display: flex;
   flex-direction: column;
-  height: 400px;
   align-items: center;
   justify-content: center;
   background-color: #f4f7fe;
-  padding-bottom: 40px;
+  padding: var(--lgPadding) 0;
 }
 
 .pricing-header h2 {
@@ -881,6 +880,7 @@ p {
   display: flex;
   align-items: center;
   margin-top: 32px;
+  margin-bottom: var(--xlMargin);
 }
 
 .price-card {
