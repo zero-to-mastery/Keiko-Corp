@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -12,11 +12,66 @@
   <!-- font awesome v5.5.0 free version -->
   <link href="/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
   <!-- custom css -->
-  <link rel="stylesheet" href="/assets/global.css" />
-  <link href="/assets/css/login.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/login.css"  />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
 </head>
 
+
 <body>
+  <!-- HEADER -->
+  <header class="no-user-select">
+    <!-- sticky header -->
+    <div class="container-nav sticky">
+      <nav class="navbar">
+        <div class="nav-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="menu">
+          <li>
+            <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+          </li>
+          <li>
+            <a href="./index.html">
+              <button id="contact-btn">Home</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#features">
+              <button id="contact-btn">Features</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#testimonials">
+              <button id="contact-btn">Testimonials</button>
+            </a>
+          </li>
+          <li>
+            <a href="./meet-the-team.html">
+              <button id="contact-btn">Team</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#pricing">
+              <button id="contact-btn">Pricing</button>
+            </a>
+          </li>
+          <li>
+            <a href="./contact.html">
+              <button id="contact-btn">Contact</button>
+            </a>
+          </li>
+        </ul>
+        <label class="toggle-bar" id="toggle-bar">
+          <input type="checkbox" id="toggle-checkbox" />
+          <div class="toggle-container" id="toggle-container"></div>
+        </label>
+      </nav>
+    </div>
+  </header>
   <div class="main-container">
     <h1>Register or Login</h1>
     <div class="row">
@@ -29,7 +84,7 @@
               Login</a>
             <!-- action button for modal style 1 end -->
           </div>
-          <img src="/assets/demo/style-1-demo-dark.jpg" />
+          <img src="./assets/demo/style-1-demo-dark.jpg" />
         </div>
       </div>
     </div>
@@ -160,8 +215,9 @@
       </div>
     </div>
   </div>
-  <script src="/assets/vendor/fontawesome-free/js/all.min.js"></script>
-  <script src="/assets/js/script.js"></script>
+  <script src="./assets/vendor/fontawesome-free/js/all.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  
 </body>
 
 </html>

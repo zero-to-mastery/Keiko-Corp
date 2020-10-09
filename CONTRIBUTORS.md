@@ -60,4 +60,6 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@thomashewett](https://github.com/thomashewett)
 - [@TaylorJonesTRT](https://github.com/taylorjonestrt)
 - [@initialsky0](https://github.com/initialsky0)
-
+- [@AmrutaKoshe](https://github.com/AmrutaKoshe)
+- [@aviad198](https://github.com/aviad198)
+- [@BhuvaneshPatil](https://github.com/BhuvaneshPatil)

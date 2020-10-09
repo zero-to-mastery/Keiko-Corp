@@ -1,0 +1,48 @@
+.from-left {
+  animation: from-left 0.70s forwards;
+}
+.from-right {
+  animation: from-right 0.75s forwards;
+}
+@keyframes from-left {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes from-right {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+
+@keyframes small-from-bottom {
+  from {
+    transform: translateY(+50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes medium-from-bottom {
+  from {
+    transform: translateY(+70px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

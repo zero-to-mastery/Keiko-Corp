@@ -857,15 +857,17 @@ em {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  background-color: #f4f7fe;
+  padding: var(--lgPadding) 0;
 }
 
-h2 {
+.pricing-header h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
+  color:#000;
 }
 
 p {
@@ -878,6 +880,7 @@ p {
   display: flex;
   align-items: center;
   margin-top: 32px;
+  margin-bottom: var(--xlMargin);
 }
 
 .price-card {
@@ -932,17 +935,18 @@ p {
   font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px){
   .price-cards {
     flex-direction: column;
   }
-
-  .price-card {
-    width: 327px;
-  }
-
   .price-card:nth-of-type(2) {
     margin: 24px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price-card {
+    width: 327px;
   }
 }
 
