@@ -29,23 +29,19 @@ let registerModal = document.getElementById('registerModal1');
 let loginBtn = document.getElementById('login');
 let registerBtn = document.getElementById('register');
 let span = document.getElementsByClassName('close')[0];
-let password = document.getElementsByName('password');
-let password_confirm = document.getElementsByName('password_confirmation');
-let eye = document.getElementsByName('eye');
+let password = document.getElementById('password');
+let eye = document.getElementById('visibility');
 
-// Password visiblity toggle
-var passwordState = false;
-eye.onclick = function toggle() {
-    if (passwordState) {
-        password.setAttribute('type', 'password');
-        eye.style.color = '#7A797E';
-        state = false;
-    } else {
-        password.setAttribute('type', 'text');
-        eye.style.color = '#EF5B59';
-        state = true;
-    }
+/* Password visiblity toggle */
+eye.onclick = function () {
+  // Toggle the type attribute
+  const passwordState = password.getAttribute('type') === 'password' ? 'text' : 'password';
+  password.setAttribute('type', passwordState);
+  
+  // Toggle color
+  passwordState === 'password' ? eye.style.color = '#757575' : eye.style.color = '#FD6854';
 }
+/* Password visibility toggle end */
 
 loginBtn.onclick = function () {
   loginModal.style.display = 'block';

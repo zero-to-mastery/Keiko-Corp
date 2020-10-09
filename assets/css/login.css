@@ -162,20 +162,23 @@
   margin-left: 0.6rem;
 }
 
-.container i {
-  margin-left: 30px;
+#visibility {
+  transform: translate(500%, 35%);
+  position: absolute;
   cursor: pointer;
   font-size: 20px;
-  color: #7A797E;
+  color: #757575;
 }
 
 .modal-content div {
+  display: flex;
+  justify-content: center;
   width: 300px;
-  padding: 16px;
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: 400px;
   text-align: center;
   margin-bottom: 1rem;
+  
 }
 
 .form-group {
