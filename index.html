@@ -30,6 +30,7 @@
   <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
   <link rel="stylesheet" href="./assets/css/testimonials.css" />
   <link rel="stylesheet" href="./assets/css/media-queries.css" />
+  <link rel="stylesheet" href="./assets/css/animations.css" />
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -162,46 +163,46 @@
       </div>
 
       <div class="feature">
-        <div class="feature_one">
-          <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
-        </div>
+          <div class="feature_one left-part">
+            <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
+          </div>
+          
+          <div class="feature_content right-part">
+            <h1>FEATURE ONE</h1>
+            <p>The best Lorem Ipsum Generator in all the sea!
+              Heave this scurvy copyfiller fer yar next adventure
+              and cajol yar clients into walking the plank with
+              ev'ry layout! Configure above, then get yer pirate
+              ipsum...own the high seas, arg!</p>
+              <a href="#" class="feature-link"><span>Learn More</span></a>
+            </div> 
+        
+          <div class="feature_two right-part">
+            <img src="assets/images/feature-two.svg" class="feature_image" alt="feature_two_image">
+          </div>
 
-        <div class="feature_content">
-          <h1>FEATURE ONE</h1>
-          <p>The best Lorem Ipsum Generator in all the sea!
-            Heave this scurvy copyfiller fer yar next adventure
-            and cajol yar clients into walking the plank with
-            ev'ry layout! Configure above, then get yer pirate
-            ipsum...own the high seas, arg!</p>
-          <a href="#" class="feature-link"><span>Learn More</span></a>
-        </div>
-
-        <div class="feature_two">
-          <img src="assets/images/feature-two.svg" class="feature_image" alt="feature_two_image">
-        </div>
-        <div class="feature_content" id="feature_two_content">
-          <h1>FEATURE TWO</h1>
-          <p>The best Lorem Ipsum Generator in all the sea!
-            Heave this scurvy copyfiller fer yar next adventure
-            and cajol yar clients into walking the plank with
-            ev'ry layout! Configure above, then get yer pirate
-            ipsum...own the high seas, arg!</p>
-          <a href="#" class="feature-link"><span>Learn More</span></a>
-        </div>
-
-        <div class="feature_three">
-          <img src="assets/images/feature-three.svg" class="feature_image" alt="feature_three_image">
-        </div>
-
-        <div class="feature_content" id="feature_three_content">
-          <h1>FEATURE THREE</h1>
-          <p>The best Lorem Ipsum Generator in all the sea!
-            Heave this scurvy copyfiller fer yar next adventure
-            and cajol yar clients into walking the plank with
-            ev'ry layout! Configure above, then get yer pirate
-            ipsum...own the high seas, arg!</p>
-          <a href="#" class="feature-link"><span>Learn More</span></a>
-        </div>
+          <div class="feature_content left-part" id="feature_two_content">
+            <h1>FEATURE TWO</h1>
+            <p>The best Lorem Ipsum Generator in all the sea!
+              Heave this scurvy copyfiller fer yar next adventure
+              and cajol yar clients into walking the plank with
+              ev'ry layout! Configure above, then get yer pirate
+              ipsum...own the high seas, arg!</p>
+              <a href="#" class="feature-link"><span>Learn More</span></a>
+          </div>
+            <div class="feature_three left-part">
+              <img src="assets/images/feature-three.svg" class="feature_image" alt="feature_three_image">
+          </div>
+          
+          <div class="feature_content right-part" id="feature_three_content">
+            <h1>FEATURE THREE</h1>
+            <p>The best Lorem Ipsum Generator in all the sea!
+              Heave this scurvy copyfiller fer yar next adventure
+              and cajol yar clients into walking the plank with
+              ev'ry layout! Configure above, then get yer pirate
+              ipsum...own the high seas, arg!</p>
+              <a href="#" class="feature-link"><span>Learn More</span></a>
+          </div>
       </div>
     </section>
 
@@ -213,39 +214,39 @@
         <p class="company-title-description">We are funded with the world's trusted brands</p>
       </div>
       <div class="company-logo-section">
-        <img class="company-logo" src="assets/images/logos/Adobe_logo.svg" />
-        <img class="company-logo" src="assets/images/logos/Amazon_logo.svg" />
-        <img class="company-logo" src="assets/images/logos/Facebook_Logo.svg" />
-        <img class="company-logo" src="assets/images/logos/Google_logo.svg" />
-        <img class="company-logo" src="assets/images/logos/intel.svg" />
-        <img class="company-logo" src="assets/images/logos/samsung.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.15s" src="assets/images/logos/Adobe_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.30s" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.45s" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.60s" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.75s" src="assets/images/logos/intel.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.90s" src="assets/images/logos/samsung.svg" />
       </div>
     </section>
 
     <!-- ******** TESTIMONIALS ******** -->
-    <section class="testimonial-section container-fluid ">
-      <div id="testimonials">
+    <section class="testimonial-section container-fluid">
+      <div id="testimonials" class="testimonial_heading">
         <h1>Testimonials</h1>
         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they
           live in Bookmarksgrove right at the coast of Semantics.</p>
       </div>
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
+          <div class="carousel-item active container-fluid testimonial_item" data-delay="0.0s">
             <img src="./assets/images/team1.jpg" alt="team-member1" class="testimonial-image">
             <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
             <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
               odit
               corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
           </div>
-          <div class="carousel-item  container-fluid">
+          <div class="carousel-item  container-fluid testimonial_item" data-delay="0.2s">
             <img src="./assets/images/team2.jpg" alt="team-member2" class="testimonial-image">
             <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
             <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
               odit
               corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
           </div>
-          <div class="carousel-item  container-fluid">
+          <div class="carousel-item  container-fluid testimonial_item" data-delay="0.4s">
             <img src="./assets/images/team3.jpg" alt="team-member3" class="testimonial-image">
             <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
             <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
@@ -265,23 +266,27 @@
 
     <!-- ******** PRICING SECTION ******** -->
     <section class="pricing" id=pricing>
-      <h2>Pricing</h2>
-      <p>Honest pricing, no surprises</p>
+      <div class="pricing-header">
+        <h2>Pricing</h2>
+        <p>Honest pricing, no surprises</p>
+      </div>
       <div class="price-cards">
-        <div class="price-card">
+        <div class="price-card" data-delay="0s">
           <h3>Personal</h3>
           <div class="price"><span>$</span><span>10</span><span> /MO</span></div>
         </div>
-        <div class="price-card">
+        <div class="price-card" data-delay="0.2s">
           <h3>Agency</h3>
           <div class="price"><span>$</span><span>20</span><span> /MO</span></div>
         </div>
-        <div class="price-card">
+        <div class="price-card" data-delay="0.4s">
           <h3>Enterprise</h3>
           <div class="price"><span>$</span><span>49</span><span> /MO</span></div>
         </div>
       </div>
     </section>
+
+
 
     <!-- Footer -->
     <footer>
@@ -354,6 +359,7 @@
     <script src="./assets/js/dark-mode.js"></script>
     <script src="./assets/js/progressbar.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/animate.js"></script>
 </body>
 
 </html>

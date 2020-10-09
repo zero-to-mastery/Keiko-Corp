@@ -65,3 +65,9 @@ footer > .footer-row {
   justify-content: center;
   width: 100%;
 }
+
+@media screen and (min-width:991.99px){
+  .footer-column {
+    min-width: 200px;
+  }
+}
