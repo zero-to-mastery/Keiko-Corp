@@ -70,15 +70,15 @@ textarea {
 
 #button {
   font-weight: 400;
-  color: #ffffff;
+  color: var(--red);
   text-align: center;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color:var(--darkBlue);
-  border: 1px solid transparent;
+  background-color:transparent;
+  border: 2px solid var(--red);
   padding: 0.6rem 0.75rem;
   font-size: 1rem;
   line-height: 1.2;
@@ -91,7 +91,7 @@ textarea {
 }
 
 #button:hover {
-  background-color: white;
+  background-color: ;
   color: var(--red);
   border-color: currentColor;
 }
