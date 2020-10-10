@@ -33,6 +33,10 @@
   color: #fe6655;
 }
 
+[data-theme='dark'] .navbar #link-btn {
+  color: #ffff;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
