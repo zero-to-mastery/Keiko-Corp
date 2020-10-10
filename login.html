@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8" />
@@ -10,158 +10,220 @@
   <link rel="icon" type="image/png" href="/assets/images/keiko-icon.ico" />
   <title>Register/Login — Keiko Corp</title>
   <!-- font awesome v5.5.0 free version -->
-  <link href="/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
   <!-- custom css -->
-  <link rel="stylesheet" href="/assets/global.css" />
-  <link href="/assets/css/login.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/login.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
+
 <body>
-  <div class="main-container">
-    <h1>Register or Login</h1>
-    <div class="row">
-      <div class="col">
-        <div class="button-card">
-          <div class="action-buttons">
-            <!-- action button for modal style 1 start -->
-            <a href="#registerModal1" data-toggle="modal" class="btn btn-theme btn-success" id="register">Register</a>
-            <a href="#loginModal1" data-toggle="modal" class="btn btn-theme btn-primary" id="login">
-              Login</a>
-            <!-- action button for modal style 1 end -->
+  <div class="main" id="main">
+    <!-- HEADER -->
+    <header class="no-user-select">
+      <!-- sticky header -->
+      <div class="container-nav sticky">
+        <nav class="navbar">
+          <div class="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          <img src="/assets/demo/style-1-demo-dark.jpg" />
+
+          <ul class="menu">
+            <li>
+              <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+            </li>
+            <li>
+              <a href="./index.html">
+                <button id="contact-btn">Home</button>
+              </a>
+            </li>
+            <li>
+              <a href="./index.html#features">
+                <button id="contact-btn">Features</button>
+              </a>
+            </li>
+            <li>
+              <a href="./index.html#testimonials">
+                <button id="contact-btn">Testimonials</button>
+              </a>
+            </li>
+            <li>
+              <a href="./meet-the-team.html">
+                <button id="contact-btn">Team</button>
+              </a>
+            </li>
+            <li>
+              <a href="./index.html#pricing">
+                <button id="contact-btn">Pricing</button>
+              </a>
+            </li>
+            <li>
+              <a href="./contact.html">
+                <button id="contact-btn">Contact</button>
+              </a>
+            </li>
+          </ul>
+          <label class="toggle-bar" id="toggle-bar">
+            <input type="checkbox" id="toggle-checkbox" />
+            <div class="toggle-container" id="toggle-container"></div>
+          </label>
+        </nav>
+      </div>
+    </header>
+    <div class="main-container">
+      <h1>Register or Login</h1>
+      <div class="row">
+        <div class="col">
+          <div class="button-card">
+            <div class="action-buttons">
+              <!-- action button for modal style 1 start -->
+              <a href="#registerModal1" data-toggle="modal" class="btn btn-theme btn-success" id="register">Register</a>
+              <a href="#loginModal1" data-toggle="modal" class="btn btn-theme btn-primary" id="login">
+                Login</a>
+              <!-- action button for modal style 1 end -->
+            </div>
+            <img src="./assets/demo/style-1-demo-dark.jpg" />
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!--modal style 1 start -->
-  <!-- login modal 1 -->
-  <div id="loginModal1" class="modal-style-1 dark modal">
-    <div class="modal-dialog modal-login">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">login</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            &times;
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- dont forget to add action and action method  -->
-          <form action="" method="">
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                <input type="email" class="form-control" name="email" placeholder="Enter email address"
-                  required="required" />
+    <!--modal style 1 start -->
+    <!-- login modal 1 -->
+    <div id="loginModal1" class="modal-style-1 dark modal">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">login</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- dont forget to add action and action method  -->
+            <form action="" method="">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                  <input type="email" class="form-control" name="email" placeholder="Enter email address"
+                    required="required" />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
+          <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                <input type="password" class="form-control" name="password" placeholder="Enter password"
+                <input type="password" class="form-control" name="password" id="password" placeholder="Enter password"
                   required="required" autocomplete="on" />
+                <span id="visibility">
+                  <i class="fa fa-eye" aria-hidden="true" name="eye"></i>
+                </span>
+              <div class="row pl-1 pr-1">
+                <div class="col text-left">
+                  <label class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox"
+                      value="option1" />
+                    <span class="custom-control-label">&nbsp;Remember Me</span>
+                  </label>
+                </div>
+                <div class="col text-right hint-text pt-0">
+                  <a href="" class="text-danger">Forgot Password?</a>
+                </div>
               </div>
-            </div>
-            <div class="row pl-1 pr-1">
-              <div class="col text-left">
-                <label class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="item_checkbox" name="item_checkbox"
-                    value="option1" />
-                  <span class="custom-control-label">&nbsp;Remember Me</span>
-                </label>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary btn-signin">
+                  login
+                </button>
               </div>
-              <div class="col text-right hint-text pt-0">
-                <a href="" class="text-danger">Forgot Password?</a>
+              <p class="hint-text">or login with</p>
+              <!-- social login area -->
+              <div class="social-login">
+                <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
+                <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
               </div>
-            </div>
-            <div class="form-group text-center">
-              <button type="submit" class="btn btn-primary btn-signin">
-                login
-              </button>
-            </div>
-            <p class="hint-text">or login with</p>
-            <!-- social login area -->
-            <div class="social-login">
-              <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
-              </a>
-              <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
-              <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
-            </div>
-          </form>
-        </div>
-        <div>
-          Don't have an account?
-          <a class="register" href="#registerModal1" data-dismiss="modal" data-toggle="modal">Register</a>
+            </form>
+          </div>
+          <div>
+            Don't have an account?
+            <a class="register" href="#registerModal1" data-dismiss="modal" data-toggle="modal">Register</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- register modal 1 -->
-  <div id="registerModal1" class="modal-style-1 dark modal">
-    <div class="modal-dialog modal-login">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Register</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            &times;
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- dont forget to add action and action method  -->
-          <form action="" method="">
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input type="text" class="form-control" name="name" placeholder="Enter your name" required="required" />
+    <!-- register modal 1 -->
+    <div id="registerModal1" class="modal-style-1 dark modal">
+      <div class="modal-dialog modal-login">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Register</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- dont forget to add action and action method  -->
+            <form action="" method="">
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                  <input type="text" class="form-control" name="name" placeholder="Enter your name"
+                    required="required" />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                <input type="email" class="form-control" name="email" placeholder="Enter Email Address"
-                  required="required" />
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                  <input type="email" class="form-control" name="email" placeholder="Enter Email Address"
+                    required="required" />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                <input type="password" class="form-control" name="password" placeholder="Enter password"
-                  required="required" autocomplete="on" />
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                  <input type="password" class="form-control" name="password" placeholder="Enter password"
+                    required="required" autocomplete="on" />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-eye-slash"></i></span>
-                <input type="password" class="form-control" name="password_confirmation" placeholder="Retype password"
-                  required="required" autocomplete="on" />
+              <div class="form-group">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-eye-slash"></i></span>
+                  <input type="password" class="form-control" name="password_confirmation" placeholder="Retype password"
+                    required="required" autocomplete="on" />
+                </div>
               </div>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-signin">
-                Register
-              </button>
-            </div>
-            <p class="hint-text mt-3">or register with</p>
-            <!-- social login area -->
-            <div class="social-login">
-              <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
-              </a>
-              <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
-              <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
-            </div>
-          </form>
-        </div>
-        <div>
-          Already have an account?
-          <a class="login" href="#loginModal1" data-dismiss="modal" data-toggle="modal">Login</a>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-signin">
+                  Register
+                </button>
+              </div>
+              <p class="hint-text mt-3">or register with</p>
+              <!-- social login area -->
+              <div class="social-login">
+                <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
+                <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+            </form>
+          </div>
+          <div>
+            Already have an account?
+            <a class="login" href="#loginModal1" data-dismiss="modal" data-toggle="modal">Login</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <script src="/assets/vendor/fontawesome-free/js/all.min.js"></script>
-  <script src="/assets/js/script.js"></script>
+  <script src="./assets/vendor/fontawesome-free/js/all.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/dark-mode.js"></script>
+
 </body>
 
 </html>
