@@ -27,10 +27,11 @@
 
 .hero {
   display: flex;
-  padding: 2em 5rem;
+  /* padding: 2em 5rem; */
   align-items: center;
   justify-content: center;
-  margin-bottom: var(--xlMargin);
+  max-width: var(--maxWidth);
+  margin: 0 auto var(--xlMargin);
 }
 
 .hero_image img{
@@ -54,7 +55,7 @@
   line-height: 1.1;
   margin-bottom: 1.5rem;
   color: var(--heading);
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.2rem; */
   text-align: left;
 }
 
@@ -457,12 +458,10 @@ ul {
 
 .hero {
   display: flex;
-  padding: 2em;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2rem;
-  padding-right: 7rem;
-  padding-left: 7rem;
+  margin-bottom: 10rem;
+  padding: 0 20px 0;
 }
 
 .hero_content {
@@ -495,7 +494,6 @@ ul {
   line-height: 1.4;
   font-weight: 400;
   margin-bottom: 2rem;
-  text-align: justify;
 }
 
 .CTA {
@@ -857,15 +855,17 @@ em {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  background-color: #f4f7fe;
+  padding: var(--lgPadding) 0;
 }
 
-h2 {
+.pricing-header h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
+  color:#000;
 }
 
 p {
@@ -878,12 +878,13 @@ p {
   display: flex;
   align-items: center;
   margin-top: 32px;
+  margin-bottom: var(--xlMargin);
 }
 
 .price-card {
   color: #fff;
   width: 309px;
-  height: 141px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -897,6 +898,9 @@ p {
   font-weight: 700;
   line-height: 32px;
   font-family: 'Roboto';
+}
+.price-card p{
+  margin-bottom:5px;
 }
 
 .price-card:nth-of-type(1) {
@@ -932,17 +936,19 @@ p {
   font-weight: 400;
 }
 
+
 @media screen and (max-width: 768px){
   .price-cards {
     flex-direction: column;
   }
-
-  .price-card {
-    width: 327px;
-  }
-
   .price-card:nth-of-type(2) {
     margin: 24px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price-card {
+    width: 327px;
   }
 }
 
@@ -958,8 +964,7 @@ p {
   right: 2.5rem;
   bottom: -3em;
   width: 3em;
-  pointer-events: none;
-}
+  pointer-events: none;}
 
 .scroll-to-top-wrapper--hide {
   display: none;

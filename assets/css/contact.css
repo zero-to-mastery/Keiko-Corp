@@ -6,9 +6,7 @@
   margin: 2rem 6rem;
 }
 
-p {
-  color: var(--primar-color);
-}
+
 
 a {
   text-decoration: none;
@@ -19,6 +17,7 @@ a {
 header {
   margin-bottom: 6rem;
   height: 88px;
+  padding: 1rem;
 }
 
 header p {
@@ -68,48 +67,97 @@ textarea {
 }
 
 #button {
-  padding: 0.5 2rem;
+  font-weight: 400;
+  color: var(--red);
+  text-align: center;
   cursor: pointer;
-  width: 20%;
-  height: 2rem;
-  border-radius: 5px;
-  color: #ffffff;
-  background-color: rgb(59, 169, 233);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color:transparent;
+  border: 2px solid var(--red);
+  padding: 0.6rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  height: 50px;
+  margin: 0.5rem 0;
+  width: 8rem;
 }
 
 #button:hover {
-  color: rgb(59, 169, 233);
-  background-color: #ffffff;
+  background-color: ;
+  color: var(--red);
+  border-color: currentColor;
 }
 
-input[type=text], select {
+textarea[name=message]{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  height: 12rem;
+  resize: none;
+  padding: 0.8rem 1.2rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0.5rem 0rem;
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-input[type=email], select {
+input[type=email]{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-input[type=tel], select {
+input[type=tel]{
   width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  padding: 0.8rem 1.2rem;
+  margin: 0.5rem 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin: 0.5rem 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select:required:invalid {
+  color: #666;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: #000;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .form h2 {

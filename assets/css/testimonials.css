@@ -1,6 +1,6 @@
 .testimonial-section {
   margin-top: 20px;
-  background-color: var(--lightBlue);
+  background-color: var(--mainbackground);
 }
 
 #testimonials h1 {
@@ -16,9 +16,20 @@
   text-align: center;
 }
 
+[data-theme='dark'] #testimonial > p {
+  color: #fff;
+}
+
 #testimonial-carousel {
   width: 80%;
   margin: 25px auto;
+}
+
+#testimonial-carousel .carousel-inner {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  
 }
 
 #testimonial-carousel .carousel-item {
@@ -50,9 +61,20 @@ em.testimonial-text {
 h3.testimonial-text {
   margin-top: 10px;
   text-align: left;
+  color: #020100;
 }
 
 .testimonial-text span {
   font-weight: bold;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #testimonial-carousel .carousel-inner {
+    flex-direction: column;
+  }
+
+  #testimonial-carousel .carousel-item {
+    width: 100%;
+  }
 }
