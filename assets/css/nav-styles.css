@@ -30,8 +30,8 @@
 }
 
 [data-theme='dark'] .navbar .red-btn {
-  color: var(--lightBlue);
-  background-color: transparent;
+  color: var(--text);
+  background-color: var(--lightBlue);
 }
 
 /*Maneging navbar as per theme ends*/
