@@ -1,0 +1,22 @@
+{
+  "name": "keiko-corp",
+  "version": "1.0.0",
+  "description": "<img src=\"assets/images/keiko-logo.png\" align=\"right\" width=\"150px\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashwath-KR/Keiko-Corp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashwath-KR/Keiko-Corp/issues"
+  },
+  "homepage": "https://github.com/shashwath-KR/Keiko-Corp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

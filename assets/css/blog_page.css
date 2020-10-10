@@ -92,6 +92,7 @@ main {
   text-transform: uppercase;
   font-weight: 700;
   margin: 3em auto 0;
+  outline: none;
 }
 
 @media (min-width: 700px) {
