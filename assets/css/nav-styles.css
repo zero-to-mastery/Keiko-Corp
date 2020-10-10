@@ -30,7 +30,8 @@
 }
 
 [data-theme='dark'] .navbar .red-btn {
-  color: #fe6655;
+  color: var(--text);
+  background-color: var(--lightBlue);
 }
 
 /*Maneging navbar as per theme ends*/
@@ -156,7 +157,7 @@
 }
 .nav-button span {
   width: 100%;
-  background-color: #20014d;
+  background-color: var(--toggleBackground);
   height: 3px;
 }
 
@@ -165,7 +166,7 @@
   /* display: inline-block; */
   width: 52px;
   height: 20px;
-  background: #20014d !important;
+  background: var(--toggleBackground) !important;
   border-radius: 50px;
   position: relative;
   cursor: pointer;
@@ -197,9 +198,9 @@ input:checked ~ .toggle-container {
 /* new header styling */
 .red-btn {
   cursor: pointer;
-  border: 2px solid #fe6655;
+  border: 2px solid var(--red);
   border-radius: 5px;
-  color: #fe6655;
+  color:var(--red);
   padding: 10px 15px !important;
   border-radius: 5px;
 }
@@ -233,7 +234,7 @@ header {
   margin: 5px 73px;
   width: 52px;
   height: 20px;
-  background: #20014d !important;
+  background: var(--toggleBackground) !important;
   border-radius: 50px;
   position: absolute;
   cursor: pointer;
@@ -244,19 +245,19 @@ header {
 
 .red-btn:hover {
   color: #fff;
-  background-color: #fe6655;
+  background-color: var(--red);
   transition: 0.3s ease;
 }
 
 [data-theme='dark'] .red-btn:hover {
   color: #fff;
-  background-color: #fe6655;
+  background-color: var(--red);
   transition: 0.3s ease;
 }
 
 /* dropdown styling */
 .dropbtn {
-  background-color: #fe6655;
+  background-color: var(--red);
   font-size: 16px;
   border: none;
   /* padding: 10px 20px 5px 20px!important; */
