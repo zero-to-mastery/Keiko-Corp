@@ -89,9 +89,9 @@ textarea {
 }
 
 #button:hover {
-  background-color: ;
-  color: var(--red);
-  border-color: currentColor;
+  background-color: var(--red);
+  color: var(--text);
+  border-color: var(--red);
 }
 
 textarea[name=message]{
