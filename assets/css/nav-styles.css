@@ -33,6 +33,10 @@
   color: #fe6655;
 }
 
+[data-theme='dark'] .toggle-container {
+  background: #fe6655;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
