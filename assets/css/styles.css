@@ -886,7 +886,7 @@ p {
 .price-card {
   color: #fff;
   width: 309px;
-  height: 141px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -900,6 +900,9 @@ p {
   font-weight: 700;
   line-height: 32px;
   font-family: 'Roboto';
+}
+.price-card p{
+  margin-bottom:5px;
 }
 
 .price-card:nth-of-type(1) {
