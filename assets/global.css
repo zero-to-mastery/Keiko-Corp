@@ -32,6 +32,7 @@ body {
   --maxWidth: 1280px;
 
   /* colors */
+  --blueButton:#0f52ba;
   --red: #ef5b59; /*checked*/
   --lightBlue: #f4f7fe;
   --darkBlue: #fe6655;
@@ -69,7 +70,7 @@ body {
   --br: 0.25rem;
   --btnHeight: 40px;
   --btnPadding: 12px 16px;
-  
+
   /* transition */
   --transition: 0.2s all ease-in;
 
@@ -90,8 +91,8 @@ body {
   /* @media (min-width: 1280px) { ... } */
 }
 
-[data-theme = 'dark'] {  
-  --lightBlue: #EF5B59;  
+[data-theme = 'dark'] {
+  --lightBlue: #EF5B59;
   --text: #fff;
   --mainBackground: #343A40;
   --heroText: #fff;
