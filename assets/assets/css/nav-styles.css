@@ -140,6 +140,7 @@ input {
   transition: transform 0.5s;
 }
 
+
 input:focus + .toggle-container {
   box-shadow: var(--focusShadow);
 }

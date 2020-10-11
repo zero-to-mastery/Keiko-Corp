@@ -185,6 +185,19 @@
   background: #f1c40f;
   transition: transform 0.5s;
 }
+/* for day and night icon */
+.day-icon img {
+    height:20px;
+    width:20px;
+    margin-right:-2px;
+  }
+.night-icon img{
+    height:20px;
+    width:20px;
+  }
+  /*day and night icon ends here */
+
+
 
 input:focus + .toggle-container {
   box-shadow: var(--focusShadow);
