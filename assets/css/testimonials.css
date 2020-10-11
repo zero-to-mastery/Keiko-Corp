@@ -28,53 +28,136 @@
 #testimonial-carousel .carousel-inner {
   display: flex;
   align-items: center;
-  margin-top: 32px;
-  
+  margin-top: 36px;  
 }
 
 #testimonial-carousel .carousel-item {
   display: inline-block;
   width: 30%;
   border-radius: 5px;
-  background-color: white;
-  margin: 10px;
-  padding: 30px 20px;
+  background-color: transparent;
+  margin: 18px;
+  margin-left: 27px;
+  padding: 30px 10px;
 }
 
 #testimonial-carousel .carousel-item img {
-  border-radius: 5px;
+  border-radius: 50%;
 }
-
 .testimonial-image {
-  width: 20%;
+  width: 29%;
   border-radius: 5%;
-  margin: 10px auto 10px auto;
-  display: inline-block;
+  position: absolute;
+  margin-left:.6em;
+  top: 15.5em;
+  left: 1.9em;
 }
-
 em.testimonial-text {
   width: 70%;
   display: inline-block;
   text-align: left;
+  position: absolute;
+  top: 16em;
+  margin:1.2px 0em;
 }
-
 h3.testimonial-text {
   margin-top: 10px;
   text-align: left;
-  color: #020100;
+  color: #858585;
 }
 
 .testimonial-text span {
   font-weight: bold;
   color: black;
+  font-size: 1.3em;
+}
+
+.quote_svg{
+  width: fit-content;
+  height: fit-content;
+}
+
+.test-text{
+  width: 20.1em;
+  height:5em ;
+  position: absolute;
+  top: 2.8em;
+  left: 2.7em;
+}
+@media screen and (max-width: 1024px) {
+  #testimonial-carousel{ 
+    width: 90%; 
+    margin: 20px 2px;
+   }
+  .quote_svg svg{
+    width: 21em;
+  }
+  .test-text{
+    width: 90%;
+    font-size: .95em;
+    top: 3.2em;
+    left: 2.1em;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  #testimonial-carousel{ 
+    margin: 30px 40px;
+  }
   #testimonial-carousel .carousel-inner {
     flex-direction: column;
   }
 
   #testimonial-carousel .carousel-item {
     width: 100%;
+  }
+  #testimonial-carousel .carousel-item {
+    margin: 58px 20px;
+  }
+  em.testimonial-text {
+    top: 18.5em;
+  }
+  .testimonial-text span{
+    font-size: 1.4em;
+  }
+  .test-text{
+    width: 20.1em;
+    height:5em ;
+    position: absolute;
+    top: 2.8em;
+    left: 2.7em;
+    font-size: 1.05em;
+  }
+  .quote_svg svg{
+    width: 27em;
+  }
+}
+
+@media  screen and (max-width: 426px){
+  #testimonial-carousel{ 
+    margin: 30px 20px;
+  }
+  #testimonial-carousel .carousel-item{
+    margin: 35px 8px;
+  }
+  #testimonial-carousel .carousel-item{
+    margin-right: 12px;
+  }
+  em.testimonial-text {
+    top: 17em;
+  }
+  
+}
+
+@media (max-width:376px){
+  #testimonial-carousel{ 
+    margin: 30px 10px;
+  }
+  .quote_svg svg{
+    width: 23em;
+  }
+  .test-text{
+    width: 18em;
+    font-size: 1em;
   }
 }
