@@ -5,7 +5,8 @@
 ## Contributors
 
 This is a list showing the GitHub usernames of all who have contributed to this open-source project! **Make sure to add yourself and submit a pull request if you've contributed.**
-
+- 
+  [githubANURAG1](https://https://github.com/githubANURAG1)
 - [@Mehul1011](https://github.com/mehul1011)
 - [@kelvinchan2406](https://github.com/kelvinchan2406)
 - [@Dhamodhar-DDR](https://github.com/Dhamodhar-DDR)
