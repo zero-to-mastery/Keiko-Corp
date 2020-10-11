@@ -1,0 +1,5 @@
+#team > h2 {
+  color: var(--heading);
+  font-size: var(--lgHeading);
+  margin-top: 7%;
+}

@@ -1,0 +1,84 @@
+main {
+  max-width: 100%;
+  height: 100%;
+}
+
+.hero-image {
+  text-align: center;
+  background-image: url(../images/for-hire.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  max-width: 100%;
+  height: 450px;
+  clip-path: polygon(0% 0%, 100% 1%, 100% 49%, 0 99%, 0% 100%);
+  background-position: center center;
+  position: relative;
+}
+
+.job-posts {
+  color: #838383;
+}
+
+.job-posts h1 {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.job-posts h2,
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.job-posts span img {
+  max-width: 50px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  color: #000;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+th {
+  background-color: rgba(255, 111, 97, 0.7);
+  font-size: 1.5rem;
+}
+
+.job-posting-info {
+  width: 100%;
+  padding: 5px 20px;
+}
+
+#mobile-table {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #mobile-table {
+    display: block;
+  }
+
+  #large-table-display {
+    display: none;
+  }
+
+  .job-posts h1 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  .hero-image {
+    background-image: url(../images/mobile-hire.jpg);
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .hero-image {
+    background-position: 40% 50%;
+  }
+}

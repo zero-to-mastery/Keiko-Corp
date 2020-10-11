@@ -1,0 +1,118 @@
+:root {
+  --primar-color: #8b8989;
+}
+
+#container {
+  margin: 2rem 6rem;
+}
+
+p {
+  color: var(--primar-color);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(13, 165, 211);
+}
+
+/* changed height */
+header {
+  margin-bottom: 6rem;
+  height: 88px;
+}
+
+header p {
+  font-size: 1.2rem;
+  width: 60%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 6rem;
+  padding: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1.5rem;
+}
+
+.cards a {
+  display: block;
+  margin-top: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 1.5rem;
+}
+
+form input,
+select,
+textarea {
+  padding: 0.3rem;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.form-input.multiple {
+  display: grid;
+  grid-template-columns: 47% 47%;
+  grid-column-gap: 6%;
+}
+
+#button {
+  padding: 0.5 2rem;
+  cursor: pointer;
+  width: 20%;
+  height: 2rem;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgb(59, 169, 233);
+}
+
+#button:hover {
+  color: rgb(59, 169, 233);
+  background-color: #ffffff;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
