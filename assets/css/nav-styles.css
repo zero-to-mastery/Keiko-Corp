@@ -7,6 +7,66 @@
   justify-content: center;
 }
 
+/* Dark mode toggle button styles */
+/* ----------------------------------------------- */
+.toggle-bar {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 24px;
+}
+
+#toggle-checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #20014D;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: #F1C40F;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #20014D;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #20014D;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(28px);
+  -ms-transform: translateX(28px);
+  transform: translateX(28px);
+  background-color: #EF5B59;
+}
+.slider.round {
+  border-radius: 40px;
+  padding: 0;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* ------------------------------------------------- */
 /*Managing navbar as per theme start*/
 [data-theme='dark'] .navbar {
   background: #343a40;
@@ -30,7 +90,8 @@
 }
 
 [data-theme='dark'] .navbar .red-btn {
-  color: #fe6655;
+  color: var(--text);
+  background-color: var(--lightBlue);
 }
 
 /*Maneging navbar as per theme ends*/
@@ -156,50 +217,20 @@
 }
 .nav-button span {
   width: 100%;
-  background-color: #20014d;
+  background-color: var(--toggleBackground);
   height: 3px;
 }
 
-.toggle-bar {
-  /* margin: 5px 73px; */
-  /* display: inline-block; */
-  width: 52px;
-  height: 20px;
-  background: #20014d !important;
-  border-radius: 50px;
-  position: relative;
-  cursor: pointer;
-}
 
-#toggle-checkbox {
-  opacity: 0;
-}
 
-.toggle-container {
-  position: absolute;
-  top: -0.5px;
-  left: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 50px;
-  background: #f1c40f;
-  transition: transform 0.5s;
-}
 
-input:focus + .toggle-container {
-  box-shadow: var(--focusShadow);
-}
-
-input:checked ~ .toggle-container {
-  transform: translateX(32px);
-}
 
 /* new header styling */
 .red-btn {
   cursor: pointer;
-  border: 2px solid #fe6655;
+  border: 2px solid var(--red);
   border-radius: 5px;
-  color: #fe6655;
+  color:var(--red);
   padding: 10px 15px !important;
   border-radius: 5px;
 }
@@ -233,7 +264,7 @@ header {
   margin: 5px 73px;
   width: 52px;
   height: 20px;
-  background: #20014d !important;
+  background: var(--toggleBackground) !important;
   border-radius: 50px;
   position: absolute;
   cursor: pointer;
@@ -244,19 +275,19 @@ header {
 
 .red-btn:hover {
   color: #fff;
-  background-color: #fe6655;
+  background-color: var(--red);
   transition: 0.3s ease;
 }
 
 [data-theme='dark'] .red-btn:hover {
   color: #fff;
-  background-color: #fe6655;
+  background-color: var(--red);
   transition: 0.3s ease;
 }
 
 /* dropdown styling */
 .dropbtn {
-  background-color: #fe6655;
+  background-color: var(--red);
   font-size: 16px;
   border: none;
   /* padding: 10px 20px 5px 20px!important; */
@@ -409,3 +440,5 @@ header {
     padding: 3px;
   }
 }
+
+
