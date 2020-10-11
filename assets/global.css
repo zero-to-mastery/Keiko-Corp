@@ -32,12 +32,12 @@ body {
   --maxWidth: 1280px;
 
   /* colors */
-  --red: #ef5b59; /*checked*/
-  --lightBlue: #f4f7fe;
-  --darkBlue: #fe6655;
+  --red: #ee312d; /*checked*/
+  --lightBlue: #34c5e9;
+  --darkBlue: #072b5a;
   --purple: #20014d;
   --yellow: #f1c40f;
-  --darkRed: #de4a46;
+  --darkRed: #2e0302;
   --green: #2CB629;
   --heading: #020100;
   --text: #757575;
@@ -91,12 +91,12 @@ body {
 }
 
 [data-theme = 'dark'] {  
-  --lightBlue: #EF5B59;  
+  --lightBlue:#34c5e9;  
   --text: #fff;
   --mainBackground: #343A40;
   --heroText: #fff;
   --heading: #fff;
-  --darkBlue: #343a40;
+  --darkBlue:#072b5a;
   --toggleBackground: #F4F7FE ;
   --pricingBackground: #DE4A46;
 }
