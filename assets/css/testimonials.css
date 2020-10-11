@@ -33,32 +33,28 @@
 
 #testimonial-carousel .carousel-item {
   display: inline-block;
-  width: 30%;
+  width: 33%;
   border-radius: 5px;
   background-color: transparent;
-  margin: 18px;
-  margin-left: 27px;
-  padding: 30px 10px;
+  margin: 20px;
+  padding: 20px 2px;
 }
 
 #testimonial-carousel .carousel-item img {
   border-radius: 50%;
 }
 .testimonial-image {
-  width: 29%;
+  width: 28%;
   border-radius: 5%;
-  position: absolute;
-  margin-left:.6em;
-  top: 15.5em;
-  left: 1.9em;
+  
 }
 em.testimonial-text {
-  width: 70%;
+  width: 72%;
   display: inline-block;
   text-align: left;
-  position: absolute;
-  top: 16em;
-  margin:1.2px 0em;
+  /* position: absolute;
+  top: 16em; */
+  margin:.5em 1em;
 }
 h3.testimonial-text {
   margin-top: 10px;
@@ -71,36 +67,33 @@ h3.testimonial-text {
   color: black;
   font-size: 1.3em;
 }
-
-.quote_svg{
-  width: fit-content;
-  height: fit-content;
+.test-per{
+  display: flex;
+  width: 100%;
+  margin:1.3em 0;
 }
-
-.test-text{
-  width: 20.1em;
-  height:5em ;
-  position: absolute;
-  top: 2.8em;
-  left: 2.7em;
+.quote{
+  box-shadow: 2px 5px 11px 6px #c7c7c7;
+  border-radius: 1em;
+  padding: .5em .6em;
+  width: 100%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1302px){
+  #testimonial-carousel {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1224px) {
   #testimonial-carousel{ 
-    width: 90%; 
+    width: 100%; 
     margin: 20px 2px;
    }
-  .quote_svg svg{
-    width: 21em;
-  }
-  .test-text{
-    width: 90%;
-    font-size: .95em;
-    top: 3.2em;
-    left: 2.1em;
-  }
+   #testimonial-carousel .carousel-item{
+     margin: 8px;
+   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
   #testimonial-carousel{ 
     margin: 30px 40px;
   }
@@ -112,52 +105,87 @@ h3.testimonial-text {
     width: 100%;
   }
   #testimonial-carousel .carousel-item {
-    margin: 58px 20px;
-  }
-  em.testimonial-text {
-    top: 18.5em;
+    margin: 30px 20px;
   }
   .testimonial-text span{
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
-  .test-text{
-    width: 20.1em;
-    height:5em ;
-    position: absolute;
-    top: 2.8em;
-    left: 2.7em;
-    font-size: 1.05em;
+  .test-per{
+    justify-content: space-around;
   }
-  .quote_svg svg{
-    width: 27em;
+  .test-per em.testimonial-text{
+    margin-top: 2.4em;
+  }
+  .quote{
+    width: 42%;
+  }
+  .testimonial-image {
+    width: 16%;
   }
 }
 
-@media  screen and (max-width: 426px){
+@media  screen and (max-width: 812px){
   #testimonial-carousel{ 
     margin: 30px 20px;
   }
   #testimonial-carousel .carousel-item{
-    margin: 35px 8px;
+    margin: 15px 45%;
   }
   #testimonial-carousel .carousel-item{
     margin-right: 12px;
   }
-  em.testimonial-text {
-    top: 17em;
+  .quote{
+    width: 48%;
   }
-  
 }
 
-@media (max-width:376px){
+@media (max-width:663px){
   #testimonial-carousel{ 
     margin: 30px 10px;
   }
-  .quote_svg svg{
-    width: 23em;
+  .quote{
+    width: 65%;
   }
-  .test-text{
-    width: 18em;
-    font-size: 1em;
+  #testimonial-carousel .carousel-item{
+    margin: 15px 38%;
+  }
+  #testimonial-carousel .carousel-item{
+    margin-right: 12px;
+  }
+  .testimonial-image {
+    width: 16%;
+    height: 60%;
+  }
+  .test-per em.testimonial-text{
+    margin-top: 1.6em;
+  }
+  
+}
+@media (max-width:520px){
+  .quote{
+    width: 70%;
+  }
+  #testimonial-carousel .carousel-item{
+    margin: 10px 30%;
+  }
+  #testimonial-carousel .carousel-item{
+    margin-right: 12px;
+  }
+  .test-per em.testimonial-text{
+    margin-top: 1.2em;
+  }
+}
+@media (max-width:426px){
+  .quote{
+    width: 80%;
+  }
+  .test-per em.testimonial-text{
+    margin-top: .4em;
+  }
+  #testimonial-carousel .carousel-item{
+    margin: 10px 20%;
+  }
+  #testimonial-carousel .carousel-item{
+    margin-right: 12px;
   }
 }
