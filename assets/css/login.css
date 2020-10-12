@@ -151,11 +151,15 @@
 }
 
 .social-login {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
 .social-login a {
   text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 }
 
@@ -165,7 +169,7 @@
 }
 
 #visibility {
-  transform: translate(500%, 35%);
+  transform: translate(-33px, 10px);
   position: absolute;
   cursor: pointer;
   font-size: 20px;
@@ -173,14 +177,14 @@
 }
 
 .modal-content div {
-  display: flex;
-  justify-content: center;
+	position: relative;
+  display: block;
   width: 300px;
   margin: 0 auto;
   max-width: 400px;
   text-align: center;
   margin-bottom: 1rem;
-  
+  margin-top: 1rem;
 }
 
 .form-group {
@@ -338,4 +342,11 @@
     top: -25px;
   }
 }
+.modal-body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
