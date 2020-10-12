@@ -208,7 +208,7 @@ input:checked + .slider:before {
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
-  top: 0;
+  top: 15px;
   right: 0;
   transform: translate(-50%, 50%);
 }
@@ -268,7 +268,7 @@ header {
   border-radius: 50px;
   position: absolute;
   cursor: pointer;
-  top: 0;
+  top: 15px;
   right: 0;
   transform: translate(-50%, 75%);
 }
