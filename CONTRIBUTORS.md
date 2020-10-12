@@ -65,3 +65,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@BhuvaneshPatil](https://github.com/BhuvaneshPatil)
 - [@khoaHyh](https://github.com/khoaHyh)
 - [@xafm](https://github.com/xafm)
+- [@daviesesiro](https://github.com/daviesesiro)
