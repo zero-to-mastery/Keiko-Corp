@@ -4,10 +4,11 @@ let showScrollButton = false;
 function onScroll() {
   currentScrollY = window.pageYOffset;
   showScrollButton = Boolean(currentScrollY > 1);
-
-  showScrollButton
+ 	if( typeof(scrollButton) !== "undefined" && scrollButton !== null ){
+ 		 showScrollButton
     ? scrollButton.classList.remove('scroll-to-top-wrapper--hide')
     : scrollButton.classList.add('scroll-to-top-wrapper--hide');
+ 	}
 }
 
 
@@ -28,7 +29,8 @@ let loginModal = document.getElementById('loginModal1');
 let registerModal = document.getElementById('registerModal1');
 let loginBtn = document.getElementById('login');
 let registerBtn = document.getElementById('register');
-let span = document.getElementsByClassName('close')[0];
+let loginClose = document.getElementsByClassName('login-close')[0];
+let registerClose = document.getElementsByClassName('register-close')[0];
 let password = document.getElementById('password');
 let eye = document.getElementById('visibility');
 
@@ -44,30 +46,31 @@ eye.onclick = function () {
 /* Password visibility toggle end */
 
 loginBtn.onclick = function () {
+  registerModal.style.display = 'none';
   loginModal.style.display = 'block';
 };
 
 registerBtn.onclick = function () {
+	loginModal.style.display = 'none';
   registerModal.style.display = 'block';
 };
 
-span.onclick = function () {
-  if ((loginModal.style.display = 'block')) {
-    loginModal.style.display = 'none';
-  } else if ((registerModal.style.display = 'block')) {
-    registerModal.style.display = 'none';
-  }
+loginClose.onclick = function () {
+	loginModal.style.display = 'none';
+};
+registerClose.onclick = function () {
+	registerModal.style.display = 'none';
 };
 
 
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-      }
+    /*if (event.target == modal) {
+      modal.style.display = "none"; //modal is not define.Why?
+    }*/
     if (event.target == loginModal) {
-        loginModal.style.display = "none";
+      loginModal.style.display = "none";
     } else if (event.target == registerModal) {
-        registerModal.style.display = "none";
+      registerModal.style.display = "none";
     }
 }
 
