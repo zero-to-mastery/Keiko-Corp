@@ -322,11 +322,14 @@ header {
 [data-theme='dark'] .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--red);
+  /* background-color: var(--red); */
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: var(--br);
+}
+[data-theme='dark'] .dropdown-content {
+  background-color: var(--purple);
 }
 
 .dropdown-content a {
