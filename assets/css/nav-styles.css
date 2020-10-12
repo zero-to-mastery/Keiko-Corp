@@ -100,7 +100,7 @@ input:checked + .slider:before {
   display: flex;
   height: 80px;
   align-items: center;
-  width: 110%;
+  width: 100%;
   background: white;
 }
 
@@ -262,8 +262,8 @@ header {
 
 .toggle-bar-mobile {
   margin: 5px 73px;
-  width: 52px;
-  height: 20px;
+  width: 58px;
+  height: 24px;
   background: var(--toggleBackground) !important;
   border-radius: 50px;
   position: absolute;
