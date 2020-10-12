@@ -151,11 +151,15 @@
 }
 
 .social-login {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
 .social-login a {
   text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 }
 
@@ -174,6 +178,7 @@
 
 .modal-content div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: 300px;
   margin: 0 auto;
@@ -338,4 +343,11 @@
     top: -25px;
   }
 }
+.modal-body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
