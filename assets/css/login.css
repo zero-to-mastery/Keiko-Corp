@@ -151,11 +151,15 @@
 }
 
 .social-login {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
 .social-login a {
   text-align: center;
+  justify-content: center;
   text-transform: uppercase;
 }
 
@@ -338,4 +342,11 @@
     top: -25px;
   }
 }
+.modal-body{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+}
