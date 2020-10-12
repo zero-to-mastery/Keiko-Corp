@@ -56,7 +56,7 @@ th {
 .job-posting-info {
   width: 100%;
   padding: 5px 20px;
-  /* background-color: var(--mainBackground); */
+  background-color: var(--mainBackground);
 }
 
 #mobile-table {
@@ -81,6 +81,9 @@ th {
   }
   .hero-image {
     background-image: url(../images/mobile-hire.jpg);
+  }
+  .job-posting-info{
+    background-color: transparent;
   }
 }
 
