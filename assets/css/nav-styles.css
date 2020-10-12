@@ -336,10 +336,12 @@ header {
   display: block;
 }
 
-.dropdown-content a:hover {
+/* .dropdown-content a:hover {
   background-color: var(--lightBlue);
+} */
+.dropdown-content a:hover{
+  background-color: rgba(12, 56, 232,0.1);
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
