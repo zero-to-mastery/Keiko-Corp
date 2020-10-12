@@ -45,7 +45,7 @@
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #20014D;
+  background-color: var(--red);
 }
 input:focus + .slider {
   box-shadow: 0 0 1px #20014D;
@@ -54,7 +54,6 @@ input:checked + .slider:before {
   -webkit-transform: translateX(28px);
   -ms-transform: translateX(28px);
   transform: translateX(28px);
-  background-color: #EF5B59;
 }
 .slider.round {
   border-radius: 40px;
