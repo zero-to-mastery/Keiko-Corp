@@ -15,6 +15,7 @@ body {
 
 main {
   margin: 2em 0;
+  background-color: var(--mainBackground);
 }
 
 .blog__pictures {
@@ -79,19 +80,20 @@ main {
 }
 
 .blog__post--content a {
-  color: #000;
+  color: var(--text);
   font-weight: 700;
 }
 
 .loadmore {
   display: block;
-  background: #fff;
-  border: 2px solid black;
+  background: var(--red);
+  border: 2px solid var(--red);
   padding: 0.7em 1.4em;
   border-radius: 18px;
   text-transform: uppercase;
   font-weight: 700;
   margin: 3em auto 0;
+  color: white;
 }
 
 @media (min-width: 700px) {
