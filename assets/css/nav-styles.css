@@ -45,7 +45,7 @@
   transition: .4s;
 }
 input:checked + .slider {
-  background-color: #20014D;
+  background-color: #EF5B59;
 }
 input:focus + .slider {
   box-shadow: 0 0 1px #20014D;
@@ -54,7 +54,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(28px);
   -ms-transform: translateX(28px);
   transform: translateX(28px);
-  background-color: #EF5B59;
+  background-color: #F1C40F;
 }
 .slider.round {
   border-radius: 40px;
@@ -64,7 +64,13 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
+.toggle-bar:hover .slider.round::before {
+  transform:  translateX(14px);
+  transition: all .3s;
+}
+.toggle-bar:hover .slider{
+  background-color: #ee6a68;
+}
 
 /* ------------------------------------------------- */
 /*Managing navbar as per theme start*/
@@ -112,6 +118,7 @@ input:checked + .slider:before {
 .logo {
   width: auto;
   height: 80px;
+  cursor: pointer;
 }
 
 /* menu class unnecessary if .navbar .menu*/
@@ -441,4 +448,28 @@ header {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 1px;
+    background-color: #F1C40F;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  .toggle-bar-mobile:hover .slider.round::before {
+    transform:  translateX(14px);
+    transition: all .3s;
+  }
+  .toggle-bar-mobile:hover .slider{
+    background-color: #ee6a68;
+  }
+}
 
+ 
