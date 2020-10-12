@@ -16,6 +16,7 @@ body {
 main {
   margin: 2em 0;
   background-color: var(--mainBackground);
+  margin: 0 !important;
 }
 
 .blog__pictures {
