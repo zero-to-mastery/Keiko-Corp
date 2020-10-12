@@ -8,6 +8,8 @@
   --style-4-color: #FD6854;
 }
 
+
+
 .button-card img {
   border: 1px solid #f1f1f1;
   border-radius: 5px;
@@ -233,6 +235,10 @@
   text-align: center;
   margin-top: 1.5rem;
   font-size: var(--mdHeading);
+}
+
+.main-container h1 {
+  text-align:center;
 }
 
 .text-12 {
