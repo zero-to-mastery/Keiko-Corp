@@ -8,12 +8,22 @@ function onScroll() {
  		 showScrollButton
     ? scrollButton.classList.remove('scroll-to-top-wrapper--hide')
     : scrollButton.classList.add('scroll-to-top-wrapper--hide');
- 	}
+   }
+   
+   if(currentScrollY > 0){
+    mainHeader.classList.add('scroll');
+    logo.style.height='70px';
+    } else {
+    mainHeader.classList.remove('scroll');
+    logo.style.height='80px';
+  }
 }
 
 
 window.onload = function() {
     main = document.getElementById('main');
+    mainHeader = document.querySelector('header');
+    logo = document.querySelector('.logo');
     scrollButton = document.getElementById('scroll-to-top-wrapper');
     document.addEventListener('scroll', onScroll, false)
 }
