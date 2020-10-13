@@ -46,21 +46,27 @@ eye.onclick = function () {
 /* Password visibility toggle end */
 
 loginBtn.onclick = function () {
+  if(loginModal.style.display === 'block'){
+    return;
+  }
   registerModal.style.display = 'none';
   loginModal.style.display = 'block';
 };
 
 registerBtn.onclick = function () {
+  if(registerModal.style.display === 'block'){
+    return;
+  }
 	loginModal.style.display = 'none';
   registerModal.style.display = 'block';
 };
 
-loginClose.onclick = function () {
+/***loginClose.onclick = function () {
 	loginModal.style.display = 'none';
 };
 registerClose.onclick = function () {
 	registerModal.style.display = 'none';
-};
+};***/
 
 
 window.onclick = function(event) {
