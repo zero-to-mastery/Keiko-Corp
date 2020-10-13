@@ -68,7 +68,7 @@
 }
 
 .navbar ul.menu li + li {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .navbar .menu li:last-child {
   margin-left: -30px;
@@ -204,10 +204,14 @@ header {
   background-color: #FE6655;
   font-size: 16px;
   border: none;
-  padding: 10px 20px!important;
+  padding: 10px 15px!important;
   border-radius: 5px;
 }
 
+.iconFont{
+  font-size: 14px;
+  padding-left: 5px;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -282,7 +286,7 @@ header {
   }
 
   .navbar ul.menu li + li {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .navbar .menu li:last-child {
