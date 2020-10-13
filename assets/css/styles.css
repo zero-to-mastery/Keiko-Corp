@@ -888,6 +888,8 @@ p {
   align-items: center;
   margin-top: 32px;
   margin-bottom: var(--xlMargin);
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .price-card {
