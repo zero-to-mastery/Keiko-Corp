@@ -295,6 +295,14 @@
   color: white;
 }
 
+#register{
+  color: #28A745;
+}
+
+#register:hover{
+  color: white;
+}
+
 .action-buttons {
   margin-bottom: 1rem; /* mb-3 */
 }
