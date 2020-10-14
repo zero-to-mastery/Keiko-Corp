@@ -1,0 +1,12 @@
+footer {
+  grid-area: ft;
+  height: 30px;
+  color: #222;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.fab {
+  padding: 5px;
+  text-decoration: dotted;
+}
