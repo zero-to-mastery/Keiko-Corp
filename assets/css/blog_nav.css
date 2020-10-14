@@ -1,0 +1,110 @@
+nav {
+  grid-area: nav;
+  background-color: #ef5b59;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+#nav-flex-title {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  color: #f7f7f7;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 1.2em;
+  text-align: center;
+  margin-left: 0;
+  font-weight: 700;
+}
+
+#nav-flex-menu {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 1em;
+  margin: 0px;
+  transition: all 0.3s;
+}
+
+li {
+  padding: 0 5px;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.nav-item > a {
+  color: #e8d4f7;
+  padding: 8px 20px;
+  border-radius: 2px;
+}
+
+.nav-item > a:hover {
+  color: #e8d4f7 !important;
+  background-color: #fffaf0;
+  border: 1px solid #fffaf0;
+}
+
+.nav-item > a:active {
+  color: #000 !important;
+  background-color: #fffaf0;
+  border: 1px solid #fffaf0;
+}
+
+.nav-item > a:visited {
+  color: #000;
+}
+
+@media (min-width: 600px) {
+  nav {
+    height: 60px;
+  }
+
+  #nav-flex-title {
+    display: flex;
+    flex-flow: row wrap;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #title {
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: 0;
+    font-weight: 600;
+  }
+
+  #nav-flex-menu {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    font-size: 1em;
+    margin: 0px;
+    transition: all 0.3s;
+  }
+}
