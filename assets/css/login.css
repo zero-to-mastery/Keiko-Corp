@@ -290,20 +290,23 @@
   background: #28A745;
 }
 
-#login{
+/**#login{
   color: whitesmoke;
 }
 
 #login:hover{
   color: whitesmoke;
-}
+}**/
 
 .action-buttons {
   /*margin-bottom: 1rem; /* mb-3 */
+  position: relative;
+  min-width: 300px;
   text-align: center;
-  padding: 1rem;
+  padding: 6px;
   background: #0b0b1f;
 }
+
 
 .col {
   width: 100%;
@@ -329,7 +332,7 @@
     max-width: 90vw;
   }
   
-  .button-card img {
+  .button-card .action-buttons {
     width: 100%;
     height: auto;
   }
@@ -355,4 +358,66 @@
   justify-content: center;
   align-items: center;
 
+}
+
+
+
+.btn {
+  border: 3px solid var(--style-3-color);
+  display: inline-block;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  -webkit-transition: background 600ms ease, color 600ms ease;
+  transition: background 600ms ease, color 600ms ease;
+}
+
+input[type="radio"].toggle {
+  display: none;
+}
+input[type="radio"].toggle + label {
+  cursor: pointer;
+  min-width: 60px;
+  color: var(--color-google);
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+input[type="radio"].toggle + label:hover {
+  background: none;
+  color:var(--color-google);  
+}
+input[type="radio"].toggle + label:after {
+  background: #1a1a1a;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  -webkit-transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+  width: 100%;
+  z-index: -1;
+}
+input[type="radio"].toggle.toggle-left + label {
+  border-right: 0;
+}
+input[type="radio"].toggle.toggle-left + label:after {
+  left: 100%;
+}
+input[type="radio"].toggle.toggle-right + label {
+  margin-left: -5px;
+}
+input[type="radio"].toggle.toggle-right + label:after {
+  left: -100%;
+}
+input[type="radio"].toggle:checked + label {
+  background: var(--color-google);
+  cursor: default;
+  color: whitesmoke;
+  -webkit-transition: color 200ms;
+  transition: color 200ms;
+  text-shadow: 1px 1px 2px whitesmoke;
+}
+input[type="radio"].toggle:checked + label:after {
+  left: 0;
 }

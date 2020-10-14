@@ -13,10 +13,10 @@
   <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
   <!-- custom css -->
   <link rel="stylesheet" href="./assets/global.css" />
-  <link rel="stylesheet" href="./assets/css/login.css" />
   <link rel="stylesheet" href="./assets/css/nav-styles.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
-
+  <link rel="stylesheet" href="./assets/css/media-queries.css" />
+  <link rel="stylesheet" href="./assets/css/login.css" />
 </head>
 
 
@@ -89,13 +89,22 @@
       </div>
       <div class="hero_image">
         <div class="button-card">
-          <div class="action-buttons">
-            <!-- action button for modal style 1 start -->
-            <a href="#registerModal1" data-toggle="modal" class="btn btn-theme btn-primary" id="register">Register</a>
+          <!--<div class="action-buttons">
+             action button for modal style 1 start 
+            <a href="#registerModal1"  class="btn btn-theme btn-primary" id="register">Register</a>
             <a href="#loginModal1" data-toggle="modal" class="btn btn-theme btn-primary" id="login">
               Login</a>
-            <!-- action button for modal style 1 end -->
+             action button for modal style 1 end 
+          </div>--->
+          <div class="action-buttons">
+            <input id="toggle-on" class="toggle toggle-left" data-toggle="modal" name="toggle" value="false"
+              type="radio" checked>
+            <label for="toggle-on" class="btn" id="register">Register</label>
+            <input id="toggle-off" class="toggle toggle-right" data-toggle="modal" name="toggle" value="true"
+              type="radio">
+            <label for="toggle-off" class="btn" id="login">Log in</label>
           </div>
+          <!----->
           <div id="loginModal1" class="modal-style-1 dark modal">
             <div class="modal-dialog modal-login">
               <div class="modal-content">
