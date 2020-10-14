@@ -17,7 +17,6 @@ inputCheckMobile.addEventListener('change',switchTheme);
 // const footerrow = document.querySelectorAll('.footer-column>h2:nth-child(1)');
 
 function switchTheme(event) {
-  console.log(event.target.checked);
   if (event.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
@@ -29,7 +28,6 @@ function switchTheme(event) {
 
 // check local storage for theme
 const currentTheme = localStorage.getItem('theme');
-console.log(currentTheme);
 if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
   if (currentTheme === 'dark') {

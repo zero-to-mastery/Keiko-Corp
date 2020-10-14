@@ -8,7 +8,6 @@ function openMenu() {
 
 let lastScrollTop = 0;
 function toggleNavbar() {
-  console.log('hello');
   var scrollTop = body.scrollTop || document.documentElement.scrollTop;
   if (scrollTop > lastScrollTop) {
     sticky.style.top = '-80px';
