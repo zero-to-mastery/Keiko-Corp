@@ -874,7 +874,11 @@ em {
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
-  color:var(--text);
+  color:var(--heading);
+}
+
+.pricing-header p {
+   text-align: center;
 }
 
 p {
