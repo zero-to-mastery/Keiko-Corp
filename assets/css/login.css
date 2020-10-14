@@ -116,6 +116,16 @@
   padding: 5px 8px;
 }
 
+.btn-signin{
+	color: white;
+}
+
+.btn-signin:hover{
+	background-color: white;
+	color: #fe6655;
+	border-color: currentColor;
+	cursor: pointer;
+}
 .hint-text {
   margin-top: 1rem;
 }
