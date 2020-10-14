@@ -775,7 +775,7 @@ em {
   padding-bottom: 25px;
   justify-content: center;
   align-items: center;
-  background-color: #343a40;
+  /* background-color: #343a40; */
   vertical-align: auto;
   margin: auto;
 }

@@ -89,7 +89,6 @@ textarea {
 }
 
 #button:hover {
-  background-color: ;
   color: var(--red);
   border-color: currentColor;
 }
@@ -137,7 +136,7 @@ input[type=tel]{
 
 select {
   width: 100%;
-  padding: 0.8rem 1rem;
+  /* padding: 0.8rem 1rem; */
   margin: 0.5rem 0;
   display: inline-block;
   border: 1px solid #ccc;

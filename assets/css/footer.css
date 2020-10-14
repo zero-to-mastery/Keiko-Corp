@@ -66,6 +66,39 @@ footer > .footer-row {
   width: 100%;
 }
 
+.changeregion {
+  float: left;
+  width: 7rem;
+  margin-top: 0rem;
+  position: absolute;
+  margin-left: 3rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.language {
+  float: left;
+  position: relative;
+  margin-left: 4rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px){
+  .copyright {
+    display: block;
+    padding-top: 3rem;
+    text-align: center;
+    margin-left: -6.5rem;
+  }
+
+  .language {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width:991.99px){
   .footer-column {
     min-width: 200px;
