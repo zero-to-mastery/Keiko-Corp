@@ -1,84 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/keiko-icon.ico" />
-    <title>Blog Page</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/global.css" />
-    <link rel="stylesheet" href="./assets/css/blog_page.css" />
-    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
-  </head>
-  <body>
-    <main>
-      <div class="heading">
-      <h3>Header goes here</h3>
-      <h3>Newsletter</h3>
-    </div>
-      <div class="container">
-        <section class="blog">
-          <div class="blog__pictures">
-            <!-- Blog Post 1 -->
-            <div class="blog__picture blog__picture1 post1">
-              <div class="blog__picture--content blog__picture--content1">
-                <p>September 22, 2019</p>
-                <h3>
-                  Proven Health & Lifestyle Hacks That Will Boost Your Energy at
-                  Home and Work
-                </h3>
-              </div>
-            </div>
-            <!-- Blog Post 3 -->
-            <div class="blog__picture blog__picture2 post2">
-              <div class="blog__picture--content">
-                <p>November 13, 2019</p>
-                <h3>Enjoy the Little Things</h3>
-              </div>
-            </div>
-            <!-- Blog Post 3 -->
-            <div class="blog__picture blog__picture3 post3">
-              <div class="blog__picture--content">
-                <p>May 10, 2019</p>
-                <h3>3 Easy Steps To Create a Blog Article</h3>
-              </div>
-            </div>
-          </div>
-          <!-- 2 section Blog Posts -->
-          <section class="blog__posts">
-            <article class="blog__post">
-              <div class="blog__post--image"></div>
-              <div class="blog__post--content">
-                <h4>7 Air-Cleaning Tropicals You Need in Your Space</h4>
-                <p>
-                  Here's where you can provide a short except or summary of the
-                  article to tease the reader to click your link...
-                  <a href="#">Read more</a>
-                </p>
-              </div>
-            </article>
-            <article class="blog__post">
-              <div class="blog__post--image"></div>
-              <div class="blog__post--content">
-                <h4>
-                  Why Wireframing is an Essential Skill for More Than just
-                  Designers!
-                </h4>
-                <p>
-                  Here's where you can provide a short except or summary of the
-                  article to tease the reader to click your link...
-                  <a href="#">Read more</a>
-                </p>
-              </div>
-            </article>
-          </section>
-          <button class="loadmore">Load more</button>
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/blog_page.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,700|Playfair+Display:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2162da8111.js" crossorigin="anonymous"></script>
+  <title>Developers</title>
+</head>
+<body>
+  <div id="grid-container">
+    <nav>
+      <div id="nav-flex-title">
+        <div id="title">BLOG</div>
       </div>
-    </main>
-    <script src="assets\js\set-mode.js"></script>
-  </body>
+      <ul id="nav-flex-menu">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="top-post">
+      <div class="text-gradient">
+        <a href="blog-post.html" alt="Web Developers" class="link">
+          <h4>Web Developers</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </a>
+        <p>
+          Web development is the work involved in developing a website for the Internet. <strong>Web development</strong> can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services. A more comprehensive list of tasks to which web development commonly refers, may include web engineering, web design, web content development, client liaison, client-side/server-side scripting, web server and network security configuration, and e-commerce development[...]
+        </p>
+        <a href="blog-post.html" alt="Button Read More">
+          <div class="btn btn-primary">Read more
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="post" id="post-1">
+      <a href="#" alt="Web Designers" class="link">
+        <div class="text-gradient">
+          <h4>Web Designers</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </div>
+      </a>
+    </section>
+    <section class="post" id="post-2">
+      <a href="#" alt="Programmers" class="link">
+        <div class="text-gradient">
+          <h4>Programmers</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </div>
+      </a>
+    </section>
+    <section class="post" id="post-3">
+      <a href="#" alt="Software Developers" class="link">
+        <div class="text-gradient">
+          <h4>Software Developers</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </div>
+      </a>
+    </section>
+    <section class="post" id="post-4">
+      <a href="#" alt="Software Engineeers" class="link">
+        <div class="text-gradient">
+          <h4>Software Engineeers</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </div>
+      </a>
+    </section>
+    <section class="post" id="post-5">
+      <a href="#" alt="Data Scientist" class="link">
+        <div class="text-gradient">
+          <h4>Data Scientist</h4>
+          <p class="post-info"><em>14/10/2020</em></p>
+        </div>
+      </a>
+    </section>
+    <section id="newsletter">
+      <form action="#">
+      <h5>Subscribe to our Newsletter</h5>
+      <div class="newsletter-container">
+        <div class="newsletter-element">
+          <input type="text" placeholder="Name" name="name" required>
+        </div>
+        <div class="newsletter-element">
+          <input type="text" placeholder="Email address" name="mail" required>
+        </div>
+        <div class="newsletter-element">
+          <input type="submit" value="Subscribe">
+        </div>
+      </div> <!-- newletter container -->
+      </form>
+    </section> <!-- newsletter -->
+    <footer>
+      <em>&copy;2020</em>
+      <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+    </footer>
+  </div> <!-- grid container -->
+</body>
 </html>
