@@ -1,6 +1,8 @@
 main {
   max-width: 100%;
   height: 100%;
+  background-color: var(--mainBackground);
+  margin: 0 !important;
 }
 
 .hero-image {
@@ -16,12 +18,15 @@ main {
 }
 
 .job-posts {
-  color: #838383;
+  color: var(--text);
+  background-color: var(--mainBackground);
 }
 
 .job-posts h1 {
   font-size: 1.7rem;
   margin-top: 10px;
+  color: var(--text);
+  background-color: var(--mainBackground);
 }
 
 .job-posts h2,
@@ -40,10 +45,11 @@ h1 {
 
 table {
   border-collapse: collapse;
-  color: #000;
+  color: var(--text);
   width: 100%;
   margin-top: 15px;
   margin-bottom: 25px;
+  background-color: var(--mainBackground);
 }
 
 th {
@@ -54,6 +60,7 @@ th {
 .job-posting-info {
   width: 100%;
   padding: 5px 20px;
+  background-color: var(--mainBackground);
 }
 
 #mobile-table {
@@ -62,6 +69,9 @@ th {
 @media only screen and (max-width: 600px) {
   #mobile-table {
     display: block;
+    background-color: var(--mainBackground);
+    color: var(--text);
+    width: 100%;
   }
 
   #large-table-display {
@@ -71,9 +81,13 @@ th {
   .job-posts h1 {
     font-size: 1.2rem;
     margin-bottom: 15px;
+    background-color: var(--mainBackground);
   }
   .hero-image {
     background-image: url(../images/mobile-hire.jpg);
+  }
+  .job-posting-info{
+    background-color: transparent;
   }
 }
 
