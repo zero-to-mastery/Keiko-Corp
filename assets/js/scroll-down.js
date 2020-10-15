@@ -1,5 +1,5 @@
  
-  (function() {
+  (() => {
     'use strict';
   
     var btnScrollDown = document.querySelector('#scroll_down');
