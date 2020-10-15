@@ -18,11 +18,11 @@
   position: relative;
 }
 #loginModal1{
-  display: block;
+  display: none;
 }
 
  #registerModal1 {
-  display: none;
+  display: block;
 }
 
 .modal-style-1 .modal-login {
@@ -235,7 +235,7 @@
 @media only screen and (max-width: 360px) {
   .modal-style-1 .modal-login {
     width: 100%;
-    margin: 5px;
+    margin: 0px;
   }
 
   .modal-style-1 .modal-login form  {
@@ -264,10 +264,11 @@
 
 .button-card {
   margin: 0 auto;
-  box-shadow: 1px 2px 5px 2px /white/**#d1d1d1**/;
-  padding: 20px;
+  box-shadow: 1px 2px 5px 2px #d1d1d1;
+ /* padding: 20px;*/
   border-radius: 5px;
   max-width: 30vw;
+  min-width:300px;
 }
 .button-card img {
   border: 1px solid #f1f1f1;
@@ -310,8 +311,8 @@
 
 .action-buttons {
   /*margin-bottom: 1rem; /* mb-3 */
-  position: relative;
-  min-width: 300px;
+  
+  min-width: 280px;
   text-align: center;
   padding: 6px;
   background: #0b0b1f;
@@ -327,15 +328,15 @@
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1140px) {
+div > a{
+cursor: pointer;
+}
+/**@media only screen and (max-width: 1140px) {
   .main-container {
     width: 97%;
     margin: 0 15px;
-  }
-  .button-card{
-    padding: 10px 0 0 0;
-  }
-}
+  }  
+}**/
 
 @media only screen and (max-width: 480px) {
   .button-card{
@@ -346,6 +347,27 @@
     width: 100%;
     height: auto;
   }
+  .modal-style-1 .modal-login {
+    width: 100%;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 380px){
+  .main-container{
+    width: 100%;
+    margin: 0 5px;
+  }
+  .button-card{
+    max-width:100%;
+    padding: 0px;
+  }
+  .modal-style-1 .modal-login {
+    width: 100%;
+    margin: 0px;
+  }
+  .dark.modal-style-1 .modal-content{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 240px){
@@ -355,6 +377,13 @@
   .modal-style-1 input.form-control{
     border-radius: 7px;
     width: 80%;
+  }
+  .modal-style-1 .modal-login {
+    width: 100%;
+    margin: 0px;
+  }
+  .modal-content{
+    width: 100%;
   }
   .modal-style-1 .modal-header .close{
     right:5px;
@@ -375,8 +404,7 @@
 .btn {
   border: 3px solid var(--style-3-color);
   display: inline-block;
-  padding: 10px;
-  position: relative;
+  padding: 10px;  
   text-align: center;
   -webkit-transition: background 600ms ease, color 600ms ease;
   transition: background 600ms ease, color 600ms ease;
@@ -426,7 +454,7 @@ input[type="radio"].toggle:checked + label {
   color: whitesmoke;
   -webkit-transition: color 200ms;
   transition: color 200ms;
-  text-shadow: 1px 1px 2px whitesmoke;
+  
 }
 input[type="radio"].toggle:checked + label:after {
   left: 0;
