@@ -13,14 +13,7 @@
 
 /* scroll-bar Handle */
 ::-webkit-scrollbar-thumb {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#d1d9ee),
-    to(#96b0ec)
-  );
-  background: linear-gradient(to bottom, #d1d9ee, #96b0ec);
+  background: var(--red);
   border-radius: 10px;
 }
 
