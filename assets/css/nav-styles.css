@@ -64,13 +64,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.toggle-bar:hover .slider.round::before {
-  transform:  translateX(14px);
-  transition: all .3s;
-}
-.toggle-bar:hover .slider{
-  background-color: #ee6a68;
-}
 
 /* ------------------------------------------------- */
 /*Managing navbar as per theme start*/
