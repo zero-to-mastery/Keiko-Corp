@@ -986,8 +986,8 @@ p {
   text-decoration: none;
   line-height: 2rem;
   text-align: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.5);
   transition: transform 80ms ease-in;
@@ -997,9 +997,11 @@ p {
   border: solid blanchedalmond;
   border-width: 0 0.25rem 0.25rem 0;
   display: inline-block;
-  padding: 3px;
+  margin: 17px 13px;
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
+  height: 20px;
+  width: 20px;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
