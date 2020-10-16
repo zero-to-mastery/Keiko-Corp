@@ -91,17 +91,17 @@ input:checked + .slider:before {
 }
 
 [data-theme='dark'] .navbar button {
-  color: #ffff;
+  color: #fff;
 }
 
 [data-theme='dark'] .navbar .red-btn {
-  color: #ffffff;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #fff;
 }
 
 [data-theme='dark'] .navbar .red-btn:hover {
   background-color: EF5B59;
-  color: #FFFFFF;
+  color: #FFF;
   border-color: currentColor;
 }
 
@@ -110,7 +110,7 @@ input:checked + .slider:before {
   transform: translateY(.3rem);
 }
 
-/*Maneging navbar as per theme ends*/
+/*Managing navbar as per theme ends*/
 
 .navbar {
   display: flex;
