@@ -43,7 +43,8 @@ let loginClose = document.getElementsByClassName('login-close')[0];
 let registerClose = document.getElementsByClassName('register-close')[0];
 let password = document.getElementById('password');
 let eye = document.getElementById('visibility');
-
+let reg=document.querySelector(".register")
+let log=document.querySelector(".login")
 /* Password visiblity toggle */
 eye.onclick = function () {
   // Toggle the type attribute
@@ -54,6 +55,25 @@ eye.onclick = function () {
   passwordState === 'password' ? eye.style.color = '#757575' : eye.style.color = '#FD6854';
 }
 /* Password visibility toggle end */
+/*Toggling modal using bottom links*/
+reg.onclick=function(){
+  if(registerModal.style.display === 'block'){
+    return;
+  }
+	loginModal.style.display = 'none';
+  registerModal.style.display = 'block';
+  let regCheck=document.getElementById("toggle-on")
+  regCheck.checked=true
+}
+log.onclick=function(){
+  if(loginModal.style.display === 'block'){
+    return;
+  }
+	registerModal.style.display = 'none';
+  loginModal.style.display = 'block';
+  let logCheck=document.getElementById("toggle-off")
+  logCheck.checked=true
+}
 
 loginBtn.onclick = function () {
   if(loginModal.style.display === 'block'){
