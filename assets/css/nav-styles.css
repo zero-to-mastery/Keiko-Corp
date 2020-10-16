@@ -95,13 +95,13 @@ input:checked + .slider:before {
 }
 
 [data-theme='dark'] .navbar .red-btn {
-  color: var(--text);
-  background-color: var(--lightBlue);
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 [data-theme='dark'] .navbar .red-btn:hover {
-  background-color: white;
-  color: var(--red);
+  background-color: EF5B59;
+  color: #FFFFFF;
   border-color: currentColor;
 }
 
