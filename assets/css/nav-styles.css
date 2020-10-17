@@ -110,6 +110,10 @@ input:checked + .slider:before {
   transform: translateY(.3rem);
 }
 
+[data-theme='dark'] .toggle-container {
+  background: #fe6655;
+}
+
 /*Maneging navbar as per theme ends*/
 
 .navbar {
@@ -298,7 +302,7 @@ header {
 
 .red-btn:hover {
   color: #fff;
-  background-color: var(--red);
+  background-color: var(--darkRed);
   transition: 0.3s ease;
 }
 
