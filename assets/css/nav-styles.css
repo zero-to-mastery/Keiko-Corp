@@ -105,12 +105,28 @@ input:checked + .slider:before {
   border-color: currentColor;
 }
 
-[data-theme='dark'] .navbar .red-btn:active{
+[data-theme='dark'] .navbar .red-btn:active {
   box-shadow: var(--smShadow);
-  transform: translateY(.3rem);
+  transform: translateY(0.3rem);
 }
 
 /*Maneging navbar as per theme ends*/
+#contact-btn:hover {
+  background-color: #ef5b59;
+  color: #ddd;
+  padding: 10px;
+  transition: 0.3s;
+}
+#contact-btn-for-dropdown {
+  color: #000;
+  font-size: 20px;
+}
+#contact-btn-for-dropdown:hover {
+  background-color: #ef5b59;
+  color: #ddd;
+  padding: 10px;
+  transition: 0.3s;
+}
 
 .navbar {
   display: flex;
@@ -178,7 +194,7 @@ input:checked + .slider:before {
 
 .navbar a {
   /* background: transparent; */
-  color: #000000;
+  color: #ffffff;
   font-size: 1em;
   /* padding: 5px 20px; */
 }
@@ -483,4 +499,10 @@ header {
   .toggle-bar-mobile:hover .slider {
     background-color: #ee6a68;
   }
+}
+#For-proper-shift-on-navbar-button-click {
+  margin-top: 100px;
+}
+#pricing {
+  margin-top: 30px;
 }
