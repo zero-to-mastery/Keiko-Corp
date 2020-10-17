@@ -19,7 +19,7 @@ body {
   scroll-behavior: smooth;
   line-height: 1.5;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -33,6 +33,7 @@ body {
   --lightBlue: #f4f7fe;
   --darkBlue: #fe6655;
   --purple: #20014d;
+  --purple1: #a68ad1;
   --yellow: #f1c40f;
   --darkRed: #de4a46;
   --green: #2CB629;

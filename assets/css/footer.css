@@ -42,7 +42,7 @@ footer > .footer-row {
   text-decoration: none;
   cursor: pointer;
   padding-right: 20px;
-  padding-bottom: 10px;
+  
 }
 
 .sub-footer-link a:hover {
@@ -66,7 +66,7 @@ footer > .footer-row {
   width: 100%;
 }
 
-@media screen and (min-width:991.99px){
+@media screen and (min-width: 991.99px) {
   .footer-column {
     min-width: 200px;
   }

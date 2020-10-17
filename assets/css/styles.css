@@ -964,6 +964,7 @@ p {
   position: relative;
   overflow-x: hidden;
   background-color: var(--mainBackground);
+  
 }
 
 .scroll-to-top-wrapper {

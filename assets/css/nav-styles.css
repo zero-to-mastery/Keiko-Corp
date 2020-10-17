@@ -118,7 +118,7 @@ input:checked + .slider:before {
   height: 80px;
   align-items: center;
   width: 100%;
-  background: white;
+  background:  white;
 }
 
 .navbar #link-btn {
@@ -152,7 +152,7 @@ input:checked + .slider:before {
   cursor: pointer;
   /* margin-bottom: 60px; */
   /* line-height: 80px; */
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #423f3f;
   transition: all ease-in 0.1s;
 }
