@@ -296,11 +296,7 @@ header {
 
 .red-btn:hover {
   color: #fff;
-<<<<<<< HEAD
   background-color: var(--darkRed);
-=======
-  background-color: var(--red);
->>>>>>> 552357a1dd168d89fc082e1d9f4ac72c086f9ddb
   transition: 0.3s ease;
 }
 
