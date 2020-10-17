@@ -248,7 +248,7 @@ header {
 
 .red-btn:hover {
   color: #fff;
-  background-color: #fe6655;
+  background-color: var(--darkRed);
   transition: 0.3s ease;
 }
 
