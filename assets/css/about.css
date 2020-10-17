@@ -1,20 +1,8 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .container {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 16px;
+  background-color: var(--mainBackground);
 }
 
 .intro {

@@ -1,90 +1,73 @@
-footer > .footer-row {
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  margin-bottom: 40px;
+footer {
+  margin-bottom: 0;
 }
 
-.sub-footer {
+footer > .footer-row {
   display: flex;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .footer-column {
-  padding: 10px;
+  padding: 30px;
   box-sizing: border-box;
   flex: 1 0;
+  min-width: 300px;
   max-width: 300px;
-  min-width: 200px;
 }
 
 .footer-column h2 {
+  font-size: large;
   margin-bottom: 23px;
+  color: var(--heroText);
+  margin-right: 50px;
+  opacity: 1;
+  font-weight: bolder;
+  text-align: left;
 }
 
 .footer-column .sub-footer-link {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  justify-content: left;
 }
 
-.footer-column .sub-footer-link li {
-  list-style: none;
-  padding-right: 15px;
-  margin-bottom: 23px;
-}
-
-.sub-footer-link li a {
-  color: #333333;
+.sub-footer-link a {
+  font-size: medium;
+  color: var(--text);
   text-decoration: none;
   cursor: pointer;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
 
-.sub-footer-link li a:hover {
+.sub-footer-link a:hover {
   opacity: 0.6;
   transition: 0.3s;
 }
 
-.sub-footer-link.socials li a i {
+.sub-footer-link.socials a i {
   font-size: 23px;
   padding-right: 28px;
+  justify-content: center;
 }
 
 #sub-footer {
+  height: auto;
+  font-size: var(--smText);
+  margin-bottom: var(--lgMargin);
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  margin-bottom: 70px;
 }
 
-/* @media only screen and (max-width: 600px) { */
-/* footer > .footer-row {
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-content: center;
+@media screen and (min-width:991.99px){
+  .footer-column {
+    min-width: 200px;
   }
-
-  .footer-column .sub-footer-link {
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    justify-content: center;
-  } */
-
-/* .footer-column h2 {
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 23px;
-  } */
-/* } */
+}
