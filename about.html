@@ -5,12 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/global.css" />
     <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+   <link rel="stylesheet" href="./assets/css/media-queries.css" />
     <link rel="icon" href="./assets/images/keiko-icon.ico" />
+
+    <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+     <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <title>About</title>
   </head>
   <body class="container">
+
+<!-- HEADER -->
+    <header class="no-user-select">
+      <!-- sticky header -->
+      <div class="container-nav sticky">
+        <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+        <nav class="navbar">
+          <label class="toggle-bar-mobile" id="toggle-bar">
+            <input type="checkbox" id="toggle-checkbox" />
+            <span class="slider round" id="slider-round"></span>
+          </label>
+          <div class="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul class="menu">
+            <li>
+              <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
+            </li>
+            <li class="active" id=home> <a href="/">Home
+            </a> 
+          </li>
+            <li>
+              <a href="#feature">
+                <button id="contact-btn">Features</button>
+              </a>
+            </li>
+            <li>
+              <a href="#testimonials">
+                <button id="contact-btn">Testimonials</button>
+              </a>
+            </li>
+            <li class="menu-team">
+              <a href="./meet-the-team.html">
+                <button id="contact-btn">Team</button>
+              </a>
+            </li>
+            <li class="menu-price">
+              <a href="#pricing">
+                <button id="contact-btn">Pricing</button>
+              </a>
+            </li>
+            
+            <!-- dropdown btn -->
+            <div class="dropdown">
+              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
+              <div class="dropdown-content">
+                <a class="drop-team" href="./meet-the-team.html">Team</a>
+                <a class="drop-price" href="#pricing">Pricing</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="job-listing.html">Job Listings</a>
+              </div>
+            </div>
+            <!-- end of dropdown btn -->
+
+
+            
+            <!-----------------Toggle Button for Dark Mode---------------- -->
+            <label class="toggle-bar" id="toggle-bar">
+              <input type="checkbox" id="toggle-checkbox" />
+              <span class="slider round" id="slider-round"></span>
+            </label>
+            <!-- --------------------------------------- -->
+          
+            <div class="user-forms">
+              <a href="./contact.html">
+                <button class="red-btn" id="contact-btn">Contact</button>
+              </a>
+              <a href="./login.html">
+                <button class="red-btn" id="contact-btn">Login</button>
+              </a>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <main>
-      <section class="intro" id="intro-section">
+      <about class="intro" id="intro-section">
         <header>
           <h2 id="intro-title">ABOUT US</h2>
           <p>
@@ -25,13 +118,74 @@
         </header>
         <figure>
           <img
-            src="./assets/images/undraw_hero.svg"
+            src="./assets/images/hero.svg"
             alt=""
             class="intro-image"
           />
         </figure>
-      </section>
+      </about>
     </main>
+
+     <!-- Footer -->
+    <footer>
+      <div class="footer-row pl-5 pr-5">
+<section class="footer-column">
+          <h2>About Us</h2>
+          <div>
+            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
+            tech
+            start up in Silicon Valley.
+          </div>
+        </section>
+
+
+        <section class="footer-column">
+          <h2>Group 1</h2>
+          <div class='sub-footer-link'>
+            <a href="#home">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="contact Us">Contact Us</a>
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>Group 2</h2>
+          <div class='sub-footer-link'>
+            <a href="privacy">Privacy Policy</a>
+            <a href="terms">Terms</a>
+            <a href="FAQ">FAQ</a>
+            <a href="support">Support</a>
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>Follow Us</h2>
+          <div class="sub-footer">
+            <div class='sub-footer-link socials'>
+              <a href="/"><i class="fab fa-twitter"></i></a>
+              <a href="/"><i class="fab fa-facebook-f"></i></a>
+              <a href="/"><i class="fab fa-instagram"></i></a>
+              <a href="/"><i class="fab fa-youtube"></i></a>
+              <a href="/"><i class="fab fa-google"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroller -->
+        <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
+          <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
+        </div>
+
+      </div>
+
+      <section id='sub-footer'>
+        <p>&copy;
+          <script>document.write(new Date().getFullYear())</script>
+          Keiko Corp . All Rights Reserved
+        </p>
+      </section>
+    </footer>
 
     <script>
       const introSection = document.querySelector('#intro-section');
@@ -51,5 +205,10 @@
       });
     </script>
     <script src="assets\js\set-mode.js"></script>
+      <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/dark-mode.js"></script>
+    <script src="./assets/js/progressbar.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/animate.js"></script>
   </body>
 </html>

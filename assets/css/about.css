@@ -35,15 +35,16 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
   text-decoration: none;
+  margin-top: 10px;
 }
 
 .intro-btn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* Styles for tablet and bigger screen */
 @media only screen and (min-width: 768px) {
-  section {
+  about {
     min-height: 100vh;
   }
   .container {
