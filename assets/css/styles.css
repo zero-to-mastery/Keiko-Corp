@@ -23,6 +23,10 @@
   padding: 25px;
 }
 
+header {
+  margin: 0 auto 6rem;
+}
+
 /* HERO SECTION */
 
 .hero {
@@ -34,7 +38,7 @@
   margin: 0 auto var(--xlMargin);
 }
 
-.hero_image img{
+.hero_image img {
   width: 100%;
 }
 
@@ -87,7 +91,7 @@
   border: transparent solid 2px;
   box-shadow: var(--mdShadow);
   cursor: pointer;
-  transition: all .6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .CTA:hover {
@@ -96,9 +100,9 @@
   border-color: currentColor;
 }
 
-.CTA:active{
+.CTA:active {
   box-shadow: var(--smShadow);
-  transform: translateY(.3rem);
+  transform: translateY(0.3rem);
 }
 
 /* FEATURE SECTION */
@@ -162,9 +166,13 @@
   color: #ef5b59;
   background-color: transparent;
   padding: 12px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   /* transition: all 0.5s; */
-  border: 2px solid #FE6655;
+  border: 2px solid #fe6655;
+}
+[data-theme='dark'] .feature-link {
+  background-color: transparent;
+  color: var(--lightBlue);
 }
 
 .feature-link span {
@@ -185,9 +193,14 @@
 .feature-link:hover span {
   padding-right: 20px;
 }
-.feature-link:hover{
+.feature-link:hover {
   background-color: #ef5b59;
-  color:white;
+  color: white;
+}
+
+[data-theme='dark'] .feature-link:hover {
+  background-color: var(--lightBlue);
+  color: var(--text);
 }
 
 .feature-link:hover span:after {
@@ -588,7 +601,6 @@ ul {
   }
 }
 
-
 /* Social Media Link section */
 
 .wrapper {
@@ -647,15 +659,15 @@ ul {
   color: #4267b2;
 }
 
-.wrapper .button:nth-child(2):hover .icon i{
+.wrapper .button:nth-child(2):hover .icon i {
   color: #1da1f2;
 }
 
-.wrapper .button:nth-child(3):hover .icon i{
+.wrapper .button:nth-child(3):hover .icon i {
   color: #e1306c;
 }
 
-.wrapper .button:nth-child(4):hover .icon i{
+.wrapper .button:nth-child(4):hover .icon i {
   color: #ff0000;
 }
 
@@ -855,7 +867,7 @@ em {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f4f7fe;
+  background-color: var(--pricingBackground);
   padding: var(--lgPadding) 0;
 }
 
@@ -865,7 +877,7 @@ em {
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
-  color:#000;
+  color: var(--text);
 }
 
 p {
@@ -899,8 +911,8 @@ p {
   line-height: 32px;
   font-family: 'Roboto';
 }
-.price-card p{
-  margin-bottom:5px;
+.price-card p {
+  margin-bottom: 5px;
 }
 
 .price-card:nth-of-type(1) {
@@ -936,7 +948,7 @@ p {
   font-weight: 400;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .price-cards {
     flex-direction: column;
   }

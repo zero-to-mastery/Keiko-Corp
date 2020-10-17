@@ -65,7 +65,6 @@ const companyLogoTitle = document.querySelector('.companies-title-section');
 const companyLogos = mainCompanySection.querySelectorAll(
   ':scope .company-logo'
 );
-console.log(companyLogos);
 bottomSmallPopup = new IntersectionObserver(
   (logos, observer) => {
     logos.forEach((logo) => {
@@ -89,7 +88,6 @@ headingsObserver.observe(companyLogoTitle);
 //testimonial section
 const testimonialHeading = document.querySelector('.testimonial_heading');
 const testimonialItem = document.querySelectorAll('.testimonial_item');
-console.log();
 bottomMediumPopup = new IntersectionObserver(
   (entries, observer) => {
     entries.forEach((entry) => {

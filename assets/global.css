@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 
 /******* RESET ********/
 
@@ -22,7 +19,7 @@ body {
   scroll-behavior: smooth;
   line-height: 1.5;
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-rendering: optimizeLegibility;
 }
 
@@ -32,7 +29,7 @@ body {
   --maxWidth: 1280px;
 
   /* colors */
-  --red: #ef5b59;
+  --red: #ef5b59; /*checked*/
   --lightBlue: #f4f7fe;
   --darkBlue: #fe6655;
   --purple: #20014d;
@@ -43,6 +40,8 @@ body {
   --text: #757575;
   --mainBackground: #fff;
   --heroText: #343A40;
+  --toggleBackground: #20014d; /* Added a custom property for the darktheme button background*/
+  --pricingBackground: #fff;
 
   /* text sizes */
   --smText: 0.64rem;
@@ -89,14 +88,15 @@ body {
 }
 
 [data-theme = 'dark'] {  
-  --lightBlue: #c54b49;  
+  --lightBlue: #EF5B59;  
   --text: #fff;
   --mainBackground: #343A40;
   --heroText: #fff;
   --heading: #fff;
   --darkBlue: #343a40;
+  --toggleBackground: #F4F7FE ;
+  --pricingBackground: #DE4A46;
 }
-
 
 body {
   color: var(--text);
