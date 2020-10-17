@@ -176,6 +176,13 @@ input:checked + .slider:before {
   color: #000000;
 }
 
+/* bottom border for link after clicked  */
+.nav-click{
+    border-bottom: 2px solid;
+    border-color: #fe6655;
+}
+
+
 .navbar a {
   /* background: transparent; */
   color: #000000;
@@ -190,7 +197,6 @@ input:checked + .slider:before {
   border-color: #fe6655;
   transform: translateY(-3%);
 }
-
 .navbar .user-forms a:last-child {
   margin-left: 20px;
 }
