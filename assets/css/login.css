@@ -265,7 +265,8 @@
 .button-card {
   margin: 0 auto;
   box-shadow: 1px 2px 5px 2px #d1d1d1;
- /* padding: 20px;*/
+  padding: 10px;
+  background: #0b0b1f ;
   border-radius: 5px;
   max-width: 30vw;
   min-width:300px;
@@ -279,6 +280,7 @@
 }
 
 .btn-theme {
+  
   width: 100px;
   height: 35px;
   padding: 8px 16px;
@@ -401,14 +403,16 @@ cursor: pointer;
 
 
 
-.btn {
-  border: 3px solid var(--style-3-color);
+/**.btn {
+  border: 2px solid rgb(38, 204, 38);
+  border-radius: 10px;
+  margin:10px;
   display: inline-block;
   padding: 10px;  
   text-align: center;
   -webkit-transition: background 600ms ease, color 600ms ease;
   transition: background 600ms ease, color 600ms ease;
-}
+}**/
 
 input[type="radio"].toggle {
   display: none;
@@ -436,18 +440,16 @@ input[type="radio"].toggle + label:after {
   width: 100%;
   z-index: -1;
 }
-input[type="radio"].toggle.toggle-left + label {
-  border-right: 0;
+/**input[type="radio"].toggle.toggle-left + label {
+  border-right: 2px;
 }
 input[type="radio"].toggle.toggle-left + label:after {
   left: 100%;
 }
-input[type="radio"].toggle.toggle-right + label {
-  margin-left: -5px;
-}
+
 input[type="radio"].toggle.toggle-right + label:after {
   left: -100%;
-}
+}**/
 input[type="radio"].toggle:checked + label {
   background: var(--color-google);
   cursor: default;
