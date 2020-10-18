@@ -8,10 +8,65 @@
   <link rel="stylesheet" href="./assets/global.css" />
   <link rel="stylesheet" href="./assets/css/job-listing.css">
   <link rel="shortcut icon" href="./assets/images/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="main">
+  <!-- HEADER -->
+  <header class="no-user-select">
+    <!-- sticky header -->
+    <div class="container-nav sticky">
+      <nav class="navbar">
+        <div class="nav-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="menu">
+          <li>
+            <a href="./index.html">
+              <button id="contact-btn">Home</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#features">
+              <button id="contact-btn">Features</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#testimonials">
+              <button id="contact-btn">Testimonials</button>
+            </a>
+          </li>
+          <li>
+            <a href="./meet-the-team.html">
+              <button id="contact-btn">Team</button>
+            </a>
+          </li>
+          <li>
+            <a href="./index.html#pricing">
+              <button id="contact-btn">Pricing</button>
+            </a>
+          </li>
+          <li>
+            <a href="./contact.html">
+              <button id="contact-btn">Contact</button>
+            </a>
+          </li>
+          <!-----------------Toggle Button for Dark Mode---------------- -->
+          <label class="toggle-bar" id="toggle-bar">
+            <input type="checkbox" id="toggle-checkbox" />
+            <span class="slider round" id="slider-round"></span>
+          </label>
+          <!-- --------------------------------------- -->
+        </ul>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main>
     <section class="hero-image">
     </section>
