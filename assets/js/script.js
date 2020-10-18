@@ -62,8 +62,8 @@ reg.onclick=function(){
   }
 	loginModal.style.display = 'none';
   registerModal.style.display = 'block';
-  let regCheck=document.getElementById("toggle-on")
-  regCheck.checked=true
+  /*let regCheck=document.getElementById("toggle-on")
+  regCheck.checked=true*/
 }
 log.onclick=function(){
   if(loginModal.style.display === 'block'){
@@ -71,8 +71,8 @@ log.onclick=function(){
   }
 	registerModal.style.display = 'none';
   loginModal.style.display = 'block';
-  let logCheck=document.getElementById("toggle-off")
-  logCheck.checked=true
+  /*let logCheck=document.getElementById("toggle-off")
+  logCheck.checked=true*/
 }
 
 loginBtn.onclick = function () {
