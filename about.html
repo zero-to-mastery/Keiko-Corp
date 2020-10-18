@@ -5,8 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="stylesheet" href="./assets/css/about.css" />
   <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
   <link rel="icon" href="./assets/images/keiko-icon.ico" />
   <title>About</title>
 </head>
@@ -17,11 +19,16 @@
     <!-- sticky header -->
     <div class="container-nav sticky">
       <nav class="navbar">
-        <div class="nav-button">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <label class="toggle-bar-mobile" id="toggle-bar">
+            <input type="checkbox" id="toggle-checkbox" />
+            <span class="slider round" id="slider-round"></span>
+          </label>
+       <div class="nav-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
 
         <ul class="menu">
           <li>
@@ -57,18 +64,18 @@
               <button id="contact-btn">Contact</button>
             </a>
           </li>
-          <!-----------------Toggle Button for Dark Mode---------------- -->
-          <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" />
-            <span class="slider round" id="slider-round"></span>
-          </label>
-          <!-- --------------------------------------- -->
+            <!-----------------Toggle Button for Dark Mode---------------- -->
+            <label class="toggle-bar" id="toggle-bar">
+              <input type="checkbox" id="toggle-checkbox" />
+              <span class="slider round" id="slider-round"></span>
+            </label>
+            <!-- --------------------------------------- -->
         </ul>
         </ul>
       </nav>
     </div>
   </header>
-  <div class="container">
+  <div class="container1">
     <main>
       <section class="intro" id="intro-section">
         <header>
@@ -107,7 +114,9 @@
       introTitle.innerHTML = introCopy.toUpperCase();
     });
   </script>
-  <script src="assets\js\set-mode.js"></script>
+
+  <script src="./assets/js/dark-mode.js"></script>
+  <script src="./assets/js/navbar.js"></script>
 </body>
 
 </html>
