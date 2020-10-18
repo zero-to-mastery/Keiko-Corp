@@ -444,7 +444,7 @@ header {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 901px) {
   .nav-button {
     display: none;
     visibility: hidden;
