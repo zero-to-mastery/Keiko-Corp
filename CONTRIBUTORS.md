@@ -68,4 +68,9 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@kofosu2289](https://github.com/kofosu2289)
 - [@Tanishh2207](https://github.com/Tanish2207)
 - [@dabralyogesh](https://github.com/dabralyogesh)
-- [@vggithub7](https://github.com/vggithub7)
+- [@vggithub7](https://github.com/vggithub7
+- [@StrykerKent](https://github.com/StrykerKent)
+- [@ivioje](https://github.com/ivioje)
+- [@dpcoolmufa](https://github.com/dpcoolmufa)
+- [@WayneMacMavis](https://github.com/WayneMacMavis)
+
