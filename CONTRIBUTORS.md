@@ -69,3 +69,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Tanishh2207](https://github.com/Tanish2207)
 - [@dabralyogesh](https://github.com/dabralyogesh)
 - [@dpcoolmufa](https://github.com/dpcoolmufa)
+- [@WayneMacMavis](https://github.com/WayneMacMavis)
