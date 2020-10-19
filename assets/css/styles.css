@@ -901,6 +901,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 0.4em;
 }
 
 .price-card h3 {
@@ -913,6 +914,21 @@ p {
 }
 .price-card p {
   margin-bottom: 5px;
+}
+
+.price-card .price-btn {
+  padding: 0.5em 1em;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.price-btn:hover {
+  background-color: white;
+  color: var(--red);
+  cursor: pointer;
+  transition: 0.5s ease;
 }
 
 .price-card:nth-of-type(1) {
