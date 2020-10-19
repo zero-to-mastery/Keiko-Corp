@@ -313,7 +313,7 @@
 
 .action-buttons {
   /*margin-bottom: 1rem; /* mb-3 */
-  
+  margin:1rem;
   min-width: 280px;
   text-align: center;
   padding: 6px;
