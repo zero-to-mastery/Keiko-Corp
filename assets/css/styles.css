@@ -45,6 +45,7 @@ header {
 .hero_content {
   text-align: left;
   margin-left: 6rem;
+  margin-right: 3rem;
   animation: fadeIn 0.8s ease;
   display: flex;
   flex-direction: column;
