@@ -22,7 +22,7 @@ body {
     display: table-row;
     white-space: nowrap;
     padding-left: 100%; 
-    animation: slider 80s linear infinite; 
+    animation: slider 80s linear infinite;     
 }
 
 .review {

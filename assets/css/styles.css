@@ -276,6 +276,10 @@ header {
   gap: 0.5rem;
   padding: 2rem;
   max-width: 250px;
+  transition: transform .2s;
+}
+.team-member:hover{
+  transform: scale(1.1);
 }
 
 .team-member h3 {

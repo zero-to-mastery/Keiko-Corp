@@ -1,10 +1,15 @@
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
-  background-color: var(--mainBackground);
-}
 
+.container-about{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -43,9 +48,9 @@
 
 /* Styles for tablet and bigger screen */
 @media only screen and (min-width: 768px) {
-  section {
+ /*  section {
     min-height: 100vh;
-  }
+  } */
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -65,3 +70,5 @@
     margin-left: 16px;
   }
 }
+
+
