@@ -2,9 +2,10 @@
 
 **Working on your first Pull Request?** You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github).
 
-## Contributors
+## Contributors 
 
 This is a list showing the GitHub usernames of all who have contributed to this open-source project! **Make sure to add yourself and submit a pull request if you've contributed.**
+ **add your God profile here
 
 - [@Mehul1011](https://github.com/mehul1011)
 - [@kelvinchan2406](https://github.com/kelvinchan2406)
@@ -73,5 +74,5 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@ivioje](https://github.com/ivioje)
 - [@dpcoolmufa](https://github.com/dpcoolmufa)
 - [@WayneMacMavis](https://github.com/WayneMacMavis)
-@me_dnp_ :- instagram
+
 
