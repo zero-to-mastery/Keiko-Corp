@@ -494,3 +494,8 @@ header {
     background-color: #ee6a68;
   }
 }
+#button:hover 
+ {color:black;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(#fff,0);
+}
