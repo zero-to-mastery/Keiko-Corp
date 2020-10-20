@@ -4,7 +4,7 @@ const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
 const inputCheckMobile=document.querySelectorAll('input[type="checkbox"]')[0];
 inputCheckMobile.addEventListener('change',switchTheme);
-const body=document.getElementsByTagName("body");
+
 // const contentPara = document.querySelector('.hero_content > p');
 // const contenttitle = document.querySelector('#hero-heading');
 // const toggleBar = document.querySelector('#toggle-bar');
@@ -21,7 +21,7 @@ function switchTheme(event) {
   if (event.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
-    body.style.backgroundColor="black";
+
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('theme', 'light');
