@@ -1,5 +1,6 @@
 footer {
   margin-bottom: 0;
+  border-top: 1px solid #de4a46;
 }
 
 footer > .footer-row {
@@ -17,8 +18,7 @@ footer > .footer-row {
   padding: 30px;
   box-sizing: border-box;
   flex: 1 0;
-  min-width: 300px;
-  max-width: 300px;
+  text-align: center;
 }
 
 .footer-column h2 {
@@ -28,12 +28,10 @@ footer > .footer-row {
   margin-right: 50px;
   opacity: 1;
   font-weight: bolder;
-  text-align: left;
+  text-align: center;
 }
 
 .footer-column .sub-footer-link {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .sub-footer-link a {
@@ -67,7 +65,7 @@ footer > .footer-row {
 }
 
 @media screen and (min-width:991.99px){
-  .footer-column {
+  .footer-row {
     min-width: 200px;
   }
 }
