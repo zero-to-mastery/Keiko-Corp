@@ -57,6 +57,7 @@ To ensure everyone has the best chance at participating in this project. Please 
 - Simplicity is key: There is no need for React, Sass etc here. Let's stick with vanilla HTML, CSS & JavaScript.
 - Commenting: Try to comment your code, so everyone can understand what is going on and could learn a thing or two.
 - Respect Content: Only use images/content that we are licensed to use.
+- Respect others' creations: Do not erase other people's content, but feel free to comment
 - Issues: Use Github issues, to create/find/solve ideas and bugs. Only take a task if it hasn't been claimed already.
 
 ## Disclaimer
