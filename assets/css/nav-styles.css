@@ -494,3 +494,11 @@ header {
     background-color: #ee6a68;
   }
 }
+.contact-sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar{
+  padding:2rem;
+}
