@@ -15,7 +15,6 @@ function openMenu() {
 
 let lastScrollTop = 0;
 function toggleNavbar() {
-  console.log('am I cowking');
   var scrollTop = body.scrollTop || document.documentElement.scrollTop;
   if (scrollTop > lastScrollTop) {
     sticky.style.top = '-80px';
