@@ -74,7 +74,8 @@ h3.testimonial-text {
   margin: 1.3em 0;
 }
 .quote {
-  box-shadow: 9px 9px 9px 3px #c7c7c7;
+  box-shadow: 2px 5px 11px 6px #c7c7c7;
+  border-radius: 1em;
   padding: 0.5em 0.6em;
   width: 100%;
 }
