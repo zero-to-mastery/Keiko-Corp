@@ -53,7 +53,7 @@ header {
   flex-basis: 65%;
 }
 
-.hero_content > h1 {
+.hero_content>h1 {
   font-weight: 700;
   font-size: var(--xlHeading);
   text-transform: uppercase;
@@ -64,11 +64,11 @@ header {
   text-align: left;
 }
 
-[data-theme='dark'] .hero_content > h1 {
+[data-theme='dark'] .hero_content>h1 {
   color: #fff;
 }
 
-.hero_content > p {
+.hero_content>p {
   color: var(--text, #757575);
   font-size: var(--xlText);
   word-spacing: 0.2em;
@@ -119,12 +119,14 @@ header {
   margin: auto;
   margin-bottom: 80px;
 }
+
 .features-heading h1 {
   font-size: 2.5rem;
   text-align: center;
   color: var(--heroText);
   font-weight: 600;
 }
+
 .feature {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -142,6 +144,7 @@ header {
   margin-bottom: 20px;
   margin-top: 30px;
 }
+
 .feature_content p {
   font-size: 1.1rem;
   letter-spacing: 0.2px;
@@ -151,11 +154,13 @@ header {
   margin-bottom: 20px;
   text-align: left;
 }
+
 .feature_one,
 .feature_two,
 .feature_three {
   position: relative;
 }
+
 .feature_image {
   max-width: 100%;
   position: relative;
@@ -171,6 +176,7 @@ header {
   /* transition: all 0.5s; */
   border: 2px solid #fe6655;
 }
+
 [data-theme='dark'] .feature-link {
   background-color: transparent;
   color: var(--lightBlue);
@@ -194,6 +200,7 @@ header {
 .feature-link:hover span {
   padding-right: 20px;
 }
+
 .feature-link:hover {
   background-color: #ef5b59;
   color: white;
@@ -235,15 +242,19 @@ header {
   .feature {
     grid-row-gap: 120px;
   }
+
   .feature_two {
     order: 1;
   }
+
   #feature_two_content {
     order: 0;
   }
+
   #feature_three_content {
     order: 1;
   }
+
   .feature_three {
     order: 1;
   }
@@ -309,6 +320,7 @@ header {
   height: 400px;
   display: flex;
 }
+
 .banner-content {
   width: 700px;
 
@@ -323,6 +335,7 @@ header {
   font-weight: 700;
   font-style: black;
 }
+
 .banner p {
   color: #c4c4c4;
   font-size: 1.5rem;
@@ -338,21 +351,25 @@ header {
   width: 90%;
   margin: auto;
 }
+
 .subsection-1-content h2,
 h1,
 p {
   text-align: left;
 }
+
 .subsection-1-content .subsection-2 h1 {
   font-size: 2.3rem;
   font-weight: 900;
   color: black;
 }
+
 .subsection-1-content h2 {
   font-size: 1.5rem;
   font-weight: 900;
   color: black;
 }
+
 .subsection-1-content p {
   font-size: 1.2rem;
   font-weight: 400;
@@ -364,6 +381,7 @@ textarea,
 select {
   margin: 20px;
 }
+
 .contactus-btn {
   width: 100px;
   height: 40px;
@@ -385,6 +403,7 @@ select {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
+
 .paper:before {
   content: '';
   position: absolute;
@@ -490,7 +509,7 @@ ul {
   max-width: 33rem;
 }
 
-.hero_content > h2 {
+.hero_content>h2 {
   font-weight: 800;
   font-size: 2rem;
   text-transform: uppercase;
@@ -501,7 +520,7 @@ ul {
   text-align: left;
 }
 
-.hero_content > p {
+.hero_content>p {
   color: var(--heroText);
   font-size: 1.1em;
   word-spacing: 0.2em;
@@ -783,6 +802,7 @@ em {
   vertical-align: auto;
   margin: auto;
 }
+
 /*  Testimonial CSS*/
 
 #test-list {
@@ -900,7 +920,7 @@ p {
   height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -911,7 +931,9 @@ p {
   font-weight: 700;
   line-height: 32px;
   font-family: 'Roboto';
+  margin-top: var(--mdPadding);
 }
+
 .price-card p {
   margin-bottom: 5px;
 }
@@ -927,6 +949,10 @@ p {
 
 .price-card:nth-of-type(3) {
   background-color: #513970;
+}
+
+.price-card .price {
+  margin: var(--mdPadding) 0;
 }
 
 .price-card .price span:nth-of-type(1) {
@@ -949,10 +975,22 @@ p {
   font-weight: 400;
 }
 
+.price-card .red-btn {
+  border: 2px solid transparent;
+  background-color: #fff;
+  margin-bottom: var(--lgPadding);
+}
+
+.price-card .red-btn:hover {
+  color: var(--text);
+  background-color: var(--lightBlue);
+}
+
 @media screen and (max-width: 1024px) {
   .price-cards {
     flex-direction: column;
   }
+
   .price-card:nth-of-type(2) {
     margin: 24px 0px;
   }
@@ -1007,6 +1045,7 @@ p {
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
+
   html,
   body {
     scroll-behavior: smooth;
