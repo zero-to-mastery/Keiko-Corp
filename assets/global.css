@@ -40,6 +40,7 @@ body {
   --text: #757575;
   --mainBackground: #fff;
   --heroText: #343A40;
+  --herowhite: #9fa0a0;
   --toggleBackground: #20014d; /* Added a custom property for the darktheme button background*/
   --pricingBackground: #fff;
 
