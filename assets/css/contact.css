@@ -6,18 +6,9 @@
   margin: 2rem 6rem;
 }
 
-
-
 a {
   text-decoration: none;
   color: rgb(13, 165, 211);
-}
-
-/* changed height */
-header {
-  margin-bottom: 6rem;
-  height: 88px;
-  padding: 1rem;
 }
 
 header p {
