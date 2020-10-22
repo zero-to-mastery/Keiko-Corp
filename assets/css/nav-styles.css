@@ -7,6 +7,19 @@
   justify-content: center;
 }
 
+/* Fixed Header Scroll class */
+.scroll{
+  position:fixed;
+  z-index:1;
+  background-color:var(--mainBackground);
+  padding:0.5rem;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+  width: 100%;
+  top: 0px;
+}
+
 /* Dark mode toggle button styles */
 /* ----------------------------------------------- */
 .toggle-bar {
@@ -63,13 +76,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-.toggle-bar:hover .slider.round::before {
+/* Slider hover effect unnecessary */
+/* .toggle-bar:hover .slider.round::before {
   transform: translateX(14px);
   transition: all 0.3s;
 }
 .toggle-bar:hover .slider {
   background-color: #ee6a68;
-}
+} */
 
 /* ------------------------------------------------- */
 /*Managing navbar as per theme start*/
@@ -84,7 +98,7 @@ input:checked + .slider:before {
 }
 [data-theme='dark'] .navbar ul.menu li.active {
   color: #fff;
-  font-weight: 500;
+  font-weight: bold;
 }
 [data-theme='dark'] .navbar ul {
   background-color: #343a40;
@@ -178,6 +192,7 @@ input:checked + .slider:before {
 
 .navbar ul.menu li.active {
   color: #000000;
+  font-weight: bold;
 }
 
 /* bottom border for link after clicked  */
