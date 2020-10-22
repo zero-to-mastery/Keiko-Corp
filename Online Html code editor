@@ -1,0 +1,34 @@
+<!-- JQuery -->
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- CSS Style -->
+
+<style type="text/css">
+br { display: none; }
+ textarea{display: block;margin: 10px 0; width:100%; border: 1px solid #333;}
+ 
+ iframe{display: block;margin: 10px 0; width:100%; resize:both; overflow: auto; border: 1px solid #333;}
+</style>
+
+<!-- JavaScript -->
+
+<script type="text/javascript">
+ function updateIframe(){
+ var myFrame = $("#myframe").contents().find('body');
+ var textareaValue = $("textarea").val();
+ myFrame.html(textareaValue);
+ }
+</script>
+<h1><marquee><font face="Calibri" color="#FF0000">See Your HTML Code Preview</font></marquee></h1>
+
+<textarea rows="5" cols="50" placeholder="Type HTML Code Here"></textarea>
+
+<button style="border:1" type="button" onclick="updateIframe()"><i class="fa fa-pencil-square-o"></i>Run The Code</button>
+
+<iframe id="myframe"></iframe>
+
+<div>
+	<p align="center"><span style="text-decoration: none"><b>
+	<font face="Calibri">Created By</font><font color="#FF0000" face="Calibri"> <a href="https://technicianbrothers.online/">
+	<font color="#FF0000" face="Calibri"><span style="text-decoration: none">Abhishek Nair</span></font></a></b></div>
