@@ -29,7 +29,8 @@ body {
   --maxWidth: 1280px;
 
   /* colors */
-  --red: #ef5b59; /*checked*/
+  --red: #ef5b59;
+  /*checked*/
   --lightBlue: #f4f7fe;
   --darkBlue: #fe6655;
   --purple: #20014d;
@@ -67,7 +68,7 @@ body {
   --br: 0.25rem;
   --btnHeight: 40px;
   --btnPadding: 12px 16px;
-  
+
   /* transition */
   --transition: 0.2s all ease-in;
 
@@ -88,14 +89,14 @@ body {
   /* @media (min-width: 1280px) { ... } */
 }
 
-[data-theme = 'dark'] {  
-  --lightBlue: #EF5B59;  
+[data-theme='dark'] {
+  --lightBlue: #EF5B59;
   --text: #fff;
   --mainBackground: #343A40;
   --heroText: #fff;
   --heading: #fff;
   --darkBlue: #343a40;
-  --toggleBackground: #F4F7FE ;
+  --toggleBackground: #F4F7FE;
   --pricingBackground: #DE4A46;
 }
 
@@ -118,14 +119,16 @@ img {
   display: block;
 }
 
-input, textarea {
+input,
+textarea {
   line-height: 2;
   padding: 0.5rem;
   border: 1px solid var(--heading);
   border-radius: 0.25rem;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
   box-shadow: 0 0 0 3px var(--yellow);
 }
