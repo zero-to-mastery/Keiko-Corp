@@ -79,6 +79,12 @@ h3.testimonial-text {
   padding: 0.5em 0.6em;
   width: 100%;
 }
+
+.quote:hover{
+  box-shadow: 2px 5px 11px 3px #c7c7c7;
+  transition: 0.5s;
+}
+
 @media screen and (max-width: 1302px) {
   #testimonial-carousel {
     width: 90%;
