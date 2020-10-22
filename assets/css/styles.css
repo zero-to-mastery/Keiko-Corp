@@ -1027,3 +1027,30 @@ p {
   margin-top: -2px;
   font-size: 24px;
 }
+
+.yellow-btn{
+  background-color: whitesmoke;
+  outline:  #f1c40f;
+  width: 85px;
+  height: 45px;
+  border-radius: 4px;
+  color: #f1c40f;
+}
+
+.yellow-btn:hover{
+  background-color:#dfb50e;
+  color: white;
+}
+
+.purple-btn{
+  background-color: whitesmoke;
+  width: 85px;
+  height: 45px;
+  border-radius: 4px;
+  color: #5b0683;
+}
+
+.purple-btn:hover{
+  background-color:#5b0683;
+  color: white;
+}
