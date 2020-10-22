@@ -50,7 +50,7 @@
         <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
         <nav class="navbar">
           <label class="toggle-bar-mobile" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" />
+            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
             <span class="slider round" id="slider-round"></span>
           </label>
           <div class="nav-button">
@@ -62,34 +62,34 @@
           <ul class="menu">
             <li>
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
-            </li>
-            <li class="active" id=home> <a href="./index.html">
-              <button id="contact-btn">Home</button>
+            <li class="active" id="home"> <a href="./index.html">
+              <button id="contact-btn" role="button" aria-label="Home" >Home</button>
             </a>
           </li>
+
             <li>
               <a href="#feature">
-                <button id="contact-btn">Features</button>
+                <button id="contact-btn" role="button" aria-label="Features">Features</button>
               </a>
             </li>
             <li>
               <a href="#testimonials">
-                <button id="contact-btn">Testimonials</button>
+                <button id="contact-btn" role="button" aria-label="Testimonials" >Testimonials</button>
               </a>
             </li>
             <li class="menu-team">
               <a href="./meet-the-team.html">
-                <button id="contact-btn">Team</button>
+                <button id="contact-btn" role="button" aria-label="Team">Team</button>
               </a>
             </li>
             <li class="menu-price">
               <a href="#pricing">
-                <button id="contact-btn">Pricing</button>
+                <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
               </a>
             </li>
 
             <!-- dropdown btn -->
-            <div class="dropdown">
+            <div class="dropdown" role="navigation" aria-label="More Menu Items" >
               <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
               <div class="dropdown-content">
                 <a class="drop-team" href="./meet-the-team.html">Team</a>
@@ -97,6 +97,8 @@
                 <a href="about.html">About</a>
                 <a href="blog.html">Blog</a>
                 <a href="job-listing.html">Job Listings</a>
+                <a href="support.html">Support</a>
+                <a href="faq.html">FAQ</a>
               </div>
             </div>
             <!-- end of dropdown btn -->
@@ -104,18 +106,18 @@
 
 
             <!-----------------Toggle Button for Dark Mode---------------- -->
-            <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox" />
-              <span class="slider round" id="slider-round"></span>
+            <label class="toggle-bar" id="toggle-bar" >
+              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+              <span class="slider round" id="slider-round"  ></span>
             </label>
             <!-- --------------------------------------- -->
 
             <div class="user-forms">
               <a href="./contact.html">
-                <button class="red-btn" id="contact-btn">Contact</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Contact">Contact</button>
               </a>
               <a href="./login.html">
-                <button class="red-btn" id="contact-btn">Login</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Login">Login</button>
               </a>
             </div>
           </ul>
@@ -126,7 +128,7 @@
     <!-- ******** Hero ******** -->
     <section class="hero">
       <div class="hero_image">
-        <img src="./assets/images/hero.svg" class="hero_image" alt="" />
+        <img src="./assets/images/hero.svg" class="hero_image" alt="Hero Image" />
       </div>
       <div class="hero_content">
         <h1>The Best Tech StartUp</h1>
@@ -136,7 +138,7 @@
           Grammar.
         </p>
         <a href="#pricing">
-          <button class="CTA">Get Started</button>
+          <button class="CTA" role="button" aria-label="Get Started">Get Started</button>
         </a>
       </div>
     </section>
@@ -156,8 +158,8 @@
         <div class="input-group mb-3">
           <div class="input-group-append">
             <input type="email" class="form-control col-sm-12" placeholder="Type your email" aria-label="Email Address"
-              aria-describedby="button-addon2">
-            <button type="submit" id="button-addon2">Submit</button>
+              >
+            <button type="submit" id="button-addon2" role="button" aria-label="Submit">Submit</button>
           </div>
         </div>
 
@@ -226,12 +228,12 @@
         <p class="company-title-description">We are funded with the world's trusted brands</p>
       </div>
       <div class="company-logo-section">
-        <img class="company-logo .animate_logo" data-delay="0.15s" src="assets/images/logos/Adobe_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.30s" src="assets/images/logos/Amazon_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.45s" src="assets/images/logos/Facebook_Logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.60s" src="assets/images/logos/Google_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.75s" src="assets/images/logos/intel.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.90s" src="assets/images/logos/samsung.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.15s" alt="Adobe Logo" src="assets/images/logos/Adobe_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.30s" alt="Amazon Logo" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.45s" alt="Facebook Logo" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.60s" alt="Google Logo" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.75s" alt="Intel Logo" src="assets/images/logos/intel.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.90s" alt="Samsung Logo" src="assets/images/logos/samsung.svg" />
       </div>
     </section>
 
@@ -245,7 +247,7 @@
 
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active container-fluid testimonial_item" data-delay="0.0s">
+          <div class="carousel-item active container-fluid testimonial_item" data-delay="0.0s" >
             <div class="quote">
               <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
                 odit
@@ -264,7 +266,7 @@
             </div>
             <div class="test-per">
               <img src="./assets/images/team2.jpg" alt="team-member2" class="testimonial-image">
-            <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
+              <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
             </div>
 
           </div>
@@ -280,11 +282,11 @@
               <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev" aria-label="Client Testimonials">
             <span class="carousel-control-prev-icon btn-primary"></span>
 
           </a>
-          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next" aria-label="Client Testimonials">
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
@@ -306,7 +308,7 @@
           <p>Unlimited Surfing</p>
           <br>
           <a href="./login.html">
-            <button class="red-btn" type="button">Sign Up</button>
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up">Sign Up</button>
           </a>
         </div>
         <div class="price-card" data-delay="0.2s">
@@ -317,19 +319,18 @@
           <p>Unlimited Surfing</p>
           <br>
           <a href="./login.html">
-            <button class="red-btn" type="button">Sign Up</button>
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up">Sign Up</button>
           </a>
         </div>
         <div class="price-card" data-delay="0.4s">
           <h3>Enterprise</h3>
           <div class="price"><span>$</span><span>49</span><span> /MO</span></div>
-          <p>No Taxes</p>
           <p>20 discounts per month</p>
           <p>Free Tickets</p>
           <p>New Specials for free</p>
           <br>
           <a href="./login.html">
-            <button class="red-btn" type="button">Sign Up</button>
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up" >Sign Up</button>
           </a>
         </div>
       </div>
@@ -340,7 +341,7 @@
       <div class="footer-row pl-5 pr-5">
         <section class="footer-column">
           <h2>Group 1</h2>
-          <div class='sub-footer-link'>
+          <div class='sub-footer-link' role="link">
             <a href="#home">Home</a>
             <a href="#feature">Features</a>
             <a href="#pricing">Pricing</a>
@@ -350,11 +351,11 @@
 
         <section class="footer-column">
           <h2>Group 2</h2>
-          <div class='sub-footer-link'>
+          <div class='sub-footer-link' role="link">
             <a href="privacy">Privacy Policy</a>
             <a href="terms">Terms</a>
-            <a href="FAQ">FAQ</a>
-            <a href="support">Support</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./support.html">Support</a>
           </div>
         </section>
 
@@ -389,7 +390,9 @@
 
       <section id='sub-footer'>
         <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
           Keiko Corp . All Rights Reserved
         </p>
       </section>

@@ -4,6 +4,7 @@
   text-align: left;
   margin-bottom: 4rem;
   height: auto;
+  background: transparent;
 }
 
 .support h1 {
@@ -35,7 +36,7 @@
 }
 
 .support .btn_primary {
-  background-color: #fe6655;
+  background-color: var(--darkBlue);
   padding: 0.8rem;
   color: white;
   border-radius: 5px;
@@ -52,7 +53,7 @@
 
 .support .btn_primary:hover {
   background-color: white;
-  color: #fe6655;
+  color: var(--red);
   border-color: currentColor;
 }
 
@@ -78,11 +79,22 @@
   border-color: #fe6655;
 }
 
+[data-theme='dark'] .support .btn_secondary {
+  color: var(--text);
+  background-color: var(--lightBlue);
+}
+
+[data-theme='dark'] .support .btn_secondary:hover {
+  background-color: white;
+  color: var(--red);
+  border-color: currentColor;
+}
+
 .support_banner {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: #eee;
+  background-color: var(--lightBlue);
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
