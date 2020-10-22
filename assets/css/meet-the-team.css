@@ -1,17 +1,4 @@
 #team > h2 {
   color: var(--heading);
   font-size: var(--lgHeading);
-  margin-top: 7%;
-}
-
-/* Fixed Header Scroll class */
-.scroll{
-  position:fixed;
-  z-index:1;
-  background-color:var(--mainBackground);
-  padding:0.5rem;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
-   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
-   width: 100%;
 }
