@@ -888,7 +888,7 @@ em {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--pricingBackground);
+  background-color: var(--lightBlue);
   padding: var(--lgPadding) 0;
 }
 
