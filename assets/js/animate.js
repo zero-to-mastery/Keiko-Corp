@@ -120,7 +120,7 @@ pricingCards.forEach((card) => {
 //pricing section ends here
 //logos in pricing section
 const mainSection = document.querySelector('.wrapper');
-const iconButtons = mainSection.querySelectorAll(':scope .button');
+const iconButtons = mainSection?.querySelectorAll(':scope .button') ?? [];
 iconButtons.forEach((button) => {
   button.style.opacity = '0';
   bottomSmallPopup.observe(button);
