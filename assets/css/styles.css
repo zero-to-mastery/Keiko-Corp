@@ -42,7 +42,7 @@
   flex-basis: 65%;
 }
 
-.hero_content>h1 {
+.hero_content > h1 {
   font-weight: 700;
   font-size: var(--xlHeading);
   text-transform: uppercase;
@@ -53,11 +53,11 @@
   text-align: left;
 }
 
-[data-theme='dark'] .hero_content>h1 {
+[data-theme='dark'] .hero_content > h1 {
   color: #fff;
 }
 
-.hero_content>p {
+.hero_content > p {
   color: var(--text, #757575);
   font-size: var(--xlText);
   word-spacing: 0.2em;
@@ -498,7 +498,7 @@ ul {
   max-width: 33rem;
 }
 
-.hero_content>h2 {
+.hero_content > h2 {
   font-weight: 800;
   font-size: 2rem;
   text-transform: uppercase;
@@ -509,7 +509,7 @@ ul {
   text-align: left;
 }
 
-.hero_content>p {
+.hero_content > p {
   color: var(--heroText);
   font-size: 1.1em;
   word-spacing: 0.2em;
@@ -1039,7 +1039,6 @@ p {
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
-
   html,
   body {
     scroll-behavior: smooth;
