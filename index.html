@@ -19,6 +19,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
+
   <!-- STYLES -->
   <link rel="stylesheet" href="./assets/global.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
@@ -49,8 +50,8 @@
         <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
         <nav class="navbar">
           <label class="toggle-bar-mobile" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" />
-            <div class="toggle-container" id="toggle-container"></div>
+            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+            <span class="slider round" id="slider-round"></span>
           </label>
           <div class="nav-button">
             <span></span>
@@ -61,54 +62,65 @@
           <ul class="menu">
             <li>
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
-            </li>
-            <li class="active" id=home>Home</li>
+            <li class="active" id="home"> <a href="./index.html">
+              <button id="contact-btn" role="button" aria-label="Home" >Home</button>
+            </a>
+          </li>
+
             <li>
               <a href="#feature">
-                <button id="contact-btn">Features</button>
+                <button id="contact-btn" role="button" aria-label="Features">Features</button>
               </a>
             </li>
             <li>
               <a href="#testimonials">
-                <button id="contact-btn">Testimonials</button>
+                <button id="contact-btn" role="button" aria-label="Testimonials" >Testimonials</button>
               </a>
             </li>
             <li class="menu-team">
               <a href="./meet-the-team.html">
-                <button id="contact-btn">Team</button>
-              </a>
-            </li>            
-            <li class="menu-price">
-              <a href="#pricing">
-                <button id="contact-btn">Pricing</button>
+                <button id="contact-btn" role="button" aria-label="Team">Team</button>
               </a>
             </li>
-              <!-- dropdown btn -->
-              <div class="dropdown">
-                <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
-                <div class="dropdown-content">
-                  <a class="drop-team" href="./meet-the-team.html">Team</a>
-                  <a class="drop-price" href="#pricing">Pricing</a>
-                  <a href="about.html">About</a>
-                  <a href="blog.html">Blog</a>
-                  <a href="job-listing.html">Job Listings</a>
-                </div>
+            <li class="menu-price">
+              <a href="#pricing">
+                <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
+              </a>
+            </li>
+
+            <!-- dropdown btn -->
+            <div class="dropdown" role="navigation" aria-label="More Menu Items" >
+              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
+              <div class="dropdown-content">
+                <a class="drop-team" href="./meet-the-team.html">Team</a>
+                <a class="drop-price" href="#pricing">Pricing</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="job-listing.html">Job Listings</a>
+                <a href="support.html">Support</a>
+                <a href="faq.html">FAQ</a>
               </div>
-              <!-- end of dropdown btn -->
-            <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox" />
-              <div class="toggle-container" id="toggle-container"></div>
+            </div>
+            <!-- end of dropdown btn -->
+
+
+
+            <!-----------------Toggle Button for Dark Mode---------------- -->
+            <label class="toggle-bar" id="toggle-bar" >
+              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+              <span class="slider round" id="slider-round"  ></span>
             </label>
+            <!-- --------------------------------------- -->
+
             <div class="user-forms">
               <a href="./contact.html">
-                <button class="red-btn" id="contact-btn">Contact</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Contact">Contact</button>
               </a>
               <a href="./login.html">
-                <button class="red-btn" id="contact-btn">Login</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Login">Login</button>
               </a>
             </div>
           </ul>
-          
         </nav>
       </div>
     </header>
@@ -116,7 +128,7 @@
     <!-- ******** Hero ******** -->
     <section class="hero">
       <div class="hero_image">
-        <img src="./assets/images/hero.svg" class="hero_image" alt="" />
+        <img src="./assets/images/hero.svg" class="hero_image" alt="Hero Image" />
       </div>
       <div class="hero_content">
         <h1>The Best Tech StartUp</h1>
@@ -125,7 +137,9 @@
           day however, a small line of blind text by the name of Lorem Ipsum decided to leave for the far world of
           Grammar.
         </p>
-        <button class="CTA">Get Started</button>
+        <a href="#pricing">
+          <button class="CTA" role="button" aria-label="Get Started">Get Started</button>
+        </a>
       </div>
     </section>
 
@@ -144,8 +158,8 @@
         <div class="input-group mb-3">
           <div class="input-group-append">
             <input type="email" class="form-control col-sm-12" placeholder="Type your email" aria-label="Email Address"
-              aria-describedby="button-addon2">
-            <button type="submit" id="button-addon2">Submit</button>
+              >
+            <button type="submit" id="button-addon2" role="button" aria-label="Submit">Submit</button>
           </div>
         </div>
 
@@ -163,46 +177,46 @@
       </div>
 
       <div class="feature">
-          <div class="feature_one left-part">
-            <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
-          </div>
-          
-          <div class="feature_content right-part">
-            <h1>FEATURE ONE</h1>
-            <p>The best Lorem Ipsum Generator in all the sea!
-              Heave this scurvy copyfiller fer yar next adventure
-              and cajol yar clients into walking the plank with
-              ev'ry layout! Configure above, then get yer pirate
-              ipsum...own the high seas, arg!</p>
-              <a href="#" class="feature-link"><span>Learn More</span></a>
-            </div> 
-        
-          <div class="feature_two right-part">
-            <img src="assets/images/feature-two.svg" class="feature_image" alt="feature_two_image">
-          </div>
+        <div class="feature_one left-part">
+          <img src="assets/images/feature-one.svg" class="feature_image" alt="feature_one_image">
+        </div>
 
-          <div class="feature_content left-part" id="feature_two_content">
-            <h1>FEATURE TWO</h1>
-            <p>The best Lorem Ipsum Generator in all the sea!
-              Heave this scurvy copyfiller fer yar next adventure
-              and cajol yar clients into walking the plank with
-              ev'ry layout! Configure above, then get yer pirate
-              ipsum...own the high seas, arg!</p>
-              <a href="#" class="feature-link"><span>Learn More</span></a>
-          </div>
-            <div class="feature_three left-part">
-              <img src="assets/images/feature-three.svg" class="feature_image" alt="feature_three_image">
-          </div>
-          
-          <div class="feature_content right-part" id="feature_three_content">
-            <h1>FEATURE THREE</h1>
-            <p>The best Lorem Ipsum Generator in all the sea!
-              Heave this scurvy copyfiller fer yar next adventure
-              and cajol yar clients into walking the plank with
-              ev'ry layout! Configure above, then get yer pirate
-              ipsum...own the high seas, arg!</p>
-              <a href="#" class="feature-link"><span>Learn More</span></a>
-          </div>
+        <div class="feature_content right-part">
+          <h1>FEATURE ONE</h1>
+          <p>The best Lorem Ipsum Generator in all the sea!
+            Heave this scurvy copyfiller fer yar next adventure
+            and cajol yar clients into walking the plank with
+            ev'ry layout! Configure above, then get yer pirate
+            ipsum...own the high seas, arg!</p>
+          <a href="#" class="feature-link"><span>Learn More</span></a>
+        </div>
+
+        <div class="feature_two right-part">
+          <img src="assets/images/feature-two.svg" class="feature_image" alt="feature_two_image">
+        </div>
+
+        <div class="feature_content left-part" id="feature_two_content">
+          <h1>FEATURE TWO</h1>
+          <p>The best Lorem Ipsum Generator in all the sea!
+            Heave this scurvy copyfiller fer yar next adventure
+            and cajol yar clients into walking the plank with
+            ev'ry layout! Configure above, then get yer pirate
+            ipsum...own the high seas, arg!</p>
+          <a href="#" class="feature-link"><span>Learn More</span></a>
+        </div>
+        <div class="feature_three left-part">
+          <img src="assets/images/feature-three.svg" class="feature_image" alt="feature_three_image">
+        </div>
+
+        <div class="feature_content right-part" id="feature_three_content">
+          <h1>FEATURE THREE</h1>
+          <p>The best Lorem Ipsum Generator in all the sea!
+            Heave this scurvy copyfiller fer yar next adventure
+            and cajol yar clients into walking the plank with
+            ev'ry layout! Configure above, then get yer pirate
+            ipsum...own the high seas, arg!</p>
+          <a href="#" class="feature-link"><span>Learn More</span></a>
+        </div>
       </div>
     </section>
 
@@ -214,12 +228,12 @@
         <p class="company-title-description">We are funded with the world's trusted brands</p>
       </div>
       <div class="company-logo-section">
-        <img class="company-logo .animate_logo" data-delay="0.15s" src="assets/images/logos/Adobe_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.30s" src="assets/images/logos/Amazon_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.45s" src="assets/images/logos/Facebook_Logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.60s" src="assets/images/logos/Google_logo.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.75s" src="assets/images/logos/intel.svg" />
-        <img class="company-logo .animate_logo" data-delay="0.90s" src="assets/images/logos/samsung.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.15s" alt="Adobe Logo" src="assets/images/logos/Adobe_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.30s" alt="Amazon Logo" src="assets/images/logos/Amazon_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.45s" alt="Facebook Logo" src="assets/images/logos/Facebook_Logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.60s" alt="Google Logo" src="assets/images/logos/Google_logo.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.75s" alt="Intel Logo" src="assets/images/logos/intel.svg" />
+        <img class="company-logo .animate_logo" data-delay="0.90s" alt="Samsung Logo" src="assets/images/logos/samsung.svg" />
       </div>
     </section>
 
@@ -230,34 +244,49 @@
         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. Separated they
           live in Bookmarksgrove right at the coast of Semantics.</p>
       </div>
+
       <div id="testimonial-carousel" class="carousel slide" data-ride="false">
         <div class="carousel-inner">
-          <div class="carousel-item active container-fluid testimonial_item" data-delay="0.0s">
-            <img src="./assets/images/team1.jpg" alt="team-member1" class="testimonial-image">
-            <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
-            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
-              odit
-              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+          <div class="carousel-item active container-fluid testimonial_item" data-delay="0.0s" >
+            <div class="quote">
+              <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+                odit
+                corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</p>
+            </div>
+            <div class="test-per">
+              <img src="./assets/images/team1.jpg" alt="team-member1" class="testimonial-image">
+              <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
+            </div>
           </div>
           <div class="carousel-item  container-fluid testimonial_item" data-delay="0.2s">
-            <img src="./assets/images/team2.jpg" alt="team-member2" class="testimonial-image">
-            <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
-            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
-              odit
-              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+            <div class="quote">
+              <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+                odit
+                corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</p>
+            </div>
+            <div class="test-per">
+              <img src="./assets/images/team2.jpg" alt="team-member2" class="testimonial-image">
+              <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
+            </div>
+
           </div>
           <div class="carousel-item  container-fluid testimonial_item" data-delay="0.4s">
-            <img src="./assets/images/team3.jpg" alt="team-member3" class="testimonial-image">
-            <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
-            <h3 class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
-              odit
-              corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</h3>
+            <div class="quote">
+              <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus nesciunt
+                odit
+                corporis cumque expedita! Reprehenderit autem quam earum expedita hic vero.</p>
+            </div>
+
+            <div class="test-per">
+              <img src="./assets/images/team3.jpg" alt="team-member3" class="testimonial-image">
+              <em class="testimonial-text"><span>Person Name</span><br />Co-founder at Company</em>
+            </div>
           </div>
-          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev" aria-label="Client Testimonials">
             <span class="carousel-control-prev-icon btn-primary"></span>
 
           </a>
-          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next" aria-label="Client Testimonials">
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
@@ -274,26 +303,45 @@
         <div class="price-card" data-delay="0s">
           <h3>Personal</h3>
           <div class="price"><span>$</span><span>10</span><span> /MO</span></div>
+          <p>5 recommendations per Day</p>
+          <p>2 discounts per Month</p>
+          <p>Unlimited Surfing</p>
+          <br>
+          <a href="./login.html">
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up">Sign Up</button>
+          </a>
         </div>
         <div class="price-card" data-delay="0.2s">
           <h3>Agency</h3>
           <div class="price"><span>$</span><span>20</span><span> /MO</span></div>
+          <p>10 recommendations</p>
+          <p>5 discounts per Month</p>
+          <p>Unlimited Surfing</p>
+          <br>
+          <a href="./login.html">
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up">Sign Up</button>
+          </a>
         </div>
         <div class="price-card" data-delay="0.4s">
           <h3>Enterprise</h3>
           <div class="price"><span>$</span><span>49</span><span> /MO</span></div>
+          <p>20 discounts per month</p>
+          <p>Free Tickets</p>
+          <p>New Specials for free</p>
+          <br>
+          <a href="./login.html">
+            <button class="red-btn" type="button" role="button" aria-label="Sign Up" >Sign Up</button>
+          </a>
         </div>
       </div>
     </section>
-
-
 
     <!-- Footer -->
     <footer>
       <div class="footer-row pl-5 pr-5">
         <section class="footer-column">
           <h2>Group 1</h2>
-          <div class='sub-footer-link'>
+          <div class='sub-footer-link' role="link">
             <a href="#home">Home</a>
             <a href="#feature">Features</a>
             <a href="#pricing">Pricing</a>
@@ -303,11 +351,11 @@
 
         <section class="footer-column">
           <h2>Group 2</h2>
-          <div class='sub-footer-link'>
+          <div class='sub-footer-link' role="link">
             <a href="privacy">Privacy Policy</a>
             <a href="terms">Terms</a>
-            <a href="FAQ">FAQ</a>
-            <a href="support">Support</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./support.html">Support</a>
           </div>
         </section>
 
@@ -316,11 +364,7 @@
           <div>
             Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
             tech
-            start up in Silicon Valley,
-            Far far away, behind the word
-            mountains, far from the countries
-            Vokalia and Consonantia, there live
-            the blind texts
+            start up in Silicon Valley.
           </div>
         </section>
 
@@ -328,11 +372,11 @@
           <h2>Follow Us</h2>
           <div class="sub-footer">
             <div class='sub-footer-link socials'>
-              <a href="/"><i class="fab fa-twitter"></i></a>
-              <a href="/"><i class="fab fa-facebook-f"></i></a>
-              <a href="/"><i class="fab fa-instagram"></i></a>
-              <a href="/"><i class="fab fa-youtube"></i></a>
-              <a href="/"><i class="fab fa-google"></i></a>
+              <a href="/" title="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="/" title="Youtube"><i class="fab fa-youtube"></i></a>
+              <a href="/" title="Google"><i class="fab fa-google"></i></a>
             </div>
           </div>
         </section>
@@ -346,7 +390,9 @@
 
       <section id='sub-footer'>
         <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
           Keiko Corp . All Rights Reserved
         </p>
       </section>

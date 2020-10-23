@@ -1,0 +1,42 @@
+.faq .container {
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+  margin-bottom: 4rem;
+  height: auto;
+  background: transparent;
+}
+
+.faq h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--heroText);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 3.125rem;
+}
+
+.faq h2 {
+  font-size: 1.8rem;
+    font-style: black;
+    color: var(--heroText);
+    font-weight: 900;
+    margin-bottom: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.faq p {
+  font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: var(--heroText);
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+  .faq .container {
+      padding: 1.5rem;
+  }
+}
