@@ -970,6 +970,11 @@ p {
   margin-bottom: var(--lgPadding);
 }
 
+[data-theme='dark'] .price-card .red-btn {
+  background-color: var(--primar-color);
+  color: #fff;
+}
+
 .price-card .red-btn:hover {
   color: var(--text);
   background-color: var(--lightBlue);
