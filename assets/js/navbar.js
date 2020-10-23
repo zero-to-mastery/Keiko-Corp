@@ -8,10 +8,26 @@ const body = document.body;
 //   console.log("click")
 // });
 
+
+//open menu mobile
 function openMenu() {
-  const menu = document.querySelector('.menu');
-  menu.classList.toggle('open');
+  document.getElementById('myDropdown').classList.toggle("open");
 }
+
+ // Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.nav-button')) {
+    var dropdowns = document.getElementsByClassName(".menu_mobile");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('open')) {
+        openDropdown.classList.remove('open');
+      }
+    }
+  }
+} 
+
 
 let lastScrollTop = 0;
 function toggleNavbar() {
@@ -24,5 +40,5 @@ function toggleNavbar() {
   lastScrollTop = scrollTop;
 }
 
-button.addEventListener('click', openMenu);
+//button.addEventListener('click', openMenu);
 body.addEventListener('scroll', toggleNavbar);

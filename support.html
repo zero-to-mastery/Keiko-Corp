@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- ******* HEAD ******** -->
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +17,9 @@
   <meta property="og:description" content="Learn more about Keiko Corp through our Frequently Asked Questions." />
   <meta property="og:url" content="https://keiko-corp.netlify.app/support.html" />
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
 
   <!-- STYLES -->
   <link rel="stylesheet" href="./assets/global.css" />
@@ -37,6 +40,7 @@
 </head>
 
 <!-- ******* BODY ******** -->
+
 <body>
 
   <div class="main" id="main">
@@ -47,24 +51,95 @@
       <div class="container-nav sticky">
         <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
         <nav class="navbar">
+          <!-- dark mode mobile begin -->
           <label class="toggle-bar-mobile" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" />
+            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
             <span class="slider round" id="slider-round"></span>
           </label>
-          <div class="nav-button">
+          <!-- dark mode mobile end -->
+
+
+          <!-- nav button mobile begin-->
+          <button onclick="openMenu()" class="nav-button">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </button>
+          <!-- nav button mobile end-->
+
+          <!-- //ul menu desktop begin-->
+          <ul id="myDropdown" class="menu_mobile">
+            <li>
+
+            <li class="active" id="home"> <a href="./index.html">
+                <button id="contact-btn" role="button" aria-label="Home">Home</button>
+              </a>
+            </li>
+
+            <li>
+              <a href="#feature">
+                <button id="contact-btn" role="button" aria-label="Features">Features</button>
+              </a>
+            </li>
+            <li>
+              <a href="#testimonials">
+                <button id="contact-btn" role="button" aria-label="Testimonials">Testimonials</button>
+              </a>
+            </li>
+            <li class="menu-team">
+              <a href="./meet-the-team.html">
+                <button id="contact-btn" role="button" aria-label="Team">Team</button>
+              </a>
+            </li>
+            <li class="menu-price">
+              <a href="#pricing">
+                <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
+              </a>
+            </li>
+
+            <!-- dropdown btn more mobile begin-->
+            <div class="dropdown" role="navigation" aria-label="More Menu Items">
+              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
+              <div class="dropdown-content">
+                <a class="drop-team" href="./meet-the-team.html">Team</a>
+                <a class="drop-price" href="#pricing">Pricing</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="job-listing.html">Job Listings</a>
+                <a href="support.html">Support</a>
+                <a href="faq.html">FAQ</a>
+              </div>
+            </div>
+            <!-- end of dropdown btn more mobile end -->
+
+
+
+            <!-----------------Toggle Button for Dark Mode---------------- -->
+            <label class="toggle-bar" id="toggle-bar">
+              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+              <span class="slider round" id="slider-round"></span>
+            </label>
+            <!-- --------------------------------------- -->
+
+            <div class="user-forms-mobile">
+              <a href="./contact.html" class="button_center">
+                <button class="red-btn btnmoblie" id="contact-btn" role="button" aria-label="Contact">Contact</button>
+              </a>
+              <a href="./login.html" class="button_center">
+                <button class="red-btn btnmoblie" id="contact-btn" role="button" aria-label="Login">Login</button>
+              </a>
+            </div>
+
+          </ul>
 
           <ul class="menu">
             <li>
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
             </li>
             <li class="active" id=home> <a href="./index.html">
-              <button id="contact-btn" role="button" aria-label="Home">Home</button>
-            </a>
-          </li>
+                <button id="contact-btn" role="button" aria-label="Home">Home</button>
+              </a>
+            </li>
             <li>
               <a href="#feature">
                 <button id="contact-btn" role="button" aria-label="Features">Features</button>
@@ -101,7 +176,7 @@
 
             <!-----------------Toggle Button for Dark Mode---------------- -->
             <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch"/>
+              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
               <span class="slider round" id="slider-round"></span>
             </label>
             <!-- --------------------------------------- -->
@@ -124,12 +199,14 @@
       <div class="container">
         <h1>Get Help from Keiko Corp.</h1>
         <h2>Products</h2>
-        <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev'ry layout!</p>
+        <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol
+          yar clients into walking the plank with ev'ry layout!</p>
         <button class="btn_secondary">Email Products Department</button>
         <h2>Services</h2>
-        <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev'ry layout!</p>
+        <p>The best Lorem Ipsum Generator in all the sea! Heave this scurvy copyfiller fer yar next adventure and cajol
+          yar clients into walking the plank with ev'ry layout!</p>
         <button class="btn_secondary">Email Services Department</button>
-        
+
       </div>
     </section>
 
@@ -138,18 +215,18 @@
       <div class="support_banner">
         <h2>Prefer Realtime Support via Text?</h2>
         <p>Our Agents are standing by 24 hours a day, 7 days a week.</p>
-        <button class="btn_primary">Chat Now</button> 
+        <button class="btn_primary">Chat Now</button>
       </div>
     </section>
 
     <!-- Browse Resources -->
     <section class="support">
       <div class="container">
-      <h2>Browse Resources</h2>
-      <p>Documentation</p>
-      <p>Forums</p>
-      <p>Training</p>
-    </div>
+        <h2>Browse Resources</h2>
+        <p>Documentation</p>
+        <p>Forums</p>
+        <p>Training</p>
+      </div>
     </section>
 
     <!-- Footer -->
@@ -206,7 +283,9 @@
 
       <section id='sub-footer'>
         <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
           Keiko Corp. All Rights Reserved
         </p>
       </section>
