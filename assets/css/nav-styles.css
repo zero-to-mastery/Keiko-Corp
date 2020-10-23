@@ -512,11 +512,12 @@ header {
   input:checked + .slider:before {
     transform: translateX(26px);
   }
-  .toggle-bar-mobile:hover .slider.round::before {
+  /* slider hover styling not needed on mobile */
+  /* .toggle-bar-mobile:hover .slider.round::before {
     transform: translateX(14px);
     transition: all 0.3s;
   }
   .toggle-bar-mobile:hover .slider {
     background-color: #ee6a68;
-  }
+  } */
 }
