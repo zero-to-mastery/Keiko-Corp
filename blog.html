@@ -13,10 +13,16 @@
     <link rel="stylesheet" href="./assets/css/blog_page.css" />
     <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
     <link rel="stylesheet" href="./assets/css/nav-styles.css">
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <main>
-      <nav class="navbar">
+      <nav class="navbar" style="position: -webkit-sticky;
+  position: sticky;
+  top: 0;">
           <label class="toggle-bar-mobile" id="toggle-bar">
             <input type="checkbox" id="toggle-checkbox">
             <span class="slider round" id="slider-round"></span>
@@ -31,7 +37,9 @@
             <li>
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
             </li>
-            <li class="active" id="home"> <a href="/">Home
+          <li> 
+             <a href="/">
+               <button id="home">Home</button>
             </a> 
           </li>
             <li>
@@ -88,6 +96,15 @@
           </ul>
         </nav>
       <div class="container">
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+          <h2>Subscribe to our newsletter</h2>
+          <div class="newsletter__signup">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+          </div>
+        </section>
+
         <section class="blog">
           <div class="blog__pictures">
             <!-- Blog Post 1 -->
@@ -147,6 +164,19 @@
         </section>
       </div>
     </main>
-    <script src="assets\js\set-mode.js"></script>
+
+    <!-- Footer -->
+    <footer></footer>
+    
+    <!-- JAVASCRIPT FILES -->
+    <!--NO BOOTSTRAP OR JQUERY -->
+    <!-- <script src="assets\js\set-mode.js"></script> -->
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/footer.js"></script>
+    <script src="./assets/js/dark-mode.js"></script>
+    <script src="./assets/js/progressbar.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/animate.js"></script>
+
   </body>
 </html>

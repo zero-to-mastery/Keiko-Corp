@@ -1,0 +1,109 @@
+.support .container {
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+  margin-bottom: 4rem;
+  height: auto;
+  background: transparent;
+}
+
+.support h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--heroText);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 3.125rem;
+}
+
+.support h2 {
+  font-size: 1.8rem;
+    font-style: black;
+    color: var(--heroText);
+    font-weight: 900;
+    margin-bottom: 1.25rem;
+    margin-top: 1.875rem;
+}
+
+.support p {
+  font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    color: var(--heroText);
+    line-height: 1.4;
+    margin-bottom: 1.25rem;
+    text-align: left;
+}
+
+.support .btn_primary {
+  background-color: var(--darkBlue);
+  padding: 0.8rem;
+  color: white;
+  border-radius: 5px;
+  word-spacing: 0.2rem;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: transparent solid 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.support .btn_primary:hover {
+  background-color: white;
+  color: var(--red);
+  border-color: currentColor;
+}
+
+.support .btn_secondary {
+  background-color: white;
+  color: #fe6655;
+  padding: 0.75rem;
+  border-radius: 5px;
+  word-spacing: 0.2rem;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  border: #fe6655 solid 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.support .btn_secondary:hover {
+  background-color: #fe6655;
+  color: white;
+  border-color: #fe6655;
+}
+
+[data-theme='dark'] .support .btn_secondary {
+  color: var(--text);
+  background-color: var(--lightBlue);
+}
+
+[data-theme='dark'] .support .btn_secondary:hover {
+  background-color: white;
+  color: var(--red);
+  border-color: currentColor;
+}
+
+.support_banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--lightBlue);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .support .container, .support_banner {
+      padding: 1.5rem;
+  }
+}
