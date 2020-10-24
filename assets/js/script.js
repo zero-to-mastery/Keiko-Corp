@@ -42,10 +42,11 @@ let registerBtn = document.getElementById('register');
 let loginClose = document.getElementsByClassName('login-close')[0];
 let registerClose = document.getElementsByClassName('register-close')[0];
 let password = document.getElementById('password');
-let eye = document.getElementById('visibility');
+let eye = document.getElementById('#visibility');
 let reg=document.querySelector(".register")
 let log=document.querySelector(".login")
 /* Password visiblity toggle */
+
 eye.onclick = function () {
   // Toggle the type attribute
   const passwordState = password.getAttribute('type') === 'password' ? 'text' : 'password';
