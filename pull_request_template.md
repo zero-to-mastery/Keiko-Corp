@@ -3,9 +3,12 @@
 > Please provide all of the details below. Pull requests missing any of the information below will be closed!
 > Providing the issue number/url helps us identify the problem being solved and keep the issues tab clean and tidy
 
-#### This is not a fix. This is a request to add login and signup pages to the site.
+#### **What issue does this fix?**.
 
 Summarize what this PR fixes:-
+< Detail what your PR changes/fixes >
+
+#### **What [ISSUE NUMBER](https://github.com/zero-to-mastery/Keiko-Corp/issues) does this fix?**
 
 Fixes #
 

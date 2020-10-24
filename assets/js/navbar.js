@@ -1,6 +1,13 @@
 const button = document.querySelector('.nav-button');
 const sticky = document.querySelector('.sticky');
 const body = document.body;
+// const list = document.querySelectorall("nav a");
+// const active = document.querySelector('.nav-click');
+
+// list.addEventListener("click", function () {
+//   console.log("click")
+// });
+
 function openMenu() {
   const menu = document.querySelector('.menu');
   menu.classList.toggle('open');
