@@ -20,7 +20,7 @@
     <div class="container-nav sticky">
       <nav class="navbar">
         <div class="nav-button">
-          <span></span>
+          <span>Hello</span>
           <span></span>
           <span></span>
         </div>
@@ -168,6 +168,20 @@
       if (e.target != introBtn) return;
       introTitle.innerHTML = introCopy.toUpperCase();
     });
+  </script>
+  <script>
+    var checkbox_status = document.getElementById("toggle-checkbox")
+    const body = document.body;
+
+    checkbox_status.addEventListener("input", (e) => {
+      const isChecked = e.target.checked;
+      if(isChecked) {
+        body.classList.add("dark-theme");
+      } else {
+        body.classList.remove("dark-theme")
+      }
+    })
+
   </script>
   <script src="./assets/js/dark-mode.js"></script>
   <script src="assets\js\set-mode.js"></script>
