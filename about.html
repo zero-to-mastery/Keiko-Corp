@@ -20,7 +20,7 @@
     <div class="container-nav sticky">
       <nav class="navbar">
         <div class="nav-button">
-          <span></span>
+          <span>Hello</span>
           <span></span>
           <span></span>
         </div>
@@ -59,6 +59,22 @@
               <button id="contact-btn" role="button" aria-label="Contact">Contact</button>
             </a>
           </li>
+
+          <!-- dropdown btn -->
+            <div class="dropdown" role="navigation" aria-label="More Menu Items" >
+              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
+              <div class="dropdown-content">
+                <a class="drop-team" href="./meet-the-team.html">Team</a>
+                <a class="drop-price" href="#pricing">Pricing</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="job-listing.html">Job Listings</a>
+                <a href="support.html">Support</a>
+                <a href="faq.html">FAQ</a>
+              </div>
+            </div>
+            <!-- end of dropdown btn -->
+          
           <!-----------------Toggle Button for Dark Mode---------------- -->
           <label class="toggle-bar" id="toggle-bar">
             <input type="checkbox" id="toggle-checkbox" aria-labelledby="Toggle Switch"/>
@@ -83,6 +99,7 @@
             laboriosam itaque commodi, vitae officiis, soluta adipisci est
             consequatur accusamus rerum cumque aut at excepturi?
           </p>
+          <br>
           <button href="" class="intro-btn" id="intro-btn">Know More</button>
         </header>
         <figure>
@@ -168,6 +185,20 @@
       if (e.target != introBtn) return;
       introTitle.innerHTML = introCopy.toUpperCase();
     });
+  </script>
+  <script>
+    var checkbox_status = document.getElementById("toggle-checkbox")
+    const body = document.body;
+
+    checkbox_status.addEventListener("input", (e) => {
+      const isChecked = e.target.checked;
+      if(isChecked) {
+        body.classList.add("dark-theme");
+      } else {
+        body.classList.remove("dark-theme")
+      }
+    })
+
   </script>
   <script src="./assets/js/dark-mode.js"></script>
   <script src="assets\js\set-mode.js"></script>
