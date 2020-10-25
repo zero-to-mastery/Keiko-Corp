@@ -63,6 +63,28 @@ body.dark-theme {
   transform: scale(1.2);
 }
 
+#intro-title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: var(--xlHeading);
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  color: var(--heading);
+  /* letter-spacing: 0.2rem; */
+  text-align: left;
+}
+
+#intro-section{
+  color: var(--text, #757575);
+  font-size: var(--xlText);
+  word-spacing: 0.2em;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
 /* Styles for tablet and bigger screen */
 @media only screen and (min-width: 768px) {
   about {
