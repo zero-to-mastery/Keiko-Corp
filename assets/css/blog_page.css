@@ -65,6 +65,7 @@ main {
   background: rgba(0, 0, 0, 0.609);
   height: 250px;
   border-radius: 0.5em;
+  background-size: cover;
 }
 
 .blog__picture--content {
@@ -80,6 +81,7 @@ main {
 .blog__picture--content h3 {
   margin-top: 1rem;
   font-size: clamp(1em, calc(3vmin + 1px), 3em);
+  color: #fff;
 }
 
 .blog__picture--content p {
@@ -169,12 +171,31 @@ main {
   .post1 {
     grid-area: post1;
     height: auto;
+    background-image: url('../images/blog/nature.jpg')
   }
   .post2 {
     grid-area: post2;
+    background-image: url('../images/blog/people.jpg')
   }
   .post3 {
     grid-area: post3;
+    background-image: url('../images/blog/dev.jpg')
+  }
+  .post4 {
+    background-image: url('../images/blog/meadow.jpg')
+  }
+  .post5 {
+    background-image: url('../images/blog/code.jpg')
+  }
+
+  .overlay {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
   }
 
   .blog__post {
