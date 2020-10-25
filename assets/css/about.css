@@ -34,7 +34,7 @@ body.dark-theme {
   color: var(--heading);
 }
 
-.intro p{
+.intro p {
   color: var(--text, #757575);
   font-size: var(--xlText);
   word-spacing: 0.2em;
@@ -47,7 +47,7 @@ body.dark-theme {
 }
 
 .intro-btn {
-  margin:  15px 0;
+  margin: 15px 0;
   display: inline-block;
   background-color: #fe6655;
   color: white;
@@ -63,7 +63,7 @@ body.dark-theme {
   transform: scale(1.2);
 }
 
-#intro-title{
+#intro-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: var(--xlHeading);
@@ -75,7 +75,7 @@ body.dark-theme {
   text-align: left;
 }
 
-#intro-section{
+#intro-section {
   color: var(--text, #757575);
   font-size: var(--xlText);
   word-spacing: 0.2em;
@@ -83,6 +83,10 @@ body.dark-theme {
   font-weight: 400;
   margin-bottom: 2rem;
   text-align: left;
+}
+
+#sub-footer p {
+  font-size: 1rem;
 }
 
 /* Styles for tablet and bigger screen */
