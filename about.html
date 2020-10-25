@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="./assets/css/footer.css" />
   <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
   <link rel="icon" href="./assets/images/keiko-icon.ico" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <title>About</title>
 </head>
 
@@ -18,74 +20,85 @@
   <header class="no-user-select">
     <!-- sticky header -->
     <div class="container-nav sticky">
+      <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
       <nav class="navbar">
+        <label class="toggle-bar-mobile" id="toggle-bar">
+          <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+          <span class="slider round" id="slider-round"></span>
+        </label>
         <div class="nav-button">
-          <span>Hello</span>
+          <span></span>
           <span></span>
           <span></span>
         </div>
 
         <ul class="menu">
           <li>
-            <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+            <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
+
           </li>
           <li>
             <a href="./index.html">
-              <button id="contact-btn" role="button" aria-label="Home" >Home</button>
+              <button id="home">Home</button>
             </a>
           </li>
           <li>
-            <a href="./index.html#features">
-              <button id="contact-btn" role="button" aria-label="Features" >Features</button>
+            <a href="#feature">
+              <button id="contact-btn" role="button" aria-label="Features">Features</button>
             </a>
           </li>
           <li>
-            <a href="./index.html#testimonials">
+            <a href="#testimonials">
               <button id="contact-btn" role="button" aria-label="Testimonials">Testimonials</button>
             </a>
           </li>
-          <li>
+          <li class="menu-team">
             <a href="./meet-the-team.html">
               <button id="contact-btn" role="button" aria-label="Team">Team</button>
             </a>
           </li>
-          <li>
-            <a href="./index.html#pricing">
+          <li class="menu-price">
+            <a href="#pricing">
               <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
-            </a>
-          </li>
-          <li>
-            <a href="./contact.html">
-              <button id="contact-btn" role="button" aria-label="Contact">Contact</button>
             </a>
           </li>
 
           <!-- dropdown btn -->
-            <div class="dropdown" role="navigation" aria-label="More Menu Items" >
-              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
-              <div class="dropdown-content">
-                <a class="drop-team" href="./meet-the-team.html">Team</a>
-                <a class="drop-price" href="#pricing">Pricing</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="job-listing.html">Job Listings</a>
-                <a href="support.html">Support</a>
-                <a href="faq.html">FAQ</a>
-              </div>
+          <div class="dropdown" role="navigation" aria-label="More Menu Items">
+            <button class="dropbtn dropbtn-active">More<i class="fas fa-caret-down" id="caret-down"></i></button>
+            <div class="dropdown-content">
+              <a class="drop-team" href="./meet-the-team.html">Team</a>
+              <a class="drop-price" href="#pricing">Pricing</a>
+              <a href="about.html" class="active">About</a>
+              <a href="blog.html">Blog</a>
+              <a href="job-listing.html">Job Listings</a>
+              <a href="support.html">Support</a>
+              <a href="faq.html">FAQ</a>
             </div>
-            <!-- end of dropdown btn -->
-          
+          </div>
+          <!-- end of dropdown btn -->
+
           <!-----------------Toggle Button for Dark Mode---------------- -->
           <label class="toggle-bar" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" aria-labelledby="Toggle Switch"/>
+            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
             <span class="slider round" id="slider-round"></span>
           </label>
           <!-- --------------------------------------- -->
-        </ul>
+
+          <div class="user-forms">
+            <a href="./contact.html">
+              <button class="red-btn" id="contact-btn" role="button" aria-label="Contact">Contact</button>
+            </a>
+            <a href="./login.html">
+              <button class="red-btn" id="contact-btn" role="button" aria-label="Login">Login</button>
+            </a>
+          </div>
         </ul>
       </nav>
     </div>
   </header>
+
+
   <div class="container">
     <main>
       <about class="intro" id="intro-section">
@@ -109,65 +122,65 @@
     </main>
   </div>
 
-   <!-- Footer -->
-    <footer>
-      <div class="footer-row pl-5 pr-5">
-        <section class="footer-column">
-          <h2>Group 1</h2>
-          <div class='sub-footer-link'>
-            <a href="#home">Home</a>
-            <a href="#feature">Features</a>
-            <a href="#pricing">Pricing</a>
-            <a href="contact Us">Contact Us</a>
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>Group 2</h2>
-          <div class='sub-footer-link'>
-            <a href="privacy">Privacy Policy</a>
-            <a href="terms">Terms</a>
-            <a href="./faq.html">FAQ</a>
-            <a href="./support.html">Support</a>
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>About Us</h2>
-          <div>
-            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
-            tech
-            start up in Silicon Valley.
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>Follow Us</h2>
-          <div class="sub-footer">
-            <div class='sub-footer-link socials'>
-              <a href="/" title="Twitter"><i class="fab fa-twitter"></i></a>
-              <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
-              <a href="/" title="Youtube"><i class="fab fa-youtube"></i></a>
-              <a href="/" title="Google"><i class="fab fa-google"></i></a>
-            </div>
-          </div>
-        </section>
-
-        <!-- Scroller -->
-        <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
-          <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-row pl-5 pr-5">
+      <section class="footer-column">
+        <h2>Group 1</h2>
+        <div class='sub-footer-link'>
+          <a href="#home">Home</a>
+          <a href="#feature">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="contact Us">Contact Us</a>
         </div>
+      </section>
 
+      <section class="footer-column">
+        <h2>Group 2</h2>
+        <div class='sub-footer-link'>
+          <a href="privacy">Privacy Policy</a>
+          <a href="terms">Terms</a>
+          <a href="./faq.html">FAQ</a>
+          <a href="./support.html">Support</a>
+        </div>
+      </section>
+
+      <section class="footer-column">
+        <h2>About Us</h2>
+        <div>
+          Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
+          tech
+          start up in Silicon Valley.
+        </div>
+      </section>
+
+      <section class="footer-column">
+        <h2>Follow Us</h2>
+        <div class="sub-footer">
+          <div class='sub-footer-link socials'>
+            <a href="/" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="/" title="Youtube"><i class="fab fa-youtube"></i></a>
+            <a href="/" title="Google"><i class="fab fa-google"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scroller -->
+      <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
+        <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
       </div>
 
-      <section id='sub-footer'>
-        <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
-          Keiko Corp . All Rights Reserved
-        </p>
-      </section>
-    </footer>
+    </div>
+
+    <section id='sub-footer'>
+      <p>&copy;
+        <script>document.write(new Date().getFullYear())</script>
+        Keiko Corp . All Rights Reserved
+      </p>
+    </section>
+  </footer>
 
   <script>
     const introSection = document.querySelector('#intro-section');
@@ -192,7 +205,7 @@
 
     checkbox_status.addEventListener("input", (e) => {
       const isChecked = e.target.checked;
-      if(isChecked) {
+      if (isChecked) {
         body.classList.add("dark-theme");
       } else {
         body.classList.remove("dark-theme")
@@ -201,7 +214,9 @@
 
   </script>
   <script src="./assets/js/dark-mode.js"></script>
-  <script src="assets\js\set-mode.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <!-- Not Needed -->
+  <!-- <script src="assets\js\set-mode.js"></script> -->
 
 </body>
 
