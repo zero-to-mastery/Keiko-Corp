@@ -103,13 +103,22 @@ input:checked + .slider:before {
 [data-theme='dark'] .navbar {
   background: #343a40;
 }
+
 [data-theme='dark'] .navbar ul.menu li {
   color: #ddd;
 }
+
 [data-theme='dark'] .navbar ul.menu li:hover {
   color: #fff;
 }
-[data-theme='dark'] .navbar ul.menu li.active {
+
+[data-theme='dark'] .navbar ul.menu li.active,
+a.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+[data-theme='dark'] .dropbtn-active {
   color: #fff;
   font-weight: bold;
 }
@@ -202,8 +211,12 @@ input:checked + .slider:before {
   margin-left: -30px;
 } */
 
-.navbar ul.menu li.active {
-  color: #000000;
+.navbar ul.menu li.active,
+a.active {
+  font-weight: bold;
+}
+
+.navbar ul.menu .dropbtn-active {
   font-weight: bold;
 }
 
@@ -290,6 +303,7 @@ input:checked + .slider:before {
 
 header {
   padding-top: 5px;
+  margin: 0 auto 0rem;
 }
 
 *:focus {
@@ -341,7 +355,7 @@ header {
 /* dropdown styling */
 .dropbtn {
   background-color: var(--red);
-  font-size: 16px;
+  font-size: 19.2px;
   border: none;
   /* padding: 10px 20px 5px 20px!important; */
   border-radius: 5px;
@@ -404,6 +418,7 @@ header {
 .dropdown:hover .dropbtn {
   color: #ec705d;
   transition: 0.3s ease;
+  cursor: pointer;
 }
 /* end of dropdown styling */
 
