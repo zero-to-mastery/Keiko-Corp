@@ -154,3 +154,7 @@ h2 {
 svg {
   fill: red;
 }
+
+.svg-icon {
+  filter: var(--svgIconFilter);
+}

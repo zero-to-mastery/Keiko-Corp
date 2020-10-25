@@ -21,16 +21,16 @@ header {
 }
 
 /* Sticky Header */
-.scroll{
-  position:fixed;
-  z-index:1;
-  background-color:var(--mainBackground);
-  padding:0.5rem;
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2); 
-  -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
-   box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
-   width: 100%;
-   top: 0px;
+.scroll {
+  position: fixed;
+  z-index: 1;
+  background-color: var(--mainBackground);
+  padding: 0.5rem;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  top: 0px;
 }
 
 /* Dark mode toggle button styles */
@@ -132,9 +132,9 @@ input:checked + .slider:before {
   border-color: currentColor;
 }
 
-[data-theme='dark'] .navbar .red-btn:active{
+[data-theme='dark'] .navbar .red-btn:active {
   box-shadow: var(--smShadow);
-  transform: translateY(.3rem);
+  transform: translateY(0.3rem);
 }
 
 [data-theme='dark'] .toggle-container {
@@ -208,9 +208,9 @@ input:checked + .slider:before {
 }
 
 /* bottom border for link after clicked  */
-.nav-click{
-    border-bottom: 2px solid;
-    border-color: #fe6655;
+.nav-click {
+  border-bottom: 2px solid;
+  border-color: #fe6655;
 }
 
 .navbar a {
@@ -334,7 +334,7 @@ header {
 
 [data-theme='dark'] .red-btn:hover {
   color: #fff;
-  background-color: var(--red);
+  background-color: var(--pricingBackground);
   transition: 0.3s ease;
 }
 

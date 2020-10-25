@@ -1,5 +1,5 @@
 :root {
-  --primar-color: #8b8989;
+  --primar-color: #757575;
 }
 
 #container {
@@ -66,26 +66,26 @@ textarea {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color:transparent;
+  background-color: transparent;
   border: 2px solid var(--red);
   padding: 0.6rem 0.75rem;
   font-size: 1rem;
   line-height: 1.2;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   height: 50px;
   margin: 0.5rem 0;
   width: 8rem;
 }
 
 #button:hover {
-  background-color: var(--red); 
+  background-color: var(--red);
   color: white;
   transition: 0.3s ease;
 }
 
-textarea[name=message]{
+textarea[name='message'] {
   width: 100%;
   height: 12rem;
   resize: none;
@@ -96,7 +96,7 @@ textarea[name=message]{
   margin: 0.5rem 0rem;
 }
 
-input[type=text]{
+input[type='text'] {
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -106,7 +106,7 @@ input[type=text]{
   box-sizing: border-box;
 }
 
-input[type=email]{
+input[type='email'] {
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -116,7 +116,7 @@ input[type=email]{
   box-sizing: border-box;
 }
 
-input[type=tel]{
+input[type='tel'] {
   width: 100%;
   padding: 0.8rem 1.2rem;
   margin: 0.5rem 0;
@@ -139,14 +139,14 @@ select {
 select:required:invalid {
   color: #666;
 }
-option[value=""][disabled] {
+option[value=''][disabled] {
   display: none;
 }
 option {
   color: #000;
 }
 
-h1{
+h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }

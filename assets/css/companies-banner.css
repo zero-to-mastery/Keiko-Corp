@@ -19,12 +19,11 @@
 }
 
 .company-title {
-  color: var(--lightBlue);
+  color: #f4f7fe;
   font-size: 32px;
   line-height: 36px;
   text-align: center;
   font-weight: 700;
-  
 }
 
 .company-title-description {
