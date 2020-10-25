@@ -125,6 +125,10 @@ input:checked + .slider:before {
   color: var(--text);
   background-color: var(--lightBlue);
 }
+[data-theme='dark'] {
+  color: var(--text);
+  background-color: var(--lightBlue);
+}
 
 [data-theme='dark'] .navbar .red-btn:hover {
   background-color: white;

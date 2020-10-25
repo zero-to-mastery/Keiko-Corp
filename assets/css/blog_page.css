@@ -42,14 +42,23 @@ main {
 .newsletter__signup button {
   width: 100%;
   padding: var(--btnPadding);
-  background: rgba(0, 0, 0, 0.609);
   border-radius: 0.5em;
   margin-top: var(--mdMargin);
   color: var(--mainBackground);
   text-transform: uppercase;
   cursor: pointer;
+  background-color: var(--mainBackground);
+  border: 2px solid var(--red);
+  border-radius: 5px;
+  color: var(--red);
+  padding: 10px 15px !important;
+  border-radius: 5px;
 }
-
+.newsletter__signup button:hover{
+  color: #fff;
+  background-color: var(--darkRed);
+  transition: 0.3s ease;
+}
 .blog {
   padding-top: var(--lgPadding);
 }
