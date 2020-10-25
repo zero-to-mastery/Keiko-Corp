@@ -104,6 +104,10 @@ body {
   --svgIconFilter: brightness(5);
 }
 
+[data-theme='dark'] body{
+  background-color: var(--mainBackground);
+}
+
 body {
   color: var(--text);
   font-size: 1rem;
