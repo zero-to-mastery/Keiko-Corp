@@ -77,12 +77,15 @@
 }
 
 .modal-style-1 .modal-login span.input-group-addon {
-  width: 60px;
+  width: 40px;
   text-align: center;
+  display: inline-block;
   border-radius: 7px 0 0 7px;
   border: 1px solid var(--style-4-color);
-  padding: 11px;
-  margin-right: 5px;
+  height: 44px;
+  line-height: 44px;
+  /* padding: 11px; */
+  /* margin-right: 5px; */
   color: #000;
   background-color: var(--style-4-color);
 }
@@ -95,12 +98,17 @@
 }
 
 .modal-style-1 input.form-control {
-  padding: 10px;
+  padding: 2px 8px;
   border-radius: 0 7px 7px 0;
-  font-size: 13px;
+  font-size: 16px;
   border: 2px solid var(--style-1-color);
+  box-shadow: 0 0 0 2px var(--style-1-color);
   width: 70%;
   height: auto;
+}
+.modal-style-1 input.form-control:hover,
+.modal-style-1 input.form-control:focus {
+  box-shadow: 0 0 0 2px var(--yellow);
 }
 
 .modal-style-1 .btn-signin {
