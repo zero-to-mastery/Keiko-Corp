@@ -130,6 +130,9 @@ h3.testimonial-text {
   .quote {
     width: 42%;
   }
+  .quote-box {
+    margin-right: 10%;
+  }
   .testimonial-image {
     width: 16%;
   }
@@ -150,12 +153,21 @@ h3.testimonial-text {
   }
 }
 
+@media (max-width: 811px) {
+  .quote-box {
+    margin-right: 30%;
+  }
+}
+
 @media (max-width: 663px) {
   #testimonial-carousel {
     margin: 30px 10px;
   }
   .quote {
     width: 65%;
+  }
+  .quote-box {
+    margin-right: 30%;
   }
   #testimonial-carousel .carousel-item {
     margin: 15px 38%;
@@ -174,6 +186,9 @@ h3.testimonial-text {
 @media (max-width: 520px) {
   .quote {
     width: 70%;
+  }
+  .quote-box {
+    margin-right: 20%;
   }
   #testimonial-carousel .carousel-item {
     margin: 10px 30%;
