@@ -1,7 +1,7 @@
 /* Start navbar styles */
 header {
   height: 88px;
-  padding: 1rem;
+  padding: 4rem;
   margin: 0 auto 6rem;
 }
 
@@ -313,7 +313,7 @@ header {
   cursor: pointer;
 }
 
-.toggle-bar-mobile {
+/* .toggle-bar-mobile {
   margin: 5px 73px;
   width: 58px;
   height: 24px;
@@ -324,7 +324,7 @@ header {
   top: 15px;
   right: 0;
   transform: translate(-50%, 75%);
-}
+} */
 
 .red-btn:hover {
   color: #fff;
@@ -417,10 +417,10 @@ header {
   .navbar button {
     /* display: block; */
     background-color: transparent;
-  }
+  }/* 
   .toggle-bar {
     display: none;
-  }
+  } */
   .navbar .menu {
     flex-direction: column;
     justify-content: space-around;
@@ -470,14 +470,21 @@ header {
   }
 }
 
+.dark-mode-btn-container {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 @media only screen and (min-width: 900px) {
   .nav-button {
     display: none;
     visibility: hidden;
-  }
+  }/* 
   .toggle-bar-mobile {
     display: none;
-  }
+  } */
   .navbar {
     background-color: white;
   }
@@ -497,7 +504,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
   .slider:before {
     position: absolute;
     content: '';
@@ -511,7 +518,7 @@ header {
   }
   input:checked + .slider:before {
     transform: translateX(26px);
-  }
+  } 
   .toggle-bar-mobile:hover .slider.round::before {
     transform: translateX(14px);
     transition: all 0.3s;
@@ -519,4 +526,4 @@ header {
   .toggle-bar-mobile:hover .slider {
     background-color: #ee6a68;
   }
-}
+} */
