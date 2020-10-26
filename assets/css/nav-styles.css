@@ -341,7 +341,7 @@ header {
 /* dropdown styling */
 .dropbtn {
   background-color: var(--red);
-  font-size: 16px;
+  font-size: 19.2px;
   border: none;
   /* padding: 10px 20px 5px 20px!important; */
   border-radius: 5px;
