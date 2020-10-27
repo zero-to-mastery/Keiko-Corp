@@ -40,12 +40,12 @@ main {
 }
 
 .newsletter__signup button {
-  width: 100%;
+  width: 50%;
   padding: var(--btnPadding);
   background: rgba(0, 0, 0, 0.609);
   border-radius: 0.5em;
   margin-top: var(--mdMargin);
-  color: var(--mainBackground);
+  color: var(--red);
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -171,21 +171,21 @@ main {
   .post1 {
     grid-area: post1;
     height: auto;
-    background-image: url('../images/blog/nature.jpg')
+    background-image: url('../images/blog/nature.jpg');
   }
   .post2 {
     grid-area: post2;
-    background-image: url('../images/blog/people.jpg')
+    background-image: url('../images/blog/people.jpg');
   }
   .post3 {
     grid-area: post3;
-    background-image: url('../images/blog/dev.jpg')
+    background-image: url('../images/blog/dev.jpg');
   }
   .post4 {
-    background-image: url('../images/blog/meadow.jpg')
+    background-image: url('../images/blog/meadow.jpg');
   }
   .post5 {
-    background-image: url('../images/blog/code.jpg')
+    background-image: url('../images/blog/code.jpg');
   }
 
   .overlay {
