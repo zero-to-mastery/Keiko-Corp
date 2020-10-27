@@ -66,6 +66,8 @@ main {
   height: 250px;
   border-radius: 0.5em;
   background-size: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 .blog__picture--content {
@@ -101,6 +103,9 @@ main {
   height: 200px;
   background: rgba(0, 0, 0, 0.383);
   border-radius: 0.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
 }
 
 .blog__post--content {
@@ -132,6 +137,32 @@ main {
   font-weight: 700;
   margin: 3em auto 0;
   color: white;
+}
+
+.post1 {
+  background-image: url('../images/blog/nature.jpg');
+}
+.post2 {
+  background-image: url('../images/blog/people.jpg');
+}
+.post3 {
+  background-image: url('../images/blog/dev.jpg');
+}
+.post4 {
+  background-image: url('../images/blog/meadow.jpg');
+}
+.post5 {
+  background-image: url('../images/blog/code.jpg');
+}
+
+.overlay {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
 }
 
 @media (min-width: 768px) {
@@ -171,31 +202,12 @@ main {
   .post1 {
     grid-area: post1;
     height: auto;
-    background-image: url('../images/blog/nature.jpg')
   }
   .post2 {
     grid-area: post2;
-    background-image: url('../images/blog/people.jpg')
   }
   .post3 {
     grid-area: post3;
-    background-image: url('../images/blog/dev.jpg')
-  }
-  .post4 {
-    background-image: url('../images/blog/meadow.jpg')
-  }
-  .post5 {
-    background-image: url('../images/blog/code.jpg')
-  }
-
-  .overlay {
-    background-color: #000;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.4;
   }
 
   .blog__post {
