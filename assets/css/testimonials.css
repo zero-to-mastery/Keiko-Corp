@@ -73,12 +73,22 @@ h3.testimonial-text {
   width: 100%;
   margin: 1.3em 0;
 }
-.quote {
-  box-shadow: 2px 5px 11px 6px #c7c7c7;
-  border-radius: 1em;
-  padding: 0.5em 0.6em;
-  width: 100%;
+.quote-box {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-style: italic;
+  color: var(--text);
+  font-family: arial;
+  position: relative;
+  font-size: var(--smText);
+  border-radius: 10px;
+  box-shadow: 0 10px 10px #bababa;
 }
+
 @media screen and (max-width: 1302px) {
   #testimonial-carousel {
     width: 90%;
