@@ -164,6 +164,7 @@
   border-radius: 0.25rem;
   /* transition: all 0.5s; */
   border: 2px solid #fe6655;
+  font-size: 18px;
 }
 
 [data-theme='dark'] .feature-link {
