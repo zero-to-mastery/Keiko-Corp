@@ -64,6 +64,8 @@ footer > .footer-row {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  font-size: 120%;
+
 }
 
 @media screen and (min-width:991.99px){
