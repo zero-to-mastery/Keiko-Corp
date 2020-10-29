@@ -284,6 +284,7 @@ input:checked + .slider:before {
   border: 2px solid var(--red);
   border-radius: 5px;
   color: var(--red);
+  font-size: clamp(1em, 20vw, 1.2em);
   padding: 10px 15px !important;
   border-radius: 5px;
 }

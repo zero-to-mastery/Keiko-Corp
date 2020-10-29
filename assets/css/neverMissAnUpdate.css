@@ -26,7 +26,7 @@
 }
 
 .neverMissUpdateContainer h2 {
-  font-size: min(max(14px, 4vw), 17px);
+  font-size: min(max(16px, 4vw), 18px);
   font-weight: 300;
   width: 421px;
   line-height: 28px;
@@ -74,7 +74,7 @@ h5 {
 #button-addon2 {
   display: inline-block;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
@@ -86,7 +86,6 @@ h5 {
   background-color:var(--darkBlue);
   border: 1px solid transparent;
   padding: 0.6rem 0.75rem;
-  font-size: 1rem;
   line-height: 1.2;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -138,7 +137,7 @@ h2 {
 
 .neverMissUpdateContainer .input-group-append .form-control {
   flex: 4;
-  font-size: 14px;
+  font-size: 18px;
   height: 50px;
   width: 244px;
 }
