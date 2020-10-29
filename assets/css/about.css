@@ -87,6 +87,10 @@ body.dark-theme {
   text-align: left;
 }
 
+#sub-footer p {
+  font-size: 1rem;
+}
+
 /* Styles for tablet and bigger screen */
 @media only screen and (min-width: 768px) {
   about {
