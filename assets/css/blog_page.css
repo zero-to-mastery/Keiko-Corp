@@ -210,6 +210,8 @@ main {
     bottom: 0;
     left: 0;
     opacity: 0.4;
+    border-radius: 0.5em;
+
   }
 
   .blog__post {
