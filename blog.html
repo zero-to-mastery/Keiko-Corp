@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/images/keiko-icon.ico" />
-    <title>Blog Page</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/global.css" />
-    <link rel="stylesheet" href="./assets/css/blog_page.css" />
-    <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
-    <link rel="stylesheet" href="./assets/css/nav-styles.css">
-    <link rel="stylesheet" href="./assets/css/footer.css" />
+<!-- ******* HEAD ******** -->
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  </head>
-  <body>
-    <main>
-      <nav class="navbar" style="position: -webkit-sticky;
-  position: sticky;
-  top: 0;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/images/keiko-icon.ico" />
+  <title>Blog Page</title>
+  <!-- Open graph -->
+  <meta property="og:image" content="https://keiko-corp.netlify.app/assets/images/keiko-logo-og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:title" content="The best tech startup" />
+  <meta property="og:description" content="The fastest growing tech start up in Silicon Valley." />
+  <meta property="og:url" content="https://keiko-corp.netlify.app/" />
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./assets/global.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+  <link rel="stylesheet" href="./assets/css/blog_page.css" />
+  <link rel="stylesheet" href="./assets/css/footer.css" />
+  <link rel="stylesheet" href="./assets/css/contact.css" />
+  <link rel="stylesheet" href="./assets/css/scroll-bar.css" />
+  <link rel="stylesheet" href="./assets/css/media-queries.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<!-- ******* BODY ******** -->
+
+<body>
+  <div class="main" id="main">
+
+    <!-- HEADER -->
+    <header class="no-user-select">
+      <!-- sticky header -->
+      <div class="container-nav sticky">
+        <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
+        <nav class="navbar">
           <label class="toggle-bar-mobile" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox">
+            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
             <span class="slider round" id="slider-round"></span>
           </label>
           <div class="nav-button">
@@ -36,72 +58,76 @@
           <ul class="menu">
             <li>
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
-            </li>
-          <li> 
-             <a href="/">
-               <button id="home">Home</button>
-            </a> 
+            <li id="home"> <a href="./index.html">
+              <button id="contact-btn" role="button" aria-label="Home" >Home</button>
+            </a>
           </li>
+
             <li>
-              <a href="#feature">
-                <button id="contact-btn">Features</button>
+              <a href="./index.html#feature">
+                <button id="contact-btn" role="button" aria-label="Features">Features</button>
               </a>
             </li>
             <li>
-              <a href="#testimonials">
-                <button id="contact-btn">Testimonials</button>
+              <a href="./index.html#testimonials">
+                <button id="contact-btn" role="button" aria-label="Testimonials" >Testimonials</button>
               </a>
             </li>
             <li class="menu-team">
               <a href="./meet-the-team.html">
-                <button id="contact-btn">Team</button>
+                <button id="contact-btn" role="button" aria-label="Team">Team</button>
               </a>
             </li>
             <li class="menu-price">
-              <a href="#pricing">
-                <button id="contact-btn">Pricing</button>
+              <a href="./index.html#pricing">
+                <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
               </a>
             </li>
-            
+
             <!-- dropdown btn -->
-            <div class="dropdown">
-              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down" aria-hidden="true"></i></button>
+            <div class="dropdown" role="navigation" aria-label="More Menu Items" >
+              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
               <div class="dropdown-content">
                 <a class="drop-team" href="./meet-the-team.html">Team</a>
                 <a class="drop-price" href="#pricing">Pricing</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="job-listing.html">Job Listings</a>
+                <a href="./about.html">About</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./job-listing.html">Job Listings</a>
+                <a href="./support.html">Support</a>
+                <a href="./faq.html">FAQ</a>
               </div>
             </div>
             <!-- end of dropdown btn -->
 
 
-            
+
             <!-----------------Toggle Button for Dark Mode---------------- -->
-            <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox">
+            <label class="toggle-bar" id="toggle-bar" >
+              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
               <span class="slider round" id="slider-round"></span>
             </label>
             <!-- --------------------------------------- -->
-          
+
             <div class="user-forms">
               <a href="./contact.html">
-                <button class="red-btn" id="contact-btn">Contact</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Contact">Contact</button>
               </a>
               <a href="./login.html">
-                <button class="red-btn" id="contact-btn">Login</button>
+                <button class="red-btn" id="contact-btn" role="button" aria-label="Login">Login</button>
               </a>
             </div>
           </ul>
         </nav>
-      <div class="container">
-        <!-- Newsletter Section -->
+      </div>
+    </header>
+    
+      <!-- Newsletter Signup Section -->
+      <div class='newsletter-container'>
         <section class="newsletter">
           <h2>Subscribe to our newsletter</h2>
           <div class="newsletter__signup">
             <input type="email" placeholder="Enter your email">
-            <button>Subscribe</button>
+            <button class='newsletter__signup'>Subscribe</button>
           </div>
         </section>
 
@@ -166,20 +192,79 @@
           <button class="loadmore">Load more</button>
         </section>
       </div>
-    </main>
+    
 
     <!-- Footer -->
-    <footer></footer>
-    
+    <footer>
+      <div class="footer-row pl-5 pr-5">
+        <section class="footer-column">
+          <h2>Group 1</h2>
+          <div class='sub-footer-link' role="link">
+            <a href="#home">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="contact Us">Contact Us</a>
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>Group 2</h2>
+          <div class='sub-footer-link' role="link">
+            <a href="privacy">Privacy Policy</a>
+            <a href="terms">Terms</a>
+            <a href="./faq.html">FAQ</a>
+            <a href="./support.html">Support</a>
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>About Us</h2>
+          <div>
+            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
+            tech
+            start up in Silicon Valley.
+          </div>
+        </section>
+
+        <section class="footer-column">
+          <h2>Follow Us</h2>
+          <div class="sub-footer">
+            <div class='sub-footer-link socials'>
+              <a href="/" title="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="/" title="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="/" title="Youtube"><i class="fab fa-youtube"></i></a>
+              <a href="/" title="Google"><i class="fab fa-google"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Scroller -->
+        <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
+          <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
+        </div>
+
+      </div>
+
+      <section id='sub-footer'>
+        <p>&copy;
+          <script>
+            document.write(new Date().getFullYear())
+          </script>
+          Keiko Corp . All Rights Reserved
+        </p>
+      </section>
+    </footer>
+
+
     <!-- JAVASCRIPT FILES -->
     <!--NO BOOTSTRAP OR JQUERY -->
-    <!-- <script src="assets\js\set-mode.js"></script> -->
     <script src="./assets/js/navbar.js"></script>
-    <script src="./assets/js/footer.js"></script>
     <script src="./assets/js/dark-mode.js"></script>
     <script src="./assets/js/progressbar.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/animate.js"></script>
+  </div>
+</body>
 
-  </body>
 </html>
