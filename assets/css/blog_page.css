@@ -3,8 +3,9 @@
   padding: 2rem;
 }
 
-.container {
-  width: 90%;
+.blog-container,
+.newsletter-container {
+  width: 95%;
   max-width: 1200px;
   margin: auto;
 }
@@ -32,22 +33,29 @@ main {
 
 .newsletter__signup {
   margin-top: var(--mdPadding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .newsletter__signup input {
-  width: 100%;
+  width: 70%;
   border-radius: 0.5em;
 }
 
 .newsletter__signup button {
-  width: 100%;
+  width: 30%;
+  height: 59.6px;
   padding: var(--btnPadding);
-  background: rgba(0, 0, 0, 0.609);
+  background: #fe6655;
   border-radius: 0.5em;
   margin-top: var(--mdMargin);
   color: var(--mainBackground);
   text-transform: uppercase;
   cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .blog {
@@ -165,6 +173,10 @@ main {
   opacity: 0.4;
 }
 
+[data-theme='dark'] .container {
+  background: #343a40;
+}
+
 @media (min-width: 768px) {
   .newsletter {
     display: flex;
@@ -208,6 +220,24 @@ main {
   }
   .post3 {
     grid-area: post3;
+    background-image: url('../images/blog/dev.jpg');
+  }
+  .post4 {
+    background-image: url('../images/blog/meadow.jpg');
+  }
+  .post5 {
+    background-image: url('../images/blog/code.jpg');
+  }
+
+  .overlay {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+    border-radius: 0.5em;
   }
 
   .blog__post {
