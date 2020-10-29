@@ -164,6 +164,7 @@
   border-radius: 0.25rem;
   /* transition: all 0.5s; */
   border: 2px solid #fe6655;
+  font-size: 18px;
 }
 
 [data-theme='dark'] .feature-link {
@@ -266,7 +267,7 @@
 .team-row {
   display: flex;
   justify-content: center;
-  padding: 3.5em 1.5em;
+  padding: 2.5em 1.5em;
   flex-wrap: wrap;
 }
 
