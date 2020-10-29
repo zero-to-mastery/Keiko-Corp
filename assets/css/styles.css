@@ -266,7 +266,7 @@
 .team-row {
   display: flex;
   justify-content: center;
-  padding: 3.5em 1.5em;
+  padding: 2.5em 1.5em;
   flex-wrap: wrap;
 }
 
