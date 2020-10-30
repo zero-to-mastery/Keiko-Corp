@@ -49,6 +49,7 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  margin: 5px;
 }
 
 .support .btn_primary:hover {
@@ -71,6 +72,7 @@
   text-transform: uppercase;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
+  
 }
 
 .support .btn_secondary:hover {
