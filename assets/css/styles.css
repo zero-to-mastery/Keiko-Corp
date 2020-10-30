@@ -882,6 +882,13 @@ em {
   padding: var(--lgPadding) 0;
 }
 
+.pricing-header h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--heroText);
+  font-weight: 600;
+}
+
 .pricing-header h2 {
   font-weight: 700;
   font-size: 32px;
