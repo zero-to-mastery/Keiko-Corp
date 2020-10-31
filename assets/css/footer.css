@@ -59,14 +59,14 @@ footer > .footer-row {
 #sub-footer {
   height: auto;
   font-size: var(--smText);
-  margin-bottom: var(--lgMargin);
+  padding-bottom: var(--lgMargin);
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-@media screen and (min-width:991.99px){
+@media screen and (min-width: 991.99px) {
   .footer-column {
     min-width: 200px;
   }

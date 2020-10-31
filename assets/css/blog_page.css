@@ -3,8 +3,8 @@
   padding: 2rem;
 }
 
-.container {
-  width: 90%;
+.blog-container, .newsletter-container {
+  width: 95%;
   max-width: 1200px;
   margin: auto;
 }
@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto';
 }
 
-main {
+.main {
   margin: 2em 0;
   background-color: var(--mainBackground);
   margin: 0 !important;
@@ -32,23 +32,33 @@ main {
 
 .newsletter__signup {
   margin-top: var(--mdPadding);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
 
 .newsletter__signup input {
-  width: 100%;
+  width: 70%;
   border-radius: 0.5em;
 }
 
 .newsletter__signup button {
-  width: 100%;
+
+  width: 50%;
+
   padding: var(--btnPadding);
-  background: rgba(0, 0, 0, 0.609);
+    background:#fe6655;
   border-radius: 0.5em;
   margin-top: var(--mdMargin);
-  color: var(--mainBackground);
+  color: var(--red);
   text-transform: uppercase;
   cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
 
 .blog {
   padding-top: var(--lgPadding);
@@ -134,6 +144,11 @@ main {
   color: white;
 }
 
+/* DARK MODE
+[data-theme='dark'] .container {
+  background: #343a40;
+} */
+
 @media (min-width: 768px) {
   .newsletter {
     display: flex;
@@ -171,21 +186,21 @@ main {
   .post1 {
     grid-area: post1;
     height: auto;
-    background-image: url('../images/blog/nature.jpg')
+    background-image: url('../images/blog/nature.jpg');
   }
   .post2 {
     grid-area: post2;
-    background-image: url('../images/blog/people.jpg')
+    background-image: url('../images/blog/people.jpg');
   }
   .post3 {
     grid-area: post3;
-    background-image: url('../images/blog/dev.jpg')
+    background-image: url('../images/blog/dev.jpg');
   }
   .post4 {
-    background-image: url('../images/blog/meadow.jpg')
+    background-image: url('../images/blog/meadow.jpg');
   }
   .post5 {
-    background-image: url('../images/blog/code.jpg')
+    background-image: url('../images/blog/code.jpg');
   }
 
   .overlay {
@@ -196,6 +211,8 @@ main {
     bottom: 0;
     left: 0;
     opacity: 0.4;
+    border-radius: 0.5em;
+
   }
 
   .blog__post {

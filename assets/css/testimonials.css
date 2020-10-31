@@ -81,7 +81,7 @@ h3.testimonial-text {
   padding: 20px;
   text-align: center;
   font-style: italic;
-  color: var(--text);
+  color: #757575;
   font-family: arial;
   position: relative;
   font-size: var(--smText);

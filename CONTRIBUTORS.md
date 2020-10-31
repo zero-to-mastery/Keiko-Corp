@@ -6,6 +6,7 @@
 
 This is a list showing the GitHub usernames of all who have contributed to this open-source project! **Make sure to add yourself and submit a pull request if you've contributed.**
 
+- [@dhakshinesh](https://github.com/dhakshinesh)
 - [@Mehul1011](https://github.com/mehul1011)
 - [@kelvinchan2406](https://github.com/kelvinchan2406)
 - [@Dhamodhar-DDR](https://github.com/Dhamodhar-DDR)
@@ -75,3 +76,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@WayneMacMavis](https://github.com/WayneMacMavis)
 - [@theenthusiastprogrammer](https://github.com/theenthusiastprogrammer)
 - [@Gauravkkumar](https://github.com/Gauravkkumar)
+- [@VrajKD](https://github.com/VrajKD)

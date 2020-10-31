@@ -164,6 +164,7 @@
   border-radius: 0.25rem;
   /* transition: all 0.5s; */
   border: 2px solid #fe6655;
+  font-size: 18px;
 }
 
 [data-theme='dark'] .feature-link {
@@ -266,7 +267,7 @@
 .team-row {
   display: flex;
   justify-content: center;
-  padding: 3.5em 1.5em;
+  padding: 2.5em 1.5em;
   flex-wrap: wrap;
 }
 
@@ -879,6 +880,13 @@ em {
   justify-content: center;
   background-color: var(--pricingBackground);
   padding: var(--lgPadding) 0;
+}
+
+.pricing-header h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--heroText);
+  font-weight: 600;
 }
 
 .pricing-header h2 {
