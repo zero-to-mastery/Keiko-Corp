@@ -376,10 +376,6 @@ header {
   border-radius: var(--br);
 }
 
-[data-theme='dark'] .dropdown-content {
-  background-color: var(--purple);
-}
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
