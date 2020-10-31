@@ -3,7 +3,7 @@
 }
 
 #container {
-  margin: 2rem 6rem;
+  margin: 2rem 7rem;
 }
 
 a {
@@ -16,11 +16,34 @@ header p {
   width: 60%;
 }
 
+header h1 {
+  margin-bottom: 1rem;
+}
+
 main {
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 6rem;
   padding: 1rem;
+}
+
+@media (max-width: 640px) {
+  #container {
+    margin: 1rem 1rem;
+  }
+  main {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    margin: 2rem 1rem;
+  }
+  main {
+    grid-gap: 3rem;
+  }
 }
 
 .cards {
