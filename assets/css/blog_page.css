@@ -51,7 +51,7 @@ body {
     background:#fe6655;
   border-radius: 0.5em;
   margin-top: var(--mdMargin);
-  color: var(--red);
+  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
