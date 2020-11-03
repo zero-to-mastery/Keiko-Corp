@@ -144,6 +144,18 @@ body {
   color: white;
 }
 
+.loadmore:hover {
+  display: block;
+  background: var(--white);
+  border: 2px solid var(--red);
+  padding: 0.7em 1.4em;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 3em auto 0;
+  color: red;
+}
+
 /* DARK MODE
 [data-theme='dark'] .container {
   background: #343a40;
