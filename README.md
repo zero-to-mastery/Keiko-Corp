@@ -1,8 +1,19 @@
+---
+> ### **UPDATE:** Hacktoberfest 2020 Event Concluded!
+  >
+  > **This project started as a project for Hacktoberfest 2020, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2021!.
+  > Feel free to continue contributing to the master branch, you can check out the following links to see the project as it was at the end of the event:**
+  > - [Live Preview](https://keiko-corp.netlify.app/)
+  > - [Code Base](https://github.com/zero-to-mastery/Keiko-Corp/tree/HACKTOBERFEST-2020-EDITION) - (PRs to this branch will no be accepted)
+  >
+  > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=keiko-corp)**
+---
+
 <img src="assets/images/keiko-logo.png" align="right" width="150px"/>
 
-# Keikocorp.com - Hacktoberfest 2020
+# Keikocorp.com
 
-Welcome to this year's HTML challenge for Hacktoberfest ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
+Welcome to the HTML challenge for Hacktoberfest 2020 ([What is Hacktoberfest?](https://github.com/zero-to-mastery/coding_challenge-31/blob/master/README.md#what-is-hacktoberfest)) A project with beginners and aspiring developers in mind, utilizing HTML, CSS & maybe a dash of JavaScript to achieve a simplistic yet elegant website for the greatest start up of all time; Keiko Corp.
 
 Everyone is encouraged to participate, regardless of your skill level. This is a practice project and should be considered a playground. This project has plenty of options for collaboration, here are just a few of the many that we welcome pull requests for:-
 
@@ -33,31 +44,21 @@ Ok, so you have read the brief and checked out the [designs](https://www.figma.c
    - `git remote add upstream https://github.com/zero-to-mastery/Keiko-Corp.git`
    - `git pull upstream master`
    - The above 2 commands will synchronize your forked version of the project with the actual repository.
-
-4. Find a task [here](https://github.com/zero-to-mastery/Keiko-Corp/issues) or [create a task](https://github.com/zero-to-mastery/Keiko-Corp/issues)
-   - Comment on the task to claim it, ensuring no-body has done so already.
-   - If you created a new task or issue, ensure you specify if you are undertaking the task or if someone else is able to claim it.
-   - Keep the issue updated with your progress, inactive issues will be reassigned.
-5. Create a branch for your task and complete the task.
-6. Pull from the upstream again, like we did in step 3. This is to ensure we still have the latest code.
+4. Create a branch for your task and complete the task.
+5. Pull from the upstream again, like we did in step 3. This is to ensure we still have the latest code.
    - `git pull upstream master`
-7. Commit and push the code to your fork.
-8. Create a pull request to have the changes merged into the origin.
+6. Commit and push the code to your fork.
+7. Create a pull request to have the changes merged into the origin.
    - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of your issue will automatically close the issue when the pull request is merged.
-9. [Tweet about making your first Hacktoberfest pull request](https://ctt.ac/1KI1u)
 
-> Congratulations! You are now one pull request closer to getting that free t-shirt. Repeat steps 4-8 until you have made at least 4 qualifying pull requests. You can check how many qualifying pull requests you have made at <https://hacktoberfest.digitalocean.com/profile> Have Fun and Happy Coding!!!
 
 ## Rules, Notes & Guidelines
-
-> **All discussions around this event can now be had in our #hacktoberfest-2020 channel on Discord!**
 
 To ensure everyone has the best chance at participating in this project. Please follow these simple guidelines where ever possible:-
 
 - Simplicity is key: There is no need for React, Sass etc here. Let's stick with vanilla HTML, CSS & JavaScript.
 - Commenting: Try to comment your code, so everyone can understand what is going on and could learn a thing or two.
 - Respect Content: Only use images/content that we are licensed to use.
-- Issues: Use Github issues, to create/find/solve ideas and bugs. Only take a task if it hasn't been claimed already.
 
 ## Disclaimer
 
