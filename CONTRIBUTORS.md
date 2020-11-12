@@ -78,3 +78,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@Gauravkkumar](https://github.com/Gauravkkumar)
 - [@VrajKD](https://github.com/VrajKD)
 - [@amandabrbz](https://github.com/amandabrbz)
+- [@SMD-1](https://github.com/SMD-1)
