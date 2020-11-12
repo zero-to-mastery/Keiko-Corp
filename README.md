@@ -4,7 +4,7 @@
   > **This project started as a project for Hacktoberfest 2020, Thank you to everyone that participated and made this project what it is today and we look forward to seeing you all at Hacktoberfest 2021!.
   > Feel free to continue contributing to the master branch, you can check out the following links to see the project as it was at the end of the event:**
   > - [Live Preview](https://keiko-corp.netlify.app/)
-  > - [Code Base](https://github.com/zero-to-mastery/Keiko-Corp/tree/HACKTOBERFEST-2020-EDITION) - (PRs to this branch will no be accepted)
+  > - [Code Base](https://github.com/zero-to-mastery/Keiko-Corp/tree/HACKTOBERFEST-2020-EDITION) - (PRs to this branch will not be accepted)
   >
   > **Interested in more events? keep an eye on our Events page [HERE](https://zerotomastery.io/events?utm_source=github&utm_medium=keiko-corp)**
 ---
