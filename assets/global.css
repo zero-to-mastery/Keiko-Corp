@@ -43,7 +43,7 @@ body {
   --heroText: #343A40;
   --toggleBackground: #20014d;
   /* Added a custom property for the darktheme button background*/
-  --pricingBackground: #fff;
+  --pricingBackground: #F4F7FE;
 
   /* text sizes */
   --smText: 0.64rem;
