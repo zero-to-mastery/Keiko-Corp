@@ -36,6 +36,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
+  margin: 1.5rem auto 0.5rem;
 }
 
 .newsletter__signup input {
@@ -44,21 +45,19 @@ body {
 }
 
 .newsletter__signup button {
-
   width: 50%;
-
   padding: var(--btnPadding);
-    background:#fe6655;
+  background: #fe6655;
   border-radius: 0.5em;
-  margin-top: var(--mdMargin);
+  margin-left: 1rem;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+  background-color: 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out;
+  box-shadow: 0.15s ease-in-out;
 }
-
-
 
 .blog {
   padding-top: var(--lgPadding);
@@ -168,6 +167,10 @@ body {
     align-items: center;
   }
 
+  .newsletter h2 {
+    margin-left: 5rem;
+  }
+
   .newsletter__signup {
     display: flex;
     margin-top: 0;
@@ -224,7 +227,6 @@ body {
     left: 0;
     opacity: 0.4;
     border-radius: 0.5em;
-
   }
 
   .blog__post {
