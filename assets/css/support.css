@@ -107,3 +107,8 @@
       padding: 1.5rem;
   }
 }
+
+.browse_resources {
+  width: 10rem !important;
+  margin-bottom: 0.5rem !important;
+}
