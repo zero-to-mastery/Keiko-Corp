@@ -890,12 +890,22 @@ em {
 }
 
 .pricing-header h2 {
-  font-weight: 700;
-  font-size: 32px;
+  /*font-weight: 700;
+  font-size: 32px;*/
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 3rem;
   line-height: 36px;
   margin-bottom: 16px;
   opacity: 1;
-  color: var(--text);
+  color: var(--heroText);
+}
+
+.testimonial__heading h2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #fff;
 }
 
 p {
