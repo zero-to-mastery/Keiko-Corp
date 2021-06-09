@@ -460,6 +460,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
 
   .navbar ul.menu li + li {
