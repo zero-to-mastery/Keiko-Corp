@@ -170,12 +170,12 @@ input:focus + .slider {
 
 .navbar .menu {
   display: flex;
-  flex: 1;
+  flex:1;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
   list-style: none;
-  padding-left: 70px;
+  /* padding-left: 70px; */
 }
 
 .navbar ul.menu li {
