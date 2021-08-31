@@ -79,7 +79,7 @@ This is a list showing the GitHub usernames of all who have contributed to this 
 - [@VrajKD](https://github.com/VrajKD)
 - [@amandabrbz](https://github.com/amandabrbz)
 - [@SMD-1](https://github.com/SMD-1)
-- [@KateKalashnikova](https://github.com/KateKalashnikova) 
+- [@KateKalashnikova](https://github.com/KateKalashnikova)
 - [@AyeshaMunwar](https://github.com/AyeshaMunawar-profile)
 - [@jihmmi](https://github.com/jihmmi)
   [@RojinPm](https://github.com/RojinPm)

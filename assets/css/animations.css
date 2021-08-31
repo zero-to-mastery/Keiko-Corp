@@ -1,5 +1,5 @@
 .from-left {
-  animation: from-left 0.70s forwards;
+  animation: from-left 0.7s forwards;
 }
 .from-right {
   animation: from-right 0.75s forwards;
@@ -24,7 +24,6 @@
     opacity: 1;
   }
 }
-
 
 @keyframes small-from-bottom {
   from {

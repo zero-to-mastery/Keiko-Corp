@@ -83,13 +83,13 @@ h5 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color:var(--darkBlue);
+  background-color: var(--darkBlue);
   border: 1px solid transparent;
   padding: 0.6rem 0.75rem;
   line-height: 1.2;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   height: 50px;
   margin: 8px 10px;
   flex: 1;
@@ -101,10 +101,10 @@ h5 {
   color: var(--red);
   border-color: currentColor;
 }
-  
+
 #button-addon2:active {
   box-shadow: var(--smShadow);
-  transform: translateY(.3rem);
+  transform: translateY(0.3rem);
 }
 
 h2 {

@@ -1,7 +1,7 @@
 (() => {
-    const footer = document.querySelector('footer');
-    
-    footer.innerHTML = `
+  const footer = document.querySelector('footer');
+
+  footer.innerHTML = `
 
         <div class="footer-row pl-5 pr-5">
         <section class="footer-column">
@@ -61,5 +61,4 @@
         </section>
         
     `;
-    
 })();
