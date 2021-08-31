@@ -36,14 +36,14 @@ body {
   --purple: #20014d;
   --yellow: #f1c40f;
   --darkRed: #de4a46;
-  --green: #2CB629;
+  --green: #2cb629;
   --heading: #020100;
   --text: #757575;
   --mainBackground: #fff;
-  --heroText: #343A40;
+  --heroText: #343a40;
   --toggleBackground: #20014d;
   /* Added a custom property for the darktheme button background*/
-  --pricingBackground: #F4F7FE;
+  --pricingBackground: #f4f7fe;
 
   /* text sizes */
   --smText: 0.64rem;
@@ -75,7 +75,8 @@ body {
   /* shadows */
   --smShadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.25);
   --mdShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.25);
-  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --lgShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --focusShadow: 0 0 0 3px #1f014d2f;
 
   /* breakpoints */
@@ -93,14 +94,14 @@ body {
 }
 
 [data-theme='dark'] {
-  --lightBlue: #EF5B59;
+  --lightBlue: #ef5b59;
   --text: #fff;
-  --mainBackground: #343A40;
+  --mainBackground: #343a40;
   --heroText: #fff;
   --heading: #fff;
   --darkBlue: #343a40;
-  --toggleBackground: #F4F7FE;
-  --pricingBackground: #DE4A46;
+  --toggleBackground: #f4f7fe;
+  --pricingBackground: #de4a46;
   --svgIconFilter: brightness(5);
 }
 

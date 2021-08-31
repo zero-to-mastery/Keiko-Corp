@@ -18,7 +18,7 @@ header {
   margin: auto;
   display: flex;
   justify-content: center;
-  z-index:999;
+  z-index: 999;
 }
 
 /* Sticky Header */
@@ -72,13 +72,13 @@ header {
   transform: translateY(-50%);
 }
 
-[data-theme="dark"] .slider {
+[data-theme='dark'] .slider {
   background-color: #ef5b59;
 }
 input:focus + .slider {
   box-shadow: 0 0 1px #20014d;
 }
-[data-theme="dark"] .slider:before {
+[data-theme='dark'] .slider:before {
   left: calc(100% - (20px + 4px));
   background-color: #f1c40f;
 }
@@ -175,7 +175,7 @@ input:focus + .slider {
   align-items: center;
   height: 100%;
   list-style: none;
-  padding-left: 70px;
+  /* padding-left: 70px; */
 }
 
 .navbar ul.menu li {

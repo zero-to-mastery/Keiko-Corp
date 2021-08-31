@@ -929,6 +929,9 @@ p {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  /* added border radius and a shadow to the cards */
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px gray;
 }
 
 .price-card h3 {
@@ -992,10 +995,14 @@ p {
   background-color: var(--primar-color);
   color: #fff;
 }
+[data-theme='dark'] .price-card {
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
 
 .price-card .red-btn:hover {
   color: var(--text);
   background-color: var(--pricingBackground);
+  transform: scale(1.2);
 }
 
 @media screen and (max-width: 1024px) {

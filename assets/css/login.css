@@ -5,10 +5,8 @@
   --style-1-color: #009688;
   --style-2-color: #009688;
   --style-3-color: #009688;
-  --style-4-color: #FD6854;
+  --style-4-color: #fd6854;
 }
-
-
 
 .button-card img {
   border: 1px solid #f1f1f1;
@@ -17,11 +15,11 @@
   width: 400px;
   position: relative;
 }
-#loginModal1{
+#loginModal1 {
   display: none;
 }
 
- #registerModal1 {
+#registerModal1 {
   display: block;
 }
 
@@ -90,7 +88,7 @@
   font-size: 16px;
 }
 
-#item_checkbox{
+#item_checkbox {
   padding-top: 10px;
 }
 
@@ -116,15 +114,15 @@
   padding: 5px 8px;
 }
 
-.btn-signin{
-	color: white;
+.btn-signin {
+  color: white;
 }
 
-.btn-signin:hover{
-	background-color: white;
-	color: #fe6655;
-	border-color: currentColor;
-	cursor: pointer;
+.btn-signin:hover {
+  background-color: white;
+  color: #fe6655;
+  border-color: currentColor;
+  cursor: pointer;
 }
 .hint-text {
   margin-top: 1rem;
@@ -164,7 +162,7 @@
 }
 
 .social-login {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
@@ -190,7 +188,7 @@
 }
 
 .modal-content div {
-	position: relative;
+  position: relative;
   display: block;
   width: 300px;
   margin: 0 auto;
@@ -222,7 +220,7 @@
 .dark.modal-style-1 .modal-content {
   background: #0b0b1f;
   color: #fff;
-  width: 80vw;;
+  width: 80vw;
 }
 .dark.modal-style-1 .close,
 .modal-style-1.dark .modal-login h4 {
@@ -238,7 +236,7 @@
     margin: 0px;
   }
 
-  .modal-style-1 .modal-login form  {
+  .modal-style-1 .modal-login form {
     width: 100%;
   }
 }
@@ -248,14 +246,14 @@
   margin: 0 auto;
 }
 
-.main-container  {
+.main-container {
   text-align: center;
   margin-top: 1.5rem;
   font-size: var(--mdHeading);
 }
 
 .main-container h1 {
-  text-align:center;
+  text-align: center;
 }
 
 .text-12 {
@@ -266,10 +264,10 @@
   margin: 0 auto;
   box-shadow: 1px 2px 5px 2px #d1d1d1;
   padding: 30px;
-  background: #0b0b1f ;
+  background: #0b0b1f;
   border-radius: 5px;
   max-width: 30vw;
-  min-width:300px;
+  min-width: 300px;
 }
 .button-card img {
   border: 1px solid #f1f1f1;
@@ -289,17 +287,17 @@
 }
 
 .btn-success {
-  background-color: #28A745;
+  background-color: #28a745;
   border: 2px solid #28a745;
 }
 
 .btn-primary {
-  border: 2px #28A745 solid;
+  border: 2px #28a745 solid;
   color: white;
 }
 
-.btn-primary:hover{
-  background: #28A745;
+.btn-primary:hover {
+  background: #28a745;
 }
 
 /**#login{
@@ -312,13 +310,12 @@
 
 .action-buttons {
   /*margin-bottom: 1rem; /* mb-3 */
-  margin:1rem;
+  margin: 1rem;
   text-align: center;
   padding: 6px;
   background: #0b0b1f;
   width: 100%;
 }
-
 
 .col {
   width: 100%;
@@ -329,23 +326,23 @@
   margin-top: 1rem;
 }
 
-div > a{
-cursor: pointer;
+div > a {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
-  .button-card { 
+  .button-card {
     margin: 60px auto;
     max-width: 80%;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .button-card{
+  .button-card {
     max-width: 90vw;
     max-width: 70%;
   }
-  
+
   .button-card .action-buttons {
     width: 100%;
     height: auto;
@@ -355,29 +352,29 @@ cursor: pointer;
     margin: 0px;
   }
 }
-@media only screen and (max-width: 380px){
-  .main-container{
+@media only screen and (max-width: 380px) {
+  .main-container {
     width: 100%;
     margin: 0 5px;
   }
-  .button-card{
-    max-width:100%;
+  .button-card {
+    max-width: 100%;
     padding: 0px;
   }
   .modal-style-1 .modal-login {
     width: 100%;
     margin: 0px;
   }
-  .dark.modal-style-1 .modal-content{
+  .dark.modal-style-1 .modal-content {
     width: 100%;
   }
 }
 
-@media only screen and (max-width: 240px){
-  .input-group-addon{
+@media only screen and (max-width: 240px) {
+  .input-group-addon {
     display: none;
   }
-  .modal-style-1 input.form-control{
+  .modal-style-1 input.form-control {
     border-radius: 7px;
     width: 80%;
   }
@@ -385,24 +382,21 @@ cursor: pointer;
     width: 100%;
     margin: 0px;
   }
-  .modal-content{
+  .modal-content {
     width: 100%;
   }
-  .modal-style-1 .modal-header .close{
-    right:5px;
+  .modal-style-1 .modal-header .close {
+    right: 5px;
     top: -25px;
   }
 }
-.modal-body{
+.modal-body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-
-
 
 /**.btn {
   border: 2px solid rgb(38, 204, 38);
@@ -415,10 +409,10 @@ cursor: pointer;
   transition: background 600ms ease, color 600ms ease;
 }**/
 
-input[type="radio"].toggle {
+input[type='radio'].toggle {
   display: none;
 }
-input[type="radio"].toggle + label {
+input[type='radio'].toggle + label {
   cursor: pointer;
   min-width: 60px;
   color: var(--color-google);
@@ -426,13 +420,13 @@ input[type="radio"].toggle + label {
   font-weight: bolder;
   letter-spacing: 3px;
 }
-input[type="radio"].toggle + label:hover {
+input[type='radio'].toggle + label:hover {
   background: none;
-  color:var(--color-google);  
+  color: var(--color-google);
 }
-input[type="radio"].toggle + label:after {
+input[type='radio'].toggle + label:after {
   background: #1a1a1a;
-  content: "";
+  content: '';
   height: 100%;
   position: absolute;
   top: 0;
@@ -451,14 +445,13 @@ input[type="radio"].toggle.toggle-left + label:after {
 input[type="radio"].toggle.toggle-right + label:after {
   left: -100%;
 }**/
-input[type="radio"].toggle:checked + label {
+input[type='radio'].toggle:checked + label {
   background: var(--color-google);
   cursor: default;
   color: whitesmoke;
   -webkit-transition: color 200ms;
   transition: color 200ms;
-  
 }
-input[type="radio"].toggle:checked + label:after {
+input[type='radio'].toggle:checked + label:after {
   left: 0;
 }
