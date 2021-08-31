@@ -1,136 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Meta Data -->
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Customized bootstrap login forms with multiple variants. Easy to customize."
+    />
+    <meta
+      name="keywords"
+      content="Bootstrap Modal, Login Form, Modal Login, Registration Form, Form, Bootstrap, Login, Registration"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="/assets/images/keiko-icon.ico" />
+    <title>Register/Login — Keiko Corp</title>
+    <!-- font awesome v5.5.0 free version -->
+    <link
+      href="./assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css spreadsheets-->
+    <link rel="stylesheet" href="./assets/global.css" />
+    <link rel="stylesheet" href="./assets/css/nav-styles.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/media-queries.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+  </head>
 
-<head>
-  <!-- Meta Data -->
-  <meta charset="utf-8" />
-  <meta name="description" content="Customized bootstrap login forms with multiple variants. Easy to customize." />
-  <meta name="keywords"
-    content="Bootstrap Modal, Login Form, Modal Login, Registration Form, Form, Bootstrap, Login, Registration" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Icons -->
-  <link rel="icon" type="image/png" href="/assets/images/keiko-icon.ico" />
-  <title>Register/Login — Keiko Corp</title>
-  <!-- font awesome v5.5.0 free version -->
-  <link href="./assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
-  <!-- custom css spreadsheets-->
-  <link rel="stylesheet" href="./assets/global.css" />
-  <link rel="stylesheet" href="./assets/css/nav-styles.css" />
-  <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="stylesheet" href="./assets/css/media-queries.css" />
-  <link rel="stylesheet" href="./assets/css/footer.css" />
-  <link rel="stylesheet" href="./assets/css/login.css" />
-</head>
-
-
-<body>
-  <div class="main" id="main">
-    <!-- HEADER -->
-    <header class="no-user-select">
-      <!-- sticky header -->
-      <div class="container-nav sticky background-danger">
-        <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" />
-        <nav class="navbar">
-          <label class="toggle-bar-mobile" id="toggle-bar">
-            <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
-            <span class="slider round" id="slider-round"></span>
-          </label>
-          <div class="nav-button">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul class="menu">
-            <li>
-              <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
-
-            </li>
-            <li>
-              <a href="./index.html#">
-                <button id="home">Home</button>
-              </a>
-            </li>
-            <li>
-              <a href="./index.html#feature">
-                <button id="contact-btn" role="button" aria-label="Features">Features</button>
-              </a>
-            </li>
-            <li>
-              <a href="./index.html#testimonials">
-                <button id="contact-btn" role="button" aria-label="Testimonials">Testimonials</button>
-              </a>
-            </li>
-            <li class="menu-team">
-              <a href="./meet-the-team.html">
-                <button id="contact-btn" role="button" aria-label="Team">Team</button>
-              </a>
-            </li>
-            <li class="menu-price">
-              <a href="./index.html#pricing">
-                <button id="contact-btn" role="button" aria-label="Pricing">Pricing</button>
-              </a>
-            </li>
-
-            <!-- dropdown btn -->
-            <div class="dropdown" role="navigation" aria-label="More Menu Items">
-              <button class="dropbtn">More<i class="fas fa-caret-down" id="caret-down"></i></button>
-              <div class="dropdown-content">
-                <a class="drop-team" href="./meet-the-team.html">Team</a>
-                <a class="drop-price" href="#pricing">Pricing</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="job-listing.html">Job Listings</a>
-                <a href="support.html">Support</a>
-                <a href="faq.html">FAQ</a>
-              </div>
-            </div>
-            <!-- end of dropdown btn -->
-
-
-
-            <!-----------------Toggle Button for Dark Mode---------------- -->
-            <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox" aria-label="Toggle Switch" />
+  <body>
+    <div class="main" id="main">
+      <!-- HEADER -->
+      <header class="no-user-select">
+        <!-- sticky header -->
+        <div class="container-nav sticky background-danger">
+          <img
+            src="./assets/images/keiko-logo.png"
+            class="logo"
+            alt="Keiko Corp"
+          />
+          <nav class="navbar">
+            <label class="toggle-bar-mobile" id="toggle-bar">
+              <input
+                type="checkbox"
+                id="toggle-checkbox"
+                aria-label="Toggle Switch"
+              />
               <span class="slider round" id="slider-round"></span>
             </label>
-            <!-- --------------------------------------- -->
-
-            <div class="user-forms">
-              <a href="./contact.html">
-                <button class="red-btn" id="contact-btn" role="button" aria-label="Contact">Contact</button>
-              </a>
-              <a href="./login.html">
-                <button class="red-btn" id="contact-btn" role="button" aria-label="Login">Login</button>
-              </a>
+            <div class="nav-button">
+              <span></span>
+              <span></span>
+              <span></span>
             </div>
-          </ul>
-        </nav>
-      </div>
-    </header>
+            <ul class="menu">
+              <li>
+                <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
+              </li>
+              <li>
+                <a href="./index.html#">
+                  <button id="home">Home</button>
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#feature">
+                  <button id="contact-btn" role="button" aria-label="Features">
+                    Features
+                  </button>
+                </a>
+              </li>
+              <li>
+                <a href="./index.html#testimonials">
+                  <button
+                    id="contact-btn"
+                    role="button"
+                    aria-label="Testimonials"
+                  >
+                    Testimonials
+                  </button>
+                </a>
+              </li>
+              <li class="menu-team">
+                <a href="./meet-the-team.html">
+                  <button id="contact-btn" role="button" aria-label="Team">
+                    Team
+                  </button>
+                </a>
+              </li>
+              <li class="menu-price">
+                <a href="./index.html#pricing">
+                  <button id="contact-btn" role="button" aria-label="Pricing">
+                    Pricing
+                  </button>
+                </a>
+              </li>
 
+              <!-- dropdown btn -->
+              <div
+                class="dropdown"
+                role="navigation"
+                aria-label="More Menu Items"
+              >
+                <button class="dropbtn">
+                  More<i class="fas fa-caret-down" id="caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a class="drop-team" href="./meet-the-team.html">Team</a>
+                  <a class="drop-price" href="#pricing">Pricing</a>
+                  <a href="about.html">About</a>
+                  <a href="blog.html">Blog</a>
+                  <a href="job-listing.html">Job Listings</a>
+                  <a href="support.html">Support</a>
+                  <a href="faq.html">FAQ</a>
+                </div>
+              </div>
+              <!-- end of dropdown btn -->
 
+              <!-----------------Toggle Button for Dark Mode---------------- -->
+              <label class="toggle-bar" id="toggle-bar">
+                <input
+                  type="checkbox"
+                  id="toggle-checkbox"
+                  aria-label="Toggle Switch"
+                />
+                <span class="slider round" id="slider-round"></span>
+              </label>
+              <!-- --------------------------------------- -->
 
-    <section class="hero">
-      <div class="hero_content">
-        <h1>The Best Tech StartUp</h1>
-        <p>
-          Even the all-powerful Pointing has no control about the blind texts. It is an almost unorthographic life. One
-          day however, a small line of blind text by the name of Lorem Ipsum decided to leave for the far world of
-          Grammar.
-        </p>
-        <button class="CTA">Get Started</button>
-      </div>
-      <div class="hero_image">
-        <div class="button-card">
-          <div class="action-buttons">
+              <div class="user-forms">
+                <a href="./contact.html">
+                  <button
+                    class="red-btn"
+                    id="contact-btn"
+                    role="button"
+                    aria-label="Contact"
+                  >
+                    Contact
+                  </button>
+                </a>
+                <a href="./login.html">
+                  <button
+                    class="red-btn"
+                    id="contact-btn"
+                    role="button"
+                    aria-label="Login"
+                  >
+                    Login
+                  </button>
+                </a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-            <a class="btn btn-theme btn-primary" id="register">Register</a>
-            <a data-toggle="modal" class="btn btn-theme btn-primary" id="login">
-              Login</a>
+      <section class="hero">
+        <div class="hero_content">
+          <h1>The Best Tech StartUp</h1>
+          <p>
+            Even the all-powerful Pointing has no control about the blind texts.
+            It is an almost unorthographic life. One day however, a small line
+            of blind text by the name of Lorem Ipsum decided to leave for the
+            far world of Grammar.
+          </p>
+          <button class="CTA">Get Started</button>
+        </div>
+        <div class="hero_image">
+          <div class="button-card">
+            <div class="action-buttons">
+              <a class="btn btn-theme btn-primary" id="register">Register</a>
+              <a
+                data-toggle="modal"
+                class="btn btn-theme btn-primary"
+                id="login"
+              >
+                Login</a
+              >
+            </div>
 
-          </div>
-
-          <!--<div class="action-buttons">
+            <!--<div class="action-buttons">
             <input id="toggle-on" class="toggle toggle-left btn btn-theme btn-primary" data-toggle="modal" name="toggle" value="false"
               type="radio" checked>
             <label for="toggle-on" class="btn" id="register">Register</label>
@@ -138,199 +187,278 @@
               type="radio">
             <label for="toggle-off" class="btn" id="login">Log in</label>
           </div>--->
-          <div id="loginModal1" class="modal-style-1 dark modal">
-            <div class="modal-dialog modal-login">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title">login</h4>
-                  <!--<button type="button" class="close login-close" data-dismiss="modal" aria-hidden="true">
+            <div id="loginModal1" class="modal-style-1 dark modal">
+              <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">login</h4>
+                    <!--<button type="button" class="close login-close" data-dismiss="modal" aria-hidden="true">
                     &times;
                   </button>-->
-                </div>
-                <div class="modal-body">
-                  <!-- dont forget to add action and action method  -->
-                  <form action="" method="">
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                        <input type="email" class="form-control" name="email" placeholder="Enter email address"
-                          required="required" />
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                        <input type="password" class="form-control" name="password" id="password"
-                          placeholder="Enter password" required="required" autocomplete="on" />
-                        <span id="visibility">
-                          <i class="fa fa-eye" aria-hidden="true" name="eye"></i>
-                        </span>
-                        <div class="row pl-1 pr-1">
-                          <div class="col text-left">
-                            <label class="custom-control custom-checkbox">
-                              <input type="checkbox" class="custom-control-input" id="item_checkbox"
-                                name="item_checkbox" value="option1" />
-                              <span class="custom-control-label">&nbsp;Remember Me</span>
-                            </label>
-                          </div>
-                          <div class="col text-right hint-text pt-0">
-                            <a href="" class="text-danger">Forgot Password?</a>
-                          </div>
-                        </div>
-                        <div class="form-group text-center">
-                          <button type="submit" class="btn btn-signin">
-                            login
-                          </button>
-                        </div>
-                        <p class="hint-text">or login with</p>
-                        <!-- social login area -->
-                        <div class="social-login">
-                          <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
-                          </a>
-                          <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
-                          <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="modal-body">
+                    <!-- dont forget to add action and action method  -->
+                    <form action="" method="">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-envelope"></i
+                          ></span>
+                          <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            placeholder="Enter email address"
+                            required="required"
+                          />
                         </div>
                       </div>
-                    </div>
-                  </form>
-                </div>
-                <div>
-                  Don't have an account?
-                  <a class="register" data-dismiss="modal" data-toggle="modal">Register</a>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-lock"></i
+                          ></span>
+                          <input
+                            type="password"
+                            class="form-control"
+                            name="password"
+                            id="password"
+                            placeholder="Enter password"
+                            required="required"
+                            autocomplete="on"
+                          />
+                          <span id="visibility">
+                            <i
+                              class="fa fa-eye"
+                              aria-hidden="true"
+                              name="eye"
+                            ></i>
+                          </span>
+                          <div class="row pl-1 pr-1">
+                            <div class="col text-left">
+                              <label class="custom-control custom-checkbox">
+                                <input
+                                  type="checkbox"
+                                  class="custom-control-input"
+                                  id="item_checkbox"
+                                  name="item_checkbox"
+                                  value="option1"
+                                />
+                                <span class="custom-control-label"
+                                  >&nbsp;Remember Me</span
+                                >
+                              </label>
+                            </div>
+                            <div class="col text-right hint-text pt-0">
+                              <a href="" class="text-danger"
+                                >Forgot Password?</a
+                              >
+                            </div>
+                          </div>
+                          <div class="form-group text-center">
+                            <button type="submit" class="btn btn-signin">
+                              login
+                            </button>
+                          </div>
+                          <p class="hint-text">or login with</p>
+                          <!-- social login area -->
+                          <div class="social-login">
+                            <a class="btn-facebook" href="redirect/facebook"
+                              ><i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="btn-google" href="redirect/google"
+                              ><i class="fab fa-google"></i
+                            ></a>
+                            <a class="btn-twitter" href="redirect/twitter"
+                              ><i class="fab fa-twitter"></i
+                            ></a>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div>
+                    Don't have an account?
+                    <a class="register" data-dismiss="modal" data-toggle="modal"
+                      >Register</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- register modal 1 -->
-          <div id="registerModal1" class="modal-style-1 dark modal">
-            <div class="modal-dialog modal-login">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title">Register</h4>
-                  <!--<button type="button" class="close register-close" data-dismiss="modal" aria-hidden="true">
+            <!-- register modal 1 -->
+            <div id="registerModal1" class="modal-style-1 dark modal">
+              <div class="modal-dialog modal-login">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Register</h4>
+                    <!--<button type="button" class="close register-close" data-dismiss="modal" aria-hidden="true">
                     &times;
                   </button>-->
-                </div>
-                <div class="modal-body">
-                  <!-- dont forget to add action and action method  -->
-                  <form action="" method="">
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input type="text" class="form-control" name="name" placeholder="Enter your name"
-                          required="required" />
+                  </div>
+                  <div class="modal-body">
+                    <!-- dont forget to add action and action method  -->
+                    <form action="" method="">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-user"></i
+                          ></span>
+                          <input
+                            type="text"
+                            class="form-control"
+                            name="name"
+                            placeholder="Enter your name"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                        <input type="email" class="form-control" name="email" placeholder="Enter Email Address"
-                          required="required" />
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-envelope"></i
+                          ></span>
+                          <input
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            placeholder="Enter Email Address"
+                            required="required"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                        <input type="password" class="form-control" name="password" placeholder="Enter password"
-                          required="required" autocomplete="on" />
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-lock"></i
+                          ></span>
+                          <input
+                            type="password"
+                            class="form-control"
+                            name="password"
+                            placeholder="Enter password"
+                            required="required"
+                            autocomplete="on"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="input-group">
-                        <span class="input-group-addon"><i class="fa fa-eye-slash"></i></span>
-                        <input type="password" class="form-control" name="password_confirmation"
-                          placeholder="Retype password" required="required" autocomplete="on" />
+                      <div class="form-group">
+                        <div class="input-group">
+                          <span class="input-group-addon"
+                            ><i class="fa fa-eye-slash"></i
+                          ></span>
+                          <input
+                            type="password"
+                            class="form-control"
+                            name="password_confirmation"
+                            placeholder="Retype password"
+                            required="required"
+                            autocomplete="on"
+                          />
+                        </div>
                       </div>
-                    </div>
-                    <div class="form-group">
-                      <button type="submit" class="btn btn-signin">
-                        Register
-                      </button>
-                    </div>
-                    <p class="hint-text mt-3">or register with</p>
-                    <!-- social login area -->
-                    <div class="social-login">
-                      <a class="btn-facebook" href="redirect/facebook"><i class="fab fa-facebook-f"></i>
-                      </a>
-                      <a class="btn-google" href="redirect/google"><i class="fab fa-google"></i></a>
-                      <a class="btn-twitter" href="redirect/twitter"><i class="fab fa-twitter"></i></a>
-                    </div>
-                  </form>
-                </div>
-                <div>
-                  Already have an account?
-                  <a class="login" data-dismiss="modal" data-toggle="modal">Login</a>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-signin">
+                          Register
+                        </button>
+                      </div>
+                      <p class="hint-text mt-3">or register with</p>
+                      <!-- social login area -->
+                      <div class="social-login">
+                        <a class="btn-facebook" href="redirect/facebook"
+                          ><i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn-google" href="redirect/google"
+                          ><i class="fab fa-google"></i
+                        ></a>
+                        <a class="btn-twitter" href="redirect/twitter"
+                          ><i class="fab fa-twitter"></i
+                        ></a>
+                      </div>
+                    </form>
+                  </div>
+                  <div>
+                    Already have an account?
+                    <a class="login" data-dismiss="modal" data-toggle="modal"
+                      >Login</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <footer>
-      <div class="footer-row pl-5 pr-5">
-        <section class="footer-column">
-          <h2>Group 1</h2>
-          <div class='sub-footer-link'>
-            <a href="./index.html#home">Home</a>
-            <a href="./index.html#feature">Features</a>
-            <a href="./index.html">Pricing</a>
-            <a href="contact.html">Contact Us</a>
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>Group 2</h2>
-          <div class='sub-footer-link'>
-            <a href="privacy">Privacy Policy</a>
-            <a href="terms">Terms</a>
-            <a href="./faq.html">FAQ</a>
-            <a href="./support.html">Support</a>
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>About Us</h2>
-          <div>
-            Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has built the fastest growing
-            tech
-            start up in Silicon Valley.
-          </div>
-        </section>
-
-        <section class="footer-column">
-          <h2>Follow Us</h2>
-          <div class="sub-footer">
-            <div class='sub-footer-link socials'>
-              <a href="/"><i class="fab fa-twitter"></i></a>
-              <a href="/"><i class="fab fa-facebook-f"></i></a>
-              <a href="/"><i class="fab fa-instagram"></i></a>
-              <a href="/"><i class="fab fa-youtube"></i></a>
-              <a href="/"><i class="fab fa-google"></i></a>
-            </div>
-          </div>
-        </section>
-
-        <!-- Scroller -->
-        <div class="scroll-to-top-wrapper scroll-to-top-wrapper--hide" id='scroll-to-top-wrapper'>
-          <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"><i class="arrow-up"></i></a>
-        </div>
-
-      </div>
-
-      <section id='sub-footer'>
-        <p>&copy;
-          <script>document.write(new Date().getFullYear())</script>
-          Keiko Corp . All Rights Reserved
-        </p>
       </section>
-    </footer>
-  </div>
+      <footer>
+        <div class="footer-row pl-5 pr-5">
+          <section class="footer-column">
+            <h2>Group 1</h2>
+            <div class="sub-footer-link">
+              <a href="./index.html#home">Home</a>
+              <a href="./index.html#feature">Features</a>
+              <a href="./index.html">Pricing</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </section>
 
-  <script src="./assets/js/navbar.js"></script>
-  <script src="./assets/vendor/fontawesome-free/js/all.min.js"></script>
-  <script src="./assets/js/script.js"></script>
-  <script src="./assets/js/dark-mode.js"></script>
-</body>
+          <section class="footer-column">
+            <h2>Group 2</h2>
+            <div class="sub-footer-link">
+              <a href="privacy">Privacy Policy</a>
+              <a href="terms">Terms</a>
+              <a href="./faq.html">FAQ</a>
+              <a href="./support.html">Support</a>
+            </div>
+          </section>
 
+          <section class="footer-column">
+            <h2>About Us</h2>
+            <div>
+              Keiko Corp. the greatest start up of all time Bruno the CEO of
+              Keiko Corp has built the fastest growing tech start up in Silicon
+              Valley.
+            </div>
+          </section>
+
+          <section class="footer-column">
+            <h2>Follow Us</h2>
+            <div class="sub-footer">
+              <div class="sub-footer-link socials">
+                <a href="/"><i class="fab fa-twitter"></i></a>
+                <a href="/"><i class="fab fa-facebook-f"></i></a>
+                <a href="/"><i class="fab fa-instagram"></i></a>
+                <a href="/"><i class="fab fa-youtube"></i></a>
+                <a href="/"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+          </section>
+
+          <!-- Scroller -->
+          <div
+            class="scroll-to-top-wrapper scroll-to-top-wrapper--hide"
+            id="scroll-to-top-wrapper"
+          >
+            <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"
+              ><i class="arrow-up"></i
+            ></a>
+          </div>
+        </div>
+
+        <section id="sub-footer">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Keiko Corp . All Rights Reserved
+          </p>
+        </section>
+      </footer>
+    </div>
+
+    <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/vendor/fontawesome-free/js/all.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/dark-mode.js"></script>
+  </body>
 </html>

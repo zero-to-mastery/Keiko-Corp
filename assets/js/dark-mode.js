@@ -1,9 +1,11 @@
 const toggleContainer = document.querySelector('#toggle-container');
-const inputCheckDesktop = document.querySelectorAll('input[type="checkbox"]')[1];
+const inputCheckDesktop = document.querySelectorAll(
+  'input[type="checkbox"]'
+)[1];
 const neverMissUpdate = document.querySelector('.neverMissUpdate');
 const content = document.querySelector('.hero_content');
-const inputCheckMobile=document.querySelectorAll('input[type="checkbox"]')[0];
-inputCheckMobile.addEventListener('change',switchTheme);
+const inputCheckMobile = document.querySelectorAll('input[type="checkbox"]')[0];
+inputCheckMobile.addEventListener('change', switchTheme);
 // const contentPara = document.querySelector('.hero_content > p');
 // const contenttitle = document.querySelector('#hero-heading');
 // const toggleBar = document.querySelector('#toggle-bar');
@@ -32,14 +34,12 @@ if (currentTheme) {
   document.documentElement.setAttribute('data-theme', currentTheme);
   if (currentTheme === 'dark') {
     inputCheckMobile.checked = true;
-    inputCheckDesktop.checked=true;
+    inputCheckDesktop.checked = true;
   }
 }
 
 //event listener to toggle betwen light and dark modes
 inputCheckDesktop.addEventListener('change', switchTheme);
-
-
 
 // //dark mode
 // function changeToDarkMode() {

@@ -3,7 +3,8 @@
   padding: 2rem;
 }
 
-.blog-container, .newsletter-container {
+.blog-container,
+.newsletter-container {
   width: 95%;
   max-width: 1200px;
   margin: auto;

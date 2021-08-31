@@ -1,31 +1,32 @@
-h1{
-	color: #fe6655;
-	padding-left: 10px;
-	font-size: 30px;
+h1 {
+  color: #fe6655;
+  padding-left: 10px;
+  font-size: 30px;
 }
 
 p {
-	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 #third-party {
-	display: inline-flex;
-	justify-content: space-around;
-	align-items: center;
-
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .third {
-	width: 50px;
-	height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
-#appo,#google{
-	width: 80px;
-	height: 80px;
+#appo,
+#google {
+  width: 80px;
+  height: 80px;
 }
 
-ul{
-	list-style-type: none;}
+ul {
+  list-style-type: none;
+}

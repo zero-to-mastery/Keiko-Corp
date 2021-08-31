@@ -44,13 +44,13 @@ Ok, so you have read the brief and checked out the [designs](https://www.figma.c
    - `git remote add upstream https://github.com/zero-to-mastery/Keiko-Corp.git`
    - `git pull upstream master`
    - The above 2 commands will synchronize your forked version of the project with the actual repository.
+
 4. Create a branch for your task and complete the task.
 5. Pull from the upstream again, like we did in step 3. This is to ensure we still have the latest code.
    - `git pull upstream master`
 6. Commit and push the code to your fork.
 7. Create a pull request to have the changes merged into the origin.
    - Ensure you add to the comments of the pull request `fixes #<issue number>`, replacing **<issue number>** with the number of your issue will automatically close the issue when the pull request is merged.
-
 
 ## Rules, Notes & Guidelines
 
