@@ -31,10 +31,7 @@ footer > .footer-row {
   text-align: left;
 }
 
-.footer-column .sub-footer-link {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .sub-footer-link a {
   font-size: medium;
