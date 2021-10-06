@@ -34,6 +34,7 @@ footer > .footer-row {
 .footer-column .sub-footer-link {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .sub-footer-link a {
@@ -64,6 +65,31 @@ footer > .footer-row {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+/* Footer Social Media Icons*/
+
+footer ul {
+  display: flex;
+  gap: 15px;
+}
+
+footer ul > li {
+  list-style-type: none;
+}
+footer ul > li > a,
+footer ul > li > a:visited {
+  text-decoration: none;
+  color: black;
+}
+footer ul > li > a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+footer ul > li > a > img:hover {
+  transition: all 0.9;
+  transform: scale(1.1);
 }
 
 @media screen and (min-width: 991.99px) {
