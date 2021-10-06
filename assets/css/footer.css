@@ -1,7 +1,9 @@
 footer {
   margin-bottom: 0;
 }
-
+.footer-column .sub-footer-link {
+  display: inline-block;
+}
 footer > .footer-row {
   display: flex;
   display: -ms-flexbox;
@@ -36,6 +38,7 @@ footer > .footer-row {
 .sub-footer-link a {
   font-size: medium;
   color: var(--text);
+  display: block;
   text-decoration: none;
   cursor: pointer;
   padding-right: 20px;
