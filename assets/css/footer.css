@@ -36,6 +36,12 @@ footer > .footer-row {
 .footer-column .sub-footer-link {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.footer-column .sub-footer .socials {
+  display: flex;
+  flex-direction: row;
 }
 
 .sub-footer-link a {
