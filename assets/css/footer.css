@@ -36,7 +36,6 @@ footer > .footer-row {
 .footer-column .sub-footer-link {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .sub-footer-link a {
