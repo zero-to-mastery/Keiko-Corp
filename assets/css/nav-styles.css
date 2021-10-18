@@ -219,6 +219,7 @@ input:focus + .slider {
   color: #000000;
   font-size: 1em;
   /* padding: 5px 20px; */
+  text-decoration: none;
 }
 
 /* Added elements for nav */
