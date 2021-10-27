@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #eee;
 }
 
 body.dark-theme {
@@ -11,6 +11,13 @@ body.dark-theme {
   margin: 0 auto;
   padding: 0 16px;
   background-color: var(--mainBackground);
+}
+
+.hero {
+  background-color: var(--lightBlue) !important;
+  border-radius: 4px;
+  padding: 24px !important;
+  box-shadow: 1px 2px 15px 1px gray;
 }
 
 .intro {

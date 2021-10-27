@@ -205,6 +205,10 @@ body {
   .blog__picture + .blog__picture {
     margin-top: 0;
   }
+  .blog__post--image {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
   .post1 {
     grid-area: post1;
@@ -242,7 +246,8 @@ body {
   }
 
   .blog__post--image {
-    margin-right: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
     max-width: 300px;
   }
 }
