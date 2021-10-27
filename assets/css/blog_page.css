@@ -4,9 +4,9 @@
 }
 /*********Box Shadow*****/
 .hover:hover {
-  box-shadow: 0px 0px 30px 7px rgba(97,58,58,0.4);
-  -webkit-box-shadow: 0px 0px 30px 7px rgba(97,58,58,0.4);
-  -moz-box-shadow: 0px 0px 30px 7px rgba(97,58,58,0.4);
+  box-shadow: 0px 0px 30px 7px rgba(97, 58, 58, 0.4);
+  -webkit-box-shadow: 0px 0px 30px 7px rgba(97, 58, 58, 0.4);
+  -moz-box-shadow: 0px 0px 30px 7px rgba(97, 58, 58, 0.4);
   cursor: pointer;
 }
 
