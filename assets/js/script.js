@@ -44,13 +44,13 @@ let eye = document.getElementById('visibility');
 let reg = document.querySelector('.register');
 let log = document.querySelector('.login');
 /* Password visiblity toggle */
-if(eye!=null){
+if (eye != null) {
   eye.onclick = function () {
     // Toggle the type attribute
     const passwordState =
       password.getAttribute('type') === 'password' ? 'text' : 'password';
     password.setAttribute('type', passwordState);
-  
+
     // Toggle color
     passwordState === 'password'
       ? (eye.style.color = '#757575')
@@ -60,7 +60,7 @@ if(eye!=null){
 
 /* Password visibility toggle end */
 /*Toggling modal using bottom links*/
-if(reg!=null){
+if (reg != null) {
   reg.onclick = function () {
     if (registerModal.style.display === 'block') {
       return;
@@ -72,7 +72,7 @@ if(reg!=null){
   };
 }
 
-if(log!=null){
+if (log != null) {
   log.onclick = function () {
     if (loginModal.style.display === 'block') {
       return;
@@ -84,7 +84,7 @@ if(log!=null){
   };
 }
 
-if(loginBtn!=null){
+if (loginBtn != null) {
   loginBtn.onclick = function () {
     if (loginModal.style.display === 'block') {
       return;
@@ -94,7 +94,7 @@ if(loginBtn!=null){
   };
 }
 
-if(registerBtn!=null){
+if (registerBtn != null) {
   registerBtn.onclick = function () {
     if (registerModal.style.display === 'block') {
       return;
@@ -103,7 +103,6 @@ if(registerBtn!=null){
     registerModal.style.display = 'block';
   };
 }
-
 
 /***loginClose.onclick = function () {
 	loginModal.style.display = 'none';

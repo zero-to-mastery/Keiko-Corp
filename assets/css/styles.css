@@ -215,8 +215,8 @@
 }
 
 @media only screen and (max-width: 730px) {
-  .update-heading{
-    font-size:10px;
+  .update-heading {
+    font-size: 10px;
   }
   .feature {
     grid-template-columns: 1fr;
@@ -1092,9 +1092,8 @@ p {
   font-size: 24px;
 }
 
-
-@media only screen and (max-width: 600px){
-  .update-heading{
-    font-size:10px;
+@media only screen and (max-width: 600px) {
+  .update-heading {
+    font-size: 10px;
   }
 }
