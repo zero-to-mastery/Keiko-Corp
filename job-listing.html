@@ -24,8 +24,21 @@
     <!-- HEADER -->
     <header class="no-user-select">
       <!-- sticky header -->
-      <div class="container-nav sticky">
+      <div class="container-nav">
+        <img
+          src="./assets/images/keiko-logo.png"
+          class="logo"
+          alt="Keiko Corp"
+        />
         <nav class="navbar">
+          <label class="toggle-bar-mobile" id="toggle-bar">
+            <input
+              type="checkbox"
+              id="toggle-checkbox"
+              aria-label="Toggle Switch"
+            />
+            <span class="slider round" id="slider-round"></span>
+          </label>
           <div class="nav-button">
             <span></span>
             <span></span>
@@ -37,28 +50,40 @@
               <!-- <img src="./assets/images/keiko-logo.png" class="logo" alt="Keiko Corp" /> -->
             </li>
             <li>
-              <a href="./index.html">
-                <button id="contact-btn">Home</button>
+              <a href="#">
+                <button id="home">Home</button>
               </a>
             </li>
             <li>
-              <a href="./index.html#features">
-                <button id="contact-btn">Features</button>
+              <a href="#feature">
+                <button id="contact-btn" role="button" aria-label="Features">
+                  Features
+                </button>
               </a>
             </li>
             <li>
-              <a href="./index.html#testimonials">
-                <button id="contact-btn">Testimonials</button>
+              <a href="#testimonials">
+                <button
+                  id="contact-btn"
+                  role="button"
+                  aria-label="Testimonials"
+                >
+                  Testimonials
+                </button>
               </a>
             </li>
-            <li>
+            <li class="menu-team">
               <a href="./meet-the-team.html">
-                <button id="contact-btn">Team</button>
+                <button id="contact-btn" role="button" aria-label="Team">
+                  Team
+                </button>
               </a>
             </li>
-            <li>
-              <a href="./index.html#pricing">
-                <button id="contact-btn">Pricing</button>
+            <li class="menu-price">
+              <a href="#pricing">
+                <button id="contact-btn" role="button" aria-label="Pricing">
+                  Pricing
+                </button>
               </a>
             </li>
 
@@ -78,22 +103,45 @@
                 <a href="blog.html">Blog</a>
                 <a href="job-listing.html">Job Listings</a>
                 <a href="support.html">Support</a>
+                <a href="./privacy-policy.html">Privacy Policy</a>
                 <a href="faq.html">FAQ</a>
               </div>
             </div>
             <!-- end of dropdown btn -->
 
-            <li>
-              <a href="./contact.html">
-                <button id="contact-btn">Contact</button>
-              </a>
-            </li>
             <!-----------------Toggle Button for Dark Mode---------------- -->
             <label class="toggle-bar" id="toggle-bar">
-              <input type="checkbox" id="toggle-checkbox" />
+              <input
+                type="checkbox"
+                id="toggle-checkbox"
+                aria-label="Toggle Switch"
+              />
               <span class="slider round" id="slider-round"></span>
             </label>
             <!-- --------------------------------------- -->
+
+            <div class="user-forms">
+              <a href="./contact.html">
+                <button
+                  class="red-btn"
+                  id="contact-btn"
+                  role="button"
+                  aria-label="Contact"
+                >
+                  Contact
+                </button>
+              </a>
+              <a href="./login.html">
+                <button
+                  class="red-btn"
+                  id="contact-btn"
+                  role="button"
+                  aria-label="Login"
+                >
+                  Login
+                </button>
+              </a>
+            </div>
           </ul>
         </nav>
       </div>
@@ -137,7 +185,7 @@
               </td>
               <td class="border px-4 py-2">$70,000 - $75,000</td>
               <td class="border px-4 py-2">Silicon Valley, CA</td>
-              <td class="border px-4 py-2">Immediately</td>
+              <td class="border px-4 py-2">Immediate</td>
               <td class="border px-4 py-2">6 month contract</td>
             </tr>
             <!-- Job #2 -->
@@ -206,7 +254,7 @@
               </td>
               <td class="border px-4 py-2">$45,000 - $55,000</td>
               <td class="border px-4 py-2">Silicon Valley, CA</td>
-              <td class="border px-4 py-2">Immediately</td>
+              <td class="border px-4 py-2">Immediate</td>
               <td class="border px-4 py-2">Full Time</td>
             </tr>
           </tbody>
@@ -242,7 +290,7 @@
           <div class="font-bold text-xl mb-2 mt-2">Location</div>
           <p>Silicon Valley, CA</p>
           <div class="font-bold text-xl mb-2 mt-2">Start Date</div>
-          <p>Immediately</p>
+          <p>Immediate</p>
           <div class="font-bold text-xl mb-2 mt-2">Work Length</div>
           <p>6 month contract</p>
         </div>
@@ -373,7 +421,7 @@
           <div class="font-bold text-xl mb-2 mt-2">Location</div>
           <p>Silicon Valley, CA</p>
           <div class="font-bold text-xl mb-2 mt-2">Start Date</div>
-          <p>Immediately</p>
+          <p>Immediate</p>
           <div class="font-bold text-xl mb-2 mt-2">Work Length</div>
           <p>Full Time</p>
         </div>
@@ -381,10 +429,10 @@
 
       <!-- Footer -->
       <footer>
-        <div class="footer-row pl-5 pr-5">
+        <div class="footer-row">
           <section class="footer-column">
             <h2>Group 1</h2>
-            <div class="sub-footer-link">
+            <div class="sub-footer-link" role="link">
               <a href="index.html">Home</a>
               <a href="index.html#feature">Features</a>
               <a href="index.html#pricing">Pricing</a>
@@ -394,8 +442,8 @@
 
           <section class="footer-column">
             <h2>Group 2</h2>
-            <div class="sub-footer-link">
-              <a href="privacy">Privacy Policy</a>
+            <div class="sub-footer-link" role="link">
+              <a href="./privacy-policy.html">Privacy Policy</a>
               <a href="terms">Terms</a>
               <a href="./faq.html">FAQ</a>
               <a href="./support.html">Support</a>
@@ -458,7 +506,7 @@
             <script>
               document.write(new Date().getFullYear());
             </script>
-            Keiko Corp. All Rights Reserved
+            Keiko Corp . All Rights Reserved
           </p>
         </section>
       </footer>
