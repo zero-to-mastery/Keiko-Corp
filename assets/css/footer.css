@@ -70,6 +70,9 @@ footer > .footer-row {
   width: 100%;
 }
 
+#sub-footer p {
+  font-size: 14px;
+}
 /* Footer Social Media Icons*/
 
 footer ul {
