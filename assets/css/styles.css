@@ -266,8 +266,10 @@
 
 .team-row {
   display: flex;
+  gap: 80px;
   justify-content: center;
   padding: 2.5em 1.5em;
+  margin: 8vh 0;
   flex-wrap: wrap;
 }
 
