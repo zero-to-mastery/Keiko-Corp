@@ -31,6 +31,16 @@
   align-items: center;
   margin-top: 36px;
 }
+.test-per-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.test-per-test img {
+  margin-right: 1em;
+}
 
 #testimonial-carousel .carousel-item {
   display: inline-block;
@@ -77,7 +87,7 @@ h3.testimonial-text {
   width: auto;
   height: auto;
   margin: 0 auto;
-  background: #ffffff;
+  background: whitesmoke;
   padding: 20px;
   text-align: center;
   font-style: italic;
