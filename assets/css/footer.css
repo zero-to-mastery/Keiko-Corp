@@ -75,6 +75,9 @@ footer > .footer-row {
   margin-top: 5vh;
 }
 
+#sub-footer p {
+  font-size: 14px;
+}
 /* Footer Social Media Icons*/
 
 footer ul {
