@@ -47,6 +47,11 @@ footer > .footer-row {
   gap: 10px;
 }
 
+.footer-column .sub-footer .socials {
+  display: flex;
+  flex-direction: row;
+}
+
 .sub-footer-link a {
   font-size: medium;
   color: var(--text);
