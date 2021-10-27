@@ -215,6 +215,9 @@
 }
 
 @media only screen and (max-width: 730px) {
+  .update-heading{
+    font-size:10px;
+  }
   .feature {
     grid-template-columns: 1fr;
   }
@@ -1087,4 +1090,11 @@ p {
   color: #757575;
   margin-top: -2px;
   font-size: 24px;
+}
+
+
+@media only screen and (max-width: 600px){
+  .update-heading{
+    font-size:10px;
+  }
 }
