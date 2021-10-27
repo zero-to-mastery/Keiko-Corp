@@ -28,6 +28,7 @@
     />
 
     <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/css/about.css" />
     <link rel="stylesheet" href="./assets/global.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/nav-styles.css" />
@@ -44,7 +45,7 @@
 
   <!-- ******* BODY ******** -->
 
-  <body class="no-scroll">
+  <body>
     <div class="main" id="main">
       <!-- HEADER -->
       <header class="no-user-select">
@@ -189,7 +190,7 @@
         </div>
         <div class="hero_image">
           <img
-            src="./assets/images/hero.svg"
+            src="./assets/images/about.svg"
             class="hero_image"
             alt="Hero Image"
           />
@@ -198,7 +199,7 @@
 
       <!-- Footer -->
       <footer>
-        <div class="footer-row pl-5 pr-5">
+        <div class="footer-row">
           <section class="footer-column">
             <h2>Group 1</h2>
             <div class="sub-footer-link" role="link">
@@ -266,14 +267,25 @@
           </section>
 
           <!-- Scroller -->
-          <div
-            class="scroll-to-top-wrapper scroll-to-top-wrapper--hide"
-            id="scroll-to-top-wrapper"
-          >
-            <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"
-              ><i class="arrow-up"></i
-            ></a>
-          </div>
+          <a href="#top"
+            ><i
+              class="fa fa-2x fa-arrow-up"
+              style="
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                color: #fd6565;
+                box-shadow: 0 2px 10px 0 #0e0e0e;
+                border: 1px solid #242424;
+                border-radius: 50%;
+                background-color: #242424;
+                height: 50px;
+                width: 50px;
+                padding: 10px;
+              "
+              aria-hidden="true"
+            ></i
+          ></a>
         </div>
 
         <section id="sub-footer">

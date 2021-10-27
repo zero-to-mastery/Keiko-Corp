@@ -29,7 +29,6 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./assets/global.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/nav-styles.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
     <link rel="stylesheet" href="./assets/css/contact.css" />
@@ -39,9 +38,13 @@
     <link rel="stylesheet" href="./assets/css/testimonials.css" />
     <link rel="stylesheet" href="./assets/css/media-queries.css" />
     <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6e73d2f258.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <!-- ******* BODY ******** -->
@@ -530,10 +533,10 @@
 
       <!-- Footer -->
       <footer>
-        <div class="footer-row">
+        <div class="footer-row pl-5 pr-5">
           <section class="footer-column">
             <h2>Group 1</h2>
-            <div class="sub-footer-link" role="link">
+            <div class="sub-footer-link footer-column-content">
               <a href="index.html">Home</a>
               <a href="index.html#feature">Features</a>
               <a href="index.html#pricing">Pricing</a>
@@ -544,8 +547,8 @@
 
           <section class="footer-column">
             <h2>Group 2</h2>
-            <div class="sub-footer-link" role="link">
-              <a href="./privacy-policy.html">Privacy Policy</a>
+            <div class="sub-footer-link footer-column-content">
+              <a href="privacy">Privacy Policy</a>
               <a href="terms">Terms</a>
               <a href="./faq.html">FAQ</a>
               <a href="./support.html">Support</a>
@@ -554,62 +557,50 @@
 
           <section class="footer-column">
             <h2>About Us</h2>
-            <div>
-              Keiko Corp. the greatest start up of all time. Bruno,the CEO of
-              Keiko Corp has built the fastest growing tech start up in Silicon
-              Valley.
+            <div class="footer-column-content">
+              Keiko Corp. The greatest start up of all time. Bruno, the CEO of
+              Keiko Corp, has built the currently fastest growing tech start up
+              in Silicon Valley.
             </div>
           </section>
 
           <section class="footer-column">
             <h2>Follow Us</h2>
-            <ul class="">
-              <li class="">
-                <a href="#"
-                  ><img
-                    src="https://img.icons8.com/android/24/000000/twitter.png"
-                /></a>
-              </li>
-              <li class="">
-                <a href="#"
-                  ><img
-                    src="https://img.icons8.com/android/24/000000/facebook-new.png"
-                /></a>
-              </li>
-              <li class="">
-                <a href="#"
-                  ><img
-                    src="https://img.icons8.com/metro/26/000000/instagram-new.png"
-                /></a>
-              </li>
-              <li class="">
-                <a href="#"
-                  ><img
-                    src="https://img.icons8.com/ios-filled/24/000000/pinterest--v1.png"
-                /></a>
-              </li>
-              <li class="">
-                <a href="#"
-                  ><img
-                    src="https://img.icons8.com/ios-glyphs/24/000000/google-logo--v2.png"
-                /></a>
-              </li>
-            </ul>
+            <div class="sub-footer">
+              <div class="sub-footer-link socials footer-column-content">
+                <a href="/"><i class="fab fa-twitter"></i></a>
+                <a href="/"><i class="fab fa-facebook"></i></a>
+                <a href="/"><i class="fab fa-instagram"></i></a>
+                <a href="/"><i class="fab fa-youtube"></i></a>
+                <a href="/"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
           </section>
           
           <!-- Scroller -->
-          <div
-            class="scroll-to-top-wrapper scroll-to-top-wrapper--hide"
-            id="scroll-to-top-wrapper"
-          >
-            <a href="#top" class="scroll-to-top" aria-label="Scroll to Top"
-              ><i class="arrow-up"></i
-            ></a>
-          </div>
         </div>
+        <a href="#top"
+          ><i
+            class="fa fa-2x fa-arrow-up"
+            style="
+              position: fixed;
+              bottom: 30px;
+              right: 30px;
+              color: #fd6565;
+              box-shadow: 0 2px 10px 0 #0e0e0e;
+              border: 1px solid #242424;
+              border-radius: 50%;
+              background-color: #242424;
+              height: 50px;
+              width: 50px;
+              padding: 10px;
+            "
+            aria-hidden="true"
+          ></i
+        ></a>
 
         <section id="sub-footer">
-          <p>
+          <p style="text-align: center">
             &copy;
             <script>
               document.write(new Date().getFullYear());

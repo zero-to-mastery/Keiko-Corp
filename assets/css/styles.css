@@ -88,6 +88,7 @@
   background-color: white;
   color: var(--red);
   border-color: currentColor;
+  transform: scale(1.1);
 }
 
 .CTA:active {
@@ -214,6 +215,9 @@
 }
 
 @media only screen and (max-width: 730px) {
+  .update-heading {
+    font-size: 10px;
+  }
   .feature {
     grid-template-columns: 1fr;
   }
@@ -266,8 +270,10 @@
 
 .team-row {
   display: flex;
+  gap: 80px;
   justify-content: center;
   padding: 2.5em 1.5em;
+  margin: 8vh 0;
   flex-wrap: wrap;
 }
 
@@ -1084,4 +1090,10 @@ p {
   color: #757575;
   margin-top: -2px;
   font-size: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .update-heading {
+    font-size: 10px;
+  }
 }

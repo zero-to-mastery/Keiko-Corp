@@ -40,7 +40,7 @@ header {
   position: relative;
   display: inline-block;
   width: 58px;
-  height: 24px;
+  height: 26px;
 }
 
 #toggle-checkbox {
@@ -219,6 +219,7 @@ input:focus + .slider {
   color: #000000;
   font-size: 1em;
   /* padding: 5px 20px; */
+  text-decoration: none;
 }
 
 /* Added elements for nav */

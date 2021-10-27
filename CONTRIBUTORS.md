@@ -85,3 +85,4 @@ This is a list showing the GitHub usernames of all who have contributed to this 
   [@RojinPm](https://github.com/RojinPm)
 - [@Haider-Ali-Dev](https://github.com/Haider-Ali-Dev)
 - [@KarlCullington](https://github.com/KarlCullington)
+- [@NoelCodes](https://github.com/NoelCov)
