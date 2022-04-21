@@ -31,6 +31,7 @@ main {
   #container {
     margin: 1rem 1rem;
   }
+
   main {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
@@ -41,6 +42,7 @@ main {
   #container {
     margin: 2rem 1rem;
   }
+
   main {
     grid-gap: 3rem;
   }
@@ -162,9 +164,11 @@ select {
 select:required:invalid {
   color: #666;
 }
+
 option[value=''][disabled] {
   display: none;
 }
+
 option {
   color: #000;
 }
