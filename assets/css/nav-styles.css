@@ -48,6 +48,7 @@ header {
   width: 0;
   height: 0;
 }
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -59,6 +60,7 @@ header {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 .slider:before {
   position: absolute;
   content: '';
@@ -75,13 +77,16 @@ header {
 [data-theme='dark'] .slider {
   background-color: #ef5b59;
 }
-input:focus + .slider {
+
+input:focus+.slider {
   box-shadow: 0 0 1px #20014d;
 }
+
 [data-theme='dark'] .slider:before {
   left: calc(100% - (20px + 4px));
   background-color: #f1c40f;
 }
+
 .slider.round {
   border-radius: 40px;
   padding: 0;
@@ -90,6 +95,7 @@ input:focus + .slider {
 .slider.round:before {
   border-radius: 50%;
 }
+
 /* Slider hover effect unnecessary */
 /* .toggle-bar:hover .slider.round::before {
   transform: translateX(14px);
@@ -104,16 +110,20 @@ input:focus + .slider {
 [data-theme='dark'] .navbar {
   background: #343a40;
 }
+
 [data-theme='dark'] .navbar ul.menu li {
   color: #ddd;
 }
+
 [data-theme='dark'] .navbar ul.menu li:hover {
   color: #fff;
 }
+
 [data-theme='dark'] .navbar ul.menu li.active {
   color: #fff;
   font-weight: bold;
 }
+
 [data-theme='dark'] .navbar ul {
   background-color: #343a40;
 }
@@ -187,7 +197,7 @@ input:focus + .slider {
   transition: all ease-in 0.1s;
 }
 
-.menu li + li {
+.menu li+li {
   margin-left: -2vmin;
 }
 
@@ -229,6 +239,7 @@ input:focus + .slider {
   border-color: #fe6655;
   transform: translateY(-3%);
 }
+
 .navbar .user-forms a:last-child {
   margin-left: 20px;
 }
@@ -271,9 +282,11 @@ input:focus + .slider {
   right: 0;
   transform: translate(-50%, 50%);
 }
+
 .navbar button {
   background-color: transparent;
 }
+
 .nav-button span {
   width: 100%;
   background-color: var(--toggleBackground);
@@ -358,6 +371,7 @@ header {
 #caret-down {
   margin-left: 3px;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -404,6 +418,7 @@ header {
   color: #ec705d;
   transition: 0.3s ease;
 }
+
 /* end of dropdown styling */
 
 @media only screen and (max-width: 900px) {
@@ -416,9 +431,11 @@ header {
   .navbar button {
     background-color: transparent;
   }
+
   .toggle-bar {
     display: none;
   }
+
   .navbar .menu {
     flex-direction: column;
     justify-content: space-around;
@@ -464,7 +481,7 @@ header {
     position: relative;
   }
 
-  .navbar ul.menu li + li {
+  .navbar ul.menu li+li {
     margin-left: 0px;
   }
 }
@@ -474,9 +491,11 @@ header {
     display: none;
     visibility: hidden;
   }
+
   .toggle-bar-mobile {
     display: none;
   }
+
   .navbar {
     background-color: white;
   }

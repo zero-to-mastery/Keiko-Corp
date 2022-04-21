@@ -15,6 +15,7 @@
   width: 400px;
   position: relative;
 }
+
 #loginModal1 {
   display: none;
 }
@@ -41,6 +42,7 @@
   position: relative;
   justify-content: center;
 }
+
 .modal-style-1 .modal-login h4 {
   color: var(--style-4-color);
   text-align: center;
@@ -53,17 +55,20 @@
   font-weight: 900;
   width: 100%;
 }
+
 .modal-style-1 .modal-header .close {
   position: absolute;
   right: 10px;
   top: -23px;
   background-color: transparent;
 }
+
 .modal-style-1 .close:focus,
 .modal-style-1 .close:active {
   outline: none !important;
   box-shadow: none;
 }
+
 .modal-style-1 .modal-login a {
   text-decoration: none;
   color: var(--style-4-color);
@@ -84,6 +89,7 @@
   color: #fff;
   background-color: var(--style-4-color);
 }
+
 .modal-style-1 .modal-login span.input-group-addon i {
   font-size: 16px;
 }
@@ -124,6 +130,7 @@
   border-color: currentColor;
   cursor: pointer;
 }
+
 .hint-text {
   margin-top: 1rem;
 }
@@ -149,6 +156,7 @@
   cursor: pointer;
   border-radius: 50%;
 }
+
 .modal-style-1 .btn-facebook {
   background-color: var(--color-facebook);
 }
@@ -222,6 +230,7 @@
   color: #fff;
   width: 80vw;
 }
+
 .dark.modal-style-1 .close,
 .modal-style-1.dark .modal-login h4 {
   color: #fff;
@@ -230,6 +239,7 @@
 .dark .text-danger {
   color: #777 !important;
 }
+
 @media only screen and (max-width: 360px) {
   .modal-style-1 .modal-login {
     width: 100%;
@@ -268,6 +278,7 @@
   max-width: 30vw;
   min-width: 300px;
 }
+
 .button-card img {
   border: 1px solid #f1f1f1;
   border-radius: 5px;
@@ -324,7 +335,7 @@
   margin-top: 1rem;
 }
 
-div > a {
+div>a {
   cursor: pointer;
 }
 
@@ -345,24 +356,29 @@ div > a {
     width: 100%;
     height: auto;
   }
+
   .modal-style-1 .modal-login {
     width: 100%;
     margin: 0px;
   }
 }
+
 @media only screen and (max-width: 380px) {
   .main-container {
     width: 100%;
     margin: 0 5px;
   }
+
   .button-card {
     max-width: 100%;
     padding: 0px;
   }
+
   .modal-style-1 .modal-login {
     width: 100%;
     margin: 0px;
   }
+
   .dark.modal-style-1 .modal-content {
     width: 100%;
   }
@@ -372,22 +388,27 @@ div > a {
   .input-group-addon {
     display: none;
   }
+
   .modal-style-1 input.form-control {
     border-radius: 7px;
     width: 80%;
   }
+
   .modal-style-1 .modal-login {
     width: 100%;
     margin: 0px;
   }
+
   .modal-content {
     width: 100%;
   }
+
   .modal-style-1 .modal-header .close {
     right: 5px;
     top: -25px;
   }
 }
+
 .modal-body {
   display: flex;
   flex-wrap: wrap;
@@ -410,7 +431,8 @@ div > a {
 input[type='radio'].toggle {
   display: none;
 }
-input[type='radio'].toggle + label {
+
+input[type='radio'].toggle+label {
   cursor: pointer;
   min-width: 60px;
   color: var(--color-google);
@@ -418,11 +440,13 @@ input[type='radio'].toggle + label {
   font-weight: bolder;
   letter-spacing: 3px;
 }
-input[type='radio'].toggle + label:hover {
+
+input[type='radio'].toggle+label:hover {
   background: none;
   color: var(--color-google);
 }
-input[type='radio'].toggle + label:after {
+
+input[type='radio'].toggle+label:after {
   background: #1a1a1a;
   content: '';
   height: 100%;
@@ -433,6 +457,7 @@ input[type='radio'].toggle + label:after {
   width: 100%;
   z-index: -1;
 }
+
 /**input[type="radio"].toggle.toggle-left + label {
   border-right: 2px;
 }
@@ -443,13 +468,14 @@ input[type="radio"].toggle.toggle-left + label:after {
 input[type="radio"].toggle.toggle-right + label:after {
   left: -100%;
 }**/
-input[type='radio'].toggle:checked + label {
+input[type='radio'].toggle:checked+label {
   background: var(--color-google);
   cursor: default;
   color: whitesmoke;
   -webkit-transition: color 200ms;
   transition: color 200ms;
 }
-input[type='radio'].toggle:checked + label:after {
+
+input[type='radio'].toggle:checked+label:after {
   left: 0;
 }
